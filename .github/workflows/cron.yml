@@ -8,6 +8,8 @@ on:
 jobs:
   update-feed:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -26,9 +28,10 @@ jobs:
       - name: Run QuantHub scraper
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          LLM_MODEL: "gpt-4o-mini"
+          LLM_MODEL: "deepseek-chat"
+          LLM_BASE_URL: "https://api.deepseek.com"
         run: python fetch_quant.py
 
       - name: Commit and push changes
@@ -36,5 +39,4 @@ jobs:
           git config --global user.name "QuantHub Bot"
           git config --global user.email "bot@quanthub.example.com"
           git add _data/quant_feed.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto‑update quant feed [skip ci]"
-          git push
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto‑update quant feed [skip ci]" && git push || echo "Push failed, continuing")
