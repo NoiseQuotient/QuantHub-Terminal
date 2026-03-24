@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T20:06:20.272485",
+  "last_updated": "2026-03-24T20:58:21.139493",
   "items": [
     {
       "id": "2603.21811v1",
@@ -218,33 +218,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.20941v1",
-      "source": "arxiv",
-      "title": "Adviser: An Intuitive Multi-Cloud Platform for Scientific and ML Workflows",
-      "authors": [
-        "Shihan Cheng",
-        "Michael A. Laurenzano",
-        "Brian Strauch",
-        "Timothy A. Ellis",
-        "Krish Wadhwani",
-        "David A. B. Hyde"
-      ],
-      "abstract": "Effectively leveraging the vast computational resources of modern cloud environments requires expertise spanning multiple technical domains: configuring scientific software with correct parameters and dependencies, navigating thousands of provider-specific instance types and pricing options, and managing parallel or distributed execution. We conduct a study indicating that the absence of these categories of expertise poses an ongoing challenge to unlocking the potential of cloud-enabled computational science. To address this challenge, we introduce Adviser, an intuitive multi-cloud platform centered on a workflow abstraction. Workflows are reusable, expert-crafted artifacts encapsulating environment setup, data processing, simulation, result capture, and visualization steps needed to execute scientific and ML applications. This approach allows users to specify high-level intent, while Adviser handles resource provisioning, runtime configuration, and data movement. Using two computational glaciology codes, Icepack and PISM, we show how to use Adviser to gain scientific insight and perform rapid exploration of cost-performance tradeoffs and scaling behavior without specialized expertise in cloud or high-performance computing.",
-      "published": "2026-03-21T20:44:54+00:00",
-      "url": "http://arxiv.org/abs/2603.20941v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.20941v1",
-      "categories": [
-        "cs.DC",
-        "cs.CE"
-      ],
-      "primary_category": "cs.DC",
-      "core_idea": "Effectively leveraging the vast computational resources of modern cloud environments requires expertise spanning multiple technical domains: configuring scientific software with correct parameters and dependencies, navigating thousands of provider-specific instance types and pricing options, and managing parallel or distributed execution",
-      "methodology": "We conduct a study indicating that the absence of these categories of expertise poses an ongoing challenge to unlocking the potential of cloud-enabled computational science",
-      "quant_impact": "To address this challenge, we introduce Adviser, an intuitive multi-cloud platform centered on a workflow abstraction",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
       "id": "2603.21330v1",
       "source": "arxiv",
       "title": "FinRL-X: An AI-Native Modular Infrastructure for Quantitative Trading",
@@ -321,6 +294,33 @@
       "ranking_score": 28.79285714285714
     },
     {
+      "id": "2603.20941v1",
+      "source": "arxiv",
+      "title": "Adviser: An Intuitive Multi-Cloud Platform for Scientific and ML Workflows",
+      "authors": [
+        "Shihan Cheng",
+        "Michael A. Laurenzano",
+        "Brian Strauch",
+        "Timothy A. Ellis",
+        "Krish Wadhwani",
+        "David A. B. Hyde"
+      ],
+      "abstract": "Effectively leveraging the vast computational resources of modern cloud environments requires expertise spanning multiple technical domains: configuring scientific software with correct parameters and dependencies, navigating thousands of provider-specific instance types and pricing options, and managing parallel or distributed execution. We conduct a study indicating that the absence of these categories of expertise poses an ongoing challenge to unlocking the potential of cloud-enabled computational science. To address this challenge, we introduce Adviser, an intuitive multi-cloud platform centered on a workflow abstraction. Workflows are reusable, expert-crafted artifacts encapsulating environment setup, data processing, simulation, result capture, and visualization steps needed to execute scientific and ML applications. This approach allows users to specify high-level intent, while Adviser handles resource provisioning, runtime configuration, and data movement. Using two computational glaciology codes, Icepack and PISM, we show how to use Adviser to gain scientific insight and perform rapid exploration of cost-performance tradeoffs and scaling behavior without specialized expertise in cloud or high-performance computing.",
+      "published": "2026-03-21T20:44:54+00:00",
+      "url": "http://arxiv.org/abs/2603.20941v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.20941v1",
+      "categories": [
+        "cs.DC",
+        "cs.CE"
+      ],
+      "primary_category": "cs.DC",
+      "core_idea": "Effectively leveraging the vast computational resources of modern cloud environments requires expertise spanning multiple technical domains: configuring scientific software with correct parameters and dependencies, navigating thousands of provider-specific instance types and pricing options, and managing parallel or distributed execution",
+      "methodology": "We conduct a study indicating that the absence of these categories of expertise poses an ongoing challenge to unlocking the potential of cloud-enabled computational science",
+      "quant_impact": "To address this challenge, we introduce Adviser, an intuitive multi-cloud platform centered on a workflow abstraction",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
+    },
+    {
       "id": "2603.20848v1",
       "source": "arxiv",
       "title": "GOLDMARK: Governed Outcome-Linked Diagnostic Model Assessment Reference Kit",
@@ -382,42 +382,14 @@
       "ranking_score": 28.364285714285714
     },
     {
-      "id": "2603.20480v1",
-      "source": "arxiv",
-      "title": "Developing an ESG-Oriented Large Language Model through ESG Practices",
-      "authors": [
-        "Gabriel Assis",
-        "Ayrton Surica",
-        "Pedro Kroll",
-        "Gabriela Aires",
-        "Darian Rabbani",
-        "Edson Bollis",
-        "Lucas Pellicer",
-        "Aline Paes"
-      ],
-      "abstract": "Environmental, Social, and Governance (ESG) considerations play a central role in contemporary financial decision-making. In parallel, Large Language Model (LLM) applications in this domain have primarily emphasized well-defined discriminative tasks, such as classification or scoring, which have proven effective for structured analysis and benchmarking. However, this prevailing focus offers limited support for more interactive and generative ESG scenarios, where embedded domain knowledge and contextual understanding are essential. In this work, we propose an ESG-oriented adaptation pipeline for LLMs that integrates ESG principles not only as a target domain, but also as guiding constraints throughout training and evaluation. Building on the Qwen-3-4B architecture, we explore parameter-efficient adaptation strategies using Low-Rank Adaptation (LoRA) and the Instruction-Residual Method (IRM) to produce three ESG-specialized models. We evaluate the proposed models on ESG question answering under both zero-shot and knowledge-augmented settings, using a diverse set of generative, semantic, readability, and environmental impact metrics. Our results show that the ESG-adapted models consistently outperform their original counterparts and competitive baselines such as Llama-3 and Gemma-3. Although limitations remain in tool-based knowledge integration, this work establishes a foundation for ESG-oriented language generation and highlights the importance of responsible, domain-aware LLM adaptation.",
-      "published": "2026-03-20T20:24:43+00:00",
-      "url": "http://arxiv.org/abs/2603.20480v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.20480v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Environmental, Social, and Governance (ESG) considerations play a central role in contemporary financial decision-making",
-      "methodology": "In parallel, Large Language Model (LLM) applications in this domain have primarily emphasized well-defined discriminative tasks, such as classification or scoring, which have proven effective for structured analysis and benchmarking",
-      "quant_impact": "However, this prevailing focus offers limited support for more interactive and generative ESG scenarios, where embedded domain knowledge and contextual understanding are essential",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
       "id": "323048702",
       "source": "github",
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63525,
+      "stars": 63526,
       "forks": 6247,
-      "updated": "2026-03-24T19:15:52+00:00",
+      "updated": "2026-03-24T20:45:12+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -446,9 +418,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39291,
+      "stars": 39290,
       "forks": 6117,
-      "updated": "2026-03-24T20:03:02+00:00",
+      "updated": "2026-03-24T20:54:42+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -585,9 +557,9 @@
       "title": "ta-lib-python",
       "description": "Python wrapper for TA-Lib (http://ta-lib.org/).",
       "url": "https://github.com/TA-Lib/ta-lib-python",
-      "stars": 11809,
+      "stars": 11808,
       "forks": 1969,
-      "updated": "2026-03-24T17:31:53+00:00",
+      "updated": "2026-03-24T20:51:10+00:00",
       "language": "Cython",
       "topics": [
         "finance",
@@ -647,9 +619,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9310,
+      "stars": 9311,
       "forks": 2073,
-      "updated": "2026-03-24T19:42:02+00:00",
+      "updated": "2026-03-24T20:49:41+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -685,9 +657,9 @@
       "title": "financial-machine-learning",
       "description": "A curated list of practical financial machine learning tools and applications.",
       "url": "https://github.com/firmai/financial-machine-learning",
-      "stars": 8454,
+      "stars": 8453,
       "forks": 1396,
-      "updated": "2026-03-24T05:45:47+00:00",
+      "updated": "2026-03-24T20:20:46+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -747,9 +719,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7495,
+      "stars": 7494,
       "forks": 1066,
-      "updated": "2026-03-24T19:23:17+00:00",
+      "updated": "2026-03-24T20:49:26+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -784,9 +756,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 6973,
+      "stars": 6974,
       "forks": 895,
-      "updated": "2026-03-24T19:07:31+00:00",
+      "updated": "2026-03-24T20:18:45+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -816,9 +788,9 @@
       "title": "QuantLib",
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
-      "stars": 6904,
-      "forks": 2146,
-      "updated": "2026-03-24T17:19:53+00:00",
+      "stars": 6905,
+      "forks": 2148,
+      "updated": "2026-03-24T20:28:27+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -902,9 +874,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 47992,
+      "stars": 47991,
       "forks": 10001,
-      "updated": "2026-03-24T19:57:28+00:00",
+      "updated": "2026-03-24T20:53:56+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -930,7 +902,7 @@
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
       "stars": 19545,
-      "forks": 4949,
+      "forks": 4950,
       "updated": "2026-03-24T15:43:48+00:00",
       "language": "Python",
       "topics": [
@@ -980,9 +952,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14519,
+      "stars": 14524,
       "forks": 3229,
-      "updated": "2026-03-24T19:57:15+00:00",
+      "updated": "2026-03-24T20:49:16+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1231,6 +1203,34 @@
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
+    },
+    {
+      "id": "2603.20480v1",
+      "source": "arxiv",
+      "title": "Developing an ESG-Oriented Large Language Model through ESG Practices",
+      "authors": [
+        "Gabriel Assis",
+        "Ayrton Surica",
+        "Pedro Kroll",
+        "Gabriela Aires",
+        "Darian Rabbani",
+        "Edson Bollis",
+        "Lucas Pellicer",
+        "Aline Paes"
+      ],
+      "abstract": "Environmental, Social, and Governance (ESG) considerations play a central role in contemporary financial decision-making. In parallel, Large Language Model (LLM) applications in this domain have primarily emphasized well-defined discriminative tasks, such as classification or scoring, which have proven effective for structured analysis and benchmarking. However, this prevailing focus offers limited support for more interactive and generative ESG scenarios, where embedded domain knowledge and contextual understanding are essential. In this work, we propose an ESG-oriented adaptation pipeline for LLMs that integrates ESG principles not only as a target domain, but also as guiding constraints throughout training and evaluation. Building on the Qwen-3-4B architecture, we explore parameter-efficient adaptation strategies using Low-Rank Adaptation (LoRA) and the Instruction-Residual Method (IRM) to produce three ESG-specialized models. We evaluate the proposed models on ESG question answering under both zero-shot and knowledge-augmented settings, using a diverse set of generative, semantic, readability, and environmental impact metrics. Our results show that the ESG-adapted models consistently outperform their original counterparts and competitive baselines such as Llama-3 and Gemma-3. Although limitations remain in tool-based knowledge integration, this work establishes a foundation for ESG-oriented language generation and highlights the importance of responsible, domain-aware LLM adaptation.",
+      "published": "2026-03-20T20:24:43+00:00",
+      "url": "http://arxiv.org/abs/2603.20480v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.20480v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Environmental, Social, and Governance (ESG) considerations play a central role in contemporary financial decision-making",
+      "methodology": "In parallel, Large Language Model (LLM) applications in this domain have primarily emphasized well-defined discriminative tasks, such as classification or scoring, which have proven effective for structured analysis and benchmarking",
+      "quant_impact": "However, this prevailing focus offers limited support for more interactive and generative ESG scenarios, where embedded domain knowledge and contextual understanding are essential",
+      "relevance_score": 5,
+      "ranking_score": 27.935714285714283
     },
     {
       "id": "2603.20151v1",
