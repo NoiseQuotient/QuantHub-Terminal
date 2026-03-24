@@ -31,14 +31,23 @@ subtitle: AI‑curated quantitative finance research, updated every 5 minutes
 
   async function loadFeed() {
     try {
+      // Try direct JSON file (GitHub Pages serves _data as /data/)
       const response = await fetch('{{ site.baseurl }}/data/quant_feed.json');
+      if (!response.ok) throw new Error('JSON not found');
       const data = await response.json();
       document.getElementById('last-updated').textContent = new Date(data.last_updated).toLocaleString();
       allItems = data.items;
       renderFeed(allItems);
     } catch (error) {
-      document.getElementById('loading').innerHTML = '<p style="color: #e74c3c;">Failed to load feed. Try again later.</p>';
-      console.error('Feed load error:', error);
+      // Fallback: use inline data if available
+      {% if site.data.quant_feed %}
+        allItems = {{ site.data.quant_feed.items | jsonify }};
+        document.getElementById('last-updated').textContent = '{{ site.data.quant_feed.last_updated }}';
+        renderFeed(allItems);
+      {% else %}
+        document.getElementById('loading').innerHTML = '<p style="color: #e74c3c;">No feed data available yet. First update in progress.</p>';
+        console.error('Feed load error:', error);
+      {% endif %}
     }
   }
 

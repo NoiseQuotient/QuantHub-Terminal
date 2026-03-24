@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: /data/quant_feed.json
+---
+{{ site.data.quant_feed | jsonify }}
