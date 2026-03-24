@@ -1,0 +1,30 @@
+# Jekyll configuration for QuantHub-Terminal
+title: "QuantHub Terminal"
+description: "Live aggregator of quantitative finance research, papers, and code — summarized and ranked by AI."
+baseurl: ""
+url: "https://yourusername.github.io/QuantHub-Terminal"
+github_username: yourusername
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Data source
+data_dir: "_data"
+
+# Customization
+header_pages:
+  - index.md
+  - about.md
+
+# Exclude from processing
+exclude:
+  - .github/
+  - fetch_quant.py
+  - requirements.txt
+  - README.md
+  - venv/
+  - .gitignore
