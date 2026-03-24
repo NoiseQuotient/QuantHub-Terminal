@@ -1,9 +1,9 @@
-# Jekyll configuration for QuantHub-Terminal
-title: "QuantHub Terminal"
-description: "Live aggregator of quantitative finance research, papers, and code — summarized and ranked by AI."
+# Jekyll configuration for Quant Frontier
+title: "Quant Frontier"
+description: "AI‑curated frontier of quantitative finance research — live papers, code, and insights, summarized and ranked."
 baseurl: ""
-url: "https://yourusername.github.io/QuantHub-Terminal"
-github_username: yourusername
+url: "https://noisequotient.github.io/QuantHub-Terminal"
+github_username: noisequotient
 
 # Build settings
 markdown: kramdown

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: QuantHub Terminal
-subtitle: AI‑curated quantitative finance research, updated every 5 minutes
+title: Quant Frontier
+subtitle: AI‑curated frontier of quantitative finance research, updated every 5 minutes
 ---
 
 <div class="header">
