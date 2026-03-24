@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T22:58:44.314042",
+  "last_updated": "2026-03-24T23:42:18.421199",
   "items": [
     {
       "id": "2603.21811v1",
@@ -387,9 +387,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63526,
+      "stars": 63527,
       "forks": 6247,
-      "updated": "2026-03-24T20:45:12+00:00",
+      "updated": "2026-03-24T23:32:37+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -454,9 +454,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25089,
+      "stars": 25090,
       "forks": 3313,
-      "updated": "2026-03-24T17:49:01+00:00",
+      "updated": "2026-03-24T23:23:47+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -719,9 +719,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7494,
+      "stars": 7495,
       "forks": 1066,
-      "updated": "2026-03-24T20:49:26+00:00",
+      "updated": "2026-03-24T23:11:13+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -874,9 +874,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 47992,
+      "stars": 47993,
       "forks": 10001,
-      "updated": "2026-03-24T22:01:42+00:00",
+      "updated": "2026-03-24T23:02:53+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -923,9 +923,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16599,
+      "stars": 16600,
       "forks": 4467,
-      "updated": "2026-03-24T19:12:33+00:00",
+      "updated": "2026-03-24T23:23:23+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -952,9 +952,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14527,
-      "forks": 3230,
-      "updated": "2026-03-24T22:33:42+00:00",
+      "stars": 14528,
+      "forks": 3231,
+      "updated": "2026-03-24T23:15:51+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
