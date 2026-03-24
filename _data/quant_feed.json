@@ -1,0 +1,76 @@
+{
+  "last_updated": "2026-03-24T15:42:00Z",
+  "items": [
+    {
+      "id": "2403.12345",
+      "source": "arxiv",
+      "title": "Deep Reinforcement Learning for High‑Frequency Portfolio Optimization",
+      "authors": ["Jane Doe", "John Smith"],
+      "core_idea": "Uses Proximal Policy Optimization (PPO) to optimize HFT portfolios under transaction costs and market impact.",
+      "methodology": "Multi‑agent RL with continuous action spaces, trained on limit‑order‑book data.",
+      "quant_impact": "Reduces slippage by 18% in backtests on NASDAQ equities.",
+      "relevance_score": 9,
+      "ranking_score": 87.4,
+      "url": "https://arxiv.org/abs/2403.12345",
+      "published": "2026-03-24T10:00:00Z",
+      "categories": ["q-fin.TR", "cs.AI"]
+    },
+    {
+      "id": "2403.12346",
+      "source": "arxiv",
+      "title": "Neural Stochastic Volatility Models with Jump Diffusion",
+      "authors": ["Alex Chen", "Maria Rodriguez"],
+      "core_idea": "Combines neural ODEs with jump‑diffusion processes for volatility forecasting.",
+      "methodology": "Variational autoencoder structure with Bayesian latent variables.",
+      "quant_impact": "Improves VIX prediction accuracy by 22% versus GARCH‑family models.",
+      "relevance_score": 8,
+      "ranking_score": 79.2,
+      "url": "https://arxiv.org/abs/2403.12346",
+      "published": "2026-03-23T14:30:00Z",
+      "categories": ["q-fin.ST", "stat.ML"]
+    },
+    {
+      "id": "bloomberg-quant-20260324",
+      "source": "https://www.bloomberg.com/quant/feed",
+      "title": "Quantum Algorithms for Portfolio Optimization Show Promise",
+      "authors": ["Bloomberg Quant Team"],
+      "core_idea": "Early quantum computing experiments demonstrate speedup for mean‑variance optimization.",
+      "methodology": "Gate‑based quantum circuits on IBM‑Q hardware.",
+      "quant_impact": "Potential for real‑time rebalancing of large portfolios once quantum hardware matures.",
+      "relevance_score": 7,
+      "ranking_score": 72.1,
+      "url": "https://www.bloomberg.com/quant/article/quantum-portfolio",
+      "published": "2026-03-24T08:15:00Z"
+    },
+    {
+      "id": "github-123456",
+      "source": "github",
+      "title": "Qlib‑RL",
+      "description": "Reinforcement learning toolkit for quantitative finance built on Qlib.",
+      "core_idea": "Open‑source platform for training RL agents on financial data.",
+      "methodology": "PyTorch‑based with OpenAI Gym interface.",
+      "quant_impact": "Lowers barrier to entry for RL‑based trading strategies.",
+      "relevance_score": 8,
+      "ranking_score": 81.5,
+      "url": "https://github.com/quant-research/Qlib-RL",
+      "published": "2026-03-22T16:45:00Z",
+      "stars": 342,
+      "forks": 45,
+      "language": "Python",
+      "topics": ["quantitative-finance", "reinforcement-learning", "trading"]
+    },
+    {
+      "id": "risknet-20260323",
+      "source": "https://www.risk.net/feed/rss",
+      "title": "Basel IV Impact on Internal Model Approvals",
+      "authors": ["Risk.net Staff"],
+      "core_idea": "New Basel IV rules will require more conservative capital calculations for trading books.",
+      "methodology": "Regulatory analysis based on BCBS consultation papers.",
+      "quant_impact": "Banks may need to revise VaR, ES, and stress‑testing models.",
+      "relevance_score": 9,
+      "ranking_score": 85.0,
+      "url": "https://www.risk.net/regulation/basel-iv-impact",
+      "published": "2026-03-23T11:20:00Z"
+    }
+  ]
+}
