@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T17:13:20.821292",
+  "last_updated": "2026-03-24T18:11:38.646580",
   "items": [
     {
       "id": "2603.21811v1",
@@ -410,31 +410,6 @@
       "ranking_score": 28.364285714285714
     },
     {
-      "id": "2603.20151v1",
-      "source": "arxiv",
-      "title": "Design-OS: A Specification-Driven Framework for Engineering System Design with a Control-Systems Design Case",
-      "authors": [
-        "H. Sinan Bank",
-        "Daniel R. Herber",
-        "Thomas H. Bradley"
-      ],
-      "abstract": "Engineering system design -- whether mechatronic, control, or embedded -- often proceeds in an ad hoc manner, with requirements left implicit and traceability from intent to parameters largely absent. Existing specification-driven and systematic design methods mostly target software, and AI-assisted tools tend to enter the workflow at solution generation rather than at problem framing. Human--AI collaboration in the design of physical systems remains underexplored. This paper presents Design-OS, a lightweight, specification-driven workflow for engineering system design organized in five stages: concept definition, literature survey, conceptual design, requirements definition, and design definition. Specifications serve as the shared contract between human designers and AI agents; each stage produces structured artifacts that maintain traceability and support agent-augmented execution. We position Design-OS relative to requirements-driven design, systematic design frameworks, and AI-assisted design pipelines, and demonstrate it on a control systems design case using two rotary inverted pendulum platforms -- an open-source SimpleFOC reaction wheel and a commercial Quanser Furuta pendulum -- showing how the same specification-driven workflow accommodates fundamentally different implementations. A blank template and the full design-case artifacts are shared in a public repository to support reproducibility and reuse. The workflow makes the design process visible and auditable, and extends specification-driven orchestration of AI from software to physical engineering system design.",
-      "published": "2026-03-20T17:26:44+00:00",
-      "url": "http://arxiv.org/abs/2603.20151v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.20151v1",
-      "categories": [
-        "cs.CE",
-        "cs.AI",
-        "eess.SY"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Engineering system design -- whether mechatronic, control, or embedded -- often proceeds in an ad hoc manner, with requirements left implicit and traceability from intent to parameters largely absent",
-      "methodology": "Existing specification-driven and systematic design methods mostly target software, and AI-assisted tools tend to enter the workflow at solution generation rather than at problem framing",
-      "quant_impact": "Human--AI collaboration in the design of physical systems remains underexplored",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
       "id": "2603.20456v1",
       "source": "arxiv",
       "title": "Neural Hidden Markov Model with Adaptive Granularity Attention for High-Frequency Order Flow Modeling",
@@ -464,7 +439,7 @@
       "url": "https://github.com/OpenBB-finance/OpenBB",
       "stars": 63523,
       "forks": 6247,
-      "updated": "2026-03-24T17:06:12+00:00",
+      "updated": "2026-03-24T18:07:03+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -493,9 +468,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39287,
+      "stars": 39288,
       "forks": 6117,
-      "updated": "2026-03-24T17:06:36+00:00",
+      "updated": "2026-03-24T17:47:04+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -529,9 +504,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25088,
+      "stars": 25089,
       "forks": 3315,
-      "updated": "2026-03-24T15:25:08+00:00",
+      "updated": "2026-03-24T17:49:01+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -632,9 +607,9 @@
       "title": "ta-lib-python",
       "description": "Python wrapper for TA-Lib (http://ta-lib.org/).",
       "url": "https://github.com/TA-Lib/ta-lib-python",
-      "stars": 11808,
+      "stars": 11809,
       "forks": 1969,
-      "updated": "2026-03-24T15:04:45+00:00",
+      "updated": "2026-03-24T17:31:53+00:00",
       "language": "Cython",
       "topics": [
         "finance",
@@ -694,9 +669,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9307,
+      "stars": 9309,
       "forks": 2073,
-      "updated": "2026-03-24T17:05:29+00:00",
+      "updated": "2026-03-24T17:52:44+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -863,9 +838,9 @@
       "title": "QuantLib",
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
-      "stars": 6903,
+      "stars": 6904,
       "forks": 2146,
-      "updated": "2026-03-24T16:21:39+00:00",
+      "updated": "2026-03-24T17:19:53+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -949,9 +924,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 47988,
+      "stars": 47991,
       "forks": 10001,
-      "updated": "2026-03-24T16:14:20+00:00",
+      "updated": "2026-03-24T17:52:19+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -998,9 +973,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16597,
-      "forks": 4466,
-      "updated": "2026-03-24T16:32:21+00:00",
+      "stars": 16598,
+      "forks": 4467,
+      "updated": "2026-03-24T18:03:34+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1027,9 +1002,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14513,
+      "stars": 14516,
       "forks": 3226,
-      "updated": "2026-03-24T17:04:46+00:00",
+      "updated": "2026-03-24T18:01:52+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1097,9 +1072,9 @@
       "title": "PyPortfolioOpt",
       "description": "Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
       "url": "https://github.com/PyPortfolio/PyPortfolioOpt",
-      "stars": 5580,
+      "stars": 5581,
       "forks": 1099,
-      "updated": "2026-03-24T16:13:13+00:00",
+      "updated": "2026-03-24T17:32:47+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1278,6 +1253,31 @@
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
+    },
+    {
+      "id": "2603.20151v1",
+      "source": "arxiv",
+      "title": "Design-OS: A Specification-Driven Framework for Engineering System Design with a Control-Systems Design Case",
+      "authors": [
+        "H. Sinan Bank",
+        "Daniel R. Herber",
+        "Thomas H. Bradley"
+      ],
+      "abstract": "Engineering system design -- whether mechatronic, control, or embedded -- often proceeds in an ad hoc manner, with requirements left implicit and traceability from intent to parameters largely absent. Existing specification-driven and systematic design methods mostly target software, and AI-assisted tools tend to enter the workflow at solution generation rather than at problem framing. Human--AI collaboration in the design of physical systems remains underexplored. This paper presents Design-OS, a lightweight, specification-driven workflow for engineering system design organized in five stages: concept definition, literature survey, conceptual design, requirements definition, and design definition. Specifications serve as the shared contract between human designers and AI agents; each stage produces structured artifacts that maintain traceability and support agent-augmented execution. We position Design-OS relative to requirements-driven design, systematic design frameworks, and AI-assisted design pipelines, and demonstrate it on a control systems design case using two rotary inverted pendulum platforms -- an open-source SimpleFOC reaction wheel and a commercial Quanser Furuta pendulum -- showing how the same specification-driven workflow accommodates fundamentally different implementations. A blank template and the full design-case artifacts are shared in a public repository to support reproducibility and reuse. The workflow makes the design process visible and auditable, and extends specification-driven orchestration of AI from software to physical engineering system design.",
+      "published": "2026-03-20T17:26:44+00:00",
+      "url": "http://arxiv.org/abs/2603.20151v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.20151v1",
+      "categories": [
+        "cs.CE",
+        "cs.AI",
+        "eess.SY"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Engineering system design -- whether mechatronic, control, or embedded -- often proceeds in an ad hoc manner, with requirements left implicit and traceability from intent to parameters largely absent",
+      "methodology": "Existing specification-driven and systematic design methods mostly target software, and AI-assisted tools tend to enter the workflow at solution generation rather than at problem framing",
+      "quant_impact": "Human--AI collaboration in the design of physical systems remains underexplored",
+      "relevance_score": 5,
+      "ranking_score": 27.935714285714283
     },
     {
       "id": "2603.19829v1",
