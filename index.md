@@ -12,9 +12,10 @@ subtitle: AI‑curated frontier of quantitative finance research, updated every 
 
 <div class="controls">
   <button onclick="filterBySource('all')">All Sources</button>
+  <button onclick="filterBySource('quant')">Quant Research</button>
+  <button onclick="filterBySource('news')">Financial News</button>
   <button onclick="filterBySource('arxiv')">arXiv</button>
   <button onclick="filterBySource('github')">GitHub</button>
-  <button onclick="filterBySource('rss')">RSS</button>
   <select onchange="sortBy(this.value)">
     <option value="ranking_score">Ranking Score</option>
     <option value="relevance_score">Relevance</option>
@@ -87,7 +88,16 @@ subtitle: AI‑curated frontier of quantitative finance research, updated every 
   }
 
   function filterBySource(source) {
-    const filtered = source === 'all' ? allItems : allItems.filter(item => item.source === source);
+    let filtered;
+    if (source === 'all') {
+      filtered = allItems;
+    } else if (source === 'quant') {
+      filtered = allItems.filter(item => item.source_type === 'quant' || item.source === 'arxiv' || item.source === 'github');
+    } else if (source === 'news') {
+      filtered = allItems.filter(item => item.source_type === 'news');
+    } else {
+      filtered = allItems.filter(item => item.source === source);
+    }
     renderFeed(filtered);
   }
 

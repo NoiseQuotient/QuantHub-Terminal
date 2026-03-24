@@ -16,37 +16,43 @@ from github import Github
 import arxiv
 import yaml
 
-# LLM imports (choose one)
+# LLM imports
 try:
     import openai
     LLM_BACKEND = "openai"
 except ImportError:
-    try:
-        import anthropic
-        LLM_BACKEND = "anthropic"
-    except ImportError:
-        LLM_BACKEND = "none"
+    LLM_BACKEND = "none"
 
 # Configuration
 CONFIG = {
     "arxiv_categories": ["cs.CE", "q-fin.CP", "q-fin.ST", "q-fin.PR", "q-fin.TR"],
     "rss_feeds": [
-        "https://www.bloomberg.com/quant/feed",
+        # Quant‑specific (full content often available)
         "https://www.risk.net/feed/rss",
         "https://papers.ssrn.com/sol3/DisplayAbstractSearch.cfm?feed=rss",
+        "https://www.bloomberg.com/quant/feed",
+        
+        # Mainstream finance (headlines + snippets)
+        "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",  # WSJ Markets
+        "https://www.ft.com/rss/markets",  # FT Markets
+        "https://www.economist.com/finance-and-economics/rss.xml",  # Economist Finance
+        "https://www.bloomberg.com/markets/rss.xml",  # Bloomberg Markets
+        "https://www.reutersagency.com/feed/?best-topics=financial-regulatory&post_type=best",  # Reuters Financial
     ],
     "github_topics": ["quantitative-finance", "algorithmic-trading", "risk-modeling"],
     "output_dir": "_data",
-    "max_papers_per_source": 10,
+    "max_papers_per_source": 15,
+    "max_news_per_feed": 8,
     "days_lookback": 7,
 }
 
 # LLM configuration (set via environment variables)
 LLM_CONFIG = {
     "openai_api_key": os.getenv("OPENAI_API_KEY"),
-    "anthropic_api_key": os.getenv("ANTHROPIC_API_KEY"),
-    "model": os.getenv("LLM_MODEL", "gpt-4o-mini"),  # or "claude-3-5-sonnet-20241022"
+    "deepseek_api_key": os.getenv("DEEPSEEK_API_KEY"),
+    "model": os.getenv("LLM_MODEL", "deepseek-chat"),  # or "gpt-4o-mini"
     "max_tokens": 500,
+    "base_url": os.getenv("LLM_BASE_URL", "https://api.deepseek.com"),
 }
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
@@ -103,19 +109,27 @@ class QuantScraper:
         return papers
 
     def fetch_rss(self) -> List[Dict[str, Any]]:
-        """Parse RSS feeds from Bloomberg Quant, Risk.net, SSRN."""
+        """Parse RSS feeds from quant and mainstream finance sources."""
         articles = []
         for feed_url in CONFIG["rss_feeds"]:
             try:
                 parsed = feedparser.parse(feed_url)
-                for entry in parsed.entries[:CONFIG["max_papers_per_source"]]:
+                limit = CONFIG["max_papers_per_source"] if "quant" in feed_url or "ssrn" in feed_url or "risk" in feed_url else CONFIG["max_news_per_feed"]
+                for entry in parsed.entries[:limit]:
                     article_id = entry.get("id", entry.get("link", ""))
                     if article_id in self.seen_ids:
                         continue
                     self.seen_ids.add(article_id)
+                    
+                    # Categorize source
+                    source_type = "quant"
+                    if any(x in feed_url for x in ["wsj", "ft.com", "economist", "bloomberg.com/markets", "reuters"]):
+                        source_type = "news"
+                    
                     articles.append({
                         "id": article_id[:100],
                         "source": feed_url,
+                        "source_type": source_type,
                         "title": entry.get("title", "No title"),
                         "summary": entry.get("summary", entry.get("description", "")),
                         "published": entry.get("published", entry.get("updated", "")),
@@ -164,7 +178,7 @@ class QuantScraper:
     def summarize_with_llm(self, text: str, title: str) -> Dict[str, Any]:
         """
         Use LLM to generate a 3‑bullet summary and relevance score.
-        Fallback to simple extraction if no LLM available.
+        Supports OpenAI, DeepSeek, or fallback.
         """
         prompt = f"""
         You are a quantitative finance expert. Summarize the following research:
@@ -181,7 +195,31 @@ class QuantScraper:
 
         Return JSON with keys: core_idea, methodology, quant_impact, relevance_score.
         """
-        if LLM_BACKEND == "openai" and LLM_CONFIG["openai_api_key"]:
+        
+        # Try DeepSeek first (free)
+        if LLM_CONFIG["deepseek_api_key"]:
+            try:
+                client = openai.OpenAI(
+                    api_key=LLM_CONFIG["deepseek_api_key"],
+                    base_url=LLM_CONFIG["base_url"]
+                )
+                response = client.chat.completions.create(
+                    model=LLM_CONFIG["model"],
+                    messages=[{"role": "user", "content": prompt}],
+                    max_tokens=LLM_CONFIG["max_tokens"],
+                    temperature=0.2,
+                )
+                content = response.choices[0].message.content.strip()
+                import re
+                json_match = re.search(r'\{.*\}', content, re.DOTALL)
+                if json_match:
+                    return json.loads(json_match.group())
+                logger.info("DeepSeek summarization succeeded")
+            except Exception as e:
+                logger.error(f"DeepSeek summarization failed: {e}")
+        
+        # Fallback to OpenAI
+        elif LLM_BACKEND == "openai" and LLM_CONFIG["openai_api_key"]:
             openai.api_key = LLM_CONFIG["openai_api_key"]
             try:
                 response = openai.chat.completions.create(
@@ -191,29 +229,12 @@ class QuantScraper:
                     temperature=0.2,
                 )
                 content = response.choices[0].message.content.strip()
-                # Extract JSON from response
                 import re
                 json_match = re.search(r'\{.*\}', content, re.DOTALL)
                 if json_match:
                     return json.loads(json_match.group())
             except Exception as e:
                 logger.error(f"OpenAI summarization failed: {e}")
-
-        elif LLM_BACKEND == "anthropic" and LLM_CONFIG["anthropic_api_key"]:
-            anthropic.api_key = LLM_CONFIG["anthropic_api_key"]
-            try:
-                response = anthropic.Anthropic().messages.create(
-                    model=LLM_CONFIG["model"],
-                    max_tokens=LLM_CONFIG["max_tokens"],
-                    messages=[{"role": "user", "content": prompt}],
-                )
-                content = response.content[0].text
-                import re
-                json_match = re.search(r'\{.*\}', content, re.DOTALL)
-                if json_match:
-                    return json.loads(json_match.group())
-            except Exception as e:
-                logger.error(f"Anthropic summarization failed: {e}")
 
         # Fallback: simple extraction
         sentences = text.split(". ")
@@ -227,6 +248,7 @@ class QuantScraper:
     def calculate_ranking_score(self, item: Dict[str, Any]) -> float:
         """Compute a weighted ranking score (0‑100)."""
         relevance = item.get("relevance_score", 5)
+        
         # Recency: newer is better (within last 7 days)
         published_str = item.get("published", "")
         try:
@@ -236,19 +258,34 @@ class QuantScraper:
         except:
             recency = 0.5
 
-        # Source weight
-        source_weights = {"arxiv": 1.0, "github": 0.8, "rss": 0.9}
-        source = item.get("source", "arxiv")
-        source_weight = source_weights.get(source, 0.7)
+        # Source type weight (prioritize quant over general news)
+        source_type = item.get("source_type", "quant")
+        type_weights = {"quant": 1.0, "news": 0.7, "arxiv": 1.0, "github": 0.9}
+        type_weight = type_weights.get(source_type, 0.8)
+        
+        # Specific source boosts
+        source = item.get("source", "")
+        source_boost = 1.0
+        if "arxiv" in source:
+            source_boost = 1.1  # Academic papers
+        elif "risk.net" in source:
+            source_boost = 1.05  # Risk professional
+        elif "ssrn" in source:
+            source_boost = 1.05  # Working papers
+        elif "github" in source:
+            source_boost = 0.9 + min(0.2, item.get("stars", 0) / 5000)  # GitHub stars
 
-        # GitHub stars boost
+        # GitHub stars boost (if applicable)
         star_boost = 0
-        if source == "github":
+        if source_type == "github":
             stars = item.get("stars", 0)
-            star_boost = min(1, stars / 1000)  # normalize
+            star_boost = min(0.5, stars / 2000)  # normalize
 
-        # Final score
-        score = 0.6 * relevance + 0.3 * recency * 10 + 0.1 * source_weight * 10 + star_boost
+        # Final score: 50% relevance, 30% recency, 15% source quality, 5% stars
+        score = (0.5 * relevance * 10 + 
+                 0.3 * recency * 10 + 
+                 0.15 * type_weight * 10 * source_boost + 
+                 star_boost * 5)
         return min(100, score)
 
     def run(self):
