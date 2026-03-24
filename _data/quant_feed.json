@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T20:58:21.139493",
+  "last_updated": "2026-03-24T21:49:33.743277",
   "items": [
     {
       "id": "2603.21811v1",
@@ -875,7 +875,7 @@
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
       "stars": 47991,
-      "forks": 10001,
+      "forks": 10002,
       "updated": "2026-03-24T20:53:56+00:00",
       "language": "Python",
       "topics": [
@@ -952,9 +952,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14524,
+      "stars": 14525,
       "forks": 3229,
-      "updated": "2026-03-24T20:49:16+00:00",
+      "updated": "2026-03-24T21:08:25+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
