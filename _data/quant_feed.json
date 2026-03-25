@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T14:54:59.102330",
+  "last_updated": "2026-03-25T16:16:17.679701",
   "items": [
     {
       "id": "2603.23480v1",
@@ -21,33 +21,6 @@
       "core_idea": "Stablecoins serve as the fundamental infrastructure for Decentralised Finance (DeFi), acting as the primary bridge between fiat currencies and the digital asset ecosystem",
       "methodology": "While peg stability is well-documented, the structural role stablecoins play in transmitting systemic risk to the broader market remains under-explored",
       "quant_impact": "This study uses copula-based approaches to quantify the transmission of volatility and activity from stablecoin to cryptocurrency markets",
-      "relevance_score": 5,
-      "ranking_score": 29.65
-    },
-    {
-      "id": "2603.23300v1",
-      "source": "arxiv",
-      "title": "Designing Agentic AI-Based Screening for Portfolio Investment",
-      "authors": [
-        "Mehmet Caner",
-        "Agostino Capponi",
-        "Nathan Sun",
-        "Jonathan Y. Tan"
-      ],
-      "abstract": "We introduce a new agentic artificial intelligence (AI) platform for portfolio management. Our architecture consists of three layers. First, two large language model (LLM) agents are assigned specialized tasks: one agent screens for firms with desirable fundamentals, while a sentiment analysis agent screens for firms with desirable news. Second, these agents deliberate to generate and agree upon buy and sell signals from a large portfolio, substantially narrowing the pool of candidate assets. Finally, we apply a high-dimensional precision matrix estimation procedure to determine optimal portfolio weights. A defining theoretical feature of our framework is that the number of assets in the portfolio is itself a random variable, realized through the screening process. We introduce the concept of sensible screening and establish that, under mild screening errors, the squared Sharpe ratio of the screened portfolio consistently estimates its target. Empirically, our method achieves superior Sharpe ratios relative to an unscreened baseline portfolio and to conventional screening approaches, evaluated on S&P 500 data over the period 2020--2024.",
-      "published": "2026-03-24T15:03:40+00:00",
-      "url": "http://arxiv.org/abs/2603.23300v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23300v1",
-      "categories": [
-        "q-fin.PM",
-        "cs.AI",
-        "cs.MA",
-        "q-fin.ST"
-      ],
-      "primary_category": "q-fin.PM",
-      "core_idea": "We introduce a new agentic artificial intelligence (AI) platform for portfolio management",
-      "methodology": "Our architecture consists of three layers",
-      "quant_impact": "First, two large language model (LLM) agents are assigned specialized tasks: one agent screens for firms with desirable fundamentals, while a sentiment analysis agent screens for firms with desirable news",
       "relevance_score": 5,
       "ranking_score": 29.65
     },
@@ -199,6 +172,33 @@
       "core_idea": "Large language models (LLMs) are increasingly deployed as autonomous agents in financial trading",
       "methodology": "However, they often exhibit a hazardous behavioral bias that we term uniform trust, whereby retrieved information is implicitly assumed to be factual and heterogeneous sources are treated as equally informative",
       "quant_impact": "This assumption stands in sharp contrast to human decision-making, which relies on selective filtering, cross-validation, and experience-driven weighting of information sources",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.23300v1",
+      "source": "arxiv",
+      "title": "Designing Agentic AI-Based Screening for Portfolio Investment",
+      "authors": [
+        "Mehmet Caner",
+        "Agostino Capponi",
+        "Nathan Sun",
+        "Jonathan Y. Tan"
+      ],
+      "abstract": "We introduce a new agentic artificial intelligence (AI) platform for portfolio management. Our architecture consists of three layers. First, two large language model (LLM) agents are assigned specialized tasks: one agent screens for firms with desirable fundamentals, while a sentiment analysis agent screens for firms with desirable news. Second, these agents deliberate to generate and agree upon buy and sell signals from a large portfolio, substantially narrowing the pool of candidate assets. Finally, we apply a high-dimensional precision matrix estimation procedure to determine optimal portfolio weights. A defining theoretical feature of our framework is that the number of assets in the portfolio is itself a random variable, realized through the screening process. We introduce the concept of sensible screening and establish that, under mild screening errors, the squared Sharpe ratio of the screened portfolio consistently estimates its target. Empirically, our method achieves superior Sharpe ratios relative to an unscreened baseline portfolio and to conventional screening approaches, evaluated on S&P 500 data over the period 2020--2024.",
+      "published": "2026-03-24T15:03:40+00:00",
+      "url": "http://arxiv.org/abs/2603.23300v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23300v1",
+      "categories": [
+        "q-fin.PM",
+        "cs.AI",
+        "cs.MA",
+        "q-fin.ST"
+      ],
+      "primary_category": "q-fin.PM",
+      "core_idea": "We introduce a new agentic artificial intelligence (AI) platform for portfolio management",
+      "methodology": "Our architecture consists of three layers",
+      "quant_impact": "First, two large language model (LLM) agents are assigned specialized tasks: one agent screens for firms with desirable fundamentals, while a sentiment analysis agent screens for firms with desirable news",
       "relevance_score": 5,
       "ranking_score": 29.22142857142857
     },
@@ -497,41 +497,6 @@
       "ranking_score": 28.364285714285714
     },
     {
-      "id": "2603.20848v1",
-      "source": "arxiv",
-      "title": "GOLDMARK: Governed Outcome-Linked Diagnostic Model Assessment Reference Kit",
-      "authors": [
-        "Chad Vanderbilt",
-        "Gabriele Campanella",
-        "Siddharth Singi",
-        "Swaraj Nanda",
-        "Jie-Fu Chen",
-        "Ali Kamali",
-        "Amir Momeni Boroujeni",
-        "David Kim",
-        "Mohamed Yakoub",
-        "Jamal Benhamida",
-        "Meera Hameed",
-        "Neeraj Kumar",
-        "Gregory Goldgof"
-      ],
-      "abstract": "Computational biomarkers (CBs) are histopathology-derived patterns extracted from hematoxylin-eosin (H&E) whole-slide images (WSIs) using artificial intelligence (AI) to predict therapeutic response or prognosis. Recently, slide-level multiple-instance learning (MIL) with pathology foundation models (PFMs) has become the standard baseline for CB development. While these methods have improved predictive performance, computational pathology lacks standardized intermediate data formats, provenance tracking, checkpointing conventions, and reproducible evaluation metrics required for clinical-grade deployment.\n  We introduce GOLDMARK (https://artificialintelligencepathology.org), a standardized benchmarking framework built on a curated TCGA cohort with clinically actionable OncoKB level 1-3 biomarker labels. GOLDMARK releases structured intermediate representations, including tile coordinate maps, per-slide feature embeddings from canonical PFMs, quality-control metadata, predefined patient-level splits, trained slide-level models, and evaluation outputs. Models are trained on TCGA and evaluated on an independent MSKCC cohort with reciprocal testing.\n  Across 33 tumor-biomarker tasks, mean AUROC was 0.689 (TCGA) and 0.630 (MSKCC). Restricting to the eight highest-performing tasks yielded mean AUROCs of 0.831 and 0.801, respectively. These tasks correspond to established morphologic-genomic associations (e.g., LGG IDH1, COAD MSI/BRAF, THCA BRAF/NRAS, BLCA FGFR3, UCEC PTEN) and showed the most stable cross-site performance. Differences between canonical encoders were modest relative to task-specific variability.\n  GOLDMARK establishes a shared experimental substrate for computational pathology, enabling reproducible benchmarking and direct comparison of methods across datasets and models.",
-      "published": "2026-03-21T15:09:06+00:00",
-      "url": "http://arxiv.org/abs/2603.20848v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.20848v1",
-      "categories": [
-        "cs.CV",
-        "cs.CE",
-        "q-bio.TO"
-      ],
-      "primary_category": "cs.CV",
-      "core_idea": "Computational biomarkers (CBs) are histopathology-derived patterns extracted from hematoxylin-eosin (H&E) whole-slide images (WSIs) using artificial intelligence (AI) to predict therapeutic response or prognosis",
-      "methodology": "Recently, slide-level multiple-instance learning (MIL) with pathology foundation models (PFMs) has become the standard baseline for CB development",
-      "quant_impact": "While these methods have improved predictive performance, computational pathology lacks standardized intermediate data formats, provenance tracking, checkpointing conventions, and reproducible evaluation metrics required for clinical-grade deployment.\n  We introduce GOLDMARK (https://artificialintelligencepathology.org), a standardized benchmarking framework built on a curated TCGA cohort with clinically actionable OncoKB level 1-3 biomarker labels",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
       "id": "2603.20965v1",
       "source": "arxiv",
       "title": "Learning to Aggregate Zero-Shot LLM Agents for Corporate Disclosure Classification",
@@ -586,9 +551,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63555,
-      "forks": 6251,
-      "updated": "2026-03-25T14:48:46+00:00",
+      "stars": 63557,
+      "forks": 6252,
+      "updated": "2026-03-25T15:37:16+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -618,8 +583,8 @@
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
       "stars": 39320,
-      "forks": 6121,
-      "updated": "2026-03-25T14:44:32+00:00",
+      "forks": 6123,
+      "updated": "2026-03-25T16:09:40+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -653,9 +618,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25103,
+      "stars": 25104,
       "forks": 3312,
-      "updated": "2026-03-25T14:52:05+00:00",
+      "updated": "2026-03-25T15:41:47+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -691,9 +656,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16726,
+      "stars": 16727,
       "forks": 2363,
-      "updated": "2026-03-25T14:05:36+00:00",
+      "updated": "2026-03-25T15:47:06+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -726,9 +691,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12036,
+      "stars": 12037,
       "forks": 2498,
-      "updated": "2026-03-25T14:12:14+00:00",
+      "updated": "2026-03-25T15:02:39+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -756,9 +721,9 @@
       "title": "ta-lib-python",
       "description": "Python wrapper for TA-Lib (http://ta-lib.org/).",
       "url": "https://github.com/TA-Lib/ta-lib-python",
-      "stars": 11810,
+      "stars": 11809,
       "forks": 1969,
-      "updated": "2026-03-25T00:03:01+00:00",
+      "updated": "2026-03-25T16:06:53+00:00",
       "language": "Cython",
       "topics": [
         "finance",
@@ -780,9 +745,9 @@
       "title": "quant-trading",
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
-      "stars": 9518,
-      "forks": 1749,
-      "updated": "2026-03-25T13:10:48+00:00",
+      "stars": 9519,
+      "forks": 1748,
+      "updated": "2026-03-25T16:02:54+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -818,9 +783,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9332,
-      "forks": 2075,
-      "updated": "2026-03-25T14:42:17+00:00",
+      "stars": 9334,
+      "forks": 2076,
+      "updated": "2026-03-25T15:57:46+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -955,9 +920,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 6978,
+      "stars": 6982,
       "forks": 897,
-      "updated": "2026-03-25T12:50:49+00:00",
+      "updated": "2026-03-25T16:01:37+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -987,9 +952,9 @@
       "title": "QuantLib",
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
-      "stars": 6908,
+      "stars": 6910,
       "forks": 2151,
-      "updated": "2026-03-25T14:30:05+00:00",
+      "updated": "2026-03-25T15:52:26+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -1006,9 +971,9 @@
       "title": "quantstats",
       "description": "Portfolio analytics for quants, written in Python",
       "url": "https://github.com/ranaroussi/quantstats",
-      "stars": 6890,
+      "stars": 6891,
       "forks": 1139,
-      "updated": "2026-03-25T06:56:10+00:00",
+      "updated": "2026-03-25T16:04:51+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -1073,9 +1038,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48022,
-      "forks": 10011,
-      "updated": "2026-03-25T14:54:33+00:00",
+      "stars": 48027,
+      "forks": 10014,
+      "updated": "2026-03-25T15:59:04+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1124,7 +1089,7 @@
       "url": "https://github.com/bbfamily/abu",
       "stars": 16608,
       "forks": 4467,
-      "updated": "2026-03-25T14:44:07+00:00",
+      "updated": "2026-03-25T15:52:19+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1151,9 +1116,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14548,
-      "forks": 3235,
-      "updated": "2026-03-25T14:41:26+00:00",
+      "stars": 14549,
+      "forks": 3236,
+      "updated": "2026-03-25T15:28:10+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1354,6 +1319,21 @@
       "author": "",
       "core_idea": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump\u2019s threats to impose tariffs and economic sanctions on Colombia.",
       "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 28.0
+    },
+    {
+      "id": "WP-WSJ-0002354017",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
+      "summary": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek\u2019s new AI model hit U.S. tech stocks.",
+      "published": "Mon, 27 Jan 2025 09:55:00 -0500",
+      "url": "https://www.wsj.com/articles/safe-haven-currencies-strengthen-amid-fears-over-global-tariffs-9964e17a?mod=rss_markets_main",
+      "author": "",
+      "core_idea": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek\u2019s new AI model hit U.S",
+      "methodology": "tech stocks.",
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
