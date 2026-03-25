@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T20:55:43.185450",
+  "last_updated": "2026-03-25T21:50:30.058851",
   "items": [
     {
       "id": "2603.23480v1",
@@ -125,31 +125,6 @@
       "ranking_score": 29.22142857142857
     },
     {
-      "id": "2603.22596v1",
-      "source": "arxiv",
-      "title": "ParlayMarket: Automated Market Making for Parlay-style Joint Contracts",
-      "authors": [
-        "Ranvir Rana",
-        "Viraj Nadkarni",
-        "Niusha Moshrefi",
-        "Pramod Viswanath"
-      ],
-      "abstract": "Prediction markets are powerful mechanisms for information aggregation, but existing designs are optimized for single-event contracts. In practice, traders frequently express beliefs about joint outcomes - through parlays in sports, conditional forecasts across related events, or scenario bets in financial markets. Current platforms either prohibit such trades or rely on ad hoc mechanisms that ignore correlation structure, resulting in inefficient prices and fragmented liquidity. We introduce ParlayMarket, the first automated market-making design that supports parlay-style joint contracts within a unified liquidity pool while maintaining coherent pricing across base markets and their combinations. Our main result is a convergence characterization of the resulting system. Under repeated trading, the AMM dynamics converge to a unique fixed point corresponding to the best approximation to the true joint distribution within the model class. We show that (i) parameter error remains bounded at stationarity due to a balance between signal and noise in trade-induced updates, and (ii) pricing error and monetary loss scale with this parameter error, implying that aggregate market-maker loss remains controlled and grows at most quadratically in the number of base markets. These results establish explicit limits on the information-retrieval error achievable through the trading interface. Importantly, parlay trades play a structural role in this convergence: by providing direct constraints on joint outcomes, they improve identifiability of dependence structure and reduce steady-state error relative to markets that rely only on marginal trades. Empirically, we show both in controlled simulations and in replay on historical Kalshi parlay data that this design achieves the intended scaling while remaining effective in realistic market settings.",
-      "published": "2026-03-23T21:45:38+00:00",
-      "url": "http://arxiv.org/abs/2603.22596v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.22596v1",
-      "categories": [
-        "cs.CE",
-        "econ.GN"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Prediction markets are powerful mechanisms for information aggregation, but existing designs are optimized for single-event contracts",
-      "methodology": "In practice, traders frequently express beliefs about joint outcomes - through parlays in sports, conditional forecasts across related events, or scenario bets in financial markets",
-      "quant_impact": "Current platforms either prohibit such trades or rely on ad hoc mechanisms that ignore correlation structure, resulting in inefficient prices and fragmented liquidity",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
-    },
-    {
       "id": "2603.23300v1",
       "source": "arxiv",
       "title": "Designing Agentic AI-Based Screening for Portfolio Investment",
@@ -199,6 +174,31 @@
       "quant_impact": "Linear diagonal dynamics preserve this identifiability and admit scalable computation via companion-matrix and Krylov methods",
       "relevance_score": 5,
       "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.22596v1",
+      "source": "arxiv",
+      "title": "ParlayMarket: Automated Market Making for Parlay-style Joint Contracts",
+      "authors": [
+        "Ranvir Rana",
+        "Viraj Nadkarni",
+        "Niusha Moshrefi",
+        "Pramod Viswanath"
+      ],
+      "abstract": "Prediction markets are powerful mechanisms for information aggregation, but existing designs are optimized for single-event contracts. In practice, traders frequently express beliefs about joint outcomes - through parlays in sports, conditional forecasts across related events, or scenario bets in financial markets. Current platforms either prohibit such trades or rely on ad hoc mechanisms that ignore correlation structure, resulting in inefficient prices and fragmented liquidity. We introduce ParlayMarket, the first automated market-making design that supports parlay-style joint contracts within a unified liquidity pool while maintaining coherent pricing across base markets and their combinations. Our main result is a convergence characterization of the resulting system. Under repeated trading, the AMM dynamics converge to a unique fixed point corresponding to the best approximation to the true joint distribution within the model class. We show that (i) parameter error remains bounded at stationarity due to a balance between signal and noise in trade-induced updates, and (ii) pricing error and monetary loss scale with this parameter error, implying that aggregate market-maker loss remains controlled and grows at most quadratically in the number of base markets. These results establish explicit limits on the information-retrieval error achievable through the trading interface. Importantly, parlay trades play a structural role in this convergence: by providing direct constraints on joint outcomes, they improve identifiability of dependence structure and reduce steady-state error relative to markets that rely only on marginal trades. Empirically, we show both in controlled simulations and in replay on historical Kalshi parlay data that this design achieves the intended scaling while remaining effective in realistic market settings.",
+      "published": "2026-03-23T21:45:38+00:00",
+      "url": "http://arxiv.org/abs/2603.22596v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.22596v1",
+      "categories": [
+        "cs.CE",
+        "econ.GN"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Prediction markets are powerful mechanisms for information aggregation, but existing designs are optimized for single-event contracts",
+      "methodology": "In practice, traders frequently express beliefs about joint outcomes - through parlays in sports, conditional forecasts across related events, or scenario bets in financial markets",
+      "quant_impact": "Current platforms either prohibit such trades or rely on ad hoc mechanisms that ignore correlation structure, resulting in inefficient prices and fragmented liquidity",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
     },
     {
       "id": "2603.22567v1",
@@ -524,9 +524,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63563,
+      "stars": 63565,
       "forks": 6252,
-      "updated": "2026-03-25T20:47:58+00:00",
+      "updated": "2026-03-25T21:19:03+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -591,9 +591,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25105,
+      "stars": 25106,
       "forks": 3312,
-      "updated": "2026-03-25T19:56:15+00:00",
+      "updated": "2026-03-25T21:19:12+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -758,7 +758,7 @@
       "url": "https://github.com/StockSharp/StockSharp",
       "stars": 9337,
       "forks": 2076,
-      "updated": "2026-03-25T20:30:21+00:00",
+      "updated": "2026-03-25T21:27:57+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -1011,9 +1011,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48033,
+      "stars": 48034,
       "forks": 10014,
-      "updated": "2026-03-25T20:48:35+00:00",
+      "updated": "2026-03-25T21:06:49+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1089,9 +1089,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14554,
+      "stars": 14555,
       "forks": 3236,
-      "updated": "2026-03-25T20:51:49+00:00",
+      "updated": "2026-03-25T21:48:46+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1121,9 +1121,9 @@
       "title": "backtesting.py",
       "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
       "url": "https://github.com/kernc/backtesting.py",
-      "stars": 8106,
+      "stars": 8107,
       "forks": 1416,
-      "updated": "2026-03-25T18:53:15+00:00",
+      "updated": "2026-03-25T21:42:55+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
