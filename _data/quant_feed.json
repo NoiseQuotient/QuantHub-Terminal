@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T18:32:25.000928",
+  "last_updated": "2026-03-25T19:31:19.580528",
   "items": [
     {
       "id": "2603.23480v1",
@@ -273,31 +273,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.21374v1",
-      "source": "arxiv",
-      "title": "Hybrid Quantum-Classical Branch-and-Price for Intra-Day Electric Vehicle Charging Scheduling via Partition Coloring",
-      "authors": [
-        "Peng Sun",
-        "Liang Zhong",
-        "Qing-Guo Zeng",
-        "Li Wang"
-      ],
-      "abstract": "The rapid deployment of electric vehicles (EVs) in public parking facilities and fleet operations raises challenging intra-day charging scheduling problems under tight charger capacity and limited dwell times. We model this problem as a variant of the Partition Coloring Problem (PCP), where each vehicle defines a partition, its candidate charging intervals are vertices, and temporal and resource conflicts are represented as edges in a conflict graph. On this basis, we design a branch-and-price algorithm in which the restricted master problem selects feasible combinations of intervals, and the pricing subproblem is a maximum independent set problem. The latter is reformulated as a quadratic unconstrained binary optimization (QUBO) model and solved by quantum-annealing-inspired algorithms (QAIA) implemented in the MindQuantum framework, specifically the ballistic simulated branching (BSB) and simulated coherent Ising machine (SimCIM) methods, while the master problem is solved by Gurobi. Computational experiments on a family of synthetic EV charging instances show that the QAIA-enhanced algorithms match the pure Gurobi-based branch-and-price baseline on small and medium instances, and clearly outperform it on large and hard instances. In several cases where the baseline reaches the time limit with non-zero optimality gaps, the QAIA-based variants close the gap and prove optimality within the same time budget. These results indicate that integrating QAIA into classical decomposition schemes are a promising direction for large-scale EV charging scheduling and related PCP applications.",
-      "published": "2026-03-22T19:22:59+00:00",
-      "url": "http://arxiv.org/abs/2603.21374v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.21374v1",
-      "categories": [
-        "cs.CE",
-        "math.OC"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "The rapid deployment of electric vehicles (EVs) in public parking facilities and fleet operations raises challenging intra-day charging scheduling problems under tight charger capacity and limited dwell times",
-      "methodology": "We model this problem as a variant of the Partition Coloring Problem (PCP), where each vehicle defines a partition, its candidate charging intervals are vertices, and temporal and resource conflicts are represented as edges in a conflict graph",
-      "quant_impact": "On this basis, we design a branch-and-price algorithm in which the restricted master problem selects feasible combinations of intervals, and the pricing subproblem is a maximum independent set problem",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
       "id": "2603.21672v2",
       "source": "arxiv",
       "title": "Mislearning of Factor Risk Premia under Structural Breaks: A Misspecified Bayesian Learning Framework",
@@ -367,6 +342,31 @@
       "quant_impact": "Regardless of the prior distribution of the asset payoff, continuous signals are optimal",
       "relevance_score": 5,
       "ranking_score": 28.79285714285714
+    },
+    {
+      "id": "2603.21374v1",
+      "source": "arxiv",
+      "title": "Hybrid Quantum-Classical Branch-and-Price for Intra-Day Electric Vehicle Charging Scheduling via Partition Coloring",
+      "authors": [
+        "Peng Sun",
+        "Liang Zhong",
+        "Qing-Guo Zeng",
+        "Li Wang"
+      ],
+      "abstract": "The rapid deployment of electric vehicles (EVs) in public parking facilities and fleet operations raises challenging intra-day charging scheduling problems under tight charger capacity and limited dwell times. We model this problem as a variant of the Partition Coloring Problem (PCP), where each vehicle defines a partition, its candidate charging intervals are vertices, and temporal and resource conflicts are represented as edges in a conflict graph. On this basis, we design a branch-and-price algorithm in which the restricted master problem selects feasible combinations of intervals, and the pricing subproblem is a maximum independent set problem. The latter is reformulated as a quadratic unconstrained binary optimization (QUBO) model and solved by quantum-annealing-inspired algorithms (QAIA) implemented in the MindQuantum framework, specifically the ballistic simulated branching (BSB) and simulated coherent Ising machine (SimCIM) methods, while the master problem is solved by Gurobi. Computational experiments on a family of synthetic EV charging instances show that the QAIA-enhanced algorithms match the pure Gurobi-based branch-and-price baseline on small and medium instances, and clearly outperform it on large and hard instances. In several cases where the baseline reaches the time limit with non-zero optimality gaps, the QAIA-based variants close the gap and prove optimality within the same time budget. These results indicate that integrating QAIA into classical decomposition schemes are a promising direction for large-scale EV charging scheduling and related PCP applications.",
+      "published": "2026-03-22T19:22:59+00:00",
+      "url": "http://arxiv.org/abs/2603.21374v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.21374v1",
+      "categories": [
+        "cs.CE",
+        "math.OC"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "The rapid deployment of electric vehicles (EVs) in public parking facilities and fleet operations raises challenging intra-day charging scheduling problems under tight charger capacity and limited dwell times",
+      "methodology": "We model this problem as a variant of the Partition Coloring Problem (PCP), where each vehicle defines a partition, its candidate charging intervals are vertices, and temporal and resource conflicts are represented as edges in a conflict graph",
+      "quant_impact": "On this basis, we design a branch-and-price algorithm in which the restricted master problem selects feasible combinations of intervals, and the pricing subproblem is a maximum independent set problem",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
     },
     {
       "id": "2603.21210v1",
@@ -551,9 +551,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63557,
+      "stars": 63560,
       "forks": 6252,
-      "updated": "2026-03-25T18:23:26+00:00",
+      "updated": "2026-03-25T19:29:15+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -582,9 +582,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39322,
+      "stars": 39323,
       "forks": 6126,
-      "updated": "2026-03-25T17:10:32+00:00",
+      "updated": "2026-03-25T18:42:07+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1038,9 +1038,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48029,
+      "stars": 48031,
       "forks": 10014,
-      "updated": "2026-03-25T16:41:55+00:00",
+      "updated": "2026-03-25T19:30:44+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1087,9 +1087,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16609,
+      "stars": 16610,
       "forks": 4467,
-      "updated": "2026-03-25T16:24:33+00:00",
+      "updated": "2026-03-25T19:02:21+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1116,9 +1116,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14550,
+      "stars": 14552,
       "forks": 3236,
-      "updated": "2026-03-25T18:11:42+00:00",
+      "updated": "2026-03-25T19:24:33+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1148,9 +1148,9 @@
       "title": "backtesting.py",
       "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
       "url": "https://github.com/kernc/backtesting.py",
-      "stars": 8105,
+      "stars": 8106,
       "forks": 1416,
-      "updated": "2026-03-25T16:30:51+00:00",
+      "updated": "2026-03-25T18:53:15+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
