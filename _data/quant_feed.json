@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T13:50:35.134444",
+  "last_updated": "2026-03-25T14:54:59.102330",
   "items": [
     {
       "id": "2603.23480v1",
@@ -21,31 +21,6 @@
       "core_idea": "Stablecoins serve as the fundamental infrastructure for Decentralised Finance (DeFi), acting as the primary bridge between fiat currencies and the digital asset ecosystem",
       "methodology": "While peg stability is well-documented, the structural role stablecoins play in transmitting systemic risk to the broader market remains under-explored",
       "quant_impact": "This study uses copula-based approaches to quantify the transmission of volatility and activity from stablecoin to cryptocurrency markets",
-      "relevance_score": 5,
-      "ranking_score": 29.65
-    },
-    {
-      "id": "2603.23290v1",
-      "source": "arxiv",
-      "title": "Traveling Salesman Problem with a preprocessing method for classical and quantum optimization",
-      "authors": [
-        "Alessia Ciacco",
-        "Luigi Di Puglia Pugliese",
-        "Francesca Guerriero"
-      ],
-      "abstract": "The Traveling Salesman Problem is a fundamental combinatorial optimization problem widely studied in operations research. Despite its simple formulation, it remains computationally challenging due to the exponential growth of the search space and the large number of constraints required to eliminate subtours. This paper introduces a preprocessing strategy that significantly reduces the size of the optimization model by restricting the set of candidate arcs and retaining only the lowest-cost neighbors for each vertex. Computational experiments on TSPLIB benchmark instances demonstrate that the proposed approach substantially reduces the number of decision variables. The method is evaluated using both classical and quantum optimization techniques, showing improvements in computational time and reductions in optimality gaps. Overall, the results indicate that the proposed preprocessing enhances the scalability of the formulations and makes them more suitable for both classical solvers and emerging quantum optimization frameworks.",
-      "published": "2026-03-24T14:54:14+00:00",
-      "url": "http://arxiv.org/abs/2603.23290v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23290v1",
-      "categories": [
-        "quant-ph",
-        "cs.CE",
-        "math.CO"
-      ],
-      "primary_category": "quant-ph",
-      "core_idea": "The Traveling Salesman Problem is a fundamental combinatorial optimization problem widely studied in operations research",
-      "methodology": "Despite its simple formulation, it remains computationally challenging due to the exponential growth of the search space and the large number of constraints required to eliminate subtours",
-      "quant_impact": "This paper introduces a preprocessing strategy that significantly reduces the size of the optimization model by restricting the set of candidate arcs and retaining only the lowest-cost neighbors for each vertex",
       "relevance_score": 5,
       "ranking_score": 29.65
     },
@@ -75,6 +50,31 @@
       "quant_impact": "First, two large language model (LLM) agents are assigned specialized tasks: one agent screens for firms with desirable fundamentals, while a sentiment analysis agent screens for firms with desirable news",
       "relevance_score": 5,
       "ranking_score": 29.65
+    },
+    {
+      "id": "2603.23290v1",
+      "source": "arxiv",
+      "title": "Traveling Salesman Problem with a preprocessing method for classical and quantum optimization",
+      "authors": [
+        "Alessia Ciacco",
+        "Luigi Di Puglia Pugliese",
+        "Francesca Guerriero"
+      ],
+      "abstract": "The Traveling Salesman Problem is a fundamental combinatorial optimization problem widely studied in operations research. Despite its simple formulation, it remains computationally challenging due to the exponential growth of the search space and the large number of constraints required to eliminate subtours. This paper introduces a preprocessing strategy that significantly reduces the size of the optimization model by restricting the set of candidate arcs and retaining only the lowest-cost neighbors for each vertex. Computational experiments on TSPLIB benchmark instances demonstrate that the proposed approach substantially reduces the number of decision variables. The method is evaluated using both classical and quantum optimization techniques, showing improvements in computational time and reductions in optimality gaps. Overall, the results indicate that the proposed preprocessing enhances the scalability of the formulations and makes them more suitable for both classical solvers and emerging quantum optimization frameworks.",
+      "published": "2026-03-24T14:54:14+00:00",
+      "url": "http://arxiv.org/abs/2603.23290v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23290v1",
+      "categories": [
+        "quant-ph",
+        "cs.CE",
+        "math.CO"
+      ],
+      "primary_category": "quant-ph",
+      "core_idea": "The Traveling Salesman Problem is a fundamental combinatorial optimization problem widely studied in operations research",
+      "methodology": "Despite its simple formulation, it remains computationally challenging due to the exponential growth of the search space and the large number of constraints required to eliminate subtours",
+      "quant_impact": "This paper introduces a preprocessing strategy that significantly reduces the size of the optimization model by restricting the set of candidate arcs and retaining only the lowest-cost neighbors for each vertex",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
     },
     {
       "id": "2603.23047v1",
@@ -227,29 +227,6 @@
       "ranking_score": 29.22142857142857
     },
     {
-      "id": "2603.22058v1",
-      "source": "arxiv",
-      "title": "Mean Field Equilibrium Asset Pricing Models With Exponential Utility",
-      "authors": [
-        "Masashi Sekine"
-      ],
-      "abstract": "This thesis develops equilibrium asset pricing models in incomplete markets with a large number of heterogeneous agents using mean field game theory. The market equilibrium is characterized by a novel form of mean field backward stochastic differential equations (BSDEs). First, we propose a theoretical model that endogenously derives the equilibrium risk premium. Agents with exponential preferences are heterogeneous in initial wealth, risk aversion, and unspanned stochastic terminal liability. We solve the optimal investment problem using the optimal martingale principle. The equilibrium is characterized by a mean field BSDE whose driver has quadratic growth in both the stochastic integrands and their conditional expectations. We prove the existence of solutions and show that the risk premium clears the market in the large population limit. Second, we extend the model to include consumption and habit formation, relaxing the time-separability assumption of utility functions. A similar mean field BSDE is derived, and its well-posedness and asymptotic behavior are examined. We also introduce an exponential quadratic Gaussian (EQG) reformulation to obtain equilibrium solutions in semi-analytic form. Finally, the model is extended to partially observable markets where agents must infer the risk premium from stock price observations to determine trading strategies. We provide semi-analytic expressions for the equilibrium via the EQG framework, and the equilibrium risk-premium process is constructed endogenously using Kalman-Bucy filtering theory. Numerical simulations are included to visualize the resulting market dynamics.",
-      "published": "2026-03-23T14:54:40+00:00",
-      "url": "http://arxiv.org/abs/2603.22058v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.22058v1",
-      "categories": [
-        "q-fin.MF",
-        "q-fin.PM",
-        "q-fin.PR"
-      ],
-      "primary_category": "q-fin.MF",
-      "core_idea": "This thesis develops equilibrium asset pricing models in incomplete markets with a large number of heterogeneous agents using mean field game theory",
-      "methodology": "The market equilibrium is characterized by a novel form of mean field backward stochastic differential equations (BSDEs)",
-      "quant_impact": "First, we propose a theoretical model that endogenously derives the equilibrium risk premium",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
-    },
-    {
       "id": "2603.21811v1",
       "source": "arxiv",
       "title": "Cohesive phase-field fracture with an explicit strength surface: an eigenstrain-based return-mapping formulation",
@@ -368,6 +345,29 @@
       "core_idea": "While asset-pricing models increasingly recognize that factor risk premia are subject to structural change, existing literature typically assumes that investors correctly account for such instability",
       "methodology": "This paper asks what happens when investors instead learn under a misspecified model that underestimates structural breaks",
       "quant_impact": "We propose a minimal Bayesian framework in which this misspecification generates persistent prediction errors and pricing distortions, and we introduce an empirically tractable measure of mislearning intensity $(\u0394_t)$ based on predictive likelihood ratios.\n  The empirical results yield three main findings",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
+    },
+    {
+      "id": "2603.22058v1",
+      "source": "arxiv",
+      "title": "Mean Field Equilibrium Asset Pricing Models With Exponential Utility",
+      "authors": [
+        "Masashi Sekine"
+      ],
+      "abstract": "This thesis develops equilibrium asset pricing models in incomplete markets with a large number of heterogeneous agents using mean field game theory. The market equilibrium is characterized by a novel form of mean field backward stochastic differential equations (BSDEs). First, we propose a theoretical model that endogenously derives the equilibrium risk premium. Agents with exponential preferences are heterogeneous in initial wealth, risk aversion, and unspanned stochastic terminal liability. We solve the optimal investment problem using the optimal martingale principle. The equilibrium is characterized by a mean field BSDE whose driver has quadratic growth in both the stochastic integrands and their conditional expectations. We prove the existence of solutions and show that the risk premium clears the market in the large population limit. Second, we extend the model to include consumption and habit formation, relaxing the time-separability assumption of utility functions. A similar mean field BSDE is derived, and its well-posedness and asymptotic behavior are examined. We also introduce an exponential quadratic Gaussian (EQG) reformulation to obtain equilibrium solutions in semi-analytic form. Finally, the model is extended to partially observable markets where agents must infer the risk premium from stock price observations to determine trading strategies. We provide semi-analytic expressions for the equilibrium via the EQG framework, and the equilibrium risk-premium process is constructed endogenously using Kalman-Bucy filtering theory. Numerical simulations are included to visualize the resulting market dynamics.",
+      "published": "2026-03-23T14:54:40+00:00",
+      "url": "http://arxiv.org/abs/2603.22058v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.22058v1",
+      "categories": [
+        "q-fin.MF",
+        "q-fin.PM",
+        "q-fin.PR"
+      ],
+      "primary_category": "q-fin.MF",
+      "core_idea": "This thesis develops equilibrium asset pricing models in incomplete markets with a large number of heterogeneous agents using mean field game theory",
+      "methodology": "The market equilibrium is characterized by a novel form of mean field backward stochastic differential equations (BSDEs)",
+      "quant_impact": "First, we propose a theoretical model that endogenously derives the equilibrium risk premium",
       "relevance_score": 5,
       "ranking_score": 28.79285714285714
     },
@@ -586,9 +586,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63552,
-      "forks": 6250,
-      "updated": "2026-03-25T13:49:50+00:00",
+      "stars": 63555,
+      "forks": 6251,
+      "updated": "2026-03-25T14:48:46+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -617,9 +617,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39318,
-      "forks": 6122,
-      "updated": "2026-03-25T13:43:59+00:00",
+      "stars": 39320,
+      "forks": 6121,
+      "updated": "2026-03-25T14:44:32+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -653,9 +653,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25101,
+      "stars": 25103,
       "forks": 3312,
-      "updated": "2026-03-25T13:06:28+00:00",
+      "updated": "2026-03-25T14:52:05+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -691,9 +691,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16725,
+      "stars": 16726,
       "forks": 2363,
-      "updated": "2026-03-25T12:17:00+00:00",
+      "updated": "2026-03-25T14:05:36+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -726,9 +726,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12035,
+      "stars": 12036,
       "forks": 2498,
-      "updated": "2026-03-25T13:45:54+00:00",
+      "updated": "2026-03-25T14:12:14+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -818,9 +818,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9331,
+      "stars": 9332,
       "forks": 2075,
-      "updated": "2026-03-25T12:57:25+00:00",
+      "updated": "2026-03-25T14:42:17+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -883,7 +883,7 @@
       "description": "An advanced crypto trading bot written in Python",
       "url": "https://github.com/jesse-ai/jesse",
       "stars": 7588,
-      "forks": 1071,
+      "forks": 1072,
       "updated": "2026-03-25T12:52:02+00:00",
       "language": "JavaScript",
       "topics": [
@@ -918,9 +918,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7504,
+      "stars": 7506,
       "forks": 1067,
-      "updated": "2026-03-25T13:04:15+00:00",
+      "updated": "2026-03-25T14:39:19+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -987,9 +987,9 @@
       "title": "QuantLib",
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
-      "stars": 6907,
+      "stars": 6908,
       "forks": 2151,
-      "updated": "2026-03-25T13:25:55+00:00",
+      "updated": "2026-03-25T14:30:05+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -1007,7 +1007,7 @@
       "description": "Portfolio analytics for quants, written in Python",
       "url": "https://github.com/ranaroussi/quantstats",
       "stars": 6890,
-      "forks": 1138,
+      "forks": 1139,
       "updated": "2026-03-25T06:56:10+00:00",
       "language": "Python",
       "topics": [
@@ -1073,9 +1073,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48020,
+      "stars": 48022,
       "forks": 10011,
-      "updated": "2026-03-25T13:31:29+00:00",
+      "updated": "2026-03-25T14:54:33+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1100,9 +1100,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19545,
+      "stars": 19546,
       "forks": 4949,
-      "updated": "2026-03-25T12:52:08+00:00",
+      "updated": "2026-03-25T14:49:51+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1122,9 +1122,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16607,
+      "stars": 16608,
       "forks": 4467,
-      "updated": "2026-03-25T09:29:49+00:00",
+      "updated": "2026-03-25T14:44:07+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1151,9 +1151,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14547,
-      "forks": 3234,
-      "updated": "2026-03-25T13:20:51+00:00",
+      "stars": 14548,
+      "forks": 3235,
+      "updated": "2026-03-25T14:41:26+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1185,7 +1185,7 @@
       "url": "https://github.com/kernc/backtesting.py",
       "stars": 8107,
       "forks": 1416,
-      "updated": "2026-03-25T12:57:42+00:00",
+      "updated": "2026-03-25T14:39:33+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
