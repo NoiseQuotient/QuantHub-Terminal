@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T12:06:33.632244",
+  "last_updated": "2026-03-25T13:50:35.134444",
   "items": [
     {
       "id": "2603.23480v1",
@@ -321,34 +321,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.21210v1",
-      "source": "arxiv",
-      "title": "Pretrained Video Models as Differentiable Physics Simulators for Urban Wind Flows",
-      "authors": [
-        "Janne Perini",
-        "Rafael Bischof",
-        "Moab Arar",
-        "Ay\u00e7a Duran",
-        "Michael A. Kraus",
-        "Siddhartha Mishra",
-        "Bernd Bickel"
-      ],
-      "abstract": "Designing urban spaces that provide pedestrian wind comfort and safety requires time-resolved Computational Fluid Dynamics (CFD) simulations, but their current computational cost makes extensive design exploration impractical. We introduce WinDiNet (Wind Diffusion Network), a pretrained video diffusion model that is repurposed as a fast, differentiable surrogate for this task. Starting from LTX-Video, a 2B-parameter latent video transformer, we fine-tune on 10,000 2D incompressible CFD simulations over procedurally generated building layouts. A systematic study of training regimes, conditioning mechanisms, and VAE adaptation strategies, including a physics-informed decoder loss, identifies a configuration that outperforms purpose-built neural PDE solvers. The resulting model generates full 112-frame rollouts in under a second. As the surrogate is end-to-end differentiable, it doubles as a physics simulator for gradient-based inverse optimization: given an urban footprint layout, we optimize building positions directly through backpropagation to improve wind safety as well as pedestrian wind comfort. Experiments on single- and multi-inlet layouts show that the optimizer discovers effective layouts even under challenging multi-objective configurations, with all improvements confirmed by ground-truth CFD simulations.",
-      "published": "2026-03-22T13:08:01+00:00",
-      "url": "http://arxiv.org/abs/2603.21210v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.21210v1",
-      "categories": [
-        "cs.LG",
-        "cs.CE"
-      ],
-      "primary_category": "cs.LG",
-      "core_idea": "Designing urban spaces that provide pedestrian wind comfort and safety requires time-resolved Computational Fluid Dynamics (CFD) simulations, but their current computational cost makes extensive design exploration impractical",
-      "methodology": "We introduce WinDiNet (Wind Diffusion Network), a pretrained video diffusion model that is repurposed as a fast, differentiable surrogate for this task",
-      "quant_impact": "Starting from LTX-Video, a 2B-parameter latent video transformer, we fine-tune on 10,000 2D incompressible CFD simulations over procedurally generated building layouts",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
       "id": "2603.21330v1",
       "source": "arxiv",
       "title": "FinRL-X: An AI-Native Modular Infrastructure for Quantitative Trading",
@@ -422,6 +394,34 @@
       "quant_impact": "Regardless of the prior distribution of the asset payoff, continuous signals are optimal",
       "relevance_score": 5,
       "ranking_score": 28.79285714285714
+    },
+    {
+      "id": "2603.21210v1",
+      "source": "arxiv",
+      "title": "Pretrained Video Models as Differentiable Physics Simulators for Urban Wind Flows",
+      "authors": [
+        "Janne Perini",
+        "Rafael Bischof",
+        "Moab Arar",
+        "Ay\u00e7a Duran",
+        "Michael A. Kraus",
+        "Siddhartha Mishra",
+        "Bernd Bickel"
+      ],
+      "abstract": "Designing urban spaces that provide pedestrian wind comfort and safety requires time-resolved Computational Fluid Dynamics (CFD) simulations, but their current computational cost makes extensive design exploration impractical. We introduce WinDiNet (Wind Diffusion Network), a pretrained video diffusion model that is repurposed as a fast, differentiable surrogate for this task. Starting from LTX-Video, a 2B-parameter latent video transformer, we fine-tune on 10,000 2D incompressible CFD simulations over procedurally generated building layouts. A systematic study of training regimes, conditioning mechanisms, and VAE adaptation strategies, including a physics-informed decoder loss, identifies a configuration that outperforms purpose-built neural PDE solvers. The resulting model generates full 112-frame rollouts in under a second. As the surrogate is end-to-end differentiable, it doubles as a physics simulator for gradient-based inverse optimization: given an urban footprint layout, we optimize building positions directly through backpropagation to improve wind safety as well as pedestrian wind comfort. Experiments on single- and multi-inlet layouts show that the optimizer discovers effective layouts even under challenging multi-objective configurations, with all improvements confirmed by ground-truth CFD simulations.",
+      "published": "2026-03-22T13:08:01+00:00",
+      "url": "http://arxiv.org/abs/2603.21210v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.21210v1",
+      "categories": [
+        "cs.LG",
+        "cs.CE"
+      ],
+      "primary_category": "cs.LG",
+      "core_idea": "Designing urban spaces that provide pedestrian wind comfort and safety requires time-resolved Computational Fluid Dynamics (CFD) simulations, but their current computational cost makes extensive design exploration impractical",
+      "methodology": "We introduce WinDiNet (Wind Diffusion Network), a pretrained video diffusion model that is repurposed as a fast, differentiable surrogate for this task",
+      "quant_impact": "Starting from LTX-Video, a 2B-parameter latent video transformer, we fine-tune on 10,000 2D incompressible CFD simulations over procedurally generated building layouts",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
     },
     {
       "id": "2603.21154v1",
@@ -586,9 +586,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63551,
+      "stars": 63552,
       "forks": 6250,
-      "updated": "2026-03-25T11:12:54+00:00",
+      "updated": "2026-03-25T13:49:50+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -617,9 +617,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39315,
-      "forks": 6121,
-      "updated": "2026-03-25T12:05:54+00:00",
+      "stars": 39318,
+      "forks": 6122,
+      "updated": "2026-03-25T13:43:59+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -655,7 +655,7 @@
       "url": "https://github.com/wilsonfreitas/awesome-quant",
       "stars": 25101,
       "forks": 3312,
-      "updated": "2026-03-25T11:00:16+00:00",
+      "updated": "2026-03-25T13:06:28+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -691,9 +691,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16723,
+      "stars": 16725,
       "forks": 2363,
-      "updated": "2026-03-25T11:18:05+00:00",
+      "updated": "2026-03-25T12:17:00+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -726,9 +726,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12031,
-      "forks": 2497,
-      "updated": "2026-03-25T11:28:19+00:00",
+      "stars": 12035,
+      "forks": 2498,
+      "updated": "2026-03-25T13:45:54+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -782,7 +782,7 @@
       "url": "https://github.com/je-suis-tm/quant-trading",
       "stars": 9518,
       "forks": 1749,
-      "updated": "2026-03-25T11:48:44+00:00",
+      "updated": "2026-03-25T13:10:48+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -818,9 +818,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9329,
-      "forks": 2073,
-      "updated": "2026-03-25T11:09:08+00:00",
+      "stars": 9331,
+      "forks": 2075,
+      "updated": "2026-03-25T12:57:25+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -884,7 +884,7 @@
       "url": "https://github.com/jesse-ai/jesse",
       "stars": 7588,
       "forks": 1071,
-      "updated": "2026-03-25T10:31:19+00:00",
+      "updated": "2026-03-25T12:52:02+00:00",
       "language": "JavaScript",
       "topics": [
         "algo-trading",
@@ -920,7 +920,7 @@
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
       "stars": 7504,
       "forks": 1067,
-      "updated": "2026-03-25T11:18:41+00:00",
+      "updated": "2026-03-25T13:04:15+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -955,9 +955,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 6979,
+      "stars": 6978,
       "forks": 897,
-      "updated": "2026-03-25T11:01:46+00:00",
+      "updated": "2026-03-25T12:50:49+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -988,8 +988,8 @@
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
       "stars": 6907,
-      "forks": 2150,
-      "updated": "2026-03-25T08:41:07+00:00",
+      "forks": 2151,
+      "updated": "2026-03-25T13:25:55+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -1074,8 +1074,8 @@
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
       "stars": 48020,
-      "forks": 10008,
-      "updated": "2026-03-25T11:45:48+00:00",
+      "forks": 10011,
+      "updated": "2026-03-25T13:31:29+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1102,7 +1102,7 @@
       "url": "https://github.com/quantopian/zipline",
       "stars": 19545,
       "forks": 4949,
-      "updated": "2026-03-25T05:46:37+00:00",
+      "updated": "2026-03-25T12:52:08+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1152,8 +1152,8 @@
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
       "stars": 14547,
-      "forks": 3233,
-      "updated": "2026-03-25T11:52:39+00:00",
+      "forks": 3234,
+      "updated": "2026-03-25T13:20:51+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1183,9 +1183,9 @@
       "title": "backtesting.py",
       "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
       "url": "https://github.com/kernc/backtesting.py",
-      "stars": 8108,
+      "stars": 8107,
       "forks": 1416,
-      "updated": "2026-03-25T11:26:08+00:00",
+      "updated": "2026-03-25T12:57:42+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -1223,7 +1223,7 @@
       "url": "https://github.com/PyPortfolio/PyPortfolioOpt",
       "stars": 5582,
       "forks": 1099,
-      "updated": "2026-03-25T00:17:27+00:00",
+      "updated": "2026-03-25T12:56:11+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1251,9 +1251,9 @@
       "title": "Crypto-Signal",
       "description": "Github.com/CryptoSignal - Trading & Technical Analysis Bot - 4,100+ stars, 1,100+ forks",
       "url": "https://github.com/CryptoSignal/Crypto-Signal",
-      "stars": 5499,
-      "forks": 1343,
-      "updated": "2026-03-25T10:32:04+00:00",
+      "stars": 5500,
+      "forks": 1344,
+      "updated": "2026-03-25T12:36:20+00:00",
       "language": "Python",
       "topics": [
         "abenezer-mamo",
