@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T09:32:38.629609",
+  "last_updated": "2026-03-25T10:31:11.085233",
   "items": [
     {
       "id": "2603.23480v1",
@@ -373,27 +373,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.21154v1",
-      "source": "arxiv",
-      "title": "How Short Is Too Short? Power Analysis for BIC-Based Changepoint Detection in Ecological Monitorin",
-      "authors": [
-        "Ang A. Li"
-      ],
-      "abstract": "Changepoint detection is increasingly applied to ecological time series, yet statistical power at the short series lengths typical of monitoring (10-50 observations) is rarely assessed. We present a simulation-based power analysis for BIC-based Binary Segmentation across 108 combinations of series length, effect size, and number of changepoints. BIC achieves $\\geq$80% power for a single changepoint only at $n \\geq 30$ with effect size $\\geq 2.0$; detecting 2-3 changepoints requires $n \\geq 50$ and ES $\\geq 5.0$. BIC is conservative, underestimating changepoints more often than overestimating. AR(1) autocorrelation ($\u03c6= 0.6$) reduces BIC-Binseg power by 40%, but PELT with a standard penalty maintains 85-91% power even under moderate autocorrelation. Comparison with early warning signal (EWS) variance-trend tests reveals a crossover: at ES $< 1.5$, EWS outperforms changepoint detection, but EWS rates are invariant to effect size ($\\sim$73%), suggesting noise detection rather than genuine signals. Cross-system empirical validation on coral reef (Moorea, $n = 18$) and desert rodent (Portal Project, $n = 49$) time series confirms that detection succeeds when effect sizes fall in the predicted \"reliable\" zone. We provide power heatmaps as practical lookup tools and recommend that ecologists prefer PELT over Binseg-BIC for autocorrelated data, compute expected effect sizes before applying changepoint analysis, and pair results with permutation tests.",
-      "published": "2026-03-22T10:15:19+00:00",
-      "url": "http://arxiv.org/abs/2603.21154v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.21154v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Changepoint detection is increasingly applied to ecological time series, yet statistical power at the short series lengths typical of monitoring (10-50 observations) is rarely assessed",
-      "methodology": "We present a simulation-based power analysis for BIC-based Binary Segmentation across 108 combinations of series length, effect size, and number of changepoints",
-      "quant_impact": "BIC achieves $\\geq$80% power for a single changepoint only at $n \\geq 30$ with effect size $\\geq 2.0$; detecting 2-3 changepoints requires $n \\geq 50$ and ES $\\geq 5.0$",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
       "id": "2603.21330v1",
       "source": "arxiv",
       "title": "FinRL-X: An AI-Native Modular Infrastructure for Quantitative Trading",
@@ -443,6 +422,27 @@
       "quant_impact": "We propose a minimal Bayesian framework in which this misspecification generates persistent prediction errors and pricing distortions, and we introduce an empirically tractable measure of mislearning intensity $(\u0394_t)$ based on predictive likelihood ratios.\n  The empirical results yield three main findings",
       "relevance_score": 5,
       "ranking_score": 28.79285714285714
+    },
+    {
+      "id": "2603.21154v1",
+      "source": "arxiv",
+      "title": "How Short Is Too Short? Power Analysis for BIC-Based Changepoint Detection in Ecological Monitorin",
+      "authors": [
+        "Ang A. Li"
+      ],
+      "abstract": "Changepoint detection is increasingly applied to ecological time series, yet statistical power at the short series lengths typical of monitoring (10-50 observations) is rarely assessed. We present a simulation-based power analysis for BIC-based Binary Segmentation across 108 combinations of series length, effect size, and number of changepoints. BIC achieves $\\geq$80% power for a single changepoint only at $n \\geq 30$ with effect size $\\geq 2.0$; detecting 2-3 changepoints requires $n \\geq 50$ and ES $\\geq 5.0$. BIC is conservative, underestimating changepoints more often than overestimating. AR(1) autocorrelation ($\u03c6= 0.6$) reduces BIC-Binseg power by 40%, but PELT with a standard penalty maintains 85-91% power even under moderate autocorrelation. Comparison with early warning signal (EWS) variance-trend tests reveals a crossover: at ES $< 1.5$, EWS outperforms changepoint detection, but EWS rates are invariant to effect size ($\\sim$73%), suggesting noise detection rather than genuine signals. Cross-system empirical validation on coral reef (Moorea, $n = 18$) and desert rodent (Portal Project, $n = 49$) time series confirms that detection succeeds when effect sizes fall in the predicted \"reliable\" zone. We provide power heatmaps as practical lookup tools and recommend that ecologists prefer PELT over Binseg-BIC for autocorrelated data, compute expected effect sizes before applying changepoint analysis, and pair results with permutation tests.",
+      "published": "2026-03-22T10:15:19+00:00",
+      "url": "http://arxiv.org/abs/2603.21154v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.21154v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Changepoint detection is increasingly applied to ecological time series, yet statistical power at the short series lengths typical of monitoring (10-50 observations) is rarely assessed",
+      "methodology": "We present a simulation-based power analysis for BIC-based Binary Segmentation across 108 combinations of series length, effect size, and number of changepoints",
+      "quant_impact": "BIC achieves $\\geq$80% power for a single changepoint only at $n \\geq 30$ with effect size $\\geq 2.0$; detecting 2-3 changepoints requires $n \\geq 50$ and ES $\\geq 5.0$",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
     },
     {
       "id": "2603.21033v1",
@@ -586,9 +586,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63549,
+      "stars": 63551,
       "forks": 6249,
-      "updated": "2026-03-25T09:28:23+00:00",
+      "updated": "2026-03-25T10:22:04+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -617,9 +617,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39308,
+      "stars": 39309,
       "forks": 6121,
-      "updated": "2026-03-25T09:05:47+00:00",
+      "updated": "2026-03-25T09:54:18+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -653,9 +653,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25097,
+      "stars": 25099,
       "forks": 3312,
-      "updated": "2026-03-25T09:10:19+00:00",
+      "updated": "2026-03-25T10:13:04+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -691,9 +691,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16719,
+      "stars": 16722,
       "forks": 2363,
-      "updated": "2026-03-25T08:48:06+00:00",
+      "updated": "2026-03-25T10:14:41+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -781,7 +781,7 @@
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
       "stars": 9517,
-      "forks": 1748,
+      "forks": 1749,
       "updated": "2026-03-25T09:29:10+00:00",
       "language": "Python",
       "topics": [
@@ -818,9 +818,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9326,
+      "stars": 9328,
       "forks": 2073,
-      "updated": "2026-03-25T09:26:36+00:00",
+      "updated": "2026-03-25T10:22:42+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -955,9 +955,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 6977,
-      "forks": 896,
-      "updated": "2026-03-25T08:44:06+00:00",
+      "stars": 6978,
+      "forks": 897,
+      "updated": "2026-03-25T10:07:39+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1073,9 +1073,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48017,
+      "stars": 48019,
       "forks": 10008,
-      "updated": "2026-03-25T09:26:18+00:00",
+      "updated": "2026-03-25T09:58:48+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1151,9 +1151,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14546,
+      "stars": 14548,
       "forks": 3233,
-      "updated": "2026-03-25T09:01:08+00:00",
+      "updated": "2026-03-25T10:07:16+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
