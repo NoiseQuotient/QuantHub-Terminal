@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T19:31:19.580528",
+  "last_updated": "2026-03-25T20:05:35.087343",
   "items": [
     {
       "id": "2603.23480v1",
@@ -582,9 +582,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39323,
+      "stars": 39324,
       "forks": 6126,
-      "updated": "2026-03-25T18:42:07+00:00",
+      "updated": "2026-03-25T19:45:17+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -618,9 +618,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25104,
+      "stars": 25105,
       "forks": 3312,
-      "updated": "2026-03-25T17:18:32+00:00",
+      "updated": "2026-03-25T19:56:15+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -745,9 +745,9 @@
       "title": "quant-trading",
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
-      "stars": 9519,
-      "forks": 1748,
-      "updated": "2026-03-25T16:02:54+00:00",
+      "stars": 9520,
+      "forks": 1747,
+      "updated": "2026-03-25T19:52:40+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1186,9 +1186,9 @@
       "title": "PyPortfolioOpt",
       "description": "Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
       "url": "https://github.com/PyPortfolio/PyPortfolioOpt",
-      "stars": 5583,
+      "stars": 5584,
       "forks": 1099,
-      "updated": "2026-03-25T17:41:24+00:00",
+      "updated": "2026-03-25T19:58:57+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1217,7 +1217,7 @@
       "description": "Github.com/CryptoSignal - Trading & Technical Analysis Bot - 4,100+ stars, 1,100+ forks",
       "url": "https://github.com/CryptoSignal/Crypto-Signal",
       "stars": 5500,
-      "forks": 1344,
+      "forks": 1343,
       "updated": "2026-03-25T12:36:20+00:00",
       "language": "Python",
       "topics": [
