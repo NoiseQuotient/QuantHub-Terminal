@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T16:16:17.679701",
+  "last_updated": "2026-03-25T17:31:41.063534",
   "items": [
     {
       "id": "2603.23480v1",
@@ -298,33 +298,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.21330v1",
-      "source": "arxiv",
-      "title": "FinRL-X: An AI-Native Modular Infrastructure for Quantitative Trading",
-      "authors": [
-        "Hongyang Yang",
-        "Boyu Zhang",
-        "Yang She",
-        "Xinyu Liao",
-        "Xiaoli Zhang"
-      ],
-      "abstract": "We present FinRL-X, a modular and deployment-consistent trading architecture that unifies data processing, strategy construction, backtesting, and broker execution under a weight-centric interface. While existing open-source platforms are often backtesting- or model-centric, they rarely provide system-level consistency between research evaluation and live deployment. FinRL-X addresses this gap through a composable strategy pipeline that integrates stock selection, portfolio allocation, timing, and portfolio-level risk overlays within a unified protocol. The framework supports both rule-based and AI-driven components, including reinforcement learning allocators and LLM-based sentiment signals, without altering downstream execution semantics. FinRL-X provides an extensible foundation for reproducible, end-to-end quantitative trading research and deployment. The official FinRL-X implementation is available at https://github.com/AI4Finance-Foundation/FinRL-Trading.",
-      "published": "2026-03-22T17:13:10+00:00",
-      "url": "http://arxiv.org/abs/2603.21330v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.21330v1",
-      "categories": [
-        "q-fin.TR",
-        "cs.LG",
-        "q-fin.CP"
-      ],
-      "primary_category": "q-fin.TR",
-      "core_idea": "We present FinRL-X, a modular and deployment-consistent trading architecture that unifies data processing, strategy construction, backtesting, and broker execution under a weight-centric interface",
-      "methodology": "While existing open-source platforms are often backtesting- or model-centric, they rarely provide system-level consistency between research evaluation and live deployment",
-      "quant_impact": "FinRL-X addresses this gap through a composable strategy pipeline that integrates stock selection, portfolio allocation, timing, and portfolio-level risk overlays within a unified protocol",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
       "id": "2603.21672v2",
       "source": "arxiv",
       "title": "Mislearning of Factor Risk Premia under Structural Breaks: A Misspecified Bayesian Learning Framework",
@@ -497,6 +470,33 @@
       "ranking_score": 28.364285714285714
     },
     {
+      "id": "2603.21330v1",
+      "source": "arxiv",
+      "title": "FinRL-X: An AI-Native Modular Infrastructure for Quantitative Trading",
+      "authors": [
+        "Hongyang Yang",
+        "Boyu Zhang",
+        "Yang She",
+        "Xinyu Liao",
+        "Xiaoli Zhang"
+      ],
+      "abstract": "We present FinRL-X, a modular and deployment-consistent trading architecture that unifies data processing, strategy construction, backtesting, and broker execution under a weight-centric interface. While existing open-source platforms are often backtesting- or model-centric, they rarely provide system-level consistency between research evaluation and live deployment. FinRL-X addresses this gap through a composable strategy pipeline that integrates stock selection, portfolio allocation, timing, and portfolio-level risk overlays within a unified protocol. The framework supports both rule-based and AI-driven components, including reinforcement learning allocators and LLM-based sentiment signals, without altering downstream execution semantics. FinRL-X provides an extensible foundation for reproducible, end-to-end quantitative trading research and deployment. The official FinRL-X implementation is available at https://github.com/AI4Finance-Foundation/FinRL-Trading.",
+      "published": "2026-03-22T17:13:10+00:00",
+      "url": "http://arxiv.org/abs/2603.21330v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.21330v1",
+      "categories": [
+        "q-fin.TR",
+        "cs.LG",
+        "q-fin.CP"
+      ],
+      "primary_category": "q-fin.TR",
+      "core_idea": "We present FinRL-X, a modular and deployment-consistent trading architecture that unifies data processing, strategy construction, backtesting, and broker execution under a weight-centric interface",
+      "methodology": "While existing open-source platforms are often backtesting- or model-centric, they rarely provide system-level consistency between research evaluation and live deployment",
+      "quant_impact": "FinRL-X addresses this gap through a composable strategy pipeline that integrates stock selection, portfolio allocation, timing, and portfolio-level risk overlays within a unified protocol",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
+    },
+    {
       "id": "2603.20965v1",
       "source": "arxiv",
       "title": "Learning to Aggregate Zero-Shot LLM Agents for Corporate Disclosure Classification",
@@ -551,9 +551,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63557,
+      "stars": 63558,
       "forks": 6252,
-      "updated": "2026-03-25T15:37:16+00:00",
+      "updated": "2026-03-25T16:37:32+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -582,9 +582,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39320,
-      "forks": 6123,
-      "updated": "2026-03-25T16:09:40+00:00",
+      "stars": 39322,
+      "forks": 6126,
+      "updated": "2026-03-25T17:10:32+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -620,7 +620,7 @@
       "url": "https://github.com/wilsonfreitas/awesome-quant",
       "stars": 25104,
       "forks": 3312,
-      "updated": "2026-03-25T15:41:47+00:00",
+      "updated": "2026-03-25T17:18:32+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -656,9 +656,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16727,
+      "stars": 16730,
       "forks": 2363,
-      "updated": "2026-03-25T15:47:06+00:00",
+      "updated": "2026-03-25T17:06:06+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -821,9 +821,9 @@
       "title": "financial-machine-learning",
       "description": "A curated list of practical financial machine learning tools and applications.",
       "url": "https://github.com/firmai/financial-machine-learning",
-      "stars": 8456,
+      "stars": 8457,
       "forks": 1396,
-      "updated": "2026-03-25T11:31:11+00:00",
+      "updated": "2026-03-25T16:16:53+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -847,9 +847,9 @@
       "title": "jesse",
       "description": "An advanced crypto trading bot written in Python",
       "url": "https://github.com/jesse-ai/jesse",
-      "stars": 7588,
+      "stars": 7589,
       "forks": 1072,
-      "updated": "2026-03-25T12:52:02+00:00",
+      "updated": "2026-03-25T16:27:10+00:00",
       "language": "JavaScript",
       "topics": [
         "algo-trading",
@@ -883,9 +883,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7506,
+      "stars": 7508,
       "forks": 1067,
-      "updated": "2026-03-25T14:39:19+00:00",
+      "updated": "2026-03-25T17:30:29+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -954,7 +954,7 @@
       "url": "https://github.com/lballabio/QuantLib",
       "stars": 6910,
       "forks": 2151,
-      "updated": "2026-03-25T15:52:26+00:00",
+      "updated": "2026-03-25T17:09:45+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -1038,9 +1038,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48027,
+      "stars": 48029,
       "forks": 10014,
-      "updated": "2026-03-25T15:59:04+00:00",
+      "updated": "2026-03-25T16:41:55+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1065,9 +1065,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19546,
+      "stars": 19545,
       "forks": 4949,
-      "updated": "2026-03-25T14:49:51+00:00",
+      "updated": "2026-03-25T16:30:42+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1087,9 +1087,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16608,
+      "stars": 16609,
       "forks": 4467,
-      "updated": "2026-03-25T15:52:19+00:00",
+      "updated": "2026-03-25T16:24:33+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1118,7 +1118,7 @@
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
       "stars": 14549,
       "forks": 3236,
-      "updated": "2026-03-25T15:28:10+00:00",
+      "updated": "2026-03-25T17:12:39+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1148,9 +1148,9 @@
       "title": "backtesting.py",
       "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
       "url": "https://github.com/kernc/backtesting.py",
-      "stars": 8107,
+      "stars": 8105,
       "forks": 1416,
-      "updated": "2026-03-25T14:39:33+00:00",
+      "updated": "2026-03-25T16:30:51+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
