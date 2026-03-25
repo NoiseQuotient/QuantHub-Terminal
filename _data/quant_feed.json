@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T23:42:18.421199",
+  "last_updated": "2026-03-25T00:06:56.361759",
   "items": [
     {
       "id": "2603.21811v1",
@@ -557,9 +557,9 @@
       "title": "ta-lib-python",
       "description": "Python wrapper for TA-Lib (http://ta-lib.org/).",
       "url": "https://github.com/TA-Lib/ta-lib-python",
-      "stars": 11808,
+      "stars": 11810,
       "forks": 1969,
-      "updated": "2026-03-24T20:51:10+00:00",
+      "updated": "2026-03-25T00:03:01+00:00",
       "language": "Cython",
       "topics": [
         "finance",
@@ -874,9 +874,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 47993,
+      "stars": 47996,
       "forks": 10001,
-      "updated": "2026-03-24T23:02:53+00:00",
+      "updated": "2026-03-24T23:56:01+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -953,7 +953,7 @@
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
       "stars": 14528,
-      "forks": 3231,
+      "forks": 3232,
       "updated": "2026-03-24T23:15:51+00:00",
       "language": "Jupyter Notebook",
       "topics": [
