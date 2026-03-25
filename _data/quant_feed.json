@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T22:29:44.805267",
+  "last_updated": "2026-03-25T23:06:32.030014",
   "items": [
     {
       "id": "2603.23480v1",
@@ -530,9 +530,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39324,
+      "stars": 39325,
       "forks": 6126,
-      "updated": "2026-03-25T19:45:17+00:00",
+      "updated": "2026-03-25T23:04:26+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -604,9 +604,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16731,
+      "stars": 16732,
       "forks": 2363,
-      "updated": "2026-03-25T17:50:22+00:00",
+      "updated": "2026-03-25T23:00:50+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -731,9 +731,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9338,
+      "stars": 9339,
       "forks": 2076,
-      "updated": "2026-03-25T22:07:39+00:00",
+      "updated": "2026-03-25T22:39:01+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -796,7 +796,7 @@
       "description": "An advanced crypto trading bot written in Python",
       "url": "https://github.com/jesse-ai/jesse",
       "stars": 7591,
-      "forks": 1072,
+      "forks": 1073,
       "updated": "2026-03-25T22:03:14+00:00",
       "language": "JavaScript",
       "topics": [
@@ -986,9 +986,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48033,
+      "stars": 48034,
       "forks": 10014,
-      "updated": "2026-03-25T22:07:35+00:00",
+      "updated": "2026-03-25T22:32:00+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
