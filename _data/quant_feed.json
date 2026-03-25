@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T21:50:30.058851",
+  "last_updated": "2026-03-25T22:29:44.805267",
   "items": [
     {
       "id": "2603.23480v1",
@@ -470,31 +470,6 @@
       "ranking_score": 28.364285714285714
     },
     {
-      "id": "2603.20965v1",
-      "source": "arxiv",
-      "title": "Learning to Aggregate Zero-Shot LLM Agents for Corporate Disclosure Classification",
-      "authors": [
-        "Kemal Kirtac"
-      ],
-      "abstract": "This paper studies whether a lightweight trained aggregator can combine diverse zero-shot large language model judgments into a stronger downstream signal for corporate disclosure classification. Zero-shot LLMs can read disclosures without task-specific fine-tuning, but their predictions often vary across prompts, reasoning styles, and model families. I address this problem with a multi-agent framework in which three zero-shot agents independently read each disclosure and output a sentiment label, a confidence score, and a short rationale. A logistic meta-classifier then aggregates these signals to predict next-day stock return direction. I use a sample of 18,420 U.S. corporate disclosures issued by Nasdaq and S&P 500 firms between 2018 and 2024, matched to next-day stock returns. Results show that the trained aggregator outperforms all single agents, majority vote, confidence-weighted voting, and a FinBERT baseline. Balanced accuracy rises from 0.561 for the best single agent to 0.612 for the trained aggregator, with the largest gains in disclosures combining strong current performance with weak guidance or elevated risk. The results suggest that zero-shot LLM agents capture complementary financial signals and that supervised aggregation can turn cross-agent disagreement into a more useful classification target.",
-      "published": "2026-03-21T22:29:19+00:00",
-      "url": "http://arxiv.org/abs/2603.20965v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.20965v1",
-      "categories": [
-        "q-fin.TR",
-        "cs.AI",
-        "cs.MA",
-        "q-fin.CP",
-        "q-fin.ST"
-      ],
-      "primary_category": "q-fin.TR",
-      "core_idea": "This paper studies whether a lightweight trained aggregator can combine diverse zero-shot large language model judgments into a stronger downstream signal for corporate disclosure classification",
-      "methodology": "Zero-shot LLMs can read disclosures without task-specific fine-tuning, but their predictions often vary across prompts, reasoning styles, and model families",
-      "quant_impact": "I address this problem with a multi-agent framework in which three zero-shot agents independently read each disclosure and output a sentiment label, a confidence score, and a short rationale",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
       "id": "2603.21089v1",
       "source": "arxiv",
       "title": "Approximate Dynamic Programming for Degradation-aware Market Participation of Battery Energy Storage Systems: Bridging Market and Degradation Timescales",
@@ -524,9 +499,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63565,
-      "forks": 6252,
-      "updated": "2026-03-25T21:19:03+00:00",
+      "stars": 63566,
+      "forks": 6253,
+      "updated": "2026-03-25T22:15:55+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -756,9 +731,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9337,
+      "stars": 9338,
       "forks": 2076,
-      "updated": "2026-03-25T21:27:57+00:00",
+      "updated": "2026-03-25T22:07:39+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -820,9 +795,9 @@
       "title": "jesse",
       "description": "An advanced crypto trading bot written in Python",
       "url": "https://github.com/jesse-ai/jesse",
-      "stars": 7590,
+      "stars": 7591,
       "forks": 1072,
-      "updated": "2026-03-25T20:50:58+00:00",
+      "updated": "2026-03-25T22:03:14+00:00",
       "language": "JavaScript",
       "topics": [
         "algo-trading",
@@ -1011,9 +986,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48034,
+      "stars": 48033,
       "forks": 10014,
-      "updated": "2026-03-25T21:06:49+00:00",
+      "updated": "2026-03-25T22:07:35+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1322,6 +1297,21 @@
       "author": "",
       "core_idea": "U.S",
       "methodology": "natural gas futures fell after weekend updates took some of the chill out of early February weather forecasts.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 28.0
+    },
+    {
+      "id": "WP-WSJ-0002353768",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "Building-Products Distributor QXO Launches Hostile Bid for Beacon",
+      "summary": "QXO is taking its offer directly to shareholders after being rebuffed on several occasions.",
+      "published": "Mon, 27 Jan 2025 08:28:00 -0500",
+      "url": "https://www.wsj.com/articles/building-products-distributor-qxo-launching-hostile-bid-for-beacon-de024410?mod=rss_markets_main",
+      "author": "",
+      "core_idea": "QXO is taking its offer directly to shareholders after being rebuffed on several occasions.",
+      "methodology": "No methodology extracted.",
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
