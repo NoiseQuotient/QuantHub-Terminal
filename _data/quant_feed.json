@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T06:15:37.449766",
+  "last_updated": "2026-03-25T07:33:27.348082",
   "items": [
     {
       "id": "2603.23480v1",
@@ -78,29 +78,6 @@
       "ranking_score": 29.65
     },
     {
-      "id": "2603.22880v1",
-      "source": "arxiv",
-      "title": "Portfolio Optimization under Recursive Utility via Reinforcement Learning",
-      "authors": [
-        "Minkey Chang"
-      ],
-      "abstract": "We study whether a risk-sensitive objective from asset-pricing theory -- recursive utility -- improves reinforcement learning for portfolio allocation. The Bellman equation under recursive utility involves a certainty equivalent (CE) of future value that has no closed form under observed returns; we approximate it by $K$-sample Monte Carlo and train actor-critic (PPO, A2C) on the resulting value target and an approximate advantage estimate (AAE) that generalizes the Bellman residual to multi-step with state-dependent weights. This formulation applies only to critic-based algorithms. On 10 chronological train/test splits of South Korean ETF data, the recursive-utility agent improves on the discounted (naive) baseline in Sharpe ratio, max drawdown, and cumulative return. Derivations, world model and metrics, and full result tables are in the appendices.",
-      "published": "2026-03-24T07:25:30+00:00",
-      "url": "http://arxiv.org/abs/2603.22880v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.22880v1",
-      "categories": [
-        "q-fin.GN",
-        "cs.CE",
-        "q-fin.PM"
-      ],
-      "primary_category": "q-fin.GN",
-      "core_idea": "We study whether a risk-sensitive objective from asset-pricing theory -- recursive utility -- improves reinforcement learning for portfolio allocation",
-      "methodology": "The Bellman equation under recursive utility involves a certainty equivalent (CE) of future value that has no closed form under observed returns; we approximate it by $K$-sample Monte Carlo and train actor-critic (PPO, A2C) on the resulting value target and an approximate advantage estimate (AAE) that generalizes the Bellman residual to multi-step with state-dependent weights",
-      "quant_impact": "This formulation applies only to critic-based algorithms",
-      "relevance_score": 5,
-      "ranking_score": 29.65
-    },
-    {
       "id": "2603.23300v1",
       "source": "arxiv",
       "title": "Designing Agentic AI-Based Screening for Portfolio Investment",
@@ -150,6 +127,29 @@
       "quant_impact": "Linear diagonal dynamics preserve this identifiability and admit scalable computation via companion-matrix and Krylov methods",
       "relevance_score": 5,
       "ranking_score": 29.65
+    },
+    {
+      "id": "2603.22880v1",
+      "source": "arxiv",
+      "title": "Portfolio Optimization under Recursive Utility via Reinforcement Learning",
+      "authors": [
+        "Minkey Chang"
+      ],
+      "abstract": "We study whether a risk-sensitive objective from asset-pricing theory -- recursive utility -- improves reinforcement learning for portfolio allocation. The Bellman equation under recursive utility involves a certainty equivalent (CE) of future value that has no closed form under observed returns; we approximate it by $K$-sample Monte Carlo and train actor-critic (PPO, A2C) on the resulting value target and an approximate advantage estimate (AAE) that generalizes the Bellman residual to multi-step with state-dependent weights. This formulation applies only to critic-based algorithms. On 10 chronological train/test splits of South Korean ETF data, the recursive-utility agent improves on the discounted (naive) baseline in Sharpe ratio, max drawdown, and cumulative return. Derivations, world model and metrics, and full result tables are in the appendices.",
+      "published": "2026-03-24T07:25:30+00:00",
+      "url": "http://arxiv.org/abs/2603.22880v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.22880v1",
+      "categories": [
+        "q-fin.GN",
+        "cs.CE",
+        "q-fin.PM"
+      ],
+      "primary_category": "q-fin.GN",
+      "core_idea": "We study whether a risk-sensitive objective from asset-pricing theory -- recursive utility -- improves reinforcement learning for portfolio allocation",
+      "methodology": "The Bellman equation under recursive utility involves a certainty equivalent (CE) of future value that has no closed form under observed returns; we approximate it by $K$-sample Monte Carlo and train actor-critic (PPO, A2C) on the resulting value target and an approximate advantage estimate (AAE) that generalizes the Bellman residual to multi-step with state-dependent weights",
+      "quant_impact": "This formulation applies only to critic-based algorithms",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
     },
     {
       "id": "2603.22831v1",
@@ -248,31 +248,6 @@
       "ranking_score": 29.22142857142857
     },
     {
-      "id": "2603.21650v1",
-      "source": "arxiv",
-      "title": "A coupled Aeroelastic-Flight Dynamic Framework for Free-Flying Flexible Aircraft with Gust Interactions",
-      "authors": [
-        "Nikolaos D. Tantaroudas",
-        "Andrea Da Ronch",
-        "Ilias Karachalios",
-        "Kenneth J. Badcock",
-        "Rafael Palacios"
-      ],
-      "abstract": "A complete, self-contained mathematical framework for modelling the coupled aeroelastic and flight dynamic behaviour of free-flying flexible aircraft subject to atmospheric gust encounters is presented. The framework integrates three physical disciplines: geometrically-exact nonlinear beam theory for structural dynamics, unsteady two-dimensional strip aerodynamics based on Theodorsen thin-aerofoil theory with indicial functions for shed-wake and gust-penetration effects, and quaternion-based rigid-body flight dynamics for singularity-free attitude propagation. The coupled system is assembled into a first-order state-space form amenable to time-domain simulation, model order reduction, and control design. Detailed derivations of all coupling terms, including coordinate transformations between aerodynamic and structural frames, the Jacobian block structure, and gust input matrices, are provided. Two gust models are treated: the certification-standard discrete gust and the Von Karman continuous turbulence spectrum. The framework is verified against published benchmarks, including high-altitude long-endurance aircraft configurations and a very flexible flying-wing, demonstrating close agreement in structural frequencies, flutter speed, and static aeroelastic deflections. This paper serves as a self-contained reference for researchers implementing coupled aeroelastic-flight dynamic analysis tools for very flexible aircraft.",
-      "published": "2026-03-23T07:29:26+00:00",
-      "url": "http://arxiv.org/abs/2603.21650v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.21650v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "A complete, self-contained mathematical framework for modelling the coupled aeroelastic and flight dynamic behaviour of free-flying flexible aircraft subject to atmospheric gust encounters is presented",
-      "methodology": "The framework integrates three physical disciplines: geometrically-exact nonlinear beam theory for structural dynamics, unsteady two-dimensional strip aerodynamics based on Theodorsen thin-aerofoil theory with indicial functions for shed-wake and gust-penetration effects, and quaternion-based rigid-body flight dynamics for singularity-free attitude propagation",
-      "quant_impact": "The coupled system is assembled into a first-order state-space form amenable to time-domain simulation, model order reduction, and control design",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
-    },
-    {
       "id": "2603.21672v2",
       "source": "arxiv",
       "title": "Mislearning of Factor Risk Premia under Structural Breaks: A Misspecified Bayesian Learning Framework",
@@ -342,6 +317,31 @@
       "quant_impact": "Regardless of the prior distribution of the asset payoff, continuous signals are optimal",
       "relevance_score": 5,
       "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.21650v1",
+      "source": "arxiv",
+      "title": "A coupled Aeroelastic-Flight Dynamic Framework for Free-Flying Flexible Aircraft with Gust Interactions",
+      "authors": [
+        "Nikolaos D. Tantaroudas",
+        "Andrea Da Ronch",
+        "Ilias Karachalios",
+        "Kenneth J. Badcock",
+        "Rafael Palacios"
+      ],
+      "abstract": "A complete, self-contained mathematical framework for modelling the coupled aeroelastic and flight dynamic behaviour of free-flying flexible aircraft subject to atmospheric gust encounters is presented. The framework integrates three physical disciplines: geometrically-exact nonlinear beam theory for structural dynamics, unsteady two-dimensional strip aerodynamics based on Theodorsen thin-aerofoil theory with indicial functions for shed-wake and gust-penetration effects, and quaternion-based rigid-body flight dynamics for singularity-free attitude propagation. The coupled system is assembled into a first-order state-space form amenable to time-domain simulation, model order reduction, and control design. Detailed derivations of all coupling terms, including coordinate transformations between aerodynamic and structural frames, the Jacobian block structure, and gust input matrices, are provided. Two gust models are treated: the certification-standard discrete gust and the Von Karman continuous turbulence spectrum. The framework is verified against published benchmarks, including high-altitude long-endurance aircraft configurations and a very flexible flying-wing, demonstrating close agreement in structural frequencies, flutter speed, and static aeroelastic deflections. This paper serves as a self-contained reference for researchers implementing coupled aeroelastic-flight dynamic analysis tools for very flexible aircraft.",
+      "published": "2026-03-23T07:29:26+00:00",
+      "url": "http://arxiv.org/abs/2603.21650v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.21650v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "A complete, self-contained mathematical framework for modelling the coupled aeroelastic and flight dynamic behaviour of free-flying flexible aircraft subject to atmospheric gust encounters is presented",
+      "methodology": "The framework integrates three physical disciplines: geometrically-exact nonlinear beam theory for structural dynamics, unsteady two-dimensional strip aerodynamics based on Theodorsen thin-aerofoil theory with indicial functions for shed-wake and gust-penetration effects, and quaternion-based rigid-body flight dynamics for singularity-free attitude propagation",
+      "quant_impact": "The coupled system is assembled into a first-order state-space form amenable to time-domain simulation, model order reduction, and control design",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
     },
     {
       "id": "2603.21374v1",
@@ -441,30 +441,6 @@
       "core_idea": "We present FinRL-X, a modular and deployment-consistent trading architecture that unifies data processing, strategy construction, backtesting, and broker execution under a weight-centric interface",
       "methodology": "While existing open-source platforms are often backtesting- or model-centric, they rarely provide system-level consistency between research evaluation and live deployment",
       "quant_impact": "FinRL-X addresses this gap through a composable strategy pipeline that integrates stock selection, portfolio allocation, timing, and portfolio-level risk overlays within a unified protocol",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
-      "id": "2603.21089v1",
-      "source": "arxiv",
-      "title": "Approximate Dynamic Programming for Degradation-aware Market Participation of Battery Energy Storage Systems: Bridging Market and Degradation Timescales",
-      "authors": [
-        "Flemming Holtorf",
-        "Sungho Shin"
-      ],
-      "abstract": "We present an approximate dynamic programming framework for designing degradation-aware market participation policies for battery energy storage systems. The approach employs a tailored value function approximation that reduces the state space to state of charge and battery health, while performing dynamic programming along a pseudo-time axis encoded by state of health. This formulation enables an offline/online computation split that separates long-term degradation dynamics (months to years) from short-term market dynamics (seconds to minutes) -- a timescale mismatch that renders conventional predictive control and dynamic programming approaches computationally intractable. The main computational effort occurs offline, where the value function is approximated via coarse-grained backward induction along the health dimension. Online decisions then reduce to a real-time tractable one-step predictive control problem guided by the precomputed value function. This decoupling allows the integration of high-fidelity physics-informed degradation models without sacrificing real-time feasibility. Backtests on historical market data show that the resulting policy outperforms several benchmark strategies with optimized hyperparameters.",
-      "published": "2026-03-22T07:04:07+00:00",
-      "url": "http://arxiv.org/abs/2603.21089v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.21089v1",
-      "categories": [
-        "eess.SY",
-        "math.OC",
-        "q-fin.TR"
-      ],
-      "primary_category": "eess.SY",
-      "core_idea": "We present an approximate dynamic programming framework for designing degradation-aware market participation policies for battery energy storage systems",
-      "methodology": "The approach employs a tailored value function approximation that reduces the state space to state of charge and battery health, while performing dynamic programming along a pseudo-time axis encoded by state of health",
-      "quant_impact": "This formulation enables an offline/online computation split that separates long-term degradation dynamics (months to years) from short-term market dynamics (seconds to minutes) -- a timescale mismatch that renders conventional predictive control and dynamic programming approaches computationally intractable",
       "relevance_score": 5,
       "ranking_score": 28.79285714285714
     },
@@ -581,14 +557,38 @@
       "ranking_score": 28.364285714285714
     },
     {
+      "id": "2603.21089v1",
+      "source": "arxiv",
+      "title": "Approximate Dynamic Programming for Degradation-aware Market Participation of Battery Energy Storage Systems: Bridging Market and Degradation Timescales",
+      "authors": [
+        "Flemming Holtorf",
+        "Sungho Shin"
+      ],
+      "abstract": "We present an approximate dynamic programming framework for designing degradation-aware market participation policies for battery energy storage systems. The approach employs a tailored value function approximation that reduces the state space to state of charge and battery health, while performing dynamic programming along a pseudo-time axis encoded by state of health. This formulation enables an offline/online computation split that separates long-term degradation dynamics (months to years) from short-term market dynamics (seconds to minutes) -- a timescale mismatch that renders conventional predictive control and dynamic programming approaches computationally intractable. The main computational effort occurs offline, where the value function is approximated via coarse-grained backward induction along the health dimension. Online decisions then reduce to a real-time tractable one-step predictive control problem guided by the precomputed value function. This decoupling allows the integration of high-fidelity physics-informed degradation models without sacrificing real-time feasibility. Backtests on historical market data show that the resulting policy outperforms several benchmark strategies with optimized hyperparameters.",
+      "published": "2026-03-22T07:04:07+00:00",
+      "url": "http://arxiv.org/abs/2603.21089v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.21089v1",
+      "categories": [
+        "eess.SY",
+        "math.OC",
+        "q-fin.TR"
+      ],
+      "primary_category": "eess.SY",
+      "core_idea": "We present an approximate dynamic programming framework for designing degradation-aware market participation policies for battery energy storage systems",
+      "methodology": "The approach employs a tailored value function approximation that reduces the state space to state of charge and battery health, while performing dynamic programming along a pseudo-time axis encoded by state of health",
+      "quant_impact": "This formulation enables an offline/online computation split that separates long-term degradation dynamics (months to years) from short-term market dynamics (seconds to minutes) -- a timescale mismatch that renders conventional predictive control and dynamic programming approaches computationally intractable",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
+    },
+    {
       "id": "323048702",
       "source": "github",
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63541,
-      "forks": 6247,
-      "updated": "2026-03-25T05:23:53+00:00",
+      "stars": 63544,
+      "forks": 6249,
+      "updated": "2026-03-25T07:22:35+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -617,9 +617,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39300,
-      "forks": 6118,
-      "updated": "2026-03-25T06:13:28+00:00",
+      "stars": 39305,
+      "forks": 6120,
+      "updated": "2026-03-25T07:15:13+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -653,9 +653,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25092,
+      "stars": 25093,
       "forks": 3313,
-      "updated": "2026-03-25T01:24:10+00:00",
+      "updated": "2026-03-25T06:28:36+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -691,9 +691,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16714,
-      "forks": 2362,
-      "updated": "2026-03-25T06:11:32+00:00",
+      "stars": 16716,
+      "forks": 2363,
+      "updated": "2026-03-25T07:27:32+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -726,9 +726,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12028,
-      "forks": 2496,
-      "updated": "2026-03-25T05:42:25+00:00",
+      "stars": 12030,
+      "forks": 2497,
+      "updated": "2026-03-25T07:15:14+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -780,9 +780,9 @@
       "title": "quant-trading",
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
-      "stars": 9513,
+      "stars": 9515,
       "forks": 1748,
-      "updated": "2026-03-25T03:42:45+00:00",
+      "updated": "2026-03-25T06:48:14+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -818,9 +818,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9315,
+      "stars": 9320,
       "forks": 2073,
-      "updated": "2026-03-25T02:39:05+00:00",
+      "updated": "2026-03-25T07:22:54+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -918,9 +918,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7496,
+      "stars": 7497,
       "forks": 1066,
-      "updated": "2026-03-25T03:24:53+00:00",
+      "updated": "2026-03-25T06:29:42+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -955,9 +955,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 6975,
+      "stars": 6976,
       "forks": 896,
-      "updated": "2026-03-25T05:21:54+00:00",
+      "updated": "2026-03-25T06:29:40+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1006,9 +1006,9 @@
       "title": "quantstats",
       "description": "Portfolio analytics for quants, written in Python",
       "url": "https://github.com/ranaroussi/quantstats",
-      "stars": 6889,
+      "stars": 6890,
       "forks": 1138,
-      "updated": "2026-03-25T05:48:27+00:00",
+      "updated": "2026-03-25T06:56:10+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -1073,9 +1073,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48010,
-      "forks": 10004,
-      "updated": "2026-03-25T06:15:02+00:00",
+      "stars": 48012,
+      "forks": 10007,
+      "updated": "2026-03-25T06:43:57+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1101,7 +1101,7 @@
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
       "stars": 19545,
-      "forks": 4950,
+      "forks": 4949,
       "updated": "2026-03-25T05:46:37+00:00",
       "language": "Python",
       "topics": [
@@ -1122,9 +1122,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16601,
+      "stars": 16602,
       "forks": 4467,
-      "updated": "2026-03-25T04:36:09+00:00",
+      "updated": "2026-03-25T07:07:20+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1151,9 +1151,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14543,
+      "stars": 14545,
       "forks": 3233,
-      "updated": "2026-03-25T06:00:51+00:00",
+      "updated": "2026-03-25T06:58:08+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1183,9 +1183,9 @@
       "title": "backtesting.py",
       "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
       "url": "https://github.com/kernc/backtesting.py",
-      "stars": 8104,
+      "stars": 8105,
       "forks": 1415,
-      "updated": "2026-03-25T05:56:48+00:00",
+      "updated": "2026-03-25T06:29:24+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
