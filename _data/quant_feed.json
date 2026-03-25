@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T23:06:32.030014",
+  "last_updated": "2026-03-25T23:51:24.879034",
   "items": [
     {
       "id": "2603.23480v1",
@@ -499,9 +499,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63566,
+      "stars": 63568,
       "forks": 6253,
-      "updated": "2026-03-25T22:15:55+00:00",
+      "updated": "2026-03-25T23:30:25+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -530,9 +530,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39325,
+      "stars": 39326,
       "forks": 6126,
-      "updated": "2026-03-25T23:04:26+00:00",
+      "updated": "2026-03-25T23:38:53+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -567,7 +567,7 @@
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
       "stars": 25106,
-      "forks": 3312,
+      "forks": 3313,
       "updated": "2026-03-25T21:19:12+00:00",
       "language": "HTML",
       "topics": [
@@ -986,9 +986,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48034,
+      "stars": 48036,
       "forks": 10014,
-      "updated": "2026-03-25T22:32:00+00:00",
+      "updated": "2026-03-25T23:27:26+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1064,9 +1064,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14555,
+      "stars": 14558,
       "forks": 3236,
-      "updated": "2026-03-25T21:48:46+00:00",
+      "updated": "2026-03-25T23:38:29+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
