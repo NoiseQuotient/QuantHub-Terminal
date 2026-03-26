@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T07:36:06.440924",
+  "last_updated": "2026-03-26T08:33:08.592681",
   "items": [
     {
       "id": "2603.24382v1",
@@ -548,30 +548,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.21672v2",
-      "source": "arxiv",
-      "title": "Mislearning of Factor Risk Premia under Structural Breaks: A Misspecified Bayesian Learning Framework",
-      "authors": [
-        "Yimeng Qiu"
-      ],
-      "abstract": "While asset-pricing models increasingly recognize that factor risk premia are subject to structural change, existing literature typically assumes that investors correctly account for such instability. This paper asks what happens when investors instead learn under a misspecified model that underestimates structural breaks. We propose a minimal Bayesian framework in which this misspecification generates persistent prediction errors and pricing distortions, and we introduce an empirically tractable measure of mislearning intensity $(\u0394_t)$ based on predictive likelihood ratios.\n  The empirical results yield three main findings. First, in benchmark factor systems, elevated mislearning does not forecast a deterministic short-run collapse in performance; instead, it is associated with stronger long-horizon returns and Sharpe ratios, consistent with an equilibrium premium for acute model uncertainty. Second, in a broader anomaly universe, this pricing relation does not generalize uniformly. There, mislearning is more strongly associated with future drawdowns, downside semivolatility, and other measures of instability, with substantial heterogeneity across anomaly families. Third, the institutional evidence does not support a robust passive absorber mechanism. Rather than systematically damping mislearning, passive capital primarily changes how mislearning is expressed in subsequent outcomes. Within both the FF6 and q5 factor systems, higher passive intensity is more consistent with a weak shift away from future Sharpe compensation and toward future risk realization and lower cumulative returns, while in the anomaly universe passive exposure operates more heterogeneously through partial family-level structure shifting. Taken together, the results suggest that mislearning is a conditional pricing force whose empirical manifestation depends on both asset structure and market structure.",
-      "published": "2026-03-23T07:54:15+00:00",
-      "url": "http://arxiv.org/abs/2603.21672v2",
-      "pdf_url": "https://arxiv.org/pdf/2603.21672v2",
-      "categories": [
-        "q-fin.PM",
-        "q-fin.ST",
-        "q-fin.TR",
-        "stat.OT"
-      ],
-      "primary_category": "q-fin.PM",
-      "core_idea": "While asset-pricing models increasingly recognize that factor risk premia are subject to structural change, existing literature typically assumes that investors correctly account for such instability",
-      "methodology": "This paper asks what happens when investors instead learn under a misspecified model that underestimates structural breaks",
-      "quant_impact": "We propose a minimal Bayesian framework in which this misspecification generates persistent prediction errors and pricing distortions, and we introduce an empirically tractable measure of mislearning intensity $(\u0394_t)$ based on predictive likelihood ratios.\n  The empirical results yield three main findings",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
       "id": "2603.22058v1",
       "source": "arxiv",
       "title": "Mean Field Equilibrium Asset Pricing Models With Exponential Utility",
@@ -646,14 +622,38 @@
       "ranking_score": 28.364285714285714
     },
     {
+      "id": "2603.21672v2",
+      "source": "arxiv",
+      "title": "Mislearning of Factor Risk Premia under Structural Breaks: A Misspecified Bayesian Learning Framework",
+      "authors": [
+        "Yimeng Qiu"
+      ],
+      "abstract": "While asset-pricing models increasingly recognize that factor risk premia are subject to structural change, existing literature typically assumes that investors correctly account for such instability. This paper asks what happens when investors instead learn under a misspecified model that underestimates structural breaks. We propose a minimal Bayesian framework in which this misspecification generates persistent prediction errors and pricing distortions, and we introduce an empirically tractable measure of mislearning intensity $(\u0394_t)$ based on predictive likelihood ratios.\n  The empirical results yield three main findings. First, in benchmark factor systems, elevated mislearning does not forecast a deterministic short-run collapse in performance; instead, it is associated with stronger long-horizon returns and Sharpe ratios, consistent with an equilibrium premium for acute model uncertainty. Second, in a broader anomaly universe, this pricing relation does not generalize uniformly. There, mislearning is more strongly associated with future drawdowns, downside semivolatility, and other measures of instability, with substantial heterogeneity across anomaly families. Third, the institutional evidence does not support a robust passive absorber mechanism. Rather than systematically damping mislearning, passive capital primarily changes how mislearning is expressed in subsequent outcomes. Within both the FF6 and q5 factor systems, higher passive intensity is more consistent with a weak shift away from future Sharpe compensation and toward future risk realization and lower cumulative returns, while in the anomaly universe passive exposure operates more heterogeneously through partial family-level structure shifting. Taken together, the results suggest that mislearning is a conditional pricing force whose empirical manifestation depends on both asset structure and market structure.",
+      "published": "2026-03-23T07:54:15+00:00",
+      "url": "http://arxiv.org/abs/2603.21672v2",
+      "pdf_url": "https://arxiv.org/pdf/2603.21672v2",
+      "categories": [
+        "q-fin.PM",
+        "q-fin.ST",
+        "q-fin.TR",
+        "stat.OT"
+      ],
+      "primary_category": "q-fin.PM",
+      "core_idea": "While asset-pricing models increasingly recognize that factor risk premia are subject to structural change, existing literature typically assumes that investors correctly account for such instability",
+      "methodology": "This paper asks what happens when investors instead learn under a misspecified model that underestimates structural breaks",
+      "quant_impact": "We propose a minimal Bayesian framework in which this misspecification generates persistent prediction errors and pricing distortions, and we introduce an empirically tractable measure of mislearning intensity $(\u0394_t)$ based on predictive likelihood ratios.\n  The empirical results yield three main findings",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
+    },
+    {
       "id": "323048702",
       "source": "github",
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63583,
-      "forks": 6259,
-      "updated": "2026-03-26T06:45:11+00:00",
+      "stars": 63584,
+      "forks": 6260,
+      "updated": "2026-03-26T07:56:02+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -682,9 +682,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39342,
-      "forks": 6128,
-      "updated": "2026-03-26T07:30:12+00:00",
+      "stars": 39345,
+      "forks": 6130,
+      "updated": "2026-03-26T08:02:44+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -718,9 +718,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25117,
-      "forks": 3315,
-      "updated": "2026-03-26T06:56:41+00:00",
+      "stars": 25118,
+      "forks": 3316,
+      "updated": "2026-03-26T07:39:41+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -756,9 +756,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16734,
+      "stars": 16737,
       "forks": 2364,
-      "updated": "2026-03-26T07:29:26+00:00",
+      "updated": "2026-03-26T08:27:35+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -791,9 +791,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12042,
+      "stars": 12044,
       "forks": 2498,
-      "updated": "2026-03-26T06:20:56+00:00",
+      "updated": "2026-03-26T07:57:32+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -883,9 +883,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9346,
+      "stars": 9354,
       "forks": 2077,
-      "updated": "2026-03-26T07:34:05+00:00",
+      "updated": "2026-03-26T08:33:00+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -948,7 +948,7 @@
       "description": "An advanced crypto trading bot written in Python",
       "url": "https://github.com/jesse-ai/jesse",
       "stars": 7594,
-      "forks": 1073,
+      "forks": 1074,
       "updated": "2026-03-26T03:56:45+00:00",
       "language": "JavaScript",
       "topics": [
@@ -983,9 +983,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7516,
+      "stars": 7515,
       "forks": 1067,
-      "updated": "2026-03-26T04:26:36+00:00",
+      "updated": "2026-03-26T08:19:41+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1138,9 +1138,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48042,
+      "stars": 48045,
       "forks": 10013,
-      "updated": "2026-03-26T07:00:35+00:00",
+      "updated": "2026-03-26T08:24:50+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1165,9 +1165,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19545,
-      "forks": 4949,
-      "updated": "2026-03-25T16:30:42+00:00",
+      "stars": 19546,
+      "forks": 4950,
+      "updated": "2026-03-26T08:29:58+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1187,9 +1187,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16612,
+      "stars": 16614,
       "forks": 4466,
-      "updated": "2026-03-26T05:56:53+00:00",
+      "updated": "2026-03-26T08:24:00+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
