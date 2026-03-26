@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T22:37:17.433860",
+  "last_updated": "2026-03-26T23:02:30.860624",
   "items": [
     {
       "id": "2603.24382v1",
@@ -625,7 +625,7 @@
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
       "stars": 63605,
-      "forks": 6259,
+      "forks": 6260,
       "updated": "2026-03-26T21:50:31+00:00",
       "language": "Python",
       "topics": [
@@ -655,9 +655,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39366,
+      "stars": 39365,
       "forks": 6134,
-      "updated": "2026-03-26T20:22:53+00:00",
+      "updated": "2026-03-26T22:46:25+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -691,9 +691,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25131,
+      "stars": 25133,
       "forks": 3318,
-      "updated": "2026-03-26T21:53:09+00:00",
+      "updated": "2026-03-26T22:47:37+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -956,9 +956,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7522,
+      "stars": 7523,
       "forks": 1069,
-      "updated": "2026-03-26T20:53:35+00:00",
+      "updated": "2026-03-26T22:55:31+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1044,9 +1044,9 @@
       "title": "quantstats",
       "description": "Portfolio analytics for quants, written in Python",
       "url": "https://github.com/ranaroussi/quantstats",
-      "stars": 6896,
+      "stars": 6897,
       "forks": 1140,
-      "updated": "2026-03-26T16:31:26+00:00",
+      "updated": "2026-03-26T22:58:17+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -1113,7 +1113,7 @@
       "url": "https://github.com/freqtrade/freqtrade",
       "stars": 48071,
       "forks": 10017,
-      "updated": "2026-03-26T20:42:04+00:00",
+      "updated": "2026-03-26T23:01:55+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
