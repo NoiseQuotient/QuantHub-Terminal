@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T21:54:38.663390",
+  "last_updated": "2026-03-26T22:37:17.433860",
   "items": [
     {
       "id": "2603.24382v1",
@@ -856,9 +856,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9432,
+      "stars": 9434,
       "forks": 2087,
-      "updated": "2026-03-26T21:06:17+00:00",
+      "updated": "2026-03-26T22:17:34+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -993,9 +993,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 6994,
+      "stars": 6993,
       "forks": 898,
-      "updated": "2026-03-26T21:35:54+00:00",
+      "updated": "2026-03-26T22:29:17+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1112,7 +1112,7 @@
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
       "stars": 48071,
-      "forks": 10016,
+      "forks": 10017,
       "updated": "2026-03-26T20:42:04+00:00",
       "language": "Python",
       "topics": [
@@ -1189,9 +1189,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14576,
+      "stars": 14577,
       "forks": 3241,
-      "updated": "2026-03-26T20:23:15+00:00",
+      "updated": "2026-03-26T22:14:48+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
