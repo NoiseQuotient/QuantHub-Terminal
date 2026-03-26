@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T06:04:01.237107",
+  "last_updated": "2026-03-26T07:36:06.440924",
   "items": [
     {
       "id": "2603.24382v1",
@@ -78,32 +78,6 @@
       "ranking_score": 29.65
     },
     {
-      "id": "2603.24013v1",
-      "source": "arxiv",
-      "title": "Bridging Computational Fluid Dynamics Algorithm and Physics-Informed Learning: SIMPLE-PINN for Incompressible Navier-Stokes Equations",
-      "authors": [
-        "Chang Wei",
-        "Yuchen Fan",
-        "Chin Chun Ooi",
-        "Jian Cheng Wong",
-        "Heyang Wang",
-        "Pao-Hsiung Chiu"
-      ],
-      "abstract": "Physics-informed neural networks (PINNs) have shown promise for solving partial differential equations (PDEs) by directly embedding them into the loss function. Despite their notable success, existing PINNs often exhibit training instability and slow convergence when applied to strongly nonlinear fluid dynamics problems. To address these challenges, this paper proposes a novel PINN framework, named as SIMPLE-PINN, which incorporates velocity and pressure correction loss terms inspired by the semi-implicit pressure link equation. These correction terms, derived from the momentum and continuity residuals, are tailored for the PINN framework, ensuring velocity-pressure coupling and reinforcing the underlying physical constraints of the Navier-Stokes equations. Through this, the framework can effectively mitigate training instability and accelerate convergence to achieve accurate solution. Furthermore, a hybrid numerical-automatic differentiation strategy is employed to improve the model's generalizability in resolving flows involving complex geometries. The performance of SIMPLE-PINN is evaluated on a range of challenging benchmark cases, including strongly nonlinear flows, long-term flow prediction, and multiphysics coupling problems. The numerical results demonstrate SIMPLE-PINN's high accuracy and rapid convergence. Notably, SIMPLE-PINN achieves, for the first time, a fully data-free solution of lid-driven cavity flow at Re=20000 in just 448s, and successfully captures the onset and long-time evolution of vortex shedding in flow past a cylinder over t=0-100. These findings demonstrate SIMPLE-PINN's potential as a reliable and competitive neural solver for complex PDEs in intelligent scientific computing, with promising engineering applications in aerospace, civil engineering, and mechanical engineering.",
-      "published": "2026-03-25T07:19:38+00:00",
-      "url": "http://arxiv.org/abs/2603.24013v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24013v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Physics-informed neural networks (PINNs) have shown promise for solving partial differential equations (PDEs) by directly embedding them into the loss function",
-      "methodology": "Despite their notable success, existing PINNs often exhibit training instability and slow convergence when applied to strongly nonlinear fluid dynamics problems",
-      "quant_impact": "To address these challenges, this paper proposes a novel PINN framework, named as SIMPLE-PINN, which incorporates velocity and pressure correction loss terms inspired by the semi-implicit pressure link equation",
-      "relevance_score": 5,
-      "ranking_score": 29.65
-    },
-    {
       "id": "2603.24215v1",
       "source": "arxiv",
       "title": "Adapting Altman's bankruptcy prediction model to the compositional data methodology",
@@ -175,6 +149,32 @@
       "quant_impact": "Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants",
       "relevance_score": 5,
       "ranking_score": 29.65
+    },
+    {
+      "id": "2603.24013v1",
+      "source": "arxiv",
+      "title": "Bridging Computational Fluid Dynamics Algorithm and Physics-Informed Learning: SIMPLE-PINN for Incompressible Navier-Stokes Equations",
+      "authors": [
+        "Chang Wei",
+        "Yuchen Fan",
+        "Chin Chun Ooi",
+        "Jian Cheng Wong",
+        "Heyang Wang",
+        "Pao-Hsiung Chiu"
+      ],
+      "abstract": "Physics-informed neural networks (PINNs) have shown promise for solving partial differential equations (PDEs) by directly embedding them into the loss function. Despite their notable success, existing PINNs often exhibit training instability and slow convergence when applied to strongly nonlinear fluid dynamics problems. To address these challenges, this paper proposes a novel PINN framework, named as SIMPLE-PINN, which incorporates velocity and pressure correction loss terms inspired by the semi-implicit pressure link equation. These correction terms, derived from the momentum and continuity residuals, are tailored for the PINN framework, ensuring velocity-pressure coupling and reinforcing the underlying physical constraints of the Navier-Stokes equations. Through this, the framework can effectively mitigate training instability and accelerate convergence to achieve accurate solution. Furthermore, a hybrid numerical-automatic differentiation strategy is employed to improve the model's generalizability in resolving flows involving complex geometries. The performance of SIMPLE-PINN is evaluated on a range of challenging benchmark cases, including strongly nonlinear flows, long-term flow prediction, and multiphysics coupling problems. The numerical results demonstrate SIMPLE-PINN's high accuracy and rapid convergence. Notably, SIMPLE-PINN achieves, for the first time, a fully data-free solution of lid-driven cavity flow at Re=20000 in just 448s, and successfully captures the onset and long-time evolution of vortex shedding in flow past a cylinder over t=0-100. These findings demonstrate SIMPLE-PINN's potential as a reliable and competitive neural solver for complex PDEs in intelligent scientific computing, with promising engineering applications in aerospace, civil engineering, and mechanical engineering.",
+      "published": "2026-03-25T07:19:38+00:00",
+      "url": "http://arxiv.org/abs/2603.24013v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24013v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Physics-informed neural networks (PINNs) have shown promise for solving partial differential equations (PDEs) by directly embedding them into the loss function",
+      "methodology": "Despite their notable success, existing PINNs often exhibit training instability and slow convergence when applied to strongly nonlinear fluid dynamics problems",
+      "quant_impact": "To address these challenges, this paper proposes a novel PINN framework, named as SIMPLE-PINN, which incorporates velocity and pressure correction loss terms inspired by the semi-implicit pressure link equation",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
     },
     {
       "id": "2603.23942v1",
@@ -330,53 +330,6 @@
       "ranking_score": 29.22142857142857
     },
     {
-      "id": "2603.22880v1",
-      "source": "arxiv",
-      "title": "Portfolio Optimization under Recursive Utility via Reinforcement Learning",
-      "authors": [
-        "Minkey Chang"
-      ],
-      "abstract": "We study whether a risk-sensitive objective from asset-pricing theory -- recursive utility -- improves reinforcement learning for portfolio allocation. The Bellman equation under recursive utility involves a certainty equivalent (CE) of future value that has no closed form under observed returns; we approximate it by $K$-sample Monte Carlo and train actor-critic (PPO, A2C) on the resulting value target and an approximate advantage estimate (AAE) that generalizes the Bellman residual to multi-step with state-dependent weights. This formulation applies only to critic-based algorithms. On 10 chronological train/test splits of South Korean ETF data, the recursive-utility agent improves on the discounted (naive) baseline in Sharpe ratio, max drawdown, and cumulative return. Derivations, world model and metrics, and full result tables are in the appendices.",
-      "published": "2026-03-24T07:25:30+00:00",
-      "url": "http://arxiv.org/abs/2603.22880v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.22880v1",
-      "categories": [
-        "q-fin.GN",
-        "cs.CE",
-        "q-fin.PM"
-      ],
-      "primary_category": "q-fin.GN",
-      "core_idea": "We study whether a risk-sensitive objective from asset-pricing theory -- recursive utility -- improves reinforcement learning for portfolio allocation",
-      "methodology": "The Bellman equation under recursive utility involves a certainty equivalent (CE) of future value that has no closed form under observed returns; we approximate it by $K$-sample Monte Carlo and train actor-critic (PPO, A2C) on the resulting value target and an approximate advantage estimate (AAE) that generalizes the Bellman residual to multi-step with state-dependent weights",
-      "quant_impact": "This formulation applies only to critic-based algorithms",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
-    },
-    {
-      "id": "2603.22831v1",
-      "source": "arxiv",
-      "title": "Option pricing model under the G-expectation framework",
-      "authors": [
-        "Ziting Pei",
-        "Xingye Yue",
-        "Xiaotao Zheng"
-      ],
-      "abstract": "G-expectation, as a sublinear expectation, provides a powerful framework for modeling uncertainty in financial markets. Motivated by the need for robust valuation under model uncertainty, this work develops a unified risk-neutral valuation approach within the G-expectation environment, yielding a nonlinear generalization of the Black-Scholes model, termed the G-Black-Scholes equation. To enhance computational efficiency and reduce numerical cost, we introduce a logarithmic transformation of the asset price, which yields an alternative nonlinear PDE. Based on this transformed formulation, we design both explicit and implicit finite difference schemes that are rigorously demonstrated to be consistent, stable, monotone, and convergent to the viscosity solution. Numerical examples confirm that the proposed schemes achieve high accuracy, while the logarithmic transformation relaxes the stability constraints of explicit schemes and improves computational efficiency.",
-      "published": "2026-03-24T06:09:43+00:00",
-      "url": "http://arxiv.org/abs/2603.22831v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.22831v1",
-      "categories": [
-        "cs.CE",
-        "q-fin.MF"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "G-expectation, as a sublinear expectation, provides a powerful framework for modeling uncertainty in financial markets",
-      "methodology": "Motivated by the need for robust valuation under model uncertainty, this work develops a unified risk-neutral valuation approach within the G-expectation environment, yielding a nonlinear generalization of the Black-Scholes model, termed the G-Black-Scholes equation",
-      "quant_impact": "To enhance computational efficiency and reduce numerical cost, we introduce a logarithmic transformation of the asset price, which yields an alternative nonlinear PDE",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
-    },
-    {
       "id": "2603.23842v1",
       "source": "arxiv",
       "title": "Environmental CVA with K-Robust Wrong-Way Risk",
@@ -452,28 +405,51 @@
       "ranking_score": 29.22142857142857
     },
     {
-      "id": "2603.22886v1",
+      "id": "2603.22880v1",
       "source": "arxiv",
-      "title": "Conditionally Identifiable Latent Representation for Multivariate Time Series with Structural Dynamics",
+      "title": "Portfolio Optimization under Recursive Utility via Reinforcement Learning",
       "authors": [
-        "Minkey Chang",
-        "Jae-Young Kim"
+        "Minkey Chang"
       ],
-      "abstract": "We propose the Identifiable Variational Dynamic Factor Model (iVDFM), which learns latent factors from multivariate time series with identifiability guarantees. By applying iVAE-style conditioning to the innovation process driving the dynamics rather than to the latent states, we show that factors are identifiable up to permutation and component-wise affine (or monotone invertible) transformations. Linear diagonal dynamics preserve this identifiability and admit scalable computation via companion-matrix and Krylov methods. We demonstrate improved factor recovery on synthetic data, stable intervention accuracy on synthetic SCMs, and competitive probabilistic forecasting on real-world benchmarks.",
-      "published": "2026-03-24T07:35:27+00:00",
-      "url": "http://arxiv.org/abs/2603.22886v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.22886v1",
+      "abstract": "We study whether a risk-sensitive objective from asset-pricing theory -- recursive utility -- improves reinforcement learning for portfolio allocation. The Bellman equation under recursive utility involves a certainty equivalent (CE) of future value that has no closed form under observed returns; we approximate it by $K$-sample Monte Carlo and train actor-critic (PPO, A2C) on the resulting value target and an approximate advantage estimate (AAE) that generalizes the Bellman residual to multi-step with state-dependent weights. This formulation applies only to critic-based algorithms. On 10 chronological train/test splits of South Korean ETF data, the recursive-utility agent improves on the discounted (naive) baseline in Sharpe ratio, max drawdown, and cumulative return. Derivations, world model and metrics, and full result tables are in the appendices.",
+      "published": "2026-03-24T07:25:30+00:00",
+      "url": "http://arxiv.org/abs/2603.22880v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.22880v1",
       "categories": [
-        "cs.LG",
         "q-fin.GN",
-        "q-fin.ST"
+        "cs.CE",
+        "q-fin.PM"
       ],
-      "primary_category": "cs.LG",
-      "core_idea": "We propose the Identifiable Variational Dynamic Factor Model (iVDFM), which learns latent factors from multivariate time series with identifiability guarantees",
-      "methodology": "By applying iVAE-style conditioning to the innovation process driving the dynamics rather than to the latent states, we show that factors are identifiable up to permutation and component-wise affine (or monotone invertible) transformations",
-      "quant_impact": "Linear diagonal dynamics preserve this identifiability and admit scalable computation via companion-matrix and Krylov methods",
+      "primary_category": "q-fin.GN",
+      "core_idea": "We study whether a risk-sensitive objective from asset-pricing theory -- recursive utility -- improves reinforcement learning for portfolio allocation",
+      "methodology": "The Bellman equation under recursive utility involves a certainty equivalent (CE) of future value that has no closed form under observed returns; we approximate it by $K$-sample Monte Carlo and train actor-critic (PPO, A2C) on the resulting value target and an approximate advantage estimate (AAE) that generalizes the Bellman residual to multi-step with state-dependent weights",
+      "quant_impact": "This formulation applies only to critic-based algorithms",
       "relevance_score": 5,
-      "ranking_score": 29.22142857142857
+      "ranking_score": 28.79285714285714
+    },
+    {
+      "id": "2603.22831v1",
+      "source": "arxiv",
+      "title": "Option pricing model under the G-expectation framework",
+      "authors": [
+        "Ziting Pei",
+        "Xingye Yue",
+        "Xiaotao Zheng"
+      ],
+      "abstract": "G-expectation, as a sublinear expectation, provides a powerful framework for modeling uncertainty in financial markets. Motivated by the need for robust valuation under model uncertainty, this work develops a unified risk-neutral valuation approach within the G-expectation environment, yielding a nonlinear generalization of the Black-Scholes model, termed the G-Black-Scholes equation. To enhance computational efficiency and reduce numerical cost, we introduce a logarithmic transformation of the asset price, which yields an alternative nonlinear PDE. Based on this transformed formulation, we design both explicit and implicit finite difference schemes that are rigorously demonstrated to be consistent, stable, monotone, and convergent to the viscosity solution. Numerical examples confirm that the proposed schemes achieve high accuracy, while the logarithmic transformation relaxes the stability constraints of explicit schemes and improves computational efficiency.",
+      "published": "2026-03-24T06:09:43+00:00",
+      "url": "http://arxiv.org/abs/2603.22831v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.22831v1",
+      "categories": [
+        "cs.CE",
+        "q-fin.MF"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "G-expectation, as a sublinear expectation, provides a powerful framework for modeling uncertainty in financial markets",
+      "methodology": "Motivated by the need for robust valuation under model uncertainty, this work develops a unified risk-neutral valuation approach within the G-expectation environment, yielding a nonlinear generalization of the Black-Scholes model, termed the G-Black-Scholes equation",
+      "quant_impact": "To enhance computational efficiency and reduce numerical cost, we introduce a logarithmic transformation of the asset price, which yields an alternative nonlinear PDE",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
     },
     {
       "id": "2603.22596v1",
@@ -544,6 +520,30 @@
       "core_idea": "Standard phase-field fracture methods are rooted in brittle fracture theory and therefore do not inherently prescribe a material strength for crack nucleation, while also struggling to capture cohesive fracture behaviour",
       "methodology": "Recent eigenstrain-based formulations overcome both limitations by introducing fracture eigenstrains that decouple the strength surface from the fracture energy, but their implementation has so far relied on direct energy-minimization frameworks rather than standard finite-element procedures",
       "quant_impact": "In this work, we exploit the fact that the eigenstrains require no spatial gradients and reformulate the eigenstrain evolution as a local constitutive model, analogous to those used in plasticity, that is resolved at each integration point",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
+    },
+    {
+      "id": "2603.22886v1",
+      "source": "arxiv",
+      "title": "Conditionally Identifiable Latent Representation for Multivariate Time Series with Structural Dynamics",
+      "authors": [
+        "Minkey Chang",
+        "Jae-Young Kim"
+      ],
+      "abstract": "We propose the Identifiable Variational Dynamic Factor Model (iVDFM), which learns latent factors from multivariate time series with identifiability guarantees. By applying iVAE-style conditioning to the innovation process driving the dynamics rather than to the latent states, we show that factors are identifiable up to permutation and component-wise affine (or monotone invertible) transformations. Linear diagonal dynamics preserve this identifiability and admit scalable computation via companion-matrix and Krylov methods. We demonstrate improved factor recovery on synthetic data, stable intervention accuracy on synthetic SCMs, and competitive probabilistic forecasting on real-world benchmarks.",
+      "published": "2026-03-24T07:35:27+00:00",
+      "url": "http://arxiv.org/abs/2603.22886v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.22886v1",
+      "categories": [
+        "cs.LG",
+        "q-fin.GN",
+        "q-fin.ST"
+      ],
+      "primary_category": "cs.LG",
+      "core_idea": "We propose the Identifiable Variational Dynamic Factor Model (iVDFM), which learns latent factors from multivariate time series with identifiability guarantees",
+      "methodology": "By applying iVAE-style conditioning to the innovation process driving the dynamics rather than to the latent states, we show that factors are identifiable up to permutation and component-wise affine (or monotone invertible) transformations",
+      "quant_impact": "Linear diagonal dynamics preserve this identifiability and admit scalable computation via companion-matrix and Krylov methods",
       "relevance_score": 5,
       "ranking_score": 28.79285714285714
     },
@@ -646,38 +646,14 @@
       "ranking_score": 28.364285714285714
     },
     {
-      "id": "2603.21089v1",
-      "source": "arxiv",
-      "title": "Approximate Dynamic Programming for Degradation-aware Market Participation of Battery Energy Storage Systems: Bridging Market and Degradation Timescales",
-      "authors": [
-        "Flemming Holtorf",
-        "Sungho Shin"
-      ],
-      "abstract": "We present an approximate dynamic programming framework for designing degradation-aware market participation policies for battery energy storage systems. The approach employs a tailored value function approximation that reduces the state space to state of charge and battery health, while performing dynamic programming along a pseudo-time axis encoded by state of health. This formulation enables an offline/online computation split that separates long-term degradation dynamics (months to years) from short-term market dynamics (seconds to minutes) -- a timescale mismatch that renders conventional predictive control and dynamic programming approaches computationally intractable. The main computational effort occurs offline, where the value function is approximated via coarse-grained backward induction along the health dimension. Online decisions then reduce to a real-time tractable one-step predictive control problem guided by the precomputed value function. This decoupling allows the integration of high-fidelity physics-informed degradation models without sacrificing real-time feasibility. Backtests on historical market data show that the resulting policy outperforms several benchmark strategies with optimized hyperparameters.",
-      "published": "2026-03-22T07:04:07+00:00",
-      "url": "http://arxiv.org/abs/2603.21089v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.21089v1",
-      "categories": [
-        "eess.SY",
-        "math.OC",
-        "q-fin.TR"
-      ],
-      "primary_category": "eess.SY",
-      "core_idea": "We present an approximate dynamic programming framework for designing degradation-aware market participation policies for battery energy storage systems",
-      "methodology": "The approach employs a tailored value function approximation that reduces the state space to state of charge and battery health, while performing dynamic programming along a pseudo-time axis encoded by state of health",
-      "quant_impact": "This formulation enables an offline/online computation split that separates long-term degradation dynamics (months to years) from short-term market dynamics (seconds to minutes) -- a timescale mismatch that renders conventional predictive control and dynamic programming approaches computationally intractable",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
       "id": "323048702",
       "source": "github",
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63582,
-      "forks": 6256,
-      "updated": "2026-03-26T05:48:25+00:00",
+      "stars": 63583,
+      "forks": 6259,
+      "updated": "2026-03-26T06:45:11+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -706,9 +682,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39340,
-      "forks": 6129,
-      "updated": "2026-03-26T04:24:57+00:00",
+      "stars": 39342,
+      "forks": 6128,
+      "updated": "2026-03-26T07:30:12+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -742,9 +718,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25116,
-      "forks": 3314,
-      "updated": "2026-03-26T04:22:15+00:00",
+      "stars": 25117,
+      "forks": 3315,
+      "updated": "2026-03-26T06:56:41+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -780,9 +756,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16733,
+      "stars": 16734,
       "forks": 2364,
-      "updated": "2026-03-26T05:16:07+00:00",
+      "updated": "2026-03-26T07:29:26+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -815,9 +791,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12041,
+      "stars": 12042,
       "forks": 2498,
-      "updated": "2026-03-26T02:13:54+00:00",
+      "updated": "2026-03-26T06:20:56+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -907,9 +883,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9343,
+      "stars": 9346,
       "forks": 2077,
-      "updated": "2026-03-26T03:57:41+00:00",
+      "updated": "2026-03-26T07:34:05+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -1044,9 +1020,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 6986,
+      "stars": 6987,
       "forks": 897,
-      "updated": "2026-03-26T03:35:29+00:00",
+      "updated": "2026-03-26T06:48:49+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1078,7 +1054,7 @@
       "url": "https://github.com/lballabio/QuantLib",
       "stars": 6912,
       "forks": 2151,
-      "updated": "2026-03-25T20:54:48+00:00",
+      "updated": "2026-03-26T07:19:03+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -1162,9 +1138,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48040,
-      "forks": 10014,
-      "updated": "2026-03-26T06:02:31+00:00",
+      "stars": 48042,
+      "forks": 10013,
+      "updated": "2026-03-26T07:00:35+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1240,9 +1216,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14562,
-      "forks": 3239,
-      "updated": "2026-03-26T05:10:43+00:00",
+      "stars": 14563,
+      "forks": 3240,
+      "updated": "2026-03-26T06:15:31+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1310,9 +1286,9 @@
       "title": "PyPortfolioOpt",
       "description": "Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
       "url": "https://github.com/PyPortfolio/PyPortfolioOpt",
-      "stars": 5584,
+      "stars": 5585,
       "forks": 1099,
-      "updated": "2026-03-25T19:58:57+00:00",
+      "updated": "2026-03-26T07:00:53+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1384,6 +1360,21 @@
       "core_idea": "U.S",
       "methodology": "stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits",
       "quant_impact": "Nvidia was down 16%.",
+      "relevance_score": 5,
+      "ranking_score": 28.0
+    },
+    {
+      "id": "WP-WSJ-0002354018",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "Comex Gold, Silver Settle Lower",
+      "summary": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions.",
+      "published": "Mon, 27 Jan 2025 14:01:00 -0500",
+      "url": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
+      "author": "",
+      "core_idea": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions.",
+      "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
     }
