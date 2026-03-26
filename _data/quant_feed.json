@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T02:02:54.810748",
+  "last_updated": "2026-03-26T04:40:38.735177",
   "items": [
     {
       "id": "2603.24382v1",
@@ -131,33 +131,6 @@
       "ranking_score": 29.65
     },
     {
-      "id": "2603.23854v1",
-      "source": "arxiv",
-      "title": "Symbolic--KAN: Kolmogorov-Arnold Networks with Discrete Symbolic Structure for Interpretable Learning",
-      "authors": [
-        "Salah A Faroughi",
-        "Farinaz Mostajeran",
-        "Amirhossein Arzani",
-        "Shirko Faroughi"
-      ],
-      "abstract": "Symbolic discovery of governing equations is a long-standing goal in scientific machine learning, yet a fundamental trade-off persists between interpretability and scalable learning. Classical symbolic regression methods yield explicit analytic expressions but rely on combinatorial search, whereas neural networks scale efficiently with data and dimensionality but produce opaque representations. In this work, we introduce Symbolic Kolmogorov-Arnold Networks (Symbolic-KANs), a neural architecture that bridges this gap by embedding discrete symbolic structure directly within a trainable deep network. Symbolic-KANs represent multivariate functions as compositions of learned univariate primitives applied to learned scalar projections, guided by a library of analytic primitives, hierarchical gating, and symbolic regularization that progressively sharpens continuous mixtures into one-hot selections. After gated training and discretization, each active unit selects a single primitive and projection direction, yielding compact closed-form expressions without post-hoc symbolic fitting. Symbolic-KANs further act as scalable primitive discovery mechanisms, identifying the most relevant analytic components that can subsequently inform candidate libraries for sparse equation-learning methods. We demonstrate that Symbolic-KAN reliably recovers correct primitive terms and governing structures in data-driven regression and inverse dynamical systems. Moreover, the framework extends to forward and inverse physics-informed learning of partial differential equations, producing accurate solutions directly from governing constraints while constructing compact symbolic representations whose selected primitives reflect the true analytical structure of the underlying equations. These results position Symbolic-KAN as a step toward scalable, interpretable, and mechanistically grounded learning of governing laws.",
-      "published": "2026-03-25T02:31:13+00:00",
-      "url": "http://arxiv.org/abs/2603.23854v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23854v1",
-      "categories": [
-        "cs.LG",
-        "cs.CE",
-        "math.AP",
-        "math.DS"
-      ],
-      "primary_category": "cs.LG",
-      "core_idea": "Symbolic discovery of governing equations is a long-standing goal in scientific machine learning, yet a fundamental trade-off persists between interpretability and scalable learning",
-      "methodology": "Classical symbolic regression methods yield explicit analytic expressions but rely on combinatorial search, whereas neural networks scale efficiently with data and dimensionality but produce opaque representations",
-      "quant_impact": "In this work, we introduce Symbolic Kolmogorov-Arnold Networks (Symbolic-KANs), a neural architecture that bridges this gap by embedding discrete symbolic structure directly within a trainable deep network",
-      "relevance_score": 5,
-      "ranking_score": 29.65
-    },
-    {
       "id": "2603.24215v1",
       "source": "arxiv",
       "title": "Adapting Altman's bankruptcy prediction model to the compositional data methodology",
@@ -229,6 +202,33 @@
       "quant_impact": "Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants",
       "relevance_score": 5,
       "ranking_score": 29.65
+    },
+    {
+      "id": "2603.23854v1",
+      "source": "arxiv",
+      "title": "Symbolic--KAN: Kolmogorov-Arnold Networks with Discrete Symbolic Structure for Interpretable Learning",
+      "authors": [
+        "Salah A Faroughi",
+        "Farinaz Mostajeran",
+        "Amirhossein Arzani",
+        "Shirko Faroughi"
+      ],
+      "abstract": "Symbolic discovery of governing equations is a long-standing goal in scientific machine learning, yet a fundamental trade-off persists between interpretability and scalable learning. Classical symbolic regression methods yield explicit analytic expressions but rely on combinatorial search, whereas neural networks scale efficiently with data and dimensionality but produce opaque representations. In this work, we introduce Symbolic Kolmogorov-Arnold Networks (Symbolic-KANs), a neural architecture that bridges this gap by embedding discrete symbolic structure directly within a trainable deep network. Symbolic-KANs represent multivariate functions as compositions of learned univariate primitives applied to learned scalar projections, guided by a library of analytic primitives, hierarchical gating, and symbolic regularization that progressively sharpens continuous mixtures into one-hot selections. After gated training and discretization, each active unit selects a single primitive and projection direction, yielding compact closed-form expressions without post-hoc symbolic fitting. Symbolic-KANs further act as scalable primitive discovery mechanisms, identifying the most relevant analytic components that can subsequently inform candidate libraries for sparse equation-learning methods. We demonstrate that Symbolic-KAN reliably recovers correct primitive terms and governing structures in data-driven regression and inverse dynamical systems. Moreover, the framework extends to forward and inverse physics-informed learning of partial differential equations, producing accurate solutions directly from governing constraints while constructing compact symbolic representations whose selected primitives reflect the true analytical structure of the underlying equations. These results position Symbolic-KAN as a step toward scalable, interpretable, and mechanistically grounded learning of governing laws.",
+      "published": "2026-03-25T02:31:13+00:00",
+      "url": "http://arxiv.org/abs/2603.23854v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23854v1",
+      "categories": [
+        "cs.LG",
+        "cs.CE",
+        "math.AP",
+        "math.DS"
+      ],
+      "primary_category": "cs.LG",
+      "core_idea": "Symbolic discovery of governing equations is a long-standing goal in scientific machine learning, yet a fundamental trade-off persists between interpretability and scalable learning",
+      "methodology": "Classical symbolic regression methods yield explicit analytic expressions but rely on combinatorial search, whereas neural networks scale efficiently with data and dimensionality but produce opaque representations",
+      "quant_impact": "In this work, we introduce Symbolic Kolmogorov-Arnold Networks (Symbolic-KANs), a neural architecture that bridges this gap by embedding discrete symbolic structure directly within a trainable deep network",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
     },
     {
       "id": "2603.23790v1",
@@ -675,9 +675,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63571,
-      "forks": 6254,
-      "updated": "2026-03-26T01:19:19+00:00",
+      "stars": 63578,
+      "forks": 6256,
+      "updated": "2026-03-26T04:15:50+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -706,9 +706,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39331,
-      "forks": 6126,
-      "updated": "2026-03-26T01:48:21+00:00",
+      "stars": 39340,
+      "forks": 6128,
+      "updated": "2026-03-26T04:24:57+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -742,9 +742,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25110,
-      "forks": 3313,
-      "updated": "2026-03-26T01:46:21+00:00",
+      "stars": 25116,
+      "forks": 3314,
+      "updated": "2026-03-26T04:22:15+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -780,9 +780,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16733,
+      "stars": 16732,
       "forks": 2364,
-      "updated": "2026-03-26T01:32:26+00:00",
+      "updated": "2026-03-26T02:03:33+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -815,9 +815,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12040,
+      "stars": 12041,
       "forks": 2498,
-      "updated": "2026-03-26T01:59:08+00:00",
+      "updated": "2026-03-26T02:13:54+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -847,7 +847,7 @@
       "url": "https://github.com/TA-Lib/ta-lib-python",
       "stars": 11809,
       "forks": 1969,
-      "updated": "2026-03-25T16:06:53+00:00",
+      "updated": "2026-03-26T02:57:10+00:00",
       "language": "Cython",
       "topics": [
         "finance",
@@ -907,9 +907,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9340,
-      "forks": 2076,
-      "updated": "2026-03-26T01:40:53+00:00",
+      "stars": 9343,
+      "forks": 2077,
+      "updated": "2026-03-26T03:57:41+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -945,9 +945,9 @@
       "title": "financial-machine-learning",
       "description": "A curated list of practical financial machine learning tools and applications.",
       "url": "https://github.com/firmai/financial-machine-learning",
-      "stars": 8457,
+      "stars": 8458,
       "forks": 1396,
-      "updated": "2026-03-25T16:16:53+00:00",
+      "updated": "2026-03-26T03:13:07+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -971,9 +971,9 @@
       "title": "jesse",
       "description": "An advanced crypto trading bot written in Python",
       "url": "https://github.com/jesse-ai/jesse",
-      "stars": 7591,
+      "stars": 7594,
       "forks": 1073,
-      "updated": "2026-03-25T22:03:14+00:00",
+      "updated": "2026-03-26T03:56:45+00:00",
       "language": "JavaScript",
       "topics": [
         "algo-trading",
@@ -1007,9 +1007,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7511,
+      "stars": 7516,
       "forks": 1067,
-      "updated": "2026-03-26T01:08:38+00:00",
+      "updated": "2026-03-26T04:26:36+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1044,9 +1044,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 6984,
+      "stars": 6986,
       "forks": 897,
-      "updated": "2026-03-25T20:53:02+00:00",
+      "updated": "2026-03-26T03:35:29+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1162,9 +1162,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48037,
+      "stars": 48039,
       "forks": 10014,
-      "updated": "2026-03-26T01:38:57+00:00",
+      "updated": "2026-03-26T02:54:18+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1212,8 +1212,8 @@
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
       "stars": 16610,
-      "forks": 4467,
-      "updated": "2026-03-25T19:02:21+00:00",
+      "forks": 4466,
+      "updated": "2026-03-26T03:38:30+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1240,9 +1240,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14559,
+      "stars": 14561,
       "forks": 3238,
-      "updated": "2026-03-26T00:41:57+00:00",
+      "updated": "2026-03-26T04:23:41+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1272,9 +1272,9 @@
       "title": "backtesting.py",
       "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
       "url": "https://github.com/kernc/backtesting.py",
-      "stars": 8107,
+      "stars": 8108,
       "forks": 1416,
-      "updated": "2026-03-25T21:42:55+00:00",
+      "updated": "2026-03-26T02:20:36+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
