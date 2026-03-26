@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T10:38:43.386952",
+  "last_updated": "2026-03-26T11:37:50.620439",
   "items": [
     {
       "id": "2603.24382v1",
@@ -72,32 +72,6 @@
       "core_idea": "Using standard financial ratios as variables in statistical analyses has been related to several serious problems, such as extreme outliers, asymmetry, non-normality, and non-linearity",
       "methodology": "The compositional-data methodology has been successfully applied to solve these problems and has always yielded substantially different results when compared to standard financial ratios",
       "quant_impact": "An under-researched area is the use of financial log-ratios computed with the compositional-data methodology to predict bankruptcy or the related terms of business default, insolvency or failure",
-      "relevance_score": 5,
-      "ranking_score": 29.65
-    },
-    {
-      "id": "2603.24190v1",
-      "source": "arxiv",
-      "title": "Dynamical thermalization and turbulence in social stratification models",
-      "authors": [
-        "Klaus M. Frahm",
-        "Dima L. Shepelyansky"
-      ],
-      "abstract": "We study the nonlinear chaotic dynamics in a system of linear oscillators coupled by social network links with an additional stratification of oscillator energies, or frequencies, and supplementary nonlinear interactions. It is argued that this system can be viewed as a model of social stratification in a society with nonlinear interacting agents with energies playing a role of wealth states of society. The Hamiltonian evolution is characterized by two integrals of motion being energy and probability norm. Above a certain chaos border the chaotic dynamics leads to dynamical thermalization with the Rayleigh-Jeans (RJ) distribution over states with given energy or wealth. At low energies, this distribution has RJ condensation of norm at low energy modes. We point out a similarity of this condensation with the wealth inequality in the world countries where about a half of population owns only a couple of percent of the total wealth. In the presence of energy pumping and absorption, the system reveals features of the Kolmogorov-Zakharov turbulence of nonlinear waves.",
-      "published": "2026-03-25T11:14:13+00:00",
-      "url": "http://arxiv.org/abs/2603.24190v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24190v1",
-      "categories": [
-        "cond-mat.stat-mech",
-        "econ.GN",
-        "nlin.CD",
-        "physics.soc-ph",
-        "q-fin.ST"
-      ],
-      "primary_category": "cond-mat.stat-mech",
-      "core_idea": "We study the nonlinear chaotic dynamics in a system of linear oscillators coupled by social network links with an additional stratification of oscillator energies, or frequencies, and supplementary nonlinear interactions",
-      "methodology": "It is argued that this system can be viewed as a model of social stratification in a society with nonlinear interacting agents with energies playing a role of wealth states of society",
-      "quant_impact": "The Hamiltonian evolution is characterized by two integrals of motion being energy and probability norm",
       "relevance_score": 5,
       "ranking_score": 29.65
     },
@@ -327,6 +301,32 @@
       "ranking_score": 29.22142857142857
     },
     {
+      "id": "2603.24190v1",
+      "source": "arxiv",
+      "title": "Dynamical thermalization and turbulence in social stratification models",
+      "authors": [
+        "Klaus M. Frahm",
+        "Dima L. Shepelyansky"
+      ],
+      "abstract": "We study the nonlinear chaotic dynamics in a system of linear oscillators coupled by social network links with an additional stratification of oscillator energies, or frequencies, and supplementary nonlinear interactions. It is argued that this system can be viewed as a model of social stratification in a society with nonlinear interacting agents with energies playing a role of wealth states of society. The Hamiltonian evolution is characterized by two integrals of motion being energy and probability norm. Above a certain chaos border the chaotic dynamics leads to dynamical thermalization with the Rayleigh-Jeans (RJ) distribution over states with given energy or wealth. At low energies, this distribution has RJ condensation of norm at low energy modes. We point out a similarity of this condensation with the wealth inequality in the world countries where about a half of population owns only a couple of percent of the total wealth. In the presence of energy pumping and absorption, the system reveals features of the Kolmogorov-Zakharov turbulence of nonlinear waves.",
+      "published": "2026-03-25T11:14:13+00:00",
+      "url": "http://arxiv.org/abs/2603.24190v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24190v1",
+      "categories": [
+        "cond-mat.stat-mech",
+        "econ.GN",
+        "nlin.CD",
+        "physics.soc-ph",
+        "q-fin.ST"
+      ],
+      "primary_category": "cond-mat.stat-mech",
+      "core_idea": "We study the nonlinear chaotic dynamics in a system of linear oscillators coupled by social network links with an additional stratification of oscillator energies, or frequencies, and supplementary nonlinear interactions",
+      "methodology": "It is argued that this system can be viewed as a model of social stratification in a society with nonlinear interacting agents with energies playing a role of wealth states of society",
+      "quant_impact": "The Hamiltonian evolution is characterized by two integrals of motion being energy and probability norm",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
+    },
+    {
       "id": "2603.23300v1",
       "source": "arxiv",
       "title": "Designing Agentic AI-Based Screening for Portfolio Investment",
@@ -503,27 +503,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.21811v1",
-      "source": "arxiv",
-      "title": "Cohesive phase-field fracture with an explicit strength surface: an eigenstrain-based return-mapping formulation",
-      "authors": [
-        "Tim Hageman"
-      ],
-      "abstract": "Standard phase-field fracture methods are rooted in brittle fracture theory and therefore do not inherently prescribe a material strength for crack nucleation, while also struggling to capture cohesive fracture behaviour. Recent eigenstrain-based formulations overcome both limitations by introducing fracture eigenstrains that decouple the strength surface from the fracture energy, but their implementation has so far relied on direct energy-minimization frameworks rather than standard finite-element procedures. In this work, we exploit the fact that the eigenstrains require no spatial gradients and reformulate the eigenstrain evolution as a local constitutive model, analogous to those used in plasticity, that is resolved at each integration point. As a result, the cohesive phase-field requires no additional global degrees of freedom beyond those of a standard phase-field formulation and can be readily integrated into existing finite-element codes. Two strength criteria are considered: a non-smooth criterion with independent tensile and shear strengths, and a smooth Drucker-Prager-like criterion that captures pressure-dependent strengthening under compression. Consistent tangent operators are derived for both criteria, ensuring robust convergence of the global Newton-Raphson solver. The framework is validated against three benchmark problems: a plate with a hole under tension and compression, a single-edge notched plate under shear, and a notched plate under dynamic loading. The results demonstrate mesh-independent and phase-field length-scale-independent behaviour, confirm that the fracture energy governs the transition between brittle and cohesive regimes, and show that complex phenomena such as crack branching under dynamic loading are naturally captured. All source codes are openly available.",
-      "published": "2026-03-23T10:55:33+00:00",
-      "url": "http://arxiv.org/abs/2603.21811v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.21811v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Standard phase-field fracture methods are rooted in brittle fracture theory and therefore do not inherently prescribe a material strength for crack nucleation, while also struggling to capture cohesive fracture behaviour",
-      "methodology": "Recent eigenstrain-based formulations overcome both limitations by introducing fracture eigenstrains that decouple the strength surface from the fracture energy, but their implementation has so far relied on direct energy-minimization frameworks rather than standard finite-element procedures",
-      "quant_impact": "In this work, we exploit the fact that the eigenstrains require no spatial gradients and reformulate the eigenstrain evolution as a local constitutive model, analogous to those used in plasticity, that is resolved at each integration point",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
       "id": "2603.22886v1",
       "source": "arxiv",
       "title": "Conditionally Identifiable Latent Representation for Multivariate Time Series with Structural Dynamics",
@@ -571,28 +550,25 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.21842v1",
+      "id": "2603.21811v1",
       "source": "arxiv",
-      "title": "Flexible Information Acquisition in the Kyle Model",
+      "title": "Cohesive phase-field fracture with an explicit strength surface: an eigenstrain-based return-mapping formulation",
       "authors": [
-        "S. Viswanathan",
-        "Hao Xing"
+        "Tim Hageman"
       ],
-      "abstract": "We study an information acquisition problem in which an informed trader acquires costly information prior to trading in the Kyle equilibrium. The cost of information acquisition is represented by an entropy cost. Regardless of the prior distribution of the asset payoff, continuous signals are optimal. Moreover, any continuously distributed signal, together with an associated logit type posterior distribution of the payoff, yields the same ex-ante value for the informed trader, the same distribution of posterior expected payoff, and the same unconditional distribution of the informed trader's trading strategy. Consequently, a normally distributed signal can be adopted without loss of generality. We further show that when the information acquisition cost increases or the volatility of noise trades decreases, the variance of the posterior expected payoff declines, the profit potential from trading diminishes, meanwhile the posterior expected payoff increasingly resembles a normal distribution, and the information leakage cost from trading decreases.",
-      "published": "2026-03-23T11:31:29+00:00",
-      "url": "http://arxiv.org/abs/2603.21842v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.21842v1",
+      "abstract": "Standard phase-field fracture methods are rooted in brittle fracture theory and therefore do not inherently prescribe a material strength for crack nucleation, while also struggling to capture cohesive fracture behaviour. Recent eigenstrain-based formulations overcome both limitations by introducing fracture eigenstrains that decouple the strength surface from the fracture energy, but their implementation has so far relied on direct energy-minimization frameworks rather than standard finite-element procedures. In this work, we exploit the fact that the eigenstrains require no spatial gradients and reformulate the eigenstrain evolution as a local constitutive model, analogous to those used in plasticity, that is resolved at each integration point. As a result, the cohesive phase-field requires no additional global degrees of freedom beyond those of a standard phase-field formulation and can be readily integrated into existing finite-element codes. Two strength criteria are considered: a non-smooth criterion with independent tensile and shear strengths, and a smooth Drucker-Prager-like criterion that captures pressure-dependent strengthening under compression. Consistent tangent operators are derived for both criteria, ensuring robust convergence of the global Newton-Raphson solver. The framework is validated against three benchmark problems: a plate with a hole under tension and compression, a single-edge notched plate under shear, and a notched plate under dynamic loading. The results demonstrate mesh-independent and phase-field length-scale-independent behaviour, confirm that the fracture energy governs the transition between brittle and cohesive regimes, and show that complex phenomena such as crack branching under dynamic loading are naturally captured. All source codes are openly available.",
+      "published": "2026-03-23T10:55:33+00:00",
+      "url": "http://arxiv.org/abs/2603.21811v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.21811v1",
       "categories": [
-        "econ.TH",
-        "q-fin.MF",
-        "q-fin.TR"
+        "cs.CE"
       ],
-      "primary_category": "econ.TH",
-      "core_idea": "We study an information acquisition problem in which an informed trader acquires costly information prior to trading in the Kyle equilibrium",
-      "methodology": "The cost of information acquisition is represented by an entropy cost",
-      "quant_impact": "Regardless of the prior distribution of the asset payoff, continuous signals are optimal",
+      "primary_category": "cs.CE",
+      "core_idea": "Standard phase-field fracture methods are rooted in brittle fracture theory and therefore do not inherently prescribe a material strength for crack nucleation, while also struggling to capture cohesive fracture behaviour",
+      "methodology": "Recent eigenstrain-based formulations overcome both limitations by introducing fracture eigenstrains that decouple the strength surface from the fracture energy, but their implementation has so far relied on direct energy-minimization frameworks rather than standard finite-element procedures",
+      "quant_impact": "In this work, we exploit the fact that the eigenstrains require no spatial gradients and reformulate the eigenstrain evolution as a local constitutive model, analogous to those used in plasticity, that is resolved at each integration point",
       "relevance_score": 5,
-      "ranking_score": 28.79285714285714
+      "ranking_score": 28.364285714285714
     },
     {
       "id": "2603.21330v1",
@@ -646,14 +622,38 @@
       "ranking_score": 28.364285714285714
     },
     {
+      "id": "2603.21842v1",
+      "source": "arxiv",
+      "title": "Flexible Information Acquisition in the Kyle Model",
+      "authors": [
+        "S. Viswanathan",
+        "Hao Xing"
+      ],
+      "abstract": "We study an information acquisition problem in which an informed trader acquires costly information prior to trading in the Kyle equilibrium. The cost of information acquisition is represented by an entropy cost. Regardless of the prior distribution of the asset payoff, continuous signals are optimal. Moreover, any continuously distributed signal, together with an associated logit type posterior distribution of the payoff, yields the same ex-ante value for the informed trader, the same distribution of posterior expected payoff, and the same unconditional distribution of the informed trader's trading strategy. Consequently, a normally distributed signal can be adopted without loss of generality. We further show that when the information acquisition cost increases or the volatility of noise trades decreases, the variance of the posterior expected payoff declines, the profit potential from trading diminishes, meanwhile the posterior expected payoff increasingly resembles a normal distribution, and the information leakage cost from trading decreases.",
+      "published": "2026-03-23T11:31:29+00:00",
+      "url": "http://arxiv.org/abs/2603.21842v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.21842v1",
+      "categories": [
+        "econ.TH",
+        "q-fin.MF",
+        "q-fin.TR"
+      ],
+      "primary_category": "econ.TH",
+      "core_idea": "We study an information acquisition problem in which an informed trader acquires costly information prior to trading in the Kyle equilibrium",
+      "methodology": "The cost of information acquisition is represented by an entropy cost",
+      "quant_impact": "Regardless of the prior distribution of the asset payoff, continuous signals are optimal",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
+    },
+    {
       "id": "323048702",
       "source": "github",
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63590,
-      "forks": 6259,
-      "updated": "2026-03-26T10:25:36+00:00",
+      "stars": 63592,
+      "forks": 6258,
+      "updated": "2026-03-26T11:35:41+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -682,9 +682,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39348,
+      "stars": 39351,
       "forks": 6132,
-      "updated": "2026-03-26T10:35:25+00:00",
+      "updated": "2026-03-26T11:20:53+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -718,9 +718,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25119,
-      "forks": 3317,
-      "updated": "2026-03-26T08:36:05+00:00",
+      "stars": 25120,
+      "forks": 3318,
+      "updated": "2026-03-26T11:02:52+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -756,9 +756,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16738,
-      "forks": 2364,
-      "updated": "2026-03-26T09:29:30+00:00",
+      "stars": 16739,
+      "forks": 2365,
+      "updated": "2026-03-26T11:27:34+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -791,9 +791,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12047,
+      "stars": 12048,
       "forks": 2498,
-      "updated": "2026-03-26T09:39:46+00:00",
+      "updated": "2026-03-26T11:20:04+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -883,9 +883,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9375,
-      "forks": 2077,
-      "updated": "2026-03-26T10:33:41+00:00",
+      "stars": 9378,
+      "forks": 2079,
+      "updated": "2026-03-26T11:18:22+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -983,9 +983,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7516,
+      "stars": 7517,
       "forks": 1067,
-      "updated": "2026-03-26T10:37:31+00:00",
+      "updated": "2026-03-26T11:20:33+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1054,7 +1054,7 @@
       "url": "https://github.com/lballabio/QuantLib",
       "stars": 6914,
       "forks": 2151,
-      "updated": "2026-03-26T10:37:07+00:00",
+      "updated": "2026-03-26T10:57:09+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -1138,9 +1138,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48050,
+      "stars": 48052,
       "forks": 10013,
-      "updated": "2026-03-26T10:07:51+00:00",
+      "updated": "2026-03-26T10:49:13+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1187,9 +1187,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16616,
+      "stars": 16618,
       "forks": 4465,
-      "updated": "2026-03-26T09:23:08+00:00",
+      "updated": "2026-03-26T11:37:31+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1216,9 +1216,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14564,
+      "stars": 14566,
       "forks": 3241,
-      "updated": "2026-03-26T09:54:12+00:00",
+      "updated": "2026-03-26T11:10:29+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1248,9 +1248,9 @@
       "title": "backtesting.py",
       "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
       "url": "https://github.com/kernc/backtesting.py",
-      "stars": 8108,
+      "stars": 8109,
       "forks": 1416,
-      "updated": "2026-03-26T02:20:36+00:00",
+      "updated": "2026-03-26T10:54:57+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
