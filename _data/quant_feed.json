@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T16:51:23.338002",
+  "last_updated": "2026-03-26T17:56:07.125724",
   "items": [
     {
       "id": "2603.24382v1",
@@ -181,29 +181,6 @@
       "ranking_score": 29.22142857142857
     },
     {
-      "id": "2603.23480v1",
-      "source": "arxiv",
-      "title": "Stablecoins as Dry Powder: A Copula-Based Risk Analysis of Cryptocurrency Markets",
-      "authors": [
-        "Elliot Jones",
-        "Toshiko Matsui",
-        "William Knottenbelt"
-      ],
-      "abstract": "Stablecoins serve as the fundamental infrastructure for Decentralised Finance (DeFi), acting as the primary bridge between fiat currencies and the digital asset ecosystem. While peg stability is well-documented, the structural role stablecoins play in transmitting systemic risk to the broader market remains under-explored. This study uses copula-based approaches to quantify the transmission of volatility and activity from stablecoin to cryptocurrency markets. We demonstrate in-sample causality across daily, weekly, and monthly horizons. Furthermore, we show that incorporating stablecoin factors significantly reduces Mean Squared Error in cryptocurrency forecasting. Specifically, we link stablecoin volume and upside volatility to broader market volatility, indicating its role as dry powder. Finally, we establish economic value by demonstrating reduced risk in a cryptocurrency volatility targeting model when stablecoin factors are employed.",
-      "published": "2026-03-24T17:44:24+00:00",
-      "url": "http://arxiv.org/abs/2603.23480v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23480v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Stablecoins serve as the fundamental infrastructure for Decentralised Finance (DeFi), acting as the primary bridge between fiat currencies and the digital asset ecosystem",
-      "methodology": "While peg stability is well-documented, the structural role stablecoins play in transmitting systemic risk to the broader market remains under-explored",
-      "quant_impact": "This study uses copula-based approaches to quantify the transmission of volatility and activity from stablecoin to cryptocurrency markets",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
-    },
-    {
       "id": "2603.23842v1",
       "source": "arxiv",
       "title": "Environmental CVA with K-Robust Wrong-Way Risk",
@@ -297,6 +274,29 @@
       "quant_impact": "Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants",
       "relevance_score": 5,
       "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.23480v1",
+      "source": "arxiv",
+      "title": "Stablecoins as Dry Powder: A Copula-Based Risk Analysis of Cryptocurrency Markets",
+      "authors": [
+        "Elliot Jones",
+        "Toshiko Matsui",
+        "William Knottenbelt"
+      ],
+      "abstract": "Stablecoins serve as the fundamental infrastructure for Decentralised Finance (DeFi), acting as the primary bridge between fiat currencies and the digital asset ecosystem. While peg stability is well-documented, the structural role stablecoins play in transmitting systemic risk to the broader market remains under-explored. This study uses copula-based approaches to quantify the transmission of volatility and activity from stablecoin to cryptocurrency markets. We demonstrate in-sample causality across daily, weekly, and monthly horizons. Furthermore, we show that incorporating stablecoin factors significantly reduces Mean Squared Error in cryptocurrency forecasting. Specifically, we link stablecoin volume and upside volatility to broader market volatility, indicating its role as dry powder. Finally, we establish economic value by demonstrating reduced risk in a cryptocurrency volatility targeting model when stablecoin factors are employed.",
+      "published": "2026-03-24T17:44:24+00:00",
+      "url": "http://arxiv.org/abs/2603.23480v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23480v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Stablecoins serve as the fundamental infrastructure for Decentralised Finance (DeFi), acting as the primary bridge between fiat currencies and the digital asset ecosystem",
+      "methodology": "While peg stability is well-documented, the structural role stablecoins play in transmitting systemic risk to the broader market remains under-explored",
+      "quant_impact": "This study uses copula-based approaches to quantify the transmission of volatility and activity from stablecoin to cryptocurrency markets",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
     },
     {
       "id": "2603.23290v1",
@@ -548,33 +548,6 @@
       "ranking_score": 28.364285714285714
     },
     {
-      "id": "2603.21330v1",
-      "source": "arxiv",
-      "title": "FinRL-X: An AI-Native Modular Infrastructure for Quantitative Trading",
-      "authors": [
-        "Hongyang Yang",
-        "Boyu Zhang",
-        "Yang She",
-        "Xinyu Liao",
-        "Xiaoli Zhang"
-      ],
-      "abstract": "We present FinRL-X, a modular and deployment-consistent trading architecture that unifies data processing, strategy construction, backtesting, and broker execution under a weight-centric interface. While existing open-source platforms are often backtesting- or model-centric, they rarely provide system-level consistency between research evaluation and live deployment. FinRL-X addresses this gap through a composable strategy pipeline that integrates stock selection, portfolio allocation, timing, and portfolio-level risk overlays within a unified protocol. The framework supports both rule-based and AI-driven components, including reinforcement learning allocators and LLM-based sentiment signals, without altering downstream execution semantics. FinRL-X provides an extensible foundation for reproducible, end-to-end quantitative trading research and deployment. The official FinRL-X implementation is available at https://github.com/AI4Finance-Foundation/FinRL-Trading.",
-      "published": "2026-03-22T17:13:10+00:00",
-      "url": "http://arxiv.org/abs/2603.21330v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.21330v1",
-      "categories": [
-        "q-fin.TR",
-        "cs.LG",
-        "q-fin.CP"
-      ],
-      "primary_category": "q-fin.TR",
-      "core_idea": "We present FinRL-X, a modular and deployment-consistent trading architecture that unifies data processing, strategy construction, backtesting, and broker execution under a weight-centric interface",
-      "methodology": "While existing open-source platforms are often backtesting- or model-centric, they rarely provide system-level consistency between research evaluation and live deployment",
-      "quant_impact": "FinRL-X addresses this gap through a composable strategy pipeline that integrates stock selection, portfolio allocation, timing, and portfolio-level risk overlays within a unified protocol",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
       "id": "2603.21672v2",
       "source": "arxiv",
       "title": "Mislearning of Factor Risk Premia under Structural Breaks: A Misspecified Bayesian Learning Framework",
@@ -651,9 +624,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63599,
+      "stars": 63600,
       "forks": 6259,
-      "updated": "2026-03-26T16:42:01+00:00",
+      "updated": "2026-03-26T17:02:06+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -682,9 +655,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39362,
+      "stars": 39363,
       "forks": 6135,
-      "updated": "2026-03-26T16:42:36+00:00",
+      "updated": "2026-03-26T17:33:05+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -718,9 +691,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25128,
+      "stars": 25129,
       "forks": 3318,
-      "updated": "2026-03-26T16:29:54+00:00",
+      "updated": "2026-03-26T17:33:46+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -791,9 +764,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12051,
+      "stars": 12052,
       "forks": 2498,
-      "updated": "2026-03-26T15:08:19+00:00",
+      "updated": "2026-03-26T17:06:52+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -845,9 +818,9 @@
       "title": "quant-trading",
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
-      "stars": 9524,
-      "forks": 1748,
-      "updated": "2026-03-26T16:07:10+00:00",
+      "stars": 9528,
+      "forks": 1749,
+      "updated": "2026-03-26T17:55:00+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -883,9 +856,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9422,
+      "stars": 9429,
       "forks": 2086,
-      "updated": "2026-03-26T16:48:10+00:00",
+      "updated": "2026-03-26T17:36:16+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -983,9 +956,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7518,
+      "stars": 7520,
       "forks": 1069,
-      "updated": "2026-03-26T16:24:07+00:00",
+      "updated": "2026-03-26T17:53:31+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1022,7 +995,7 @@
       "url": "https://github.com/polakowo/vectorbt",
       "stars": 6995,
       "forks": 897,
-      "updated": "2026-03-26T15:46:21+00:00",
+      "updated": "2026-03-26T17:51:33+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1052,9 +1025,9 @@
       "title": "QuantLib",
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
-      "stars": 6916,
-      "forks": 2151,
-      "updated": "2026-03-26T15:22:51+00:00",
+      "stars": 6917,
+      "forks": 2152,
+      "updated": "2026-03-26T17:36:34+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -1138,9 +1111,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48063,
-      "forks": 10014,
-      "updated": "2026-03-26T16:42:35+00:00",
+      "stars": 48068,
+      "forks": 10013,
+      "updated": "2026-03-26T17:53:57+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1165,9 +1138,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19548,
+      "stars": 19549,
       "forks": 4951,
-      "updated": "2026-03-26T15:00:38+00:00",
+      "updated": "2026-03-26T17:09:14+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1187,9 +1160,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16622,
+      "stars": 16623,
       "forks": 4466,
-      "updated": "2026-03-26T15:14:54+00:00",
+      "updated": "2026-03-26T16:53:40+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1216,9 +1189,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14572,
+      "stars": 14574,
       "forks": 3241,
-      "updated": "2026-03-26T16:17:07+00:00",
+      "updated": "2026-03-26T17:39:32+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1373,6 +1346,21 @@
       "url": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
       "author": "",
       "core_idea": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions.",
+      "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 28.0
+    },
+    {
+      "id": "WP-WSJ-0002355367",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "DeepSeek Won't Sink U.S. AI Titans",
+      "summary": "Panic fueling the selloff of Nvidia, Broadcom and other tech giants is overblown.",
+      "published": "Mon, 27 Jan 2025 13:12:00 -0500",
+      "url": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main",
+      "author": "",
+      "core_idea": "Panic fueling the selloff of Nvidia, Broadcom and other tech giants is overblown.",
       "methodology": "No methodology extracted.",
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
