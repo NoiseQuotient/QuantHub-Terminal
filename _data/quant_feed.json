@@ -1,6 +1,258 @@
 {
-  "last_updated": "2026-03-25T23:51:24.879034",
+  "last_updated": "2026-03-26T02:02:54.810748",
   "items": [
+    {
+      "id": "2603.24382v1",
+      "source": "arxiv",
+      "title": "MolEvolve: LLM-Guided Evolutionary Search for Interpretable Molecular Optimization",
+      "authors": [
+        "Xiangsen Chen",
+        "Ruilong Wu",
+        "Yanyan Lan",
+        "Ting Ma",
+        "Yang Liu"
+      ],
+      "abstract": "Despite deep learning's success in chemistry, its impact is hindered by a lack of interpretability and an inability to resolve activity cliffs, where minor structural nuances trigger drastic property shifts. Current representation learning, bound by the similarity principle, often fails to capture these structural-activity discontinuities. To address this, we introduce MolEvolve, an evolutionary framework that reformulates molecular discovery as an autonomous, look-ahead planning problem. Unlike traditional methods that depend on human-engineered features or rigid prior knowledge, MolEvolve leverages a Large Language Model (LLM) to actively explore and evolve a library of executable chemical symbolic operations. By utilizing the LLM to cold start and an Monte Carlo Tree Search (MCTS) engine for test-time planning with external tools (e.g. RDKit), the system self-discovers optimal trajectories autonomously. This process evolves transparent reasoning chains that translate complex structural transformations into actionable, human-readable chemical insights. Experimental results demonstrate that MolEvolve's autonomous search not only evolves transparent, human-readable chemical insights, but also outperforms baselines in both property prediction and molecule optimization tasks.",
+      "published": "2026-03-25T15:01:03+00:00",
+      "url": "http://arxiv.org/abs/2603.24382v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24382v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CE"
+      ],
+      "primary_category": "cs.LG",
+      "core_idea": "Despite deep learning's success in chemistry, its impact is hindered by a lack of interpretability and an inability to resolve activity cliffs, where minor structural nuances trigger drastic property shifts",
+      "methodology": "Current representation learning, bound by the similarity principle, often fails to capture these structural-activity discontinuities",
+      "quant_impact": "To address this, we introduce MolEvolve, an evolutionary framework that reformulates molecular discovery as an autonomous, look-ahead planning problem",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.24236v1",
+      "source": "arxiv",
+      "title": "S$^{3}$G: Stock State Space Graph for Enhanced Stock Trend Prediction",
+      "authors": [
+        "Yao Lu",
+        "Kaiyi Hu",
+        "Luyan Zhang"
+      ],
+      "abstract": "Stock trend prediction has attracted considerable attention for its potential to generate tangible investment returns. With the advent of deep learning in quantitative finance, researchers have increasingly recognized the importance of synergies between stocks, such as sector membership or upstream-downstream relationships, in accurately capturing market dynamics. However, previous work often relies on static industry graphs or constructs graphs at each time step via similarity measures, overlooking the fluid evolution of stock relationships. We observe that as companies interact competitively and cooperatively, their interdependencies change in a fine-grained, time-varying manner that cannot be fully captured by coarse, static connections or simple similarity-based snapshots. To address these challenges, we introduce the Stock State Space Graph (S$^{3}$G) framework for enhanced stock trend prediction. First, we apply wavelet transforms to denoise the inherently low signal-to-noise financial series and extract salient patterns. After that, we construct data-dependent graphs at each time point and employ state space models to characterize the evolutionary dynamics of these graphs. Finally, we perform a graph aggregation operation to obtain the predicted return. Extensive experiments on historical CSI 500 data demonstrate the state-of-the-art performance of S$^{3}$G, with superior annualized returns and Sharpe ratios compared to other baselines.",
+      "published": "2026-03-25T12:17:07+00:00",
+      "url": "http://arxiv.org/abs/2603.24236v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24236v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Stock trend prediction has attracted considerable attention for its potential to generate tangible investment returns",
+      "methodology": "With the advent of deep learning in quantitative finance, researchers have increasingly recognized the importance of synergies between stocks, such as sector membership or upstream-downstream relationships, in accurately capturing market dynamics",
+      "quant_impact": "However, previous work often relies on static industry graphs or constructs graphs at each time step via similarity measures, overlooking the fluid evolution of stock relationships",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.24114v1",
+      "source": "arxiv",
+      "title": "FFV-PINN: A Fast Physics-Informed Neural Network with Simplified Finite Volume Discretization and Residual Correction",
+      "authors": [
+        "Chang Wei",
+        "Yuchen Fan",
+        "Jian Cheng Wong",
+        "Chin Chun Ooi",
+        "Heyang Wang",
+        "Pao-Hsiung Chiu"
+      ],
+      "abstract": "Physics-informed neural networks (PINNs) have emerged as a major research focus. However, today's PINNs encounter several limitations. Firstly, during the construction of the loss function using automatic differentiation, PINNs often neglect information from neighboring points, which hinders their ability to enforce physical constraints and diminishes their accuracy. Furthermore, issues such as instability and poor convergence persist during PINN training, limiting their applicability to complex fluid dynamics problems. To address these challenges, a fast physics-informed neural network framework that integrates a simplified finite volume method (FVM) and residual correction loss term has been proposed, referred to as Fast Finite Volume PINN (FFV-PINN). FFV-PINN utilizes a simplified FVM discretization for the convection term, with an accompanying improvement in the dispersion and dissipation behavior. Unlike traditional FVM, the FFV-PINN outputs can be simply and directly harnessed to approximate values on control surfaces, thereby simplifying the discretization process. Moreover, a residual correction loss term is introduced to significantly accelerates convergence and improves training efficiency. To validate the performance, we solve a series of challenging problems -- including flow in the two-dimensional steady and unsteady lid-driven cavity, three-dimensional steady lid-driven cavity, backward-facing step flows, and natural convection at high Reynolds number and Rayleigh number. Notably, the FFV-PINN can achieve data-free solutions for the lid-driven cavity flow at Re = 10000 and natural convection at Ra = 1e8 for the first time in PINN literature, even while requiring only 680s and 231s. It further highlights the effectiveness of FFV-PINN in improving both speed and accuracy, marking another step forward in the progression of PINNs as competitive neural PDE solvers.",
+      "published": "2026-03-25T09:22:30+00:00",
+      "url": "http://arxiv.org/abs/2603.24114v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24114v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Physics-informed neural networks (PINNs) have emerged as a major research focus",
+      "methodology": "However, today's PINNs encounter several limitations",
+      "quant_impact": "Firstly, during the construction of the loss function using automatic differentiation, PINNs often neglect information from neighboring points, which hinders their ability to enforce physical constraints and diminishes their accuracy",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.24013v1",
+      "source": "arxiv",
+      "title": "Bridging Computational Fluid Dynamics Algorithm and Physics-Informed Learning: SIMPLE-PINN for Incompressible Navier-Stokes Equations",
+      "authors": [
+        "Chang Wei",
+        "Yuchen Fan",
+        "Chin Chun Ooi",
+        "Jian Cheng Wong",
+        "Heyang Wang",
+        "Pao-Hsiung Chiu"
+      ],
+      "abstract": "Physics-informed neural networks (PINNs) have shown promise for solving partial differential equations (PDEs) by directly embedding them into the loss function. Despite their notable success, existing PINNs often exhibit training instability and slow convergence when applied to strongly nonlinear fluid dynamics problems. To address these challenges, this paper proposes a novel PINN framework, named as SIMPLE-PINN, which incorporates velocity and pressure correction loss terms inspired by the semi-implicit pressure link equation. These correction terms, derived from the momentum and continuity residuals, are tailored for the PINN framework, ensuring velocity-pressure coupling and reinforcing the underlying physical constraints of the Navier-Stokes equations. Through this, the framework can effectively mitigate training instability and accelerate convergence to achieve accurate solution. Furthermore, a hybrid numerical-automatic differentiation strategy is employed to improve the model's generalizability in resolving flows involving complex geometries. The performance of SIMPLE-PINN is evaluated on a range of challenging benchmark cases, including strongly nonlinear flows, long-term flow prediction, and multiphysics coupling problems. The numerical results demonstrate SIMPLE-PINN's high accuracy and rapid convergence. Notably, SIMPLE-PINN achieves, for the first time, a fully data-free solution of lid-driven cavity flow at Re=20000 in just 448s, and successfully captures the onset and long-time evolution of vortex shedding in flow past a cylinder over t=0-100. These findings demonstrate SIMPLE-PINN's potential as a reliable and competitive neural solver for complex PDEs in intelligent scientific computing, with promising engineering applications in aerospace, civil engineering, and mechanical engineering.",
+      "published": "2026-03-25T07:19:38+00:00",
+      "url": "http://arxiv.org/abs/2603.24013v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24013v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Physics-informed neural networks (PINNs) have shown promise for solving partial differential equations (PDEs) by directly embedding them into the loss function",
+      "methodology": "Despite their notable success, existing PINNs often exhibit training instability and slow convergence when applied to strongly nonlinear fluid dynamics problems",
+      "quant_impact": "To address these challenges, this paper proposes a novel PINN framework, named as SIMPLE-PINN, which incorporates velocity and pressure correction loss terms inspired by the semi-implicit pressure link equation",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.23942v1",
+      "source": "arxiv",
+      "title": "The Missing Adapter Layer for Research Computing",
+      "authors": [
+        "Bowen Li",
+        "Jiazhu Xie",
+        "Chelsea Wang",
+        "Alessandro Umberto D'Aloia",
+        "Ziqi Xu",
+        "Fengling Han"
+      ],
+      "abstract": "Higher Degree by Research (HDR) candidates increasingly depend on cloud-provisioned virtual machines and local GPU hardware for their computational experiments, yet a persistent and under-addressed gap exists between having compute resources and using them productively. Cloud and infrastructure teams can provision virtual machines, but the path from a raw VM to a reproducible, GPU-ready research environment remains a significant barrier for researchers who are domain experts, not systems engineers. We identify this gap as a missing adapter layer between cloud provisioning and interactive research work. We present a lightweight, open-source solution built on k3s and Coder that implements this adapter layer and is already in active use in our research workspace environment. Our CI/CD pipeline connects GitHub directly to the local cluster, deploying research projects in under five minutes. We define a concrete metrics framework for evaluating this layer -- covering deployment latency, environment reproducibility, onboarding friction, and resource utilisation -- and establish baselines against which improvements can be measured.",
+      "published": "2026-03-25T05:04:34+00:00",
+      "url": "http://arxiv.org/abs/2603.23942v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23942v1",
+      "categories": [
+        "cs.CE",
+        "cs.DC"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Higher Degree by Research (HDR) candidates increasingly depend on cloud-provisioned virtual machines and local GPU hardware for their computational experiments, yet a persistent and under-addressed gap exists between having compute resources and using them productively",
+      "methodology": "Cloud and infrastructure teams can provision virtual machines, but the path from a raw VM to a reproducible, GPU-ready research environment remains a significant barrier for researchers who are domain experts, not systems engineers",
+      "quant_impact": "We identify this gap as a missing adapter layer between cloud provisioning and interactive research work",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.23854v1",
+      "source": "arxiv",
+      "title": "Symbolic--KAN: Kolmogorov-Arnold Networks with Discrete Symbolic Structure for Interpretable Learning",
+      "authors": [
+        "Salah A Faroughi",
+        "Farinaz Mostajeran",
+        "Amirhossein Arzani",
+        "Shirko Faroughi"
+      ],
+      "abstract": "Symbolic discovery of governing equations is a long-standing goal in scientific machine learning, yet a fundamental trade-off persists between interpretability and scalable learning. Classical symbolic regression methods yield explicit analytic expressions but rely on combinatorial search, whereas neural networks scale efficiently with data and dimensionality but produce opaque representations. In this work, we introduce Symbolic Kolmogorov-Arnold Networks (Symbolic-KANs), a neural architecture that bridges this gap by embedding discrete symbolic structure directly within a trainable deep network. Symbolic-KANs represent multivariate functions as compositions of learned univariate primitives applied to learned scalar projections, guided by a library of analytic primitives, hierarchical gating, and symbolic regularization that progressively sharpens continuous mixtures into one-hot selections. After gated training and discretization, each active unit selects a single primitive and projection direction, yielding compact closed-form expressions without post-hoc symbolic fitting. Symbolic-KANs further act as scalable primitive discovery mechanisms, identifying the most relevant analytic components that can subsequently inform candidate libraries for sparse equation-learning methods. We demonstrate that Symbolic-KAN reliably recovers correct primitive terms and governing structures in data-driven regression and inverse dynamical systems. Moreover, the framework extends to forward and inverse physics-informed learning of partial differential equations, producing accurate solutions directly from governing constraints while constructing compact symbolic representations whose selected primitives reflect the true analytical structure of the underlying equations. These results position Symbolic-KAN as a step toward scalable, interpretable, and mechanistically grounded learning of governing laws.",
+      "published": "2026-03-25T02:31:13+00:00",
+      "url": "http://arxiv.org/abs/2603.23854v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23854v1",
+      "categories": [
+        "cs.LG",
+        "cs.CE",
+        "math.AP",
+        "math.DS"
+      ],
+      "primary_category": "cs.LG",
+      "core_idea": "Symbolic discovery of governing equations is a long-standing goal in scientific machine learning, yet a fundamental trade-off persists between interpretability and scalable learning",
+      "methodology": "Classical symbolic regression methods yield explicit analytic expressions but rely on combinatorial search, whereas neural networks scale efficiently with data and dimensionality but produce opaque representations",
+      "quant_impact": "In this work, we introduce Symbolic Kolmogorov-Arnold Networks (Symbolic-KANs), a neural architecture that bridges this gap by embedding discrete symbolic structure directly within a trainable deep network",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.24215v1",
+      "source": "arxiv",
+      "title": "Adapting Altman's bankruptcy prediction model to the compositional data methodology",
+      "authors": [
+        "Fatemeh Keivani",
+        "Germ\u00e0 Coenders",
+        "Ge\u00f2rgia Escaram\u00eds"
+      ],
+      "abstract": "Using standard financial ratios as variables in statistical analyses has been related to several serious problems, such as extreme outliers, asymmetry, non-normality, and non-linearity. The compositional-data methodology has been successfully applied to solve these problems and has always yielded substantially different results when compared to standard financial ratios. An under-researched area is the use of financial log-ratios computed with the compositional-data methodology to predict bankruptcy or the related terms of business default, insolvency or failure. Another under-researched area is the use of machine learning methods in combination with compositional log-ratios. The present article adapts the classical Altman bankruptcy prediction model and some of its extensions to the compositional methodology with pairwise log-ratios and three common statistical and machine learning tools: logistic regression models, k-nearest neighbours, and random forests, and compares the results with standard financial ratios. Data from the sector in the Spanish economy with the largest number of bankrupt firms according to the first two digits of the NACE code (46XX \"wholesale trade, except of motor vehicles and motorcycles\") were obtained from the Iberian Balance sheet Analysis System. The sample size (31,131 firms, of which 97 were bankrupt) was divided into a training and a validation dataset. The training data set was downsampled to one healthy firm to each bankrupt firm. No outliers were removed. Focusing on predictive performance, the results show that compositional methods are better than standard ratios in terms of sensitivity, with mixed results regarding specificity, compositional random forests and compositional logistic regression behaving the best.",
+      "published": "2026-03-25T11:44:20+00:00",
+      "url": "http://arxiv.org/abs/2603.24215v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24215v1",
+      "categories": [
+        "q-fin.ST",
+        "stat.AP"
+      ],
+      "primary_category": "q-fin.ST",
+      "core_idea": "Using standard financial ratios as variables in statistical analyses has been related to several serious problems, such as extreme outliers, asymmetry, non-normality, and non-linearity",
+      "methodology": "The compositional-data methodology has been successfully applied to solve these problems and has always yielded substantially different results when compared to standard financial ratios",
+      "quant_impact": "An under-researched area is the use of financial log-ratios computed with the compositional-data methodology to predict bankruptcy or the related terms of business default, insolvency or failure",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.24190v1",
+      "source": "arxiv",
+      "title": "Dynamical thermalization and turbulence in social stratification models",
+      "authors": [
+        "Klaus M. Frahm",
+        "Dima L. Shepelyansky"
+      ],
+      "abstract": "We study the nonlinear chaotic dynamics in a system of linear oscillators coupled by social network links with an additional stratification of oscillator energies, or frequencies, and supplementary nonlinear interactions. It is argued that this system can be viewed as a model of social stratification in a society with nonlinear interacting agents with energies playing a role of wealth states of society. The Hamiltonian evolution is characterized by two integrals of motion being energy and probability norm. Above a certain chaos border the chaotic dynamics leads to dynamical thermalization with the Rayleigh-Jeans (RJ) distribution over states with given energy or wealth. At low energies, this distribution has RJ condensation of norm at low energy modes. We point out a similarity of this condensation with the wealth inequality in the world countries where about a half of population owns only a couple of percent of the total wealth. In the presence of energy pumping and absorption, the system reveals features of the Kolmogorov-Zakharov turbulence of nonlinear waves.",
+      "published": "2026-03-25T11:14:13+00:00",
+      "url": "http://arxiv.org/abs/2603.24190v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24190v1",
+      "categories": [
+        "cond-mat.stat-mech",
+        "econ.GN",
+        "nlin.CD",
+        "physics.soc-ph",
+        "q-fin.ST"
+      ],
+      "primary_category": "cond-mat.stat-mech",
+      "core_idea": "We study the nonlinear chaotic dynamics in a system of linear oscillators coupled by social network links with an additional stratification of oscillator energies, or frequencies, and supplementary nonlinear interactions",
+      "methodology": "It is argued that this system can be viewed as a model of social stratification in a society with nonlinear interacting agents with energies playing a role of wealth states of society",
+      "quant_impact": "The Hamiltonian evolution is characterized by two integrals of motion being energy and probability norm",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.24137v1",
+      "source": "arxiv",
+      "title": "Bridging the Reality Gap in Limit Order Book Simulation",
+      "authors": [
+        "Patrick Noble",
+        "Mathieu Rosenbaum",
+        "Saad Souilmi"
+      ],
+      "abstract": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L. The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data. Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants. We further incorporate a feedback mechanism that accumulates signed trade flow through a power-law decay kernel, reproducing both concave market impact during execution and partial post-trade reversion. Across several stocks and strategy case studies, the simulator yields realistic behavior where profitability becomes highly sensitive to execution parameters. We present the approach as a practical recipe: project, estimate, validate, adapt, for building realistic limit order book simulations.",
+      "published": "2026-03-25T10:02:03+00:00",
+      "url": "http://arxiv.org/abs/2603.24137v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24137v1",
+      "categories": [
+        "q-fin.TR"
+      ],
+      "primary_category": "q-fin.TR",
+      "core_idea": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L",
+      "methodology": "The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data",
+      "quant_impact": "Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.23790v1",
+      "source": "arxiv",
+      "title": "Root Finding and Metamodeling for Rapid and Robust Computer Model Calibration",
+      "authors": [
+        "Yongseok Jeon",
+        "Sara Shashaani"
+      ],
+      "abstract": "We concern computer model calibration problem where the goal is to find the parameters that minimize the discrepancy between the multivariate real-world and computer model outputs. We propose to solve an approximation using signed residuals that enables a root finding approach and an accelerated search. We characterize the distance of the solutions to the approximation from the solutions of the original problem for the strongly-convex objective functions, showing that it depends on variability of the signed residuals across output dimensions, as wells as their variance and covariance. We develop a metamodel-based root finding framework under kriging and stochastic kriging that is augmented with a sequential search space reduction. We derive three new acquisition functions for finding roots of the approximate problem along with their derivatives usable by first-order solvers. Compared to kriging, stochastic kriging accounts for observational noise, promoting more robust solutions. We also analyze the case where a root may not exist. Our analysis of the asymptotic behavior in this context show that, since existence of roots in the approximation problem may not be known a priori, using new acquisition functions will not compromise the outcome. Numerical experiments on data-driven and physics-based examples demonstrate significant computational gains over standard calibration approaches.",
+      "published": "2026-03-24T23:45:54+00:00",
+      "url": "http://arxiv.org/abs/2603.23790v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23790v1",
+      "categories": [
+        "stat.ME",
+        "cs.CE"
+      ],
+      "primary_category": "stat.ME",
+      "core_idea": "We concern computer model calibration problem where the goal is to find the parameters that minimize the discrepancy between the multivariate real-world and computer model outputs",
+      "methodology": "We propose to solve an approximation using signed residuals that enables a root finding approach and an accelerated search",
+      "quant_impact": "We characterize the distance of the solutions to the approximation from the solutions of the original problem for the strongly-convex objective functions, showing that it depends on variability of the signed residuals across output dimensions, as wells as their variance and covariance",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
+    },
     {
       "id": "2603.23480v1",
       "source": "arxiv",
@@ -121,6 +373,54 @@
       "core_idea": "G-expectation, as a sublinear expectation, provides a powerful framework for modeling uncertainty in financial markets",
       "methodology": "Motivated by the need for robust valuation under model uncertainty, this work develops a unified risk-neutral valuation approach within the G-expectation environment, yielding a nonlinear generalization of the Black-Scholes model, termed the G-Black-Scholes equation",
       "quant_impact": "To enhance computational efficiency and reduce numerical cost, we introduce a logarithmic transformation of the asset price, which yields an alternative nonlinear PDE",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.23842v1",
+      "source": "arxiv",
+      "title": "Environmental CVA with K-Robust Wrong-Way Risk",
+      "authors": [
+        "Takayuki Sakuma"
+      ],
+      "abstract": "Although climate and nature related scenario analysis is increasingly important in finance, there is still no operational framework that translates long horizon environmental scenarios into counterparty credit risk measures for pricing and regulatory capital. We propose an environmental valuation adjustment framework for CVA with three components: (i) a scenario to credit translation that maps environmental scenario drivers into hazard rates; (ii) nature specific tail generators that quantify model risk in scenario generation; and (iii) a distributionally robust wrong way risk bound based on Kullback-Leibler (KL) divergence. We compute climate CVAs using transition scenarios and nature CVAs using biodiversity indicators. Our results show that nature CVAs can vary materially across alternative ecosystem generators, highlighting an additional source of model uncertainty. Our case study further shows that environmental credit risk may operate through linked climate nature transmission channels, motivating an integrated Environmental CVA framework.",
+      "published": "2026-03-25T01:55:51+00:00",
+      "url": "http://arxiv.org/abs/2603.23842v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23842v1",
+      "categories": [
+        "q-fin.RM",
+        "q-fin.CP"
+      ],
+      "primary_category": "q-fin.RM",
+      "core_idea": "Although climate and nature related scenario analysis is increasingly important in finance, there is still no operational framework that translates long horizon environmental scenarios into counterparty credit risk measures for pricing and regulatory capital",
+      "methodology": "We propose an environmental valuation adjustment framework for CVA with three components: (i) a scenario to credit translation that maps environmental scenario drivers into hazard rates; (ii) nature specific tail generators that quantify model risk in scenario generation; and (iii) a distributionally robust wrong way risk bound based on Kullback-Leibler (KL) divergence",
+      "quant_impact": "We compute climate CVAs using transition scenarios and nature CVAs using biodiversity indicators",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.23584v1",
+      "source": "arxiv",
+      "title": "LineMVGNN: Anti-Money Laundering with Line-Graph-Assisted Multi-View Graph Neural Networks",
+      "authors": [
+        "Chung-Hoo Poon",
+        "James Kwok",
+        "Calvin Chow",
+        "Jang-Hyeon Choi"
+      ],
+      "abstract": "Anti-money laundering (AML) systems are important for protecting the global economy. However, conventional rule-based methods rely on domain knowledge, leading to suboptimal accuracy and a lack of scalability. Graph neural networks (GNNs) for digraphs (directed graphs) can be applied to transaction graphs and capture suspicious transactions or accounts. However, most spectral GNNs do not naturally support multi-dimensional edge features, lack interpretability due to edge modifications, and have limited scalability owing to their spectral nature. Conversely, most spatial methods may not capture the money flow well. Therefore, in this work, we propose LineMVGNN (Line-Graph-Assisted Multi-View Graph Neural Network), a novel spatial method that considers payment and receipt transactions. Specifically, the LineMVGNN model extends a lightweight MVGNN module, which performs two-way message passing between nodes in a transaction graph. Additionally, LineMVGNN incorporates a line graph view of the original transaction graph to enhance the propagation of transaction information. We conduct experiments on two real-world account-based transaction datasets: the Ethereum phishing transaction network dataset and a financial payment transaction dataset from one of our industry partners. The results show that our proposed method outperforms state-of-the-art methods, reflecting the effectiveness of money laundering detection with line-graph-assisted multi-view graph learning. We also discuss scalability, adversarial robustness, and regulatory considerations of our proposed method.",
+      "published": "2026-03-24T16:17:21+00:00",
+      "url": "http://arxiv.org/abs/2603.23584v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23584v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "q-fin.CP"
+      ],
+      "primary_category": "cs.LG",
+      "core_idea": "Anti-money laundering (AML) systems are important for protecting the global economy",
+      "methodology": "However, conventional rule-based methods rely on domain knowledge, leading to suboptimal accuracy and a lack of scalability",
+      "quant_impact": "Graph neural networks (GNNs) for digraphs (directed graphs) can be applied to transaction graphs and capture suspicious transactions or accounts",
       "relevance_score": 5,
       "ranking_score": 29.22142857142857
     },
@@ -248,31 +548,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.21650v1",
-      "source": "arxiv",
-      "title": "A coupled Aeroelastic-Flight Dynamic Framework for Free-Flying Flexible Aircraft with Gust Interactions",
-      "authors": [
-        "Nikolaos D. Tantaroudas",
-        "Andrea Da Ronch",
-        "Ilias Karachalios",
-        "Kenneth J. Badcock",
-        "Rafael Palacios"
-      ],
-      "abstract": "A complete, self-contained mathematical framework for modelling the coupled aeroelastic and flight dynamic behaviour of free-flying flexible aircraft subject to atmospheric gust encounters is presented. The framework integrates three physical disciplines: geometrically-exact nonlinear beam theory for structural dynamics, unsteady two-dimensional strip aerodynamics based on Theodorsen thin-aerofoil theory with indicial functions for shed-wake and gust-penetration effects, and quaternion-based rigid-body flight dynamics for singularity-free attitude propagation. The coupled system is assembled into a first-order state-space form amenable to time-domain simulation, model order reduction, and control design. Detailed derivations of all coupling terms, including coordinate transformations between aerodynamic and structural frames, the Jacobian block structure, and gust input matrices, are provided. Two gust models are treated: the certification-standard discrete gust and the Von Karman continuous turbulence spectrum. The framework is verified against published benchmarks, including high-altitude long-endurance aircraft configurations and a very flexible flying-wing, demonstrating close agreement in structural frequencies, flutter speed, and static aeroelastic deflections. This paper serves as a self-contained reference for researchers implementing coupled aeroelastic-flight dynamic analysis tools for very flexible aircraft.",
-      "published": "2026-03-23T07:29:26+00:00",
-      "url": "http://arxiv.org/abs/2603.21650v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.21650v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "A complete, self-contained mathematical framework for modelling the coupled aeroelastic and flight dynamic behaviour of free-flying flexible aircraft subject to atmospheric gust encounters is presented",
-      "methodology": "The framework integrates three physical disciplines: geometrically-exact nonlinear beam theory for structural dynamics, unsteady two-dimensional strip aerodynamics based on Theodorsen thin-aerofoil theory with indicial functions for shed-wake and gust-penetration effects, and quaternion-based rigid-body flight dynamics for singularity-free attitude propagation",
-      "quant_impact": "The coupled system is assembled into a first-order state-space form amenable to time-domain simulation, model order reduction, and control design",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
       "id": "2603.21672v2",
       "source": "arxiv",
       "title": "Mislearning of Factor Risk Premia under Structural Breaks: A Misspecified Bayesian Learning Framework",
@@ -344,105 +619,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.21374v1",
-      "source": "arxiv",
-      "title": "Hybrid Quantum-Classical Branch-and-Price for Intra-Day Electric Vehicle Charging Scheduling via Partition Coloring",
-      "authors": [
-        "Peng Sun",
-        "Liang Zhong",
-        "Qing-Guo Zeng",
-        "Li Wang"
-      ],
-      "abstract": "The rapid deployment of electric vehicles (EVs) in public parking facilities and fleet operations raises challenging intra-day charging scheduling problems under tight charger capacity and limited dwell times. We model this problem as a variant of the Partition Coloring Problem (PCP), where each vehicle defines a partition, its candidate charging intervals are vertices, and temporal and resource conflicts are represented as edges in a conflict graph. On this basis, we design a branch-and-price algorithm in which the restricted master problem selects feasible combinations of intervals, and the pricing subproblem is a maximum independent set problem. The latter is reformulated as a quadratic unconstrained binary optimization (QUBO) model and solved by quantum-annealing-inspired algorithms (QAIA) implemented in the MindQuantum framework, specifically the ballistic simulated branching (BSB) and simulated coherent Ising machine (SimCIM) methods, while the master problem is solved by Gurobi. Computational experiments on a family of synthetic EV charging instances show that the QAIA-enhanced algorithms match the pure Gurobi-based branch-and-price baseline on small and medium instances, and clearly outperform it on large and hard instances. In several cases where the baseline reaches the time limit with non-zero optimality gaps, the QAIA-based variants close the gap and prove optimality within the same time budget. These results indicate that integrating QAIA into classical decomposition schemes are a promising direction for large-scale EV charging scheduling and related PCP applications.",
-      "published": "2026-03-22T19:22:59+00:00",
-      "url": "http://arxiv.org/abs/2603.21374v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.21374v1",
-      "categories": [
-        "cs.CE",
-        "math.OC"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "The rapid deployment of electric vehicles (EVs) in public parking facilities and fleet operations raises challenging intra-day charging scheduling problems under tight charger capacity and limited dwell times",
-      "methodology": "We model this problem as a variant of the Partition Coloring Problem (PCP), where each vehicle defines a partition, its candidate charging intervals are vertices, and temporal and resource conflicts are represented as edges in a conflict graph",
-      "quant_impact": "On this basis, we design a branch-and-price algorithm in which the restricted master problem selects feasible combinations of intervals, and the pricing subproblem is a maximum independent set problem",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
-      "id": "2603.21210v1",
-      "source": "arxiv",
-      "title": "Pretrained Video Models as Differentiable Physics Simulators for Urban Wind Flows",
-      "authors": [
-        "Janne Perini",
-        "Rafael Bischof",
-        "Moab Arar",
-        "Ay\u00e7a Duran",
-        "Michael A. Kraus",
-        "Siddhartha Mishra",
-        "Bernd Bickel"
-      ],
-      "abstract": "Designing urban spaces that provide pedestrian wind comfort and safety requires time-resolved Computational Fluid Dynamics (CFD) simulations, but their current computational cost makes extensive design exploration impractical. We introduce WinDiNet (Wind Diffusion Network), a pretrained video diffusion model that is repurposed as a fast, differentiable surrogate for this task. Starting from LTX-Video, a 2B-parameter latent video transformer, we fine-tune on 10,000 2D incompressible CFD simulations over procedurally generated building layouts. A systematic study of training regimes, conditioning mechanisms, and VAE adaptation strategies, including a physics-informed decoder loss, identifies a configuration that outperforms purpose-built neural PDE solvers. The resulting model generates full 112-frame rollouts in under a second. As the surrogate is end-to-end differentiable, it doubles as a physics simulator for gradient-based inverse optimization: given an urban footprint layout, we optimize building positions directly through backpropagation to improve wind safety as well as pedestrian wind comfort. Experiments on single- and multi-inlet layouts show that the optimizer discovers effective layouts even under challenging multi-objective configurations, with all improvements confirmed by ground-truth CFD simulations.",
-      "published": "2026-03-22T13:08:01+00:00",
-      "url": "http://arxiv.org/abs/2603.21210v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.21210v1",
-      "categories": [
-        "cs.LG",
-        "cs.CE"
-      ],
-      "primary_category": "cs.LG",
-      "core_idea": "Designing urban spaces that provide pedestrian wind comfort and safety requires time-resolved Computational Fluid Dynamics (CFD) simulations, but their current computational cost makes extensive design exploration impractical",
-      "methodology": "We introduce WinDiNet (Wind Diffusion Network), a pretrained video diffusion model that is repurposed as a fast, differentiable surrogate for this task",
-      "quant_impact": "Starting from LTX-Video, a 2B-parameter latent video transformer, we fine-tune on 10,000 2D incompressible CFD simulations over procedurally generated building layouts",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
-      "id": "2603.21154v1",
-      "source": "arxiv",
-      "title": "How Short Is Too Short? Power Analysis for BIC-Based Changepoint Detection in Ecological Monitorin",
-      "authors": [
-        "Ang A. Li"
-      ],
-      "abstract": "Changepoint detection is increasingly applied to ecological time series, yet statistical power at the short series lengths typical of monitoring (10-50 observations) is rarely assessed. We present a simulation-based power analysis for BIC-based Binary Segmentation across 108 combinations of series length, effect size, and number of changepoints. BIC achieves $\\geq$80% power for a single changepoint only at $n \\geq 30$ with effect size $\\geq 2.0$; detecting 2-3 changepoints requires $n \\geq 50$ and ES $\\geq 5.0$. BIC is conservative, underestimating changepoints more often than overestimating. AR(1) autocorrelation ($\u03c6= 0.6$) reduces BIC-Binseg power by 40%, but PELT with a standard penalty maintains 85-91% power even under moderate autocorrelation. Comparison with early warning signal (EWS) variance-trend tests reveals a crossover: at ES $< 1.5$, EWS outperforms changepoint detection, but EWS rates are invariant to effect size ($\\sim$73%), suggesting noise detection rather than genuine signals. Cross-system empirical validation on coral reef (Moorea, $n = 18$) and desert rodent (Portal Project, $n = 49$) time series confirms that detection succeeds when effect sizes fall in the predicted \"reliable\" zone. We provide power heatmaps as practical lookup tools and recommend that ecologists prefer PELT over Binseg-BIC for autocorrelated data, compute expected effect sizes before applying changepoint analysis, and pair results with permutation tests.",
-      "published": "2026-03-22T10:15:19+00:00",
-      "url": "http://arxiv.org/abs/2603.21154v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.21154v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Changepoint detection is increasingly applied to ecological time series, yet statistical power at the short series lengths typical of monitoring (10-50 observations) is rarely assessed",
-      "methodology": "We present a simulation-based power analysis for BIC-based Binary Segmentation across 108 combinations of series length, effect size, and number of changepoints",
-      "quant_impact": "BIC achieves $\\geq$80% power for a single changepoint only at $n \\geq 30$ with effect size $\\geq 2.0$; detecting 2-3 changepoints requires $n \\geq 50$ and ES $\\geq 5.0$",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
-      "id": "2603.21033v1",
-      "source": "arxiv",
-      "title": "TabPFN Extensions for Interpretable Geotechnical Modelling",
-      "authors": [
-        "Taiga Saito",
-        "Yu Otake",
-        "Daijiro Mizutani",
-        "Stephen Wu"
-      ],
-      "abstract": "Geotechnical site characterisation relies on sparse, heterogeneous borehole data where uncertainty quantification and model interpretability are as critical as predictive accuracy for reliable engineering decisions. This paper presents an exploratory investigation into the use of TabPFN, a transformer-based tabular foundation model using in-context learning, and its extension library tabpfn-extensions for two geotechnical inference tasks: (1) soil-type classification using N-value and shear-wave velocity data from a synthetic geotechnical dataset, and (2) iterative imputation of five missing mechanical parameters ($s_\\mathrm{u}$, $E_{\\mathrm{u}}$, ${\u03c3'}_\\mathrm{p}$, $C_\\mathrm{c}$, $C_\\mathrm{v}$) in benchmark problem BM/AirportSoilProperties/2/2025. We apply cosine-similarity analysis to TabPFN-derived embeddings, visualise full posterior distributions from an iterative inference procedure, and compute SHAP-based feature importance, all without model retraining. Learned embeddings clearly separate Clay and Sand samples without explicit soil-type supervision; iterative imputation improves predictions for four of five target parameters, with posterior widths that reflect physically reasonable parameter-specific uncertainty; and SHAP analysis reveals the inter-parameter dependency structure, recovering established geotechnical relationships including the Skempton compression index correlation and the inverse dependence of preconsolidation pressure on water content. These results suggest the potential of foundation-model-based tools to support interpretable, uncertainty-aware parameter inference in data-scarce geotechnical practice.",
-      "published": "2026-03-22T03:06:28+00:00",
-      "url": "http://arxiv.org/abs/2603.21033v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.21033v1",
-      "categories": [
-        "cs.CE",
-        "cs.LG"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Geotechnical site characterisation relies on sparse, heterogeneous borehole data where uncertainty quantification and model interpretability are as critical as predictive accuracy for reliable engineering decisions",
-      "methodology": "This paper presents an exploratory investigation into the use of TabPFN, a transformer-based tabular foundation model using in-context learning, and its extension library tabpfn-extensions for two geotechnical inference tasks: (1) soil-type classification using N-value and shear-wave velocity data from a synthetic geotechnical dataset, and (2) iterative imputation of five missing mechanical parameters ($s_\\mathrm{u}$, $E_{\\mathrm{u}}$, ${\u03c3'}_\\mathrm{p}$, $C_\\mathrm{c}$, $C_\\mathrm{v}$) in benchmark problem BM/AirportSoilProperties/2/2025",
-      "quant_impact": "We apply cosine-similarity analysis to TabPFN-derived embeddings, visualise full posterior distributions from an iterative inference procedure, and compute SHAP-based feature importance, all without model retraining",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
       "id": "2603.21330v1",
       "source": "arxiv",
       "title": "FinRL-X: An AI-Native Modular Infrastructure for Quantitative Trading",
@@ -499,9 +675,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63568,
-      "forks": 6253,
-      "updated": "2026-03-25T23:30:25+00:00",
+      "stars": 63571,
+      "forks": 6254,
+      "updated": "2026-03-26T01:19:19+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -530,9 +706,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39326,
+      "stars": 39331,
       "forks": 6126,
-      "updated": "2026-03-25T23:38:53+00:00",
+      "updated": "2026-03-26T01:48:21+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -566,9 +742,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25106,
+      "stars": 25110,
       "forks": 3313,
-      "updated": "2026-03-25T21:19:12+00:00",
+      "updated": "2026-03-26T01:46:21+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -604,9 +780,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16732,
-      "forks": 2363,
-      "updated": "2026-03-25T23:00:50+00:00",
+      "stars": 16733,
+      "forks": 2364,
+      "updated": "2026-03-26T01:32:26+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -639,9 +815,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12037,
+      "stars": 12040,
       "forks": 2498,
-      "updated": "2026-03-25T15:02:39+00:00",
+      "updated": "2026-03-26T01:59:08+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -693,9 +869,9 @@
       "title": "quant-trading",
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
-      "stars": 9520,
+      "stars": 9522,
       "forks": 1747,
-      "updated": "2026-03-25T19:52:40+00:00",
+      "updated": "2026-03-26T01:33:53+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -731,9 +907,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9339,
+      "stars": 9340,
       "forks": 2076,
-      "updated": "2026-03-25T22:39:01+00:00",
+      "updated": "2026-03-26T01:40:53+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -831,9 +1007,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7510,
+      "stars": 7511,
       "forks": 1067,
-      "updated": "2026-03-25T18:20:46+00:00",
+      "updated": "2026-03-26T01:08:38+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -919,9 +1095,9 @@
       "title": "quantstats",
       "description": "Portfolio analytics for quants, written in Python",
       "url": "https://github.com/ranaroussi/quantstats",
-      "stars": 6892,
+      "stars": 6893,
       "forks": 1139,
-      "updated": "2026-03-25T18:04:59+00:00",
+      "updated": "2026-03-26T01:43:02+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -986,9 +1162,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48036,
+      "stars": 48037,
       "forks": 10014,
-      "updated": "2026-03-25T23:27:26+00:00",
+      "updated": "2026-03-26T01:38:57+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1064,9 +1240,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14558,
-      "forks": 3236,
-      "updated": "2026-03-25T23:38:29+00:00",
+      "stars": 14559,
+      "forks": 3238,
+      "updated": "2026-03-26T00:41:57+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1208,111 +1384,6 @@
       "core_idea": "U.S",
       "methodology": "stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits",
       "quant_impact": "Nvidia was down 16%.",
-      "relevance_score": 5,
-      "ranking_score": 28.0
-    },
-    {
-      "id": "WP-WSJ-0002354018",
-      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-      "source_type": "quant",
-      "title": "Comex Gold, Silver Settle Lower",
-      "summary": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions.",
-      "published": "Mon, 27 Jan 2025 14:01:00 -0500",
-      "url": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
-      "author": "",
-      "core_idea": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions.",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.0
-    },
-    {
-      "id": "WP-WSJ-0002355367",
-      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-      "source_type": "quant",
-      "title": "DeepSeek Won't Sink U.S. AI Titans",
-      "summary": "Panic fueling the selloff of Nvidia, Broadcom and other tech giants is overblown.",
-      "published": "Mon, 27 Jan 2025 13:12:00 -0500",
-      "url": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main",
-      "author": "",
-      "core_idea": "Panic fueling the selloff of Nvidia, Broadcom and other tech giants is overblown.",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.0
-    },
-    {
-      "id": "WP-WSJ-0002355424",
-      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-      "source_type": "quant",
-      "title": "Financial Services Roundup: Market Talk",
-      "summary": "Gain insight on Experian, SoFi Technologies and more in the latest Market Talks covering Financial Services.",
-      "published": "Mon, 27 Jan 2025 12:27:00 -0500",
-      "url": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main",
-      "author": "",
-      "core_idea": "Gain insight on Experian, SoFi Technologies and more in the latest Market Talks covering Financial Services.",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.0
-    },
-    {
-      "id": "WP-WSJ-0002354874",
-      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-      "source_type": "quant",
-      "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
-      "summary": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump\u2019s threats to impose tariffs and economic sanctions on Colombia.",
-      "published": "Mon, 27 Jan 2025 12:20:00 -0500",
-      "url": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
-      "author": "",
-      "core_idea": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump\u2019s threats to impose tariffs and economic sanctions on Colombia.",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.0
-    },
-    {
-      "id": "WP-WSJ-0002354017",
-      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-      "source_type": "quant",
-      "title": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
-      "summary": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek\u2019s new AI model hit U.S. tech stocks.",
-      "published": "Mon, 27 Jan 2025 09:55:00 -0500",
-      "url": "https://www.wsj.com/articles/safe-haven-currencies-strengthen-amid-fears-over-global-tariffs-9964e17a?mod=rss_markets_main",
-      "author": "",
-      "core_idea": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek\u2019s new AI model hit U.S",
-      "methodology": "tech stocks.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.0
-    },
-    {
-      "id": "WP-WSJ-0002355062",
-      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-      "source_type": "quant",
-      "title": "Natural Gas Falls on Shifting Weather Forecasts",
-      "summary": "U.S. natural gas futures fell after weekend updates took some of the chill out of early February weather forecasts.",
-      "published": "Mon, 27 Jan 2025 09:05:00 -0500",
-      "url": "https://www.wsj.com/articles/u-s-natural-gas-futures-fall-on-shifting-weather-forecasts-1ef3e457?mod=rss_markets_main",
-      "author": "",
-      "core_idea": "U.S",
-      "methodology": "natural gas futures fell after weekend updates took some of the chill out of early February weather forecasts.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.0
-    },
-    {
-      "id": "WP-WSJ-0002353768",
-      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-      "source_type": "quant",
-      "title": "Building-Products Distributor QXO Launches Hostile Bid for Beacon",
-      "summary": "QXO is taking its offer directly to shareholders after being rebuffed on several occasions.",
-      "published": "Mon, 27 Jan 2025 08:28:00 -0500",
-      "url": "https://www.wsj.com/articles/building-products-distributor-qxo-launching-hostile-bid-for-beacon-de024410?mod=rss_markets_main",
-      "author": "",
-      "core_idea": "QXO is taking its offer directly to shareholders after being rebuffed on several occasions.",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
     }
