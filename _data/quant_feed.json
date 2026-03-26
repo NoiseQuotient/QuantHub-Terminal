@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T04:40:38.735177",
+  "last_updated": "2026-03-26T06:04:01.237107",
   "items": [
     {
       "id": "2603.24382v1",
@@ -104,33 +104,6 @@
       "ranking_score": 29.65
     },
     {
-      "id": "2603.23942v1",
-      "source": "arxiv",
-      "title": "The Missing Adapter Layer for Research Computing",
-      "authors": [
-        "Bowen Li",
-        "Jiazhu Xie",
-        "Chelsea Wang",
-        "Alessandro Umberto D'Aloia",
-        "Ziqi Xu",
-        "Fengling Han"
-      ],
-      "abstract": "Higher Degree by Research (HDR) candidates increasingly depend on cloud-provisioned virtual machines and local GPU hardware for their computational experiments, yet a persistent and under-addressed gap exists between having compute resources and using them productively. Cloud and infrastructure teams can provision virtual machines, but the path from a raw VM to a reproducible, GPU-ready research environment remains a significant barrier for researchers who are domain experts, not systems engineers. We identify this gap as a missing adapter layer between cloud provisioning and interactive research work. We present a lightweight, open-source solution built on k3s and Coder that implements this adapter layer and is already in active use in our research workspace environment. Our CI/CD pipeline connects GitHub directly to the local cluster, deploying research projects in under five minutes. We define a concrete metrics framework for evaluating this layer -- covering deployment latency, environment reproducibility, onboarding friction, and resource utilisation -- and establish baselines against which improvements can be measured.",
-      "published": "2026-03-25T05:04:34+00:00",
-      "url": "http://arxiv.org/abs/2603.23942v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23942v1",
-      "categories": [
-        "cs.CE",
-        "cs.DC"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Higher Degree by Research (HDR) candidates increasingly depend on cloud-provisioned virtual machines and local GPU hardware for their computational experiments, yet a persistent and under-addressed gap exists between having compute resources and using them productively",
-      "methodology": "Cloud and infrastructure teams can provision virtual machines, but the path from a raw VM to a reproducible, GPU-ready research environment remains a significant barrier for researchers who are domain experts, not systems engineers",
-      "quant_impact": "We identify this gap as a missing adapter layer between cloud provisioning and interactive research work",
-      "relevance_score": 5,
-      "ranking_score": 29.65
-    },
-    {
       "id": "2603.24215v1",
       "source": "arxiv",
       "title": "Adapting Altman's bankruptcy prediction model to the compositional data methodology",
@@ -202,6 +175,33 @@
       "quant_impact": "Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants",
       "relevance_score": 5,
       "ranking_score": 29.65
+    },
+    {
+      "id": "2603.23942v1",
+      "source": "arxiv",
+      "title": "The Missing Adapter Layer for Research Computing",
+      "authors": [
+        "Bowen Li",
+        "Jiazhu Xie",
+        "Chelsea Wang",
+        "Alessandro Umberto D'Aloia",
+        "Ziqi Xu",
+        "Fengling Han"
+      ],
+      "abstract": "Higher Degree by Research (HDR) candidates increasingly depend on cloud-provisioned virtual machines and local GPU hardware for their computational experiments, yet a persistent and under-addressed gap exists between having compute resources and using them productively. Cloud and infrastructure teams can provision virtual machines, but the path from a raw VM to a reproducible, GPU-ready research environment remains a significant barrier for researchers who are domain experts, not systems engineers. We identify this gap as a missing adapter layer between cloud provisioning and interactive research work. We present a lightweight, open-source solution built on k3s and Coder that implements this adapter layer and is already in active use in our research workspace environment. Our CI/CD pipeline connects GitHub directly to the local cluster, deploying research projects in under five minutes. We define a concrete metrics framework for evaluating this layer -- covering deployment latency, environment reproducibility, onboarding friction, and resource utilisation -- and establish baselines against which improvements can be measured.",
+      "published": "2026-03-25T05:04:34+00:00",
+      "url": "http://arxiv.org/abs/2603.23942v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23942v1",
+      "categories": [
+        "cs.CE",
+        "cs.DC"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Higher Degree by Research (HDR) candidates increasingly depend on cloud-provisioned virtual machines and local GPU hardware for their computational experiments, yet a persistent and under-addressed gap exists between having compute resources and using them productively",
+      "methodology": "Cloud and infrastructure teams can provision virtual machines, but the path from a raw VM to a reproducible, GPU-ready research environment remains a significant barrier for researchers who are domain experts, not systems engineers",
+      "quant_impact": "We identify this gap as a missing adapter layer between cloud provisioning and interactive research work",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
     },
     {
       "id": "2603.23854v1",
@@ -675,9 +675,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63578,
+      "stars": 63582,
       "forks": 6256,
-      "updated": "2026-03-26T04:15:50+00:00",
+      "updated": "2026-03-26T05:48:25+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -707,7 +707,7 @@
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
       "stars": 39340,
-      "forks": 6128,
+      "forks": 6129,
       "updated": "2026-03-26T04:24:57+00:00",
       "language": "Python",
       "topics": [
@@ -780,9 +780,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16732,
+      "stars": 16733,
       "forks": 2364,
-      "updated": "2026-03-26T02:03:33+00:00",
+      "updated": "2026-03-26T05:16:07+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -1162,9 +1162,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48039,
+      "stars": 48040,
       "forks": 10014,
-      "updated": "2026-03-26T02:54:18+00:00",
+      "updated": "2026-03-26T06:02:31+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1211,9 +1211,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16610,
+      "stars": 16612,
       "forks": 4466,
-      "updated": "2026-03-26T03:38:30+00:00",
+      "updated": "2026-03-26T05:56:53+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1240,9 +1240,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14561,
-      "forks": 3238,
-      "updated": "2026-03-26T04:23:41+00:00",
+      "stars": 14562,
+      "forks": 3239,
+      "updated": "2026-03-26T05:10:43+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
