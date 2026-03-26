@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T08:33:08.592681",
+  "last_updated": "2026-03-26T09:42:16.106455",
   "items": [
     {
       "id": "2603.24382v1",
@@ -48,32 +48,6 @@
       "core_idea": "Stock trend prediction has attracted considerable attention for its potential to generate tangible investment returns",
       "methodology": "With the advent of deep learning in quantitative finance, researchers have increasingly recognized the importance of synergies between stocks, such as sector membership or upstream-downstream relationships, in accurately capturing market dynamics",
       "quant_impact": "However, previous work often relies on static industry graphs or constructs graphs at each time step via similarity measures, overlooking the fluid evolution of stock relationships",
-      "relevance_score": 5,
-      "ranking_score": 29.65
-    },
-    {
-      "id": "2603.24114v1",
-      "source": "arxiv",
-      "title": "FFV-PINN: A Fast Physics-Informed Neural Network with Simplified Finite Volume Discretization and Residual Correction",
-      "authors": [
-        "Chang Wei",
-        "Yuchen Fan",
-        "Jian Cheng Wong",
-        "Chin Chun Ooi",
-        "Heyang Wang",
-        "Pao-Hsiung Chiu"
-      ],
-      "abstract": "Physics-informed neural networks (PINNs) have emerged as a major research focus. However, today's PINNs encounter several limitations. Firstly, during the construction of the loss function using automatic differentiation, PINNs often neglect information from neighboring points, which hinders their ability to enforce physical constraints and diminishes their accuracy. Furthermore, issues such as instability and poor convergence persist during PINN training, limiting their applicability to complex fluid dynamics problems. To address these challenges, a fast physics-informed neural network framework that integrates a simplified finite volume method (FVM) and residual correction loss term has been proposed, referred to as Fast Finite Volume PINN (FFV-PINN). FFV-PINN utilizes a simplified FVM discretization for the convection term, with an accompanying improvement in the dispersion and dissipation behavior. Unlike traditional FVM, the FFV-PINN outputs can be simply and directly harnessed to approximate values on control surfaces, thereby simplifying the discretization process. Moreover, a residual correction loss term is introduced to significantly accelerates convergence and improves training efficiency. To validate the performance, we solve a series of challenging problems -- including flow in the two-dimensional steady and unsteady lid-driven cavity, three-dimensional steady lid-driven cavity, backward-facing step flows, and natural convection at high Reynolds number and Rayleigh number. Notably, the FFV-PINN can achieve data-free solutions for the lid-driven cavity flow at Re = 10000 and natural convection at Ra = 1e8 for the first time in PINN literature, even while requiring only 680s and 231s. It further highlights the effectiveness of FFV-PINN in improving both speed and accuracy, marking another step forward in the progression of PINNs as competitive neural PDE solvers.",
-      "published": "2026-03-25T09:22:30+00:00",
-      "url": "http://arxiv.org/abs/2603.24114v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24114v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Physics-informed neural networks (PINNs) have emerged as a major research focus",
-      "methodology": "However, today's PINNs encounter several limitations",
-      "quant_impact": "Firstly, during the construction of the loss function using automatic differentiation, PINNs often neglect information from neighboring points, which hinders their ability to enforce physical constraints and diminishes their accuracy",
       "relevance_score": 5,
       "ranking_score": 29.65
     },
@@ -149,6 +123,32 @@
       "quant_impact": "Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants",
       "relevance_score": 5,
       "ranking_score": 29.65
+    },
+    {
+      "id": "2603.24114v1",
+      "source": "arxiv",
+      "title": "FFV-PINN: A Fast Physics-Informed Neural Network with Simplified Finite Volume Discretization and Residual Correction",
+      "authors": [
+        "Chang Wei",
+        "Yuchen Fan",
+        "Jian Cheng Wong",
+        "Chin Chun Ooi",
+        "Heyang Wang",
+        "Pao-Hsiung Chiu"
+      ],
+      "abstract": "Physics-informed neural networks (PINNs) have emerged as a major research focus. However, today's PINNs encounter several limitations. Firstly, during the construction of the loss function using automatic differentiation, PINNs often neglect information from neighboring points, which hinders their ability to enforce physical constraints and diminishes their accuracy. Furthermore, issues such as instability and poor convergence persist during PINN training, limiting their applicability to complex fluid dynamics problems. To address these challenges, a fast physics-informed neural network framework that integrates a simplified finite volume method (FVM) and residual correction loss term has been proposed, referred to as Fast Finite Volume PINN (FFV-PINN). FFV-PINN utilizes a simplified FVM discretization for the convection term, with an accompanying improvement in the dispersion and dissipation behavior. Unlike traditional FVM, the FFV-PINN outputs can be simply and directly harnessed to approximate values on control surfaces, thereby simplifying the discretization process. Moreover, a residual correction loss term is introduced to significantly accelerates convergence and improves training efficiency. To validate the performance, we solve a series of challenging problems -- including flow in the two-dimensional steady and unsteady lid-driven cavity, three-dimensional steady lid-driven cavity, backward-facing step flows, and natural convection at high Reynolds number and Rayleigh number. Notably, the FFV-PINN can achieve data-free solutions for the lid-driven cavity flow at Re = 10000 and natural convection at Ra = 1e8 for the first time in PINN literature, even while requiring only 680s and 231s. It further highlights the effectiveness of FFV-PINN in improving both speed and accuracy, marking another step forward in the progression of PINNs as competitive neural PDE solvers.",
+      "published": "2026-03-25T09:22:30+00:00",
+      "url": "http://arxiv.org/abs/2603.24114v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24114v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Physics-informed neural networks (PINNs) have emerged as a major research focus",
+      "methodology": "However, today's PINNs encounter several limitations",
+      "quant_impact": "Firstly, during the construction of the loss function using automatic differentiation, PINNs often neglect information from neighboring points, which hinders their ability to enforce physical constraints and diminishes their accuracy",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
     },
     {
       "id": "2603.24013v1",
@@ -651,9 +651,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63584,
-      "forks": 6260,
-      "updated": "2026-03-26T07:56:02+00:00",
+      "stars": 63588,
+      "forks": 6259,
+      "updated": "2026-03-26T09:30:50+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -682,9 +682,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39345,
-      "forks": 6130,
-      "updated": "2026-03-26T08:02:44+00:00",
+      "stars": 39346,
+      "forks": 6132,
+      "updated": "2026-03-26T09:41:53+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -718,9 +718,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25118,
-      "forks": 3316,
-      "updated": "2026-03-26T07:39:41+00:00",
+      "stars": 25119,
+      "forks": 3317,
+      "updated": "2026-03-26T08:36:05+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -756,9 +756,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16737,
+      "stars": 16738,
       "forks": 2364,
-      "updated": "2026-03-26T08:27:35+00:00",
+      "updated": "2026-03-26T09:29:30+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -791,9 +791,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12044,
+      "stars": 12047,
       "forks": 2498,
-      "updated": "2026-03-26T07:57:32+00:00",
+      "updated": "2026-03-26T09:39:46+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -821,9 +821,9 @@
       "title": "ta-lib-python",
       "description": "Python wrapper for TA-Lib (http://ta-lib.org/).",
       "url": "https://github.com/TA-Lib/ta-lib-python",
-      "stars": 11809,
+      "stars": 11810,
       "forks": 1969,
-      "updated": "2026-03-26T02:57:10+00:00",
+      "updated": "2026-03-26T09:27:34+00:00",
       "language": "Cython",
       "topics": [
         "finance",
@@ -883,9 +883,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9354,
+      "stars": 9367,
       "forks": 2077,
-      "updated": "2026-03-26T08:33:00+00:00",
+      "updated": "2026-03-26T09:38:06+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -1020,9 +1020,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 6987,
+      "stars": 6988,
       "forks": 897,
-      "updated": "2026-03-26T06:48:49+00:00",
+      "updated": "2026-03-26T09:28:18+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1052,9 +1052,9 @@
       "title": "QuantLib",
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
-      "stars": 6912,
+      "stars": 6914,
       "forks": 2151,
-      "updated": "2026-03-26T07:19:03+00:00",
+      "updated": "2026-03-26T09:31:55+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -1071,9 +1071,9 @@
       "title": "quantstats",
       "description": "Portfolio analytics for quants, written in Python",
       "url": "https://github.com/ranaroussi/quantstats",
-      "stars": 6893,
-      "forks": 1139,
-      "updated": "2026-03-26T01:43:02+00:00",
+      "stars": 6895,
+      "forks": 1140,
+      "updated": "2026-03-26T09:41:53+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -1138,9 +1138,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48045,
+      "stars": 48049,
       "forks": 10013,
-      "updated": "2026-03-26T08:24:50+00:00",
+      "updated": "2026-03-26T09:41:31+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1165,9 +1165,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19546,
-      "forks": 4950,
-      "updated": "2026-03-26T08:29:58+00:00",
+      "stars": 19545,
+      "forks": 4951,
+      "updated": "2026-03-26T09:38:48+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1187,9 +1187,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16614,
-      "forks": 4466,
-      "updated": "2026-03-26T08:24:00+00:00",
+      "stars": 16616,
+      "forks": 4465,
+      "updated": "2026-03-26T09:23:08+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1217,8 +1217,8 @@
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
       "stars": 14563,
-      "forks": 3240,
-      "updated": "2026-03-26T06:15:31+00:00",
+      "forks": 3241,
+      "updated": "2026-03-26T09:39:24+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1286,9 +1286,9 @@
       "title": "PyPortfolioOpt",
       "description": "Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
       "url": "https://github.com/PyPortfolio/PyPortfolioOpt",
-      "stars": 5585,
-      "forks": 1099,
-      "updated": "2026-03-26T07:00:53+00:00",
+      "stars": 5586,
+      "forks": 1100,
+      "updated": "2026-03-26T09:40:09+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1316,9 +1316,9 @@
       "title": "Crypto-Signal",
       "description": "Github.com/CryptoSignal - Trading & Technical Analysis Bot - 4,100+ stars, 1,100+ forks",
       "url": "https://github.com/CryptoSignal/Crypto-Signal",
-      "stars": 5500,
+      "stars": 5501,
       "forks": 1343,
-      "updated": "2026-03-25T12:36:20+00:00",
+      "updated": "2026-03-26T09:28:55+00:00",
       "language": "Python",
       "topics": [
         "abenezer-mamo",
