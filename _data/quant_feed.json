@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T20:54:18.699132",
+  "last_updated": "2026-03-27T21:41:11.024168",
   "items": [
     {
       "id": "2603.25678v1",
@@ -589,9 +589,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63647,
+      "stars": 63648,
       "forks": 6269,
-      "updated": "2026-03-27T20:09:03+00:00",
+      "updated": "2026-03-27T21:18:49+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -620,9 +620,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39406,
+      "stars": 39408,
       "forks": 6144,
-      "updated": "2026-03-27T20:11:49+00:00",
+      "updated": "2026-03-27T21:31:48+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -783,9 +783,9 @@
       "title": "quant-trading",
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
-      "stars": 9533,
+      "stars": 9534,
       "forks": 1751,
-      "updated": "2026-03-27T19:34:36+00:00",
+      "updated": "2026-03-27T21:02:24+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -921,9 +921,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7529,
+      "stars": 7530,
       "forks": 1070,
-      "updated": "2026-03-27T19:53:02+00:00",
+      "updated": "2026-03-27T21:35:34+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1076,9 +1076,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48095,
+      "stars": 48094,
       "forks": 10019,
-      "updated": "2026-03-27T20:35:20+00:00",
+      "updated": "2026-03-27T20:56:56+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1103,9 +1103,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19555,
+      "stars": 19553,
       "forks": 4951,
-      "updated": "2026-03-27T20:49:03+00:00",
+      "updated": "2026-03-27T20:56:56+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1154,9 +1154,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14594,
+      "stars": 14592,
       "forks": 3244,
-      "updated": "2026-03-27T19:18:34+00:00",
+      "updated": "2026-03-27T20:56:56+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1224,9 +1224,9 @@
       "title": "PyPortfolioOpt",
       "description": "Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
       "url": "https://github.com/PyPortfolio/PyPortfolioOpt",
-      "stars": 5589,
+      "stars": 5588,
       "forks": 1100,
-      "updated": "2026-03-27T12:12:58+00:00",
+      "updated": "2026-03-27T20:56:56+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
