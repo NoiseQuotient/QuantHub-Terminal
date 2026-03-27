@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T17:31:42.178428",
+  "last_updated": "2026-03-27T18:32:56.487889",
   "items": [
     {
       "id": "2603.25678v1",
@@ -364,29 +364,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.23480v1",
-      "source": "arxiv",
-      "title": "Stablecoins as Dry Powder: A Copula-Based Risk Analysis of Cryptocurrency Markets",
-      "authors": [
-        "Elliot Jones",
-        "Toshiko Matsui",
-        "William Knottenbelt"
-      ],
-      "abstract": "Stablecoins serve as the fundamental infrastructure for Decentralised Finance (DeFi), acting as the primary bridge between fiat currencies and the digital asset ecosystem. While peg stability is well-documented, the structural role stablecoins play in transmitting systemic risk to the broader market remains under-explored. This study uses copula-based approaches to quantify the transmission of volatility and activity from stablecoin to cryptocurrency markets. We demonstrate in-sample causality across daily, weekly, and monthly horizons. Furthermore, we show that incorporating stablecoin factors significantly reduces Mean Squared Error in cryptocurrency forecasting. Specifically, we link stablecoin volume and upside volatility to broader market volatility, indicating its role as dry powder. Finally, we establish economic value by demonstrating reduced risk in a cryptocurrency volatility targeting model when stablecoin factors are employed.",
-      "published": "2026-03-24T17:44:24+00:00",
-      "url": "http://arxiv.org/abs/2603.23480v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23480v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Stablecoins serve as the fundamental infrastructure for Decentralised Finance (DeFi), acting as the primary bridge between fiat currencies and the digital asset ecosystem",
-      "methodology": "While peg stability is well-documented, the structural role stablecoins play in transmitting systemic risk to the broader market remains under-explored",
-      "quant_impact": "This study uses copula-based approaches to quantify the transmission of volatility and activity from stablecoin to cryptocurrency markets",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
       "id": "2603.23842v1",
       "source": "arxiv",
       "title": "Environmental CVA with K-Robust Wrong-Way Risk",
@@ -480,6 +457,29 @@
       "quant_impact": "Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants",
       "relevance_score": 5,
       "ranking_score": 28.79285714285714
+    },
+    {
+      "id": "2603.23480v1",
+      "source": "arxiv",
+      "title": "Stablecoins as Dry Powder: A Copula-Based Risk Analysis of Cryptocurrency Markets",
+      "authors": [
+        "Elliot Jones",
+        "Toshiko Matsui",
+        "William Knottenbelt"
+      ],
+      "abstract": "Stablecoins serve as the fundamental infrastructure for Decentralised Finance (DeFi), acting as the primary bridge between fiat currencies and the digital asset ecosystem. While peg stability is well-documented, the structural role stablecoins play in transmitting systemic risk to the broader market remains under-explored. This study uses copula-based approaches to quantify the transmission of volatility and activity from stablecoin to cryptocurrency markets. We demonstrate in-sample causality across daily, weekly, and monthly horizons. Furthermore, we show that incorporating stablecoin factors significantly reduces Mean Squared Error in cryptocurrency forecasting. Specifically, we link stablecoin volume and upside volatility to broader market volatility, indicating its role as dry powder. Finally, we establish economic value by demonstrating reduced risk in a cryptocurrency volatility targeting model when stablecoin factors are employed.",
+      "published": "2026-03-24T17:44:24+00:00",
+      "url": "http://arxiv.org/abs/2603.23480v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23480v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Stablecoins serve as the fundamental infrastructure for Decentralised Finance (DeFi), acting as the primary bridge between fiat currencies and the digital asset ecosystem",
+      "methodology": "While peg stability is well-documented, the structural role stablecoins play in transmitting systemic risk to the broader market remains under-explored",
+      "quant_impact": "This study uses copula-based approaches to quantify the transmission of volatility and activity from stablecoin to cryptocurrency markets",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
     },
     {
       "id": "2603.23290v1",
@@ -589,9 +589,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63642,
+      "stars": 63644,
       "forks": 6269,
-      "updated": "2026-03-27T16:57:07+00:00",
+      "updated": "2026-03-27T18:30:19+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -620,9 +620,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39403,
+      "stars": 39404,
       "forks": 6142,
-      "updated": "2026-03-27T16:37:32+00:00",
+      "updated": "2026-03-27T17:51:42+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -823,7 +823,7 @@
       "url": "https://github.com/StockSharp/StockSharp",
       "stars": 9462,
       "forks": 2090,
-      "updated": "2026-03-27T17:09:52+00:00",
+      "updated": "2026-03-27T18:17:06+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -885,9 +885,9 @@
       "title": "jesse",
       "description": "An advanced crypto trading bot written in Python",
       "url": "https://github.com/jesse-ai/jesse",
-      "stars": 7601,
+      "stars": 7602,
       "forks": 1074,
-      "updated": "2026-03-27T15:42:01+00:00",
+      "updated": "2026-03-27T18:19:23+00:00",
       "language": "JavaScript",
       "topics": [
         "algo-trading",
@@ -958,9 +958,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 7000,
+      "stars": 7001,
       "forks": 899,
-      "updated": "2026-03-27T16:34:10+00:00",
+      "updated": "2026-03-27T17:37:48+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1009,9 +1009,9 @@
       "title": "quantstats",
       "description": "Portfolio analytics for quants, written in Python",
       "url": "https://github.com/ranaroussi/quantstats",
-      "stars": 6901,
+      "stars": 6902,
       "forks": 1139,
-      "updated": "2026-03-27T16:44:03+00:00",
+      "updated": "2026-03-27T18:30:24+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -1078,7 +1078,7 @@
       "url": "https://github.com/freqtrade/freqtrade",
       "stars": 48092,
       "forks": 10019,
-      "updated": "2026-03-27T17:22:58+00:00",
+      "updated": "2026-03-27T18:09:35+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1154,9 +1154,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14592,
+      "stars": 14593,
       "forks": 3243,
-      "updated": "2026-03-27T16:38:53+00:00",
+      "updated": "2026-03-27T18:08:19+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
