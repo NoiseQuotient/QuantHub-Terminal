@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T22:04:11.473169",
+  "last_updated": "2026-03-27T22:52:08.582567",
   "items": [
     {
       "id": "2603.25678v1",
@@ -590,7 +590,7 @@
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
       "stars": 63648,
-      "forks": 6269,
+      "forks": 6270,
       "updated": "2026-03-27T21:18:49+00:00",
       "language": "Python",
       "topics": [
@@ -620,9 +620,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39408,
+      "stars": 39407,
       "forks": 6144,
-      "updated": "2026-03-27T21:31:48+00:00",
+      "updated": "2026-03-27T22:27:15+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -656,9 +656,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25156,
+      "stars": 25157,
       "forks": 3325,
-      "updated": "2026-03-27T19:45:27+00:00",
+      "updated": "2026-03-27T22:04:40+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -783,9 +783,9 @@
       "title": "quant-trading",
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
-      "stars": 9534,
+      "stars": 9535,
       "forks": 1751,
-      "updated": "2026-03-27T21:02:24+00:00",
+      "updated": "2026-03-27T22:51:23+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -991,7 +991,7 @@
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
       "stars": 6918,
-      "forks": 2153,
+      "forks": 2154,
       "updated": "2026-03-27T11:15:38+00:00",
       "language": "C++",
       "topics": [
@@ -1154,9 +1154,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14592,
+      "stars": 14593,
       "forks": 3244,
-      "updated": "2026-03-27T20:56:56+00:00",
+      "updated": "2026-03-27T22:10:12+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
