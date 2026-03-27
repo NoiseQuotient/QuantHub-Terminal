@@ -1,15 +1,166 @@
 {
-  "last_updated": "2026-03-27T01:04:42.603297",
+  "last_updated": "2026-03-27T04:09:48.643327",
   "items": [
+    {
+      "id": "2603.25338v1",
+      "source": "arxiv",
+      "title": "Optimal threshold resetting in collective diffusive search",
+      "authors": [
+        "Arup Biswas",
+        "Satya N Majumdar",
+        "Arnab Pal"
+      ],
+      "abstract": "Stochastic resetting has attracted significant attention in recent years due to its wide-ranging applications across physics, biology, and search processes. In most existing studies, however, resetting events are governed by an external timer and remain decoupled from the system's intrinsic dynamics. In a recent Letter by Biswas et al, we introduced threshold resetting (TR) as an alternative, event-driven optimization strategy for target search problems. Under TR, the entire process is reset whenever any searcher reaches a prescribed threshold, thereby coupling the resetting mechanism directly to the internal dynamics. In this work, we study TR-enabled search by $N$ non-interacting diffusive searchers in a one-dimensional box $[0,L]$, with the target at the origin and the threshold at $L$. By optimally tuning the scaled threshold distance $u = x_0/L$, the mean first-passage time can be significantly reduced for $N \\geq 2$. We identify a critical population size $N_c(u)$ below which TR outperforms reset-free dynamics. Furthermore, for fixed $u$, the mean first-passage time depends non-monotonically on $N$, attaining a minimum at $N_{\\mathrm{opt}}(u)$. We also quantify the achievable speed-up and analyze the operational cost of TR, revealing a nontrivial optimization landscape. These findings highlight threshold resetting as an efficient and realistic optimization mechanism for complex stochastic search processes.",
+      "published": "2026-03-26T11:29:43+00:00",
+      "url": "http://arxiv.org/abs/2603.25338v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.25338v1",
+      "categories": [
+        "cond-mat.stat-mech",
+        "math.OC",
+        "math.PR",
+        "q-fin.ST"
+      ],
+      "primary_category": "cond-mat.stat-mech",
+      "core_idea": "Stochastic resetting has attracted significant attention in recent years due to its wide-ranging applications across physics, biology, and search processes",
+      "methodology": "In most existing studies, however, resetting events are governed by an external timer and remain decoupled from the system's intrinsic dynamics",
+      "quant_impact": "In a recent Letter by Biswas et al, we introduced threshold resetting (TR) as an alternative, event-driven optimization strategy for target search problems",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.24215v1",
+      "source": "arxiv",
+      "title": "Adapting Altman's bankruptcy prediction model to the compositional data methodology",
+      "authors": [
+        "Fatemeh Keivani",
+        "Germ\u00e0 Coenders",
+        "Ge\u00f2rgia Escaram\u00eds"
+      ],
+      "abstract": "Using standard financial ratios as variables in statistical analyses has been related to several serious problems, such as extreme outliers, asymmetry, non-normality, and non-linearity. The compositional-data methodology has been successfully applied to solve these problems and has always yielded substantially different results when compared to standard financial ratios. An under-researched area is the use of financial log-ratios computed with the compositional-data methodology to predict bankruptcy or the related terms of business default, insolvency or failure. Another under-researched area is the use of machine learning methods in combination with compositional log-ratios. The present article adapts the classical Altman bankruptcy prediction model and some of its extensions to the compositional methodology with pairwise log-ratios and three common statistical and machine learning tools: logistic regression models, k-nearest neighbours, and random forests, and compares the results with standard financial ratios. Data from the sector in the Spanish economy with the largest number of bankrupt firms according to the first two digits of the NACE code (46XX \"wholesale trade, except of motor vehicles and motorcycles\") were obtained from the Iberian Balance sheet Analysis System. The sample size (31,131 firms, of which 97 were bankrupt) was divided into a training and a validation dataset. The training data set was downsampled to one healthy firm to each bankrupt firm. No outliers were removed. Focusing on predictive performance, the results show that compositional methods are better than standard ratios in terms of sensitivity, with mixed results regarding specificity, compositional random forests and compositional logistic regression behaving the best.",
+      "published": "2026-03-25T11:44:20+00:00",
+      "url": "http://arxiv.org/abs/2603.24215v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24215v1",
+      "categories": [
+        "q-fin.ST",
+        "stat.AP"
+      ],
+      "primary_category": "q-fin.ST",
+      "core_idea": "Using standard financial ratios as variables in statistical analyses has been related to several serious problems, such as extreme outliers, asymmetry, non-normality, and non-linearity",
+      "methodology": "The compositional-data methodology has been successfully applied to solve these problems and has always yielded substantially different results when compared to standard financial ratios",
+      "quant_impact": "An under-researched area is the use of financial log-ratios computed with the compositional-data methodology to predict bankruptcy or the related terms of business default, insolvency or failure",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.24190v1",
+      "source": "arxiv",
+      "title": "Dynamical thermalization and turbulence in social stratification models",
+      "authors": [
+        "Klaus M. Frahm",
+        "Dima L. Shepelyansky"
+      ],
+      "abstract": "We study the nonlinear chaotic dynamics in a system of linear oscillators coupled by social network links with an additional stratification of oscillator energies, or frequencies, and supplementary nonlinear interactions. It is argued that this system can be viewed as a model of social stratification in a society with nonlinear interacting agents with energies playing a role of wealth states of society. The Hamiltonian evolution is characterized by two integrals of motion being energy and probability norm. Above a certain chaos border the chaotic dynamics leads to dynamical thermalization with the Rayleigh-Jeans (RJ) distribution over states with given energy or wealth. At low energies, this distribution has RJ condensation of norm at low energy modes. We point out a similarity of this condensation with the wealth inequality in the world countries where about a half of population owns only a couple of percent of the total wealth. In the presence of energy pumping and absorption, the system reveals features of the Kolmogorov-Zakharov turbulence of nonlinear waves.",
+      "published": "2026-03-25T11:14:13+00:00",
+      "url": "http://arxiv.org/abs/2603.24190v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24190v1",
+      "categories": [
+        "cond-mat.stat-mech",
+        "econ.GN",
+        "nlin.CD",
+        "physics.soc-ph",
+        "q-fin.ST"
+      ],
+      "primary_category": "cond-mat.stat-mech",
+      "core_idea": "We study the nonlinear chaotic dynamics in a system of linear oscillators coupled by social network links with an additional stratification of oscillator energies, or frequencies, and supplementary nonlinear interactions",
+      "methodology": "It is argued that this system can be viewed as a model of social stratification in a society with nonlinear interacting agents with energies playing a role of wealth states of society",
+      "quant_impact": "The Hamiltonian evolution is characterized by two integrals of motion being energy and probability norm",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.23300v1",
+      "source": "arxiv",
+      "title": "Designing Agentic AI-Based Screening for Portfolio Investment",
+      "authors": [
+        "Mehmet Caner",
+        "Agostino Capponi",
+        "Nathan Sun",
+        "Jonathan Y. Tan"
+      ],
+      "abstract": "We introduce a new agentic artificial intelligence (AI) platform for portfolio management. Our architecture consists of three layers. First, two large language model (LLM) agents are assigned specialized tasks: one agent screens for firms with desirable fundamentals, while a sentiment analysis agent screens for firms with desirable news. Second, these agents deliberate to generate and agree upon buy and sell signals from a large portfolio, substantially narrowing the pool of candidate assets. Finally, we apply a high-dimensional precision matrix estimation procedure to determine optimal portfolio weights. A defining theoretical feature of our framework is that the number of assets in the portfolio is itself a random variable, realized through the screening process. We introduce the concept of sensible screening and establish that, under mild screening errors, the squared Sharpe ratio of the screened portfolio consistently estimates its target. Empirically, our method achieves superior Sharpe ratios relative to an unscreened baseline portfolio and to conventional screening approaches, evaluated on S&P 500 data over the period 2020--2024.",
+      "published": "2026-03-24T15:03:40+00:00",
+      "url": "http://arxiv.org/abs/2603.23300v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23300v1",
+      "categories": [
+        "q-fin.PM",
+        "cs.AI",
+        "cs.MA",
+        "q-fin.ST"
+      ],
+      "primary_category": "q-fin.PM",
+      "core_idea": "We introduce a new agentic artificial intelligence (AI) platform for portfolio management",
+      "methodology": "Our architecture consists of three layers",
+      "quant_impact": "First, two large language model (LLM) agents are assigned specialized tasks: one agent screens for firms with desirable fundamentals, while a sentiment analysis agent screens for firms with desirable news",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
+    },
+    {
+      "id": "2603.22886v1",
+      "source": "arxiv",
+      "title": "Conditionally Identifiable Latent Representation for Multivariate Time Series with Structural Dynamics",
+      "authors": [
+        "Minkey Chang",
+        "Jae-Young Kim"
+      ],
+      "abstract": "We propose the Identifiable Variational Dynamic Factor Model (iVDFM), which learns latent factors from multivariate time series with identifiability guarantees. By applying iVAE-style conditioning to the innovation process driving the dynamics rather than to the latent states, we show that factors are identifiable up to permutation and component-wise affine (or monotone invertible) transformations. Linear diagonal dynamics preserve this identifiability and admit scalable computation via companion-matrix and Krylov methods. We demonstrate improved factor recovery on synthetic data, stable intervention accuracy on synthetic SCMs, and competitive probabilistic forecasting on real-world benchmarks.",
+      "published": "2026-03-24T07:35:27+00:00",
+      "url": "http://arxiv.org/abs/2603.22886v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.22886v1",
+      "categories": [
+        "cs.LG",
+        "q-fin.GN",
+        "q-fin.ST"
+      ],
+      "primary_category": "cs.LG",
+      "core_idea": "We propose the Identifiable Variational Dynamic Factor Model (iVDFM), which learns latent factors from multivariate time series with identifiability guarantees",
+      "methodology": "By applying iVAE-style conditioning to the innovation process driving the dynamics rather than to the latent states, we show that factors are identifiable up to permutation and component-wise affine (or monotone invertible) transformations",
+      "quant_impact": "Linear diagonal dynamics preserve this identifiability and admit scalable computation via companion-matrix and Krylov methods",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
+    },
+    {
+      "id": "2603.21672v2",
+      "source": "arxiv",
+      "title": "Mislearning of Factor Risk Premia under Structural Breaks: A Misspecified Bayesian Learning Framework",
+      "authors": [
+        "Yimeng Qiu"
+      ],
+      "abstract": "While asset-pricing models increasingly recognize that factor risk premia are subject to structural change, existing literature typically assumes that investors correctly account for such instability. This paper asks what happens when investors instead learn under a misspecified model that underestimates structural breaks. We propose a minimal Bayesian framework in which this misspecification generates persistent prediction errors and pricing distortions, and we introduce an empirically tractable measure of mislearning intensity $(\u0394_t)$ based on predictive likelihood ratios.\n  The empirical results yield three main findings. First, in benchmark factor systems, elevated mislearning does not forecast a deterministic short-run collapse in performance; instead, it is associated with stronger long-horizon returns and Sharpe ratios, consistent with an equilibrium premium for acute model uncertainty. Second, in a broader anomaly universe, this pricing relation does not generalize uniformly. There, mislearning is more strongly associated with future drawdowns, downside semivolatility, and other measures of instability, with substantial heterogeneity across anomaly families. Third, the institutional evidence does not support a robust passive absorber mechanism. Rather than systematically damping mislearning, passive capital primarily changes how mislearning is expressed in subsequent outcomes. Within both the FF6 and q5 factor systems, higher passive intensity is more consistent with a weak shift away from future Sharpe compensation and toward future risk realization and lower cumulative returns, while in the anomaly universe passive exposure operates more heterogeneously through partial family-level structure shifting. Taken together, the results suggest that mislearning is a conditional pricing force whose empirical manifestation depends on both asset structure and market structure.",
+      "published": "2026-03-23T07:54:15+00:00",
+      "url": "http://arxiv.org/abs/2603.21672v2",
+      "pdf_url": "https://arxiv.org/pdf/2603.21672v2",
+      "categories": [
+        "q-fin.PM",
+        "q-fin.ST",
+        "q-fin.TR",
+        "stat.OT"
+      ],
+      "primary_category": "q-fin.PM",
+      "core_idea": "While asset-pricing models increasingly recognize that factor risk premia are subject to structural change, existing literature typically assumes that investors correctly account for such instability",
+      "methodology": "This paper asks what happens when investors instead learn under a misspecified model that underestimates structural breaks",
+      "quant_impact": "We propose a minimal Bayesian framework in which this misspecification generates persistent prediction errors and pricing distortions, and we introduce an empirically tractable measure of mislearning intensity $(\u0394_t)$ based on predictive likelihood ratios.\n  The empirical results yield three main findings",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
+    },
     {
       "id": "323048702",
       "source": "github",
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63608,
-      "forks": 6260,
-      "updated": "2026-03-27T00:50:12+00:00",
+      "stars": 63615,
+      "forks": 6262,
+      "updated": "2026-03-27T03:35:14+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -38,9 +189,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39367,
-      "forks": 6135,
-      "updated": "2026-03-27T00:54:36+00:00",
+      "stars": 39377,
+      "forks": 6138,
+      "updated": "2026-03-27T04:06:23+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -74,9 +225,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25134,
-      "forks": 3319,
-      "updated": "2026-03-26T23:41:08+00:00",
+      "stars": 25139,
+      "forks": 3321,
+      "updated": "2026-03-27T04:08:29+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -112,9 +263,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16743,
+      "stars": 16747,
       "forks": 2367,
-      "updated": "2026-03-26T19:30:14+00:00",
+      "updated": "2026-03-27T03:59:26+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -147,9 +298,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12052,
-      "forks": 2499,
-      "updated": "2026-03-26T17:06:52+00:00",
+      "stars": 12054,
+      "forks": 2500,
+      "updated": "2026-03-27T03:32:09+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -201,9 +352,9 @@
       "title": "quant-trading",
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
-      "stars": 9528,
-      "forks": 1749,
-      "updated": "2026-03-26T17:55:00+00:00",
+      "stars": 9529,
+      "forks": 1750,
+      "updated": "2026-03-27T02:58:41+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -239,9 +390,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9437,
-      "forks": 2088,
-      "updated": "2026-03-27T00:51:39+00:00",
+      "stars": 9445,
+      "forks": 2089,
+      "updated": "2026-03-27T03:37:13+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -277,9 +428,9 @@
       "title": "financial-machine-learning",
       "description": "A curated list of practical financial machine learning tools and applications.",
       "url": "https://github.com/firmai/financial-machine-learning",
-      "stars": 8460,
+      "stars": 8461,
       "forks": 1396,
-      "updated": "2026-03-27T00:57:25+00:00",
+      "updated": "2026-03-27T02:02:56+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -339,9 +490,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7524,
-      "forks": 1069,
-      "updated": "2026-03-27T00:21:23+00:00",
+      "stars": 7525,
+      "forks": 1070,
+      "updated": "2026-03-27T03:37:43+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -376,9 +527,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 6993,
+      "stars": 6996,
       "forks": 898,
-      "updated": "2026-03-26T22:29:17+00:00",
+      "updated": "2026-03-27T03:15:44+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -494,9 +645,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48073,
-      "forks": 10016,
-      "updated": "2026-03-27T00:59:41+00:00",
+      "stars": 48075,
+      "forks": 10018,
+      "updated": "2026-03-27T03:20:47+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -543,9 +694,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16626,
+      "stars": 16630,
       "forks": 4468,
-      "updated": "2026-03-27T01:00:43+00:00",
+      "updated": "2026-03-27T02:57:29+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -572,9 +723,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14579,
+      "stars": 14581,
       "forks": 3241,
-      "updated": "2026-03-27T00:13:52+00:00",
+      "updated": "2026-03-27T02:16:06+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -642,9 +793,9 @@
       "title": "PyPortfolioOpt",
       "description": "Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
       "url": "https://github.com/PyPortfolio/PyPortfolioOpt",
-      "stars": 5587,
+      "stars": 5588,
       "forks": 1100,
-      "updated": "2026-03-27T00:07:20+00:00",
+      "updated": "2026-03-27T02:49:06+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -673,7 +824,7 @@
       "description": "Github.com/CryptoSignal - Trading & Technical Analysis Bot - 4,100+ stars, 1,100+ forks",
       "url": "https://github.com/CryptoSignal/Crypto-Signal",
       "stars": 5501,
-      "forks": 1343,
+      "forks": 1342,
       "updated": "2026-03-26T09:28:55+00:00",
       "language": "Python",
       "topics": [
@@ -1236,7 +1387,7 @@
       "url": "https://github.com/HaSerZin/trade_political_distance_wto",
       "stars": 2,
       "forks": 0,
-      "updated": "2026-03-26T22:36:32+00:00",
+      "updated": "2026-03-27T02:22:00+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "bayesian-filtering",
@@ -1265,34 +1416,6 @@
       "ranking_score": 27.8506
     },
     {
-      "id": "1117715518",
-      "source": "github",
-      "title": "cyber-forge",
-      "description": "Breach probability simulator for CISOs. Quantifies defense-in-depth effectiveness using Poisson modeling. SOC aesthetic, risk quantification dashboard.",
-      "url": "https://github.com/JamesTheGiblet/cyber-forge",
-      "stars": 1,
-      "forks": 0,
-      "updated": "2025-12-16T21:20:07+00:00",
-      "language": "HTML",
-      "topics": [
-        "breach-prediction",
-        "ciso-tools",
-        "cybersecurity",
-        "defense-in-depth",
-        "forge-theory",
-        "infosec",
-        "javascript",
-        "poisson-distribution",
-        "risk-modeling",
-        "soc"
-      ],
-      "core_idea": "Breach probability simulator for CISOs",
-      "methodology": "Quantifies defense-in-depth effectiveness using Poisson modeling",
-      "quant_impact": "SOC aesthetic, risk quantification dashboard.",
-      "relevance_score": 5,
-      "ranking_score": 27.8503
-    },
-    {
       "id": "1166223326",
       "source": "github",
       "title": "Credit_Risk_fintech",
@@ -1319,81 +1442,6 @@
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 27.8503
-    },
-    {
-      "id": "120a339b-e85f-40fe-8f09-c45c250f78ab",
-      "source": "https://www.economist.com/finance-and-economics/rss.xml",
-      "source_type": "news",
-      "title": "The decline and fall of the Roman currency empire",
-      "summary": "The fate of ancient coins offers uncomfortable lessons about dollar dominance",
-      "published": "Thu, 26 Mar 2026 10:18:37 +0000",
-      "url": "https://www.economist.com/finance-and-economics/2026/03/26/the-decline-and-fall-of-the-roman-currency-empire",
-      "author": "",
-      "core_idea": "The fate of ancient coins offers uncomfortable lessons about dollar dominance",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 27.55
-    },
-    {
-      "id": "31d98144-05c8-463f-923d-a906eb67d558",
-      "source": "https://www.economist.com/finance-and-economics/rss.xml",
-      "source_type": "news",
-      "title": "Christine Lagarde\u2019s sober tone on the Gulf war energy shock",
-      "summary": "Our interview with the ECB\u2019s president",
-      "published": "Thu, 26 Mar 2026 10:17:23 +0000",
-      "url": "https://www.economist.com/finance-and-economics/2026/03/26/christine-lagardes-sober-tone-on-the-gulf-war-energy-shock",
-      "author": "",
-      "core_idea": "Our interview with the ECB\u2019s president",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 27.55
-    },
-    {
-      "id": "c8eaf135-9653-4fa9-b986-23cbd94d1a15",
-      "source": "https://www.economist.com/finance-and-economics/rss.xml",
-      "source_type": "news",
-      "title": "Markets are gripped by an alarming cognitive dissonance",
-      "summary": "Investors all seem to think everyone else is wrong",
-      "published": "Tue, 24 Mar 2026 19:14:39 +0000",
-      "url": "https://www.economist.com/finance-and-economics/2026/03/24/markets-are-gripped-by-an-alarming-cognitive-dissonance",
-      "author": "",
-      "core_idea": "Investors all seem to think everyone else is wrong",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 27.55
-    },
-    {
-      "id": "9b2b723a-95fb-4c27-a091-ee0ae8710756",
-      "source": "https://www.economist.com/finance-and-economics/rss.xml",
-      "source_type": "news",
-      "title": "China\u2019s new masterplan for its tech economy in 2030 and beyond",
-      "summary": "The Communist Party\u2019s technological ambition is breathtaking",
-      "published": "Tue, 24 Mar 2026 14:12:18 +0000",
-      "url": "https://www.economist.com/finance-and-economics/2026/03/24/chinas-new-masterplan-for-its-tech-economy-in-2030-and-beyond",
-      "author": "",
-      "core_idea": "The Communist Party\u2019s technological ambition is breathtaking",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 27.55
-    },
-    {
-      "id": "3534fb75-ad50-41b6-9cb8-8a37a19ef995",
-      "source": "https://www.economist.com/finance-and-economics/rss.xml",
-      "source_type": "news",
-      "title": "How high could global inflation go?",
-      "summary": "With luck, the Iran war won\u2019t cause a recession. But the surge in energy prices will push up the cost of living",
-      "published": "Mon, 23 Mar 2026 20:37:50 +0000",
-      "url": "https://www.economist.com/finance-and-economics/2026/03/23/how-high-could-global-inflation-go",
-      "author": "",
-      "core_idea": "With luck, the Iran war won\u2019t cause a recession",
-      "methodology": "But the surge in energy prices will push up the cost of living",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 27.55
     }
   ]
 }
