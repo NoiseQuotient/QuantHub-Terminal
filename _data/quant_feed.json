@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T11:07:33.797973",
+  "last_updated": "2026-03-27T12:01:56.026092",
   "items": [
     {
       "id": "2603.25678v1",
@@ -22,32 +22,6 @@
       "core_idea": "Small, trade-dependent economies often exhibit limited maritime connectivity, yet empirical evidence on the structural configuration of their container systems remains limited",
       "methodology": "This study analyzes route concentration and node distributions in Mauritania's maritime container system during 2019-2022 using shipment-level data measured in forty-foot equivalent units (FFE)",
       "quant_impact": "Routes, origin nodes, destination nodes, and industries are represented as FFE-weighted probability distributions, and concentration and divergence metrics are used to assess structural properties",
-      "relevance_score": 5,
-      "ranking_score": 29.65
-    },
-    {
-      "id": "2603.25338v1",
-      "source": "arxiv",
-      "title": "Optimal threshold resetting in collective diffusive search",
-      "authors": [
-        "Arup Biswas",
-        "Satya N Majumdar",
-        "Arnab Pal"
-      ],
-      "abstract": "Stochastic resetting has attracted significant attention in recent years due to its wide-ranging applications across physics, biology, and search processes. In most existing studies, however, resetting events are governed by an external timer and remain decoupled from the system's intrinsic dynamics. In a recent Letter by Biswas et al, we introduced threshold resetting (TR) as an alternative, event-driven optimization strategy for target search problems. Under TR, the entire process is reset whenever any searcher reaches a prescribed threshold, thereby coupling the resetting mechanism directly to the internal dynamics. In this work, we study TR-enabled search by $N$ non-interacting diffusive searchers in a one-dimensional box $[0,L]$, with the target at the origin and the threshold at $L$. By optimally tuning the scaled threshold distance $u = x_0/L$, the mean first-passage time can be significantly reduced for $N \\geq 2$. We identify a critical population size $N_c(u)$ below which TR outperforms reset-free dynamics. Furthermore, for fixed $u$, the mean first-passage time depends non-monotonically on $N$, attaining a minimum at $N_{\\mathrm{opt}}(u)$. We also quantify the achievable speed-up and analyze the operational cost of TR, revealing a nontrivial optimization landscape. These findings highlight threshold resetting as an efficient and realistic optimization mechanism for complex stochastic search processes.",
-      "published": "2026-03-26T11:29:43+00:00",
-      "url": "http://arxiv.org/abs/2603.25338v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25338v1",
-      "categories": [
-        "cond-mat.stat-mech",
-        "math.OC",
-        "math.PR",
-        "q-fin.ST"
-      ],
-      "primary_category": "cond-mat.stat-mech",
-      "core_idea": "Stochastic resetting has attracted significant attention in recent years due to its wide-ranging applications across physics, biology, and search processes",
-      "methodology": "In most existing studies, however, resetting events are governed by an external timer and remain decoupled from the system's intrinsic dynamics",
-      "quant_impact": "In a recent Letter by Biswas et al, we introduced threshold resetting (TR) as an alternative, event-driven optimization strategy for target search problems",
       "relevance_score": 5,
       "ranking_score": 29.65
     },
@@ -235,52 +209,28 @@
       "ranking_score": 29.22142857142857
     },
     {
-      "id": "2603.24215v1",
+      "id": "2603.25338v1",
       "source": "arxiv",
-      "title": "Adapting Altman's bankruptcy prediction model to the compositional data methodology",
+      "title": "Optimal threshold resetting in collective diffusive search",
       "authors": [
-        "Fatemeh Keivani",
-        "Germ\u00e0 Coenders",
-        "Ge\u00f2rgia Escaram\u00eds"
+        "Arup Biswas",
+        "Satya N Majumdar",
+        "Arnab Pal"
       ],
-      "abstract": "Using standard financial ratios as variables in statistical analyses has been related to several serious problems, such as extreme outliers, asymmetry, non-normality, and non-linearity. The compositional-data methodology has been successfully applied to solve these problems and has always yielded substantially different results when compared to standard financial ratios. An under-researched area is the use of financial log-ratios computed with the compositional-data methodology to predict bankruptcy or the related terms of business default, insolvency or failure. Another under-researched area is the use of machine learning methods in combination with compositional log-ratios. The present article adapts the classical Altman bankruptcy prediction model and some of its extensions to the compositional methodology with pairwise log-ratios and three common statistical and machine learning tools: logistic regression models, k-nearest neighbours, and random forests, and compares the results with standard financial ratios. Data from the sector in the Spanish economy with the largest number of bankrupt firms according to the first two digits of the NACE code (46XX \"wholesale trade, except of motor vehicles and motorcycles\") were obtained from the Iberian Balance sheet Analysis System. The sample size (31,131 firms, of which 97 were bankrupt) was divided into a training and a validation dataset. The training data set was downsampled to one healthy firm to each bankrupt firm. No outliers were removed. Focusing on predictive performance, the results show that compositional methods are better than standard ratios in terms of sensitivity, with mixed results regarding specificity, compositional random forests and compositional logistic regression behaving the best.",
-      "published": "2026-03-25T11:44:20+00:00",
-      "url": "http://arxiv.org/abs/2603.24215v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24215v1",
-      "categories": [
-        "q-fin.ST",
-        "stat.AP"
-      ],
-      "primary_category": "q-fin.ST",
-      "core_idea": "Using standard financial ratios as variables in statistical analyses has been related to several serious problems, such as extreme outliers, asymmetry, non-normality, and non-linearity",
-      "methodology": "The compositional-data methodology has been successfully applied to solve these problems and has always yielded substantially different results when compared to standard financial ratios",
-      "quant_impact": "An under-researched area is the use of financial log-ratios computed with the compositional-data methodology to predict bankruptcy or the related terms of business default, insolvency or failure",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
-    },
-    {
-      "id": "2603.24190v1",
-      "source": "arxiv",
-      "title": "Dynamical thermalization and turbulence in social stratification models",
-      "authors": [
-        "Klaus M. Frahm",
-        "Dima L. Shepelyansky"
-      ],
-      "abstract": "We study the nonlinear chaotic dynamics in a system of linear oscillators coupled by social network links with an additional stratification of oscillator energies, or frequencies, and supplementary nonlinear interactions. It is argued that this system can be viewed as a model of social stratification in a society with nonlinear interacting agents with energies playing a role of wealth states of society. The Hamiltonian evolution is characterized by two integrals of motion being energy and probability norm. Above a certain chaos border the chaotic dynamics leads to dynamical thermalization with the Rayleigh-Jeans (RJ) distribution over states with given energy or wealth. At low energies, this distribution has RJ condensation of norm at low energy modes. We point out a similarity of this condensation with the wealth inequality in the world countries where about a half of population owns only a couple of percent of the total wealth. In the presence of energy pumping and absorption, the system reveals features of the Kolmogorov-Zakharov turbulence of nonlinear waves.",
-      "published": "2026-03-25T11:14:13+00:00",
-      "url": "http://arxiv.org/abs/2603.24190v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24190v1",
+      "abstract": "Stochastic resetting has attracted significant attention in recent years due to its wide-ranging applications across physics, biology, and search processes. In most existing studies, however, resetting events are governed by an external timer and remain decoupled from the system's intrinsic dynamics. In a recent Letter by Biswas et al, we introduced threshold resetting (TR) as an alternative, event-driven optimization strategy for target search problems. Under TR, the entire process is reset whenever any searcher reaches a prescribed threshold, thereby coupling the resetting mechanism directly to the internal dynamics. In this work, we study TR-enabled search by $N$ non-interacting diffusive searchers in a one-dimensional box $[0,L]$, with the target at the origin and the threshold at $L$. By optimally tuning the scaled threshold distance $u = x_0/L$, the mean first-passage time can be significantly reduced for $N \\geq 2$. We identify a critical population size $N_c(u)$ below which TR outperforms reset-free dynamics. Furthermore, for fixed $u$, the mean first-passage time depends non-monotonically on $N$, attaining a minimum at $N_{\\mathrm{opt}}(u)$. We also quantify the achievable speed-up and analyze the operational cost of TR, revealing a nontrivial optimization landscape. These findings highlight threshold resetting as an efficient and realistic optimization mechanism for complex stochastic search processes.",
+      "published": "2026-03-26T11:29:43+00:00",
+      "url": "http://arxiv.org/abs/2603.25338v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.25338v1",
       "categories": [
         "cond-mat.stat-mech",
-        "econ.GN",
-        "nlin.CD",
-        "physics.soc-ph",
+        "math.OC",
+        "math.PR",
         "q-fin.ST"
       ],
       "primary_category": "cond-mat.stat-mech",
-      "core_idea": "We study the nonlinear chaotic dynamics in a system of linear oscillators coupled by social network links with an additional stratification of oscillator energies, or frequencies, and supplementary nonlinear interactions",
-      "methodology": "It is argued that this system can be viewed as a model of social stratification in a society with nonlinear interacting agents with energies playing a role of wealth states of society",
-      "quant_impact": "The Hamiltonian evolution is characterized by two integrals of motion being energy and probability norm",
+      "core_idea": "Stochastic resetting has attracted significant attention in recent years due to its wide-ranging applications across physics, biology, and search processes",
+      "methodology": "In most existing studies, however, resetting events are governed by an external timer and remain decoupled from the system's intrinsic dynamics",
+      "quant_impact": "In a recent Letter by Biswas et al, we introduced threshold resetting (TR) as an alternative, event-driven optimization strategy for target search problems",
       "relevance_score": 5,
       "ranking_score": 29.22142857142857
     },
@@ -510,6 +460,56 @@
       "ranking_score": 28.79285714285714
     },
     {
+      "id": "2603.24215v1",
+      "source": "arxiv",
+      "title": "Adapting Altman's bankruptcy prediction model to the compositional data methodology",
+      "authors": [
+        "Fatemeh Keivani",
+        "Germ\u00e0 Coenders",
+        "Ge\u00f2rgia Escaram\u00eds"
+      ],
+      "abstract": "Using standard financial ratios as variables in statistical analyses has been related to several serious problems, such as extreme outliers, asymmetry, non-normality, and non-linearity. The compositional-data methodology has been successfully applied to solve these problems and has always yielded substantially different results when compared to standard financial ratios. An under-researched area is the use of financial log-ratios computed with the compositional-data methodology to predict bankruptcy or the related terms of business default, insolvency or failure. Another under-researched area is the use of machine learning methods in combination with compositional log-ratios. The present article adapts the classical Altman bankruptcy prediction model and some of its extensions to the compositional methodology with pairwise log-ratios and three common statistical and machine learning tools: logistic regression models, k-nearest neighbours, and random forests, and compares the results with standard financial ratios. Data from the sector in the Spanish economy with the largest number of bankrupt firms according to the first two digits of the NACE code (46XX \"wholesale trade, except of motor vehicles and motorcycles\") were obtained from the Iberian Balance sheet Analysis System. The sample size (31,131 firms, of which 97 were bankrupt) was divided into a training and a validation dataset. The training data set was downsampled to one healthy firm to each bankrupt firm. No outliers were removed. Focusing on predictive performance, the results show that compositional methods are better than standard ratios in terms of sensitivity, with mixed results regarding specificity, compositional random forests and compositional logistic regression behaving the best.",
+      "published": "2026-03-25T11:44:20+00:00",
+      "url": "http://arxiv.org/abs/2603.24215v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24215v1",
+      "categories": [
+        "q-fin.ST",
+        "stat.AP"
+      ],
+      "primary_category": "q-fin.ST",
+      "core_idea": "Using standard financial ratios as variables in statistical analyses has been related to several serious problems, such as extreme outliers, asymmetry, non-normality, and non-linearity",
+      "methodology": "The compositional-data methodology has been successfully applied to solve these problems and has always yielded substantially different results when compared to standard financial ratios",
+      "quant_impact": "An under-researched area is the use of financial log-ratios computed with the compositional-data methodology to predict bankruptcy or the related terms of business default, insolvency or failure",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
+    },
+    {
+      "id": "2603.24190v1",
+      "source": "arxiv",
+      "title": "Dynamical thermalization and turbulence in social stratification models",
+      "authors": [
+        "Klaus M. Frahm",
+        "Dima L. Shepelyansky"
+      ],
+      "abstract": "We study the nonlinear chaotic dynamics in a system of linear oscillators coupled by social network links with an additional stratification of oscillator energies, or frequencies, and supplementary nonlinear interactions. It is argued that this system can be viewed as a model of social stratification in a society with nonlinear interacting agents with energies playing a role of wealth states of society. The Hamiltonian evolution is characterized by two integrals of motion being energy and probability norm. Above a certain chaos border the chaotic dynamics leads to dynamical thermalization with the Rayleigh-Jeans (RJ) distribution over states with given energy or wealth. At low energies, this distribution has RJ condensation of norm at low energy modes. We point out a similarity of this condensation with the wealth inequality in the world countries where about a half of population owns only a couple of percent of the total wealth. In the presence of energy pumping and absorption, the system reveals features of the Kolmogorov-Zakharov turbulence of nonlinear waves.",
+      "published": "2026-03-25T11:14:13+00:00",
+      "url": "http://arxiv.org/abs/2603.24190v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24190v1",
+      "categories": [
+        "cond-mat.stat-mech",
+        "econ.GN",
+        "nlin.CD",
+        "physics.soc-ph",
+        "q-fin.ST"
+      ],
+      "primary_category": "cond-mat.stat-mech",
+      "core_idea": "We study the nonlinear chaotic dynamics in a system of linear oscillators coupled by social network links with an additional stratification of oscillator energies, or frequencies, and supplementary nonlinear interactions",
+      "methodology": "It is argued that this system can be viewed as a model of social stratification in a society with nonlinear interacting agents with energies playing a role of wealth states of society",
+      "quant_impact": "The Hamiltonian evolution is characterized by two integrals of motion being energy and probability norm",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
+    },
+    {
       "id": "2603.23300v1",
       "source": "arxiv",
       "title": "Designing Agentic AI-Based Screening for Portfolio Investment",
@@ -533,29 +533,6 @@
       "core_idea": "We introduce a new agentic artificial intelligence (AI) platform for portfolio management",
       "methodology": "Our architecture consists of three layers",
       "quant_impact": "First, two large language model (LLM) agents are assigned specialized tasks: one agent screens for firms with desirable fundamentals, while a sentiment analysis agent screens for firms with desirable news",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
-      "id": "2603.24137v1",
-      "source": "arxiv",
-      "title": "Bridging the Reality Gap in Limit Order Book Simulation",
-      "authors": [
-        "Patrick Noble",
-        "Mathieu Rosenbaum",
-        "Saad Souilmi"
-      ],
-      "abstract": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L. The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data. Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants. We further incorporate a feedback mechanism that accumulates signed trade flow through a power-law decay kernel, reproducing both concave market impact during execution and partial post-trade reversion. Across several stocks and strategy case studies, the simulator yields realistic behavior where profitability becomes highly sensitive to execution parameters. We present the approach as a practical recipe: project, estimate, validate, adapt, for building realistic limit order book simulations.",
-      "published": "2026-03-25T10:02:03+00:00",
-      "url": "http://arxiv.org/abs/2603.24137v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24137v1",
-      "categories": [
-        "q-fin.TR"
-      ],
-      "primary_category": "q-fin.TR",
-      "core_idea": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L",
-      "methodology": "The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data",
-      "quant_impact": "Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants",
       "relevance_score": 5,
       "ranking_score": 28.79285714285714
     },
@@ -584,61 +561,14 @@
       "ranking_score": 28.364285714285714
     },
     {
-      "id": "2603.22058v1",
-      "source": "arxiv",
-      "title": "Mean Field Equilibrium Asset Pricing Models With Exponential Utility",
-      "authors": [
-        "Masashi Sekine"
-      ],
-      "abstract": "This thesis develops equilibrium asset pricing models in incomplete markets with a large number of heterogeneous agents using mean field game theory. The market equilibrium is characterized by a novel form of mean field backward stochastic differential equations (BSDEs). First, we propose a theoretical model that endogenously derives the equilibrium risk premium. Agents with exponential preferences are heterogeneous in initial wealth, risk aversion, and unspanned stochastic terminal liability. We solve the optimal investment problem using the optimal martingale principle. The equilibrium is characterized by a mean field BSDE whose driver has quadratic growth in both the stochastic integrands and their conditional expectations. We prove the existence of solutions and show that the risk premium clears the market in the large population limit. Second, we extend the model to include consumption and habit formation, relaxing the time-separability assumption of utility functions. A similar mean field BSDE is derived, and its well-posedness and asymptotic behavior are examined. We also introduce an exponential quadratic Gaussian (EQG) reformulation to obtain equilibrium solutions in semi-analytic form. Finally, the model is extended to partially observable markets where agents must infer the risk premium from stock price observations to determine trading strategies. We provide semi-analytic expressions for the equilibrium via the EQG framework, and the equilibrium risk-premium process is constructed endogenously using Kalman-Bucy filtering theory. Numerical simulations are included to visualize the resulting market dynamics.",
-      "published": "2026-03-23T14:54:40+00:00",
-      "url": "http://arxiv.org/abs/2603.22058v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.22058v1",
-      "categories": [
-        "q-fin.MF",
-        "q-fin.PM",
-        "q-fin.PR"
-      ],
-      "primary_category": "q-fin.MF",
-      "core_idea": "This thesis develops equilibrium asset pricing models in incomplete markets with a large number of heterogeneous agents using mean field game theory",
-      "methodology": "The market equilibrium is characterized by a novel form of mean field backward stochastic differential equations (BSDEs)",
-      "quant_impact": "First, we propose a theoretical model that endogenously derives the equilibrium risk premium",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
-      "id": "2603.21842v1",
-      "source": "arxiv",
-      "title": "Flexible Information Acquisition in the Kyle Model",
-      "authors": [
-        "S. Viswanathan",
-        "Hao Xing"
-      ],
-      "abstract": "We study an information acquisition problem in which an informed trader acquires costly information prior to trading in the Kyle equilibrium. The cost of information acquisition is represented by an entropy cost. Regardless of the prior distribution of the asset payoff, continuous signals are optimal. Moreover, any continuously distributed signal, together with an associated logit type posterior distribution of the payoff, yields the same ex-ante value for the informed trader, the same distribution of posterior expected payoff, and the same unconditional distribution of the informed trader's trading strategy. Consequently, a normally distributed signal can be adopted without loss of generality. We further show that when the information acquisition cost increases or the volatility of noise trades decreases, the variance of the posterior expected payoff declines, the profit potential from trading diminishes, meanwhile the posterior expected payoff increasingly resembles a normal distribution, and the information leakage cost from trading decreases.",
-      "published": "2026-03-23T11:31:29+00:00",
-      "url": "http://arxiv.org/abs/2603.21842v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.21842v1",
-      "categories": [
-        "econ.TH",
-        "q-fin.MF",
-        "q-fin.TR"
-      ],
-      "primary_category": "econ.TH",
-      "core_idea": "We study an information acquisition problem in which an informed trader acquires costly information prior to trading in the Kyle equilibrium",
-      "methodology": "The cost of information acquisition is represented by an entropy cost",
-      "quant_impact": "Regardless of the prior distribution of the asset payoff, continuous signals are optimal",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
       "id": "323048702",
       "source": "github",
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63629,
-      "forks": 6265,
-      "updated": "2026-03-27T10:46:43+00:00",
+      "stars": 63631,
+      "forks": 6266,
+      "updated": "2026-03-27T11:47:49+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -669,7 +599,7 @@
       "url": "https://github.com/microsoft/qlib",
       "stars": 39391,
       "forks": 6139,
-      "updated": "2026-03-27T10:19:05+00:00",
+      "updated": "2026-03-27T11:52:17+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -830,9 +760,9 @@
       "title": "quant-trading",
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
-      "stars": 9531,
+      "stars": 9532,
       "forks": 1750,
-      "updated": "2026-03-27T10:50:08+00:00",
+      "updated": "2026-03-27T11:27:59+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -868,9 +798,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9457,
+      "stars": 9458,
       "forks": 2090,
-      "updated": "2026-03-27T10:33:14+00:00",
+      "updated": "2026-03-27T11:59:11+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -1038,8 +968,8 @@
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
       "stars": 6918,
-      "forks": 2152,
-      "updated": "2026-03-27T11:05:43+00:00",
+      "forks": 2153,
+      "updated": "2026-03-27T11:15:38+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -1123,9 +1053,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48084,
+      "stars": 48083,
       "forks": 10019,
-      "updated": "2026-03-27T11:00:51+00:00",
+      "updated": "2026-03-27T11:28:36+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1201,9 +1131,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14586,
+      "stars": 14587,
       "forks": 3243,
-      "updated": "2026-03-27T10:08:49+00:00",
+      "updated": "2026-03-27T11:50:21+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1374,6 +1304,51 @@
       "author": "",
       "core_idea": "Panic fueling the selloff of Nvidia, Broadcom and other tech giants is overblown.",
       "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 28.0
+    },
+    {
+      "id": "WP-WSJ-0002355424",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "Financial Services Roundup: Market Talk",
+      "summary": "Gain insight on Experian, SoFi Technologies and more in the latest Market Talks covering Financial Services.",
+      "published": "Mon, 27 Jan 2025 12:27:00 -0500",
+      "url": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main",
+      "author": "",
+      "core_idea": "Gain insight on Experian, SoFi Technologies and more in the latest Market Talks covering Financial Services.",
+      "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 28.0
+    },
+    {
+      "id": "WP-WSJ-0002354874",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
+      "summary": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump\u2019s threats to impose tariffs and economic sanctions on Colombia.",
+      "published": "Mon, 27 Jan 2025 12:20:00 -0500",
+      "url": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
+      "author": "",
+      "core_idea": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump\u2019s threats to impose tariffs and economic sanctions on Colombia.",
+      "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 28.0
+    },
+    {
+      "id": "WP-WSJ-0002354017",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
+      "summary": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek\u2019s new AI model hit U.S. tech stocks.",
+      "published": "Mon, 27 Jan 2025 09:55:00 -0500",
+      "url": "https://www.wsj.com/articles/safe-haven-currencies-strengthen-amid-fears-over-global-tariffs-9964e17a?mod=rss_markets_main",
+      "author": "",
+      "core_idea": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek\u2019s new AI model hit U.S",
+      "methodology": "tech stocks.",
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
