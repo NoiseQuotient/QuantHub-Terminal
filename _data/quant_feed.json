@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T14:33:17.701094",
+  "last_updated": "2026-03-27T15:30:39.300046",
   "items": [
     {
       "id": "2603.25678v1",
@@ -159,33 +159,6 @@
       "ranking_score": 29.22142857142857
     },
     {
-      "id": "2603.24382v1",
-      "source": "arxiv",
-      "title": "MolEvolve: LLM-Guided Evolutionary Search for Interpretable Molecular Optimization",
-      "authors": [
-        "Xiangsen Chen",
-        "Ruilong Wu",
-        "Yanyan Lan",
-        "Ting Ma",
-        "Yang Liu"
-      ],
-      "abstract": "Despite deep learning's success in chemistry, its impact is hindered by a lack of interpretability and an inability to resolve activity cliffs, where minor structural nuances trigger drastic property shifts. Current representation learning, bound by the similarity principle, often fails to capture these structural-activity discontinuities. To address this, we introduce MolEvolve, an evolutionary framework that reformulates molecular discovery as an autonomous, look-ahead planning problem. Unlike traditional methods that depend on human-engineered features or rigid prior knowledge, MolEvolve leverages a Large Language Model (LLM) to actively explore and evolve a library of executable chemical symbolic operations. By utilizing the LLM to cold start and an Monte Carlo Tree Search (MCTS) engine for test-time planning with external tools (e.g. RDKit), the system self-discovers optimal trajectories autonomously. This process evolves transparent reasoning chains that translate complex structural transformations into actionable, human-readable chemical insights. Experimental results demonstrate that MolEvolve's autonomous search not only evolves transparent, human-readable chemical insights, but also outperforms baselines in both property prediction and molecule optimization tasks.",
-      "published": "2026-03-25T15:01:03+00:00",
-      "url": "http://arxiv.org/abs/2603.24382v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24382v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CE"
-      ],
-      "primary_category": "cs.LG",
-      "core_idea": "Despite deep learning's success in chemistry, its impact is hindered by a lack of interpretability and an inability to resolve activity cliffs, where minor structural nuances trigger drastic property shifts",
-      "methodology": "Current representation learning, bound by the similarity principle, often fails to capture these structural-activity discontinuities",
-      "quant_impact": "To address this, we introduce MolEvolve, an evolutionary framework that reformulates molecular discovery as an autonomous, look-ahead planning problem",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
-    },
-    {
       "id": "2603.25338v1",
       "source": "arxiv",
       "title": "Optimal threshold resetting in collective diffusive search",
@@ -210,6 +183,33 @@
       "quant_impact": "In a recent Letter by Biswas et al, we introduced threshold resetting (TR) as an alternative, event-driven optimization strategy for target search problems",
       "relevance_score": 5,
       "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.24382v1",
+      "source": "arxiv",
+      "title": "MolEvolve: LLM-Guided Evolutionary Search for Interpretable Molecular Optimization",
+      "authors": [
+        "Xiangsen Chen",
+        "Ruilong Wu",
+        "Yanyan Lan",
+        "Ting Ma",
+        "Yang Liu"
+      ],
+      "abstract": "Despite deep learning's success in chemistry, its impact is hindered by a lack of interpretability and an inability to resolve activity cliffs, where minor structural nuances trigger drastic property shifts. Current representation learning, bound by the similarity principle, often fails to capture these structural-activity discontinuities. To address this, we introduce MolEvolve, an evolutionary framework that reformulates molecular discovery as an autonomous, look-ahead planning problem. Unlike traditional methods that depend on human-engineered features or rigid prior knowledge, MolEvolve leverages a Large Language Model (LLM) to actively explore and evolve a library of executable chemical symbolic operations. By utilizing the LLM to cold start and an Monte Carlo Tree Search (MCTS) engine for test-time planning with external tools (e.g. RDKit), the system self-discovers optimal trajectories autonomously. This process evolves transparent reasoning chains that translate complex structural transformations into actionable, human-readable chemical insights. Experimental results demonstrate that MolEvolve's autonomous search not only evolves transparent, human-readable chemical insights, but also outperforms baselines in both property prediction and molecule optimization tasks.",
+      "published": "2026-03-25T15:01:03+00:00",
+      "url": "http://arxiv.org/abs/2603.24382v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24382v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CE"
+      ],
+      "primary_category": "cs.LG",
+      "core_idea": "Despite deep learning's success in chemistry, its impact is hindered by a lack of interpretability and an inability to resolve activity cliffs, where minor structural nuances trigger drastic property shifts",
+      "methodology": "Current representation learning, bound by the similarity principle, often fails to capture these structural-activity discontinuities",
+      "quant_impact": "To address this, we introduce MolEvolve, an evolutionary framework that reformulates molecular discovery as an autonomous, look-ahead planning problem",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
     },
     {
       "id": "2603.24236v1",
@@ -387,31 +387,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.23290v1",
-      "source": "arxiv",
-      "title": "Traveling Salesman Problem with a preprocessing method for classical and quantum optimization",
-      "authors": [
-        "Alessia Ciacco",
-        "Luigi Di Puglia Pugliese",
-        "Francesca Guerriero"
-      ],
-      "abstract": "The Traveling Salesman Problem is a fundamental combinatorial optimization problem widely studied in operations research. Despite its simple formulation, it remains computationally challenging due to the exponential growth of the search space and the large number of constraints required to eliminate subtours. This paper introduces a preprocessing strategy that significantly reduces the size of the optimization model by restricting the set of candidate arcs and retaining only the lowest-cost neighbors for each vertex. Computational experiments on TSPLIB benchmark instances demonstrate that the proposed approach substantially reduces the number of decision variables. The method is evaluated using both classical and quantum optimization techniques, showing improvements in computational time and reductions in optimality gaps. Overall, the results indicate that the proposed preprocessing enhances the scalability of the formulations and makes them more suitable for both classical solvers and emerging quantum optimization frameworks.",
-      "published": "2026-03-24T14:54:14+00:00",
-      "url": "http://arxiv.org/abs/2603.23290v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23290v1",
-      "categories": [
-        "quant-ph",
-        "cs.CE",
-        "math.CO"
-      ],
-      "primary_category": "quant-ph",
-      "core_idea": "The Traveling Salesman Problem is a fundamental combinatorial optimization problem widely studied in operations research",
-      "methodology": "Despite its simple formulation, it remains computationally challenging due to the exponential growth of the search space and the large number of constraints required to eliminate subtours",
-      "quant_impact": "This paper introduces a preprocessing strategy that significantly reduces the size of the optimization model by restricting the set of candidate arcs and retaining only the lowest-cost neighbors for each vertex",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
       "id": "2603.23842v1",
       "source": "arxiv",
       "title": "Environmental CVA with K-Robust Wrong-Way Risk",
@@ -510,6 +485,54 @@
       "ranking_score": 28.79285714285714
     },
     {
+      "id": "2603.24137v1",
+      "source": "arxiv",
+      "title": "Bridging the Reality Gap in Limit Order Book Simulation",
+      "authors": [
+        "Patrick Noble",
+        "Mathieu Rosenbaum",
+        "Saad Souilmi"
+      ],
+      "abstract": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L. The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data. Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants. We further incorporate a feedback mechanism that accumulates signed trade flow through a power-law decay kernel, reproducing both concave market impact during execution and partial post-trade reversion. Across several stocks and strategy case studies, the simulator yields realistic behavior where profitability becomes highly sensitive to execution parameters. We present the approach as a practical recipe: project, estimate, validate, adapt, for building realistic limit order book simulations.",
+      "published": "2026-03-25T10:02:03+00:00",
+      "url": "http://arxiv.org/abs/2603.24137v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24137v1",
+      "categories": [
+        "q-fin.TR"
+      ],
+      "primary_category": "q-fin.TR",
+      "core_idea": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L",
+      "methodology": "The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data",
+      "quant_impact": "Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
+    },
+    {
+      "id": "2603.23290v1",
+      "source": "arxiv",
+      "title": "Traveling Salesman Problem with a preprocessing method for classical and quantum optimization",
+      "authors": [
+        "Alessia Ciacco",
+        "Luigi Di Puglia Pugliese",
+        "Francesca Guerriero"
+      ],
+      "abstract": "The Traveling Salesman Problem is a fundamental combinatorial optimization problem widely studied in operations research. Despite its simple formulation, it remains computationally challenging due to the exponential growth of the search space and the large number of constraints required to eliminate subtours. This paper introduces a preprocessing strategy that significantly reduces the size of the optimization model by restricting the set of candidate arcs and retaining only the lowest-cost neighbors for each vertex. Computational experiments on TSPLIB benchmark instances demonstrate that the proposed approach substantially reduces the number of decision variables. The method is evaluated using both classical and quantum optimization techniques, showing improvements in computational time and reductions in optimality gaps. Overall, the results indicate that the proposed preprocessing enhances the scalability of the formulations and makes them more suitable for both classical solvers and emerging quantum optimization frameworks.",
+      "published": "2026-03-24T14:54:14+00:00",
+      "url": "http://arxiv.org/abs/2603.23290v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23290v1",
+      "categories": [
+        "quant-ph",
+        "cs.CE",
+        "math.CO"
+      ],
+      "primary_category": "quant-ph",
+      "core_idea": "The Traveling Salesman Problem is a fundamental combinatorial optimization problem widely studied in operations research",
+      "methodology": "Despite its simple formulation, it remains computationally challenging due to the exponential growth of the search space and the large number of constraints required to eliminate subtours",
+      "quant_impact": "This paper introduces a preprocessing strategy that significantly reduces the size of the optimization model by restricting the set of candidate arcs and retaining only the lowest-cost neighbors for each vertex",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
+    },
+    {
       "id": "2603.23300v1",
       "source": "arxiv",
       "title": "Designing Agentic AI-Based Screening for Portfolio Investment",
@@ -534,30 +557,7 @@
       "methodology": "Our architecture consists of three layers",
       "quant_impact": "First, two large language model (LLM) agents are assigned specialized tasks: one agent screens for firms with desirable fundamentals, while a sentiment analysis agent screens for firms with desirable news",
       "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
-      "id": "2603.24137v1",
-      "source": "arxiv",
-      "title": "Bridging the Reality Gap in Limit Order Book Simulation",
-      "authors": [
-        "Patrick Noble",
-        "Mathieu Rosenbaum",
-        "Saad Souilmi"
-      ],
-      "abstract": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L. The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data. Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants. We further incorporate a feedback mechanism that accumulates signed trade flow through a power-law decay kernel, reproducing both concave market impact during execution and partial post-trade reversion. Across several stocks and strategy case studies, the simulator yields realistic behavior where profitability becomes highly sensitive to execution parameters. We present the approach as a practical recipe: project, estimate, validate, adapt, for building realistic limit order book simulations.",
-      "published": "2026-03-25T10:02:03+00:00",
-      "url": "http://arxiv.org/abs/2603.24137v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24137v1",
-      "categories": [
-        "q-fin.TR"
-      ],
-      "primary_category": "q-fin.TR",
-      "core_idea": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L",
-      "methodology": "The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data",
-      "quant_impact": "Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
+      "ranking_score": 28.364285714285714
     },
     {
       "id": "2603.22886v1",
@@ -584,37 +584,14 @@
       "ranking_score": 28.364285714285714
     },
     {
-      "id": "2603.22058v1",
-      "source": "arxiv",
-      "title": "Mean Field Equilibrium Asset Pricing Models With Exponential Utility",
-      "authors": [
-        "Masashi Sekine"
-      ],
-      "abstract": "This thesis develops equilibrium asset pricing models in incomplete markets with a large number of heterogeneous agents using mean field game theory. The market equilibrium is characterized by a novel form of mean field backward stochastic differential equations (BSDEs). First, we propose a theoretical model that endogenously derives the equilibrium risk premium. Agents with exponential preferences are heterogeneous in initial wealth, risk aversion, and unspanned stochastic terminal liability. We solve the optimal investment problem using the optimal martingale principle. The equilibrium is characterized by a mean field BSDE whose driver has quadratic growth in both the stochastic integrands and their conditional expectations. We prove the existence of solutions and show that the risk premium clears the market in the large population limit. Second, we extend the model to include consumption and habit formation, relaxing the time-separability assumption of utility functions. A similar mean field BSDE is derived, and its well-posedness and asymptotic behavior are examined. We also introduce an exponential quadratic Gaussian (EQG) reformulation to obtain equilibrium solutions in semi-analytic form. Finally, the model is extended to partially observable markets where agents must infer the risk premium from stock price observations to determine trading strategies. We provide semi-analytic expressions for the equilibrium via the EQG framework, and the equilibrium risk-premium process is constructed endogenously using Kalman-Bucy filtering theory. Numerical simulations are included to visualize the resulting market dynamics.",
-      "published": "2026-03-23T14:54:40+00:00",
-      "url": "http://arxiv.org/abs/2603.22058v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.22058v1",
-      "categories": [
-        "q-fin.MF",
-        "q-fin.PM",
-        "q-fin.PR"
-      ],
-      "primary_category": "q-fin.MF",
-      "core_idea": "This thesis develops equilibrium asset pricing models in incomplete markets with a large number of heterogeneous agents using mean field game theory",
-      "methodology": "The market equilibrium is characterized by a novel form of mean field backward stochastic differential equations (BSDEs)",
-      "quant_impact": "First, we propose a theoretical model that endogenously derives the equilibrium risk premium",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
       "id": "323048702",
       "source": "github",
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63636,
+      "stars": 63637,
       "forks": 6267,
-      "updated": "2026-03-27T14:24:15+00:00",
+      "updated": "2026-03-27T15:21:42+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -643,9 +620,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39399,
+      "stars": 39401,
       "forks": 6141,
-      "updated": "2026-03-27T14:28:02+00:00",
+      "updated": "2026-03-27T15:10:52+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -679,9 +656,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25150,
-      "forks": 3323,
-      "updated": "2026-03-27T12:20:58+00:00",
+      "stars": 25153,
+      "forks": 3324,
+      "updated": "2026-03-27T15:18:00+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -782,9 +759,9 @@
       "title": "ta-lib-python",
       "description": "Python wrapper for TA-Lib (http://ta-lib.org/).",
       "url": "https://github.com/TA-Lib/ta-lib-python",
-      "stars": 11811,
+      "stars": 11812,
       "forks": 1969,
-      "updated": "2026-03-27T13:56:18+00:00",
+      "updated": "2026-03-27T14:50:13+00:00",
       "language": "Cython",
       "topics": [
         "finance",
@@ -845,7 +822,7 @@
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
       "stars": 9460,
-      "forks": 2090,
+      "forks": 2089,
       "updated": "2026-03-27T13:49:38+00:00",
       "language": "C#",
       "topics": [
@@ -908,9 +885,9 @@
       "title": "jesse",
       "description": "An advanced crypto trading bot written in Python",
       "url": "https://github.com/jesse-ai/jesse",
-      "stars": 7599,
+      "stars": 7600,
       "forks": 1074,
-      "updated": "2026-03-27T14:23:38+00:00",
+      "updated": "2026-03-27T15:26:41+00:00",
       "language": "JavaScript",
       "topics": [
         "algo-trading",
@@ -944,9 +921,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7526,
+      "stars": 7527,
       "forks": 1070,
-      "updated": "2026-03-27T13:39:41+00:00",
+      "updated": "2026-03-27T14:58:35+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1099,9 +1076,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48085,
-      "forks": 10019,
-      "updated": "2026-03-27T14:32:45+00:00",
+      "stars": 48087,
+      "forks": 10018,
+      "updated": "2026-03-27T15:24:56+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1148,9 +1125,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16634,
+      "stars": 16635,
       "forks": 4469,
-      "updated": "2026-03-27T13:43:14+00:00",
+      "updated": "2026-03-27T14:36:52+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1209,9 +1186,9 @@
       "title": "backtesting.py",
       "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
       "url": "https://github.com/kernc/backtesting.py",
-      "stars": 8114,
+      "stars": 8115,
       "forks": 1417,
-      "updated": "2026-03-27T14:30:42+00:00",
+      "updated": "2026-03-27T15:14:12+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -1364,6 +1341,21 @@
       "url": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main",
       "author": "",
       "core_idea": "Gain insight on Experian, SoFi Technologies and more in the latest Market Talks covering Financial Services.",
+      "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 28.0
+    },
+    {
+      "id": "WP-WSJ-0002354874",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
+      "summary": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump\u2019s threats to impose tariffs and economic sanctions on Colombia.",
+      "published": "Mon, 27 Jan 2025 12:20:00 -0500",
+      "url": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
+      "author": "",
+      "core_idea": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump\u2019s threats to impose tariffs and economic sanctions on Colombia.",
       "methodology": "No methodology extracted.",
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
