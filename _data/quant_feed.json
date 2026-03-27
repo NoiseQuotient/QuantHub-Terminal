@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T20:02:29.518620",
+  "last_updated": "2026-03-27T20:54:18.699132",
   "items": [
     {
       "id": "2603.25678v1",
@@ -132,33 +132,6 @@
       "ranking_score": 29.22142857142857
     },
     {
-      "id": "2603.24790v1",
-      "source": "arxiv",
-      "title": "Local learning for stable backpropagation-free neural network training towards physical learning",
-      "authors": [
-        "Yaqi Guo",
-        "Fabian Braun",
-        "Bastiaan Ketelaar",
-        "Stephanie Tan",
-        "Richard Norte",
-        "Siddhant Kumar"
-      ],
-      "abstract": "While backpropagation and automatic differentiation have driven deep learning's success, the physical limits of chip manufacturing and rising environmental costs of deep learning motivate alternative learning paradigms such as physical neural networks. However, most existing physical neural networks still rely on digital computing for training, largely because backpropagation and automatic differentiation are difficult to realize in physical systems. We introduce FFzero, a forward-only learning framework enabling stable neural network training without backpropagation or automatic differentiation. FFzero combines layer-wise local learning, prototype-based representations, and directional-derivative-based optimization through forward evaluations only. We show that local learning is effective under forward-only optimization, where backpropagation fails. FFzero generalizes to multilayer perceptron and convolutional neural networks across classification and regression. Using a simulated photonic neural network as an example, we demonstrate that FFzero provides a viable path toward backpropagation-free in-situ physical learning.",
-      "published": "2026-03-25T20:06:09+00:00",
-      "url": "http://arxiv.org/abs/2603.24790v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24790v1",
-      "categories": [
-        "cs.LG",
-        "cs.CE"
-      ],
-      "primary_category": "cs.LG",
-      "core_idea": "While backpropagation and automatic differentiation have driven deep learning's success, the physical limits of chip manufacturing and rising environmental costs of deep learning motivate alternative learning paradigms such as physical neural networks",
-      "methodology": "However, most existing physical neural networks still rely on digital computing for training, largely because backpropagation and automatic differentiation are difficult to realize in physical systems",
-      "quant_impact": "We introduce FFzero, a forward-only learning framework enabling stable neural network training without backpropagation or automatic differentiation",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
-    },
-    {
       "id": "2603.25338v1",
       "source": "arxiv",
       "title": "Optimal threshold resetting in collective diffusive search",
@@ -183,6 +156,33 @@
       "quant_impact": "In a recent Letter by Biswas et al, we introduced threshold resetting (TR) as an alternative, event-driven optimization strategy for target search problems",
       "relevance_score": 5,
       "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.24790v1",
+      "source": "arxiv",
+      "title": "Local learning for stable backpropagation-free neural network training towards physical learning",
+      "authors": [
+        "Yaqi Guo",
+        "Fabian Braun",
+        "Bastiaan Ketelaar",
+        "Stephanie Tan",
+        "Richard Norte",
+        "Siddhant Kumar"
+      ],
+      "abstract": "While backpropagation and automatic differentiation have driven deep learning's success, the physical limits of chip manufacturing and rising environmental costs of deep learning motivate alternative learning paradigms such as physical neural networks. However, most existing physical neural networks still rely on digital computing for training, largely because backpropagation and automatic differentiation are difficult to realize in physical systems. We introduce FFzero, a forward-only learning framework enabling stable neural network training without backpropagation or automatic differentiation. FFzero combines layer-wise local learning, prototype-based representations, and directional-derivative-based optimization through forward evaluations only. We show that local learning is effective under forward-only optimization, where backpropagation fails. FFzero generalizes to multilayer perceptron and convolutional neural networks across classification and regression. Using a simulated photonic neural network as an example, we demonstrate that FFzero provides a viable path toward backpropagation-free in-situ physical learning.",
+      "published": "2026-03-25T20:06:09+00:00",
+      "url": "http://arxiv.org/abs/2603.24790v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24790v1",
+      "categories": [
+        "cs.LG",
+        "cs.CE"
+      ],
+      "primary_category": "cs.LG",
+      "core_idea": "While backpropagation and automatic differentiation have driven deep learning's success, the physical limits of chip manufacturing and rising environmental costs of deep learning motivate alternative learning paradigms such as physical neural networks",
+      "methodology": "However, most existing physical neural networks still rely on digital computing for training, largely because backpropagation and automatic differentiation are difficult to realize in physical systems",
+      "quant_impact": "We introduce FFzero, a forward-only learning framework enabling stable neural network training without backpropagation or automatic differentiation",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
     },
     {
       "id": "2603.24382v1",
@@ -589,9 +589,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63645,
+      "stars": 63647,
       "forks": 6269,
-      "updated": "2026-03-27T19:29:42+00:00",
+      "updated": "2026-03-27T20:09:03+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -620,9 +620,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39405,
-      "forks": 6143,
-      "updated": "2026-03-27T19:18:45+00:00",
+      "stars": 39406,
+      "forks": 6144,
+      "updated": "2026-03-27T20:11:49+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -657,7 +657,7 @@
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
       "stars": 25156,
-      "forks": 3324,
+      "forks": 3325,
       "updated": "2026-03-27T19:45:27+00:00",
       "language": "HTML",
       "topics": [
@@ -1076,9 +1076,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48094,
+      "stars": 48095,
       "forks": 10019,
-      "updated": "2026-03-27T19:01:42+00:00",
+      "updated": "2026-03-27T20:35:20+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1103,9 +1103,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19554,
+      "stars": 19555,
       "forks": 4951,
-      "updated": "2026-03-27T16:36:08+00:00",
+      "updated": "2026-03-27T20:49:03+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1125,9 +1125,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16636,
-      "forks": 4468,
-      "updated": "2026-03-27T16:07:09+00:00",
+      "stars": 16637,
+      "forks": 4469,
+      "updated": "2026-03-27T20:52:55+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
