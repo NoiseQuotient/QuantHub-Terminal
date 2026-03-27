@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T18:32:56.487889",
+  "last_updated": "2026-03-27T19:27:47.826769",
   "items": [
     {
       "id": "2603.25678v1",
@@ -590,7 +590,7 @@
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
       "stars": 63644,
-      "forks": 6269,
+      "forks": 6270,
       "updated": "2026-03-27T18:30:19+00:00",
       "language": "Python",
       "topics": [
@@ -620,9 +620,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39404,
-      "forks": 6142,
-      "updated": "2026-03-27T17:51:42+00:00",
+      "stars": 39405,
+      "forks": 6143,
+      "updated": "2026-03-27T19:18:45+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -656,9 +656,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25156,
+      "stars": 25155,
       "forks": 3324,
-      "updated": "2026-03-27T17:14:00+00:00",
+      "updated": "2026-03-27T19:02:29+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -887,7 +887,7 @@
       "url": "https://github.com/jesse-ai/jesse",
       "stars": 7602,
       "forks": 1074,
-      "updated": "2026-03-27T18:19:23+00:00",
+      "updated": "2026-03-27T18:57:53+00:00",
       "language": "JavaScript",
       "topics": [
         "algo-trading",
@@ -958,9 +958,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 7001,
-      "forks": 899,
-      "updated": "2026-03-27T17:37:48+00:00",
+      "stars": 7003,
+      "forks": 900,
+      "updated": "2026-03-27T18:49:55+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1076,9 +1076,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48092,
+      "stars": 48094,
       "forks": 10019,
-      "updated": "2026-03-27T18:09:35+00:00",
+      "updated": "2026-03-27T19:01:42+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1154,9 +1154,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14593,
+      "stars": 14594,
       "forks": 3243,
-      "updated": "2026-03-27T18:08:19+00:00",
+      "updated": "2026-03-27T19:18:34+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
