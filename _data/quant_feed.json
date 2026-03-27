@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T22:52:08.582567",
+  "last_updated": "2026-03-27T23:31:56.027253",
   "items": [
     {
       "id": "2603.25678v1",
@@ -589,9 +589,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63648,
+      "stars": 63649,
       "forks": 6270,
-      "updated": "2026-03-27T21:18:49+00:00",
+      "updated": "2026-03-27T23:18:13+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -821,9 +821,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9463,
+      "stars": 9464,
       "forks": 2090,
-      "updated": "2026-03-27T19:35:18+00:00",
+      "updated": "2026-03-27T23:29:07+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -958,9 +958,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 7004,
-      "forks": 900,
-      "updated": "2026-03-27T21:59:16+00:00",
+      "stars": 7005,
+      "forks": 901,
+      "updated": "2026-03-27T23:24:42+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1076,9 +1076,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48095,
+      "stars": 48096,
       "forks": 10019,
-      "updated": "2026-03-27T22:01:35+00:00",
+      "updated": "2026-03-27T23:12:46+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1154,9 +1154,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14593,
+      "stars": 14594,
       "forks": 3244,
-      "updated": "2026-03-27T22:10:12+00:00",
+      "updated": "2026-03-27T22:58:57+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
