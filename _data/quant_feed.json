@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T21:41:11.024168",
+  "last_updated": "2026-03-27T22:04:11.473169",
   "items": [
     {
       "id": "2603.25678v1",
@@ -958,9 +958,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 7003,
+      "stars": 7004,
       "forks": 900,
-      "updated": "2026-03-27T18:49:55+00:00",
+      "updated": "2026-03-27T21:59:16+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1076,9 +1076,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48094,
+      "stars": 48095,
       "forks": 10019,
-      "updated": "2026-03-27T20:56:56+00:00",
+      "updated": "2026-03-27T22:01:35+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
