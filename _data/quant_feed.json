@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T19:27:47.826769",
+  "last_updated": "2026-03-27T20:02:29.518620",
   "items": [
     {
       "id": "2603.25678v1",
@@ -589,9 +589,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63644,
-      "forks": 6270,
-      "updated": "2026-03-27T18:30:19+00:00",
+      "stars": 63645,
+      "forks": 6269,
+      "updated": "2026-03-27T19:29:42+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -656,9 +656,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25155,
+      "stars": 25156,
       "forks": 3324,
-      "updated": "2026-03-27T19:02:29+00:00",
+      "updated": "2026-03-27T19:45:27+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -729,9 +729,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12066,
+      "stars": 12067,
       "forks": 2503,
-      "updated": "2026-03-27T17:01:30+00:00",
+      "updated": "2026-03-27T19:31:57+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -783,9 +783,9 @@
       "title": "quant-trading",
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
-      "stars": 9532,
-      "forks": 1750,
-      "updated": "2026-03-27T11:27:59+00:00",
+      "stars": 9533,
+      "forks": 1751,
+      "updated": "2026-03-27T19:34:36+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -821,9 +821,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9462,
+      "stars": 9463,
       "forks": 2090,
-      "updated": "2026-03-27T18:17:06+00:00",
+      "updated": "2026-03-27T19:35:18+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -921,9 +921,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7527,
+      "stars": 7529,
       "forks": 1070,
-      "updated": "2026-03-27T14:58:35+00:00",
+      "updated": "2026-03-27T19:53:02+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1155,7 +1155,7 @@
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
       "stars": 14594,
-      "forks": 3243,
+      "forks": 3244,
       "updated": "2026-03-27T19:18:34+00:00",
       "language": "Jupyter Notebook",
       "topics": [
