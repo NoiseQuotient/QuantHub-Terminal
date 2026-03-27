@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T09:07:25.141615",
+  "last_updated": "2026-03-27T10:07:12.263520",
   "items": [
     {
       "id": "2603.25678v1",
@@ -22,61 +22,6 @@
       "core_idea": "Small, trade-dependent economies often exhibit limited maritime connectivity, yet empirical evidence on the structural configuration of their container systems remains limited",
       "methodology": "This study analyzes route concentration and node distributions in Mauritania's maritime container system during 2019-2022 using shipment-level data measured in forty-foot equivalent units (FFE)",
       "quant_impact": "Routes, origin nodes, destination nodes, and industries are represented as FFE-weighted probability distributions, and concentration and divergence metrics are used to assess structural properties",
-      "relevance_score": 5,
-      "ranking_score": 29.65
-    },
-    {
-      "id": "2603.25263v1",
-      "source": "arxiv",
-      "title": "XBRLTagRec: Domain-Specific Fine-Tuning and Zero-Shot Re-Ranking with LLMs for Extreme Financial Numeral Labeling",
-      "authors": [
-        "Gang Hu",
-        "Qun Zhang",
-        "Jingyao Luo",
-        "Yile Jiang",
-        "Jing Chai",
-        "Haiyan Ding"
-      ],
-      "abstract": "Publicly traded companies must disclose financial information under regulations of the Securities and Exchange Commission (SEC) and the Generally Accepted Accounting Principles (GAAP). The eXtensible Business Reporting Language (XBRL), as an XML-based financial language, enables standardized and machine-readable reporting, but accurate tag selection from large taxonomies remains challenging. Existing fine-tuning-based methods struggle to distinguish highly similar XBRL tags, limiting performance in financial data matching. To address these issues, we introduce XBRLTagRec, an end-to-end framework for automated financial numeral tagging. The framework generates semantic tag documents with a fine-tuned FLAN-T5-Large model, retrieves relevant candidates via semantic similarity, and applies zero-shot re-ranking with ChatGPT-3.5 to select the optimal tag. Experiments on the FNXL dataset show that XBRLTagRec outperforms the state-of-the-art FLAN-FinXC framework, achieving 2.64%-4.47% improvements in Hits@1 and Macro metrics. These results demonstrate its effectiveness in large-scale and semantically complex tag matching scenarios.",
-      "published": "2026-03-26T10:02:32+00:00",
-      "url": "http://arxiv.org/abs/2603.25263v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25263v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Publicly traded companies must disclose financial information under regulations of the Securities and Exchange Commission (SEC) and the Generally Accepted Accounting Principles (GAAP)",
-      "methodology": "The eXtensible Business Reporting Language (XBRL), as an XML-based financial language, enables standardized and machine-readable reporting, but accurate tag selection from large taxonomies remains challenging",
-      "quant_impact": "Existing fine-tuning-based methods struggle to distinguish highly similar XBRL tags, limiting performance in financial data matching",
-      "relevance_score": 5,
-      "ranking_score": 29.65
-    },
-    {
-      "id": "2603.25207v1",
-      "source": "arxiv",
-      "title": "Semi-Automated Generation and Hemodynamic Assessment of Surgical Baffle Geometry for Biventricular Repair",
-      "authors": [
-        "Elena Sabdy Martinez",
-        "Alexander D. Kaiser",
-        "Alexander K. Reed",
-        "Sascha W. Stocker",
-        "Amit Sharir",
-        "Perry S. Choi",
-        "Shiraz A. Maskatia",
-        "Michael R. Ma",
-        "Alison Lesly Marsden"
-      ],
-      "abstract": "Patient-specific computational modeling has emerged as a powerful tool for surgical planning in complex congenital heart disease. One promising application is complex biventricular repair, which often requires construction of a custom intraventricular baffle to establish a physiologic left ventricle-to-aorta outflow pathway. In current practice, baffle geometry is designed and shaped intraoperatively and preoperative planning remains largely manual, limiting the ability to generate anatomically conformal, watertight models suitable for quantitative hemodynamic assessment. In this work, we present a semi-automated computational framework for the design and assessment of patient-specific intraventricular baffles. The method constructs an explicit VSD-to-aorta flow pathway, preserves native right ventricular geometry, and reshapes only the baffle region using section-wise area constraints along a physiologically aligned centerline. The resulting geometry is integrated into a closed, multi-labeled domain for computational fluid dynamics analysis. We retrospectively applied this framework to four patients with double outlet right ventricle (DORV) who previously underwent biventricular repair. For each case, a patient-specific baffle was generated and its hemodynamic performance was evaluated using CFD. Predicted pressure gradients across the reconstructed outflow were within clinically acceptable ranges and comparable to the patients' postoperative echocardiographs. This approach enables quantitative, pre-operative design and evaluation of candidate baffle geometries and provides a reproducible method for generating simulation-ready models. By combining physiologically constrained geometric design with CFD-based assessment, the framework represents a step toward computational, patient-specific decision support for biventricular flow restoration in a complex heterogeneous patient population.",
-      "published": "2026-03-26T09:10:03+00:00",
-      "url": "http://arxiv.org/abs/2603.25207v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25207v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Patient-specific computational modeling has emerged as a powerful tool for surgical planning in complex congenital heart disease",
-      "methodology": "One promising application is complex biventricular repair, which often requires construction of a custom intraventricular baffle to establish a physiologic left ventricle-to-aorta outflow pathway",
-      "quant_impact": "In current practice, baffle geometry is designed and shaped intraoperatively and preoperative planning remains largely manual, limiting the ability to generate anatomically conformal, watertight models suitable for quantitative hemodynamic assessment",
       "relevance_score": 5,
       "ranking_score": 29.65
     },
@@ -105,6 +50,61 @@
       "quant_impact": "In a recent Letter by Biswas et al, we introduced threshold resetting (TR) as an alternative, event-driven optimization strategy for target search problems",
       "relevance_score": 5,
       "ranking_score": 29.65
+    },
+    {
+      "id": "2603.25263v1",
+      "source": "arxiv",
+      "title": "XBRLTagRec: Domain-Specific Fine-Tuning and Zero-Shot Re-Ranking with LLMs for Extreme Financial Numeral Labeling",
+      "authors": [
+        "Gang Hu",
+        "Qun Zhang",
+        "Jingyao Luo",
+        "Yile Jiang",
+        "Jing Chai",
+        "Haiyan Ding"
+      ],
+      "abstract": "Publicly traded companies must disclose financial information under regulations of the Securities and Exchange Commission (SEC) and the Generally Accepted Accounting Principles (GAAP). The eXtensible Business Reporting Language (XBRL), as an XML-based financial language, enables standardized and machine-readable reporting, but accurate tag selection from large taxonomies remains challenging. Existing fine-tuning-based methods struggle to distinguish highly similar XBRL tags, limiting performance in financial data matching. To address these issues, we introduce XBRLTagRec, an end-to-end framework for automated financial numeral tagging. The framework generates semantic tag documents with a fine-tuned FLAN-T5-Large model, retrieves relevant candidates via semantic similarity, and applies zero-shot re-ranking with ChatGPT-3.5 to select the optimal tag. Experiments on the FNXL dataset show that XBRLTagRec outperforms the state-of-the-art FLAN-FinXC framework, achieving 2.64%-4.47% improvements in Hits@1 and Macro metrics. These results demonstrate its effectiveness in large-scale and semantically complex tag matching scenarios.",
+      "published": "2026-03-26T10:02:32+00:00",
+      "url": "http://arxiv.org/abs/2603.25263v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.25263v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Publicly traded companies must disclose financial information under regulations of the Securities and Exchange Commission (SEC) and the Generally Accepted Accounting Principles (GAAP)",
+      "methodology": "The eXtensible Business Reporting Language (XBRL), as an XML-based financial language, enables standardized and machine-readable reporting, but accurate tag selection from large taxonomies remains challenging",
+      "quant_impact": "Existing fine-tuning-based methods struggle to distinguish highly similar XBRL tags, limiting performance in financial data matching",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.25207v1",
+      "source": "arxiv",
+      "title": "Semi-Automated Generation and Hemodynamic Assessment of Surgical Baffle Geometry for Biventricular Repair",
+      "authors": [
+        "Elena Sabdy Martinez",
+        "Alexander D. Kaiser",
+        "Alexander K. Reed",
+        "Sascha W. Stocker",
+        "Amit Sharir",
+        "Perry S. Choi",
+        "Shiraz A. Maskatia",
+        "Michael R. Ma",
+        "Alison Lesly Marsden"
+      ],
+      "abstract": "Patient-specific computational modeling has emerged as a powerful tool for surgical planning in complex congenital heart disease. One promising application is complex biventricular repair, which often requires construction of a custom intraventricular baffle to establish a physiologic left ventricle-to-aorta outflow pathway. In current practice, baffle geometry is designed and shaped intraoperatively and preoperative planning remains largely manual, limiting the ability to generate anatomically conformal, watertight models suitable for quantitative hemodynamic assessment. In this work, we present a semi-automated computational framework for the design and assessment of patient-specific intraventricular baffles. The method constructs an explicit VSD-to-aorta flow pathway, preserves native right ventricular geometry, and reshapes only the baffle region using section-wise area constraints along a physiologically aligned centerline. The resulting geometry is integrated into a closed, multi-labeled domain for computational fluid dynamics analysis. We retrospectively applied this framework to four patients with double outlet right ventricle (DORV) who previously underwent biventricular repair. For each case, a patient-specific baffle was generated and its hemodynamic performance was evaluated using CFD. Predicted pressure gradients across the reconstructed outflow were within clinically acceptable ranges and comparable to the patients' postoperative echocardiographs. This approach enables quantitative, pre-operative design and evaluation of candidate baffle geometries and provides a reproducible method for generating simulation-ready models. By combining physiologically constrained geometric design with CFD-based assessment, the framework represents a step toward computational, patient-specific decision support for biventricular flow restoration in a complex heterogeneous patient population.",
+      "published": "2026-03-26T09:10:03+00:00",
+      "url": "http://arxiv.org/abs/2603.25207v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.25207v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Patient-specific computational modeling has emerged as a powerful tool for surgical planning in complex congenital heart disease",
+      "methodology": "One promising application is complex biventricular repair, which often requires construction of a custom intraventricular baffle to establish a physiologic left ventricle-to-aorta outflow pathway",
+      "quant_impact": "In current practice, baffle geometry is designed and shaped intraoperatively and preoperative planning remains largely manual, limiting the ability to generate anatomically conformal, watertight models suitable for quantitative hemodynamic assessment",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
     },
     {
       "id": "2603.25099v1",
@@ -235,32 +235,6 @@
       "ranking_score": 29.22142857142857
     },
     {
-      "id": "2603.24114v1",
-      "source": "arxiv",
-      "title": "FFV-PINN: A Fast Physics-Informed Neural Network with Simplified Finite Volume Discretization and Residual Correction",
-      "authors": [
-        "Chang Wei",
-        "Yuchen Fan",
-        "Jian Cheng Wong",
-        "Chin Chun Ooi",
-        "Heyang Wang",
-        "Pao-Hsiung Chiu"
-      ],
-      "abstract": "Physics-informed neural networks (PINNs) have emerged as a major research focus. However, today's PINNs encounter several limitations. Firstly, during the construction of the loss function using automatic differentiation, PINNs often neglect information from neighboring points, which hinders their ability to enforce physical constraints and diminishes their accuracy. Furthermore, issues such as instability and poor convergence persist during PINN training, limiting their applicability to complex fluid dynamics problems. To address these challenges, a fast physics-informed neural network framework that integrates a simplified finite volume method (FVM) and residual correction loss term has been proposed, referred to as Fast Finite Volume PINN (FFV-PINN). FFV-PINN utilizes a simplified FVM discretization for the convection term, with an accompanying improvement in the dispersion and dissipation behavior. Unlike traditional FVM, the FFV-PINN outputs can be simply and directly harnessed to approximate values on control surfaces, thereby simplifying the discretization process. Moreover, a residual correction loss term is introduced to significantly accelerates convergence and improves training efficiency. To validate the performance, we solve a series of challenging problems -- including flow in the two-dimensional steady and unsteady lid-driven cavity, three-dimensional steady lid-driven cavity, backward-facing step flows, and natural convection at high Reynolds number and Rayleigh number. Notably, the FFV-PINN can achieve data-free solutions for the lid-driven cavity flow at Re = 10000 and natural convection at Ra = 1e8 for the first time in PINN literature, even while requiring only 680s and 231s. It further highlights the effectiveness of FFV-PINN in improving both speed and accuracy, marking another step forward in the progression of PINNs as competitive neural PDE solvers.",
-      "published": "2026-03-25T09:22:30+00:00",
-      "url": "http://arxiv.org/abs/2603.24114v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24114v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Physics-informed neural networks (PINNs) have emerged as a major research focus",
-      "methodology": "However, today's PINNs encounter several limitations",
-      "quant_impact": "Firstly, during the construction of the loss function using automatic differentiation, PINNs often neglect information from neighboring points, which hinders their ability to enforce physical constraints and diminishes their accuracy",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
-    },
-    {
       "id": "2603.24215v1",
       "source": "arxiv",
       "title": "Adapting Altman's bankruptcy prediction model to the compositional data methodology",
@@ -311,27 +285,30 @@
       "ranking_score": 29.22142857142857
     },
     {
-      "id": "2603.24137v1",
+      "id": "2603.24114v1",
       "source": "arxiv",
-      "title": "Bridging the Reality Gap in Limit Order Book Simulation",
+      "title": "FFV-PINN: A Fast Physics-Informed Neural Network with Simplified Finite Volume Discretization and Residual Correction",
       "authors": [
-        "Patrick Noble",
-        "Mathieu Rosenbaum",
-        "Saad Souilmi"
+        "Chang Wei",
+        "Yuchen Fan",
+        "Jian Cheng Wong",
+        "Chin Chun Ooi",
+        "Heyang Wang",
+        "Pao-Hsiung Chiu"
       ],
-      "abstract": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L. The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data. Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants. We further incorporate a feedback mechanism that accumulates signed trade flow through a power-law decay kernel, reproducing both concave market impact during execution and partial post-trade reversion. Across several stocks and strategy case studies, the simulator yields realistic behavior where profitability becomes highly sensitive to execution parameters. We present the approach as a practical recipe: project, estimate, validate, adapt, for building realistic limit order book simulations.",
-      "published": "2026-03-25T10:02:03+00:00",
-      "url": "http://arxiv.org/abs/2603.24137v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24137v1",
+      "abstract": "Physics-informed neural networks (PINNs) have emerged as a major research focus. However, today's PINNs encounter several limitations. Firstly, during the construction of the loss function using automatic differentiation, PINNs often neglect information from neighboring points, which hinders their ability to enforce physical constraints and diminishes their accuracy. Furthermore, issues such as instability and poor convergence persist during PINN training, limiting their applicability to complex fluid dynamics problems. To address these challenges, a fast physics-informed neural network framework that integrates a simplified finite volume method (FVM) and residual correction loss term has been proposed, referred to as Fast Finite Volume PINN (FFV-PINN). FFV-PINN utilizes a simplified FVM discretization for the convection term, with an accompanying improvement in the dispersion and dissipation behavior. Unlike traditional FVM, the FFV-PINN outputs can be simply and directly harnessed to approximate values on control surfaces, thereby simplifying the discretization process. Moreover, a residual correction loss term is introduced to significantly accelerates convergence and improves training efficiency. To validate the performance, we solve a series of challenging problems -- including flow in the two-dimensional steady and unsteady lid-driven cavity, three-dimensional steady lid-driven cavity, backward-facing step flows, and natural convection at high Reynolds number and Rayleigh number. Notably, the FFV-PINN can achieve data-free solutions for the lid-driven cavity flow at Re = 10000 and natural convection at Ra = 1e8 for the first time in PINN literature, even while requiring only 680s and 231s. It further highlights the effectiveness of FFV-PINN in improving both speed and accuracy, marking another step forward in the progression of PINNs as competitive neural PDE solvers.",
+      "published": "2026-03-25T09:22:30+00:00",
+      "url": "http://arxiv.org/abs/2603.24114v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24114v1",
       "categories": [
-        "q-fin.TR"
+        "cs.CE"
       ],
-      "primary_category": "q-fin.TR",
-      "core_idea": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L",
-      "methodology": "The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data",
-      "quant_impact": "Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants",
+      "primary_category": "cs.CE",
+      "core_idea": "Physics-informed neural networks (PINNs) have emerged as a major research focus",
+      "methodology": "However, today's PINNs encounter several limitations",
+      "quant_impact": "Firstly, during the construction of the loss function using automatic differentiation, PINNs often neglect information from neighboring points, which hinders their ability to enforce physical constraints and diminishes their accuracy",
       "relevance_score": 5,
-      "ranking_score": 29.22142857142857
+      "ranking_score": 28.79285714285714
     },
     {
       "id": "2603.24013v1",
@@ -560,6 +537,29 @@
       "ranking_score": 28.79285714285714
     },
     {
+      "id": "2603.24137v1",
+      "source": "arxiv",
+      "title": "Bridging the Reality Gap in Limit Order Book Simulation",
+      "authors": [
+        "Patrick Noble",
+        "Mathieu Rosenbaum",
+        "Saad Souilmi"
+      ],
+      "abstract": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L. The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data. Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants. We further incorporate a feedback mechanism that accumulates signed trade flow through a power-law decay kernel, reproducing both concave market impact during execution and partial post-trade reversion. Across several stocks and strategy case studies, the simulator yields realistic behavior where profitability becomes highly sensitive to execution parameters. We present the approach as a practical recipe: project, estimate, validate, adapt, for building realistic limit order book simulations.",
+      "published": "2026-03-25T10:02:03+00:00",
+      "url": "http://arxiv.org/abs/2603.24137v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24137v1",
+      "categories": [
+        "q-fin.TR"
+      ],
+      "primary_category": "q-fin.TR",
+      "core_idea": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L",
+      "methodology": "The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data",
+      "quant_impact": "Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
+    },
+    {
       "id": "2603.22886v1",
       "source": "arxiv",
       "title": "Conditionally Identifiable Latent Representation for Multivariate Time Series with Structural Dynamics",
@@ -636,9 +636,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63621,
+      "stars": 63626,
       "forks": 6264,
-      "updated": "2026-03-27T08:20:51+00:00",
+      "updated": "2026-03-27T09:55:18+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -667,9 +667,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39385,
-      "forks": 6138,
-      "updated": "2026-03-27T08:59:44+00:00",
+      "stars": 39390,
+      "forks": 6139,
+      "updated": "2026-03-27T09:59:58+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -703,9 +703,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25145,
-      "forks": 3322,
-      "updated": "2026-03-27T08:39:50+00:00",
+      "stars": 25148,
+      "forks": 3323,
+      "updated": "2026-03-27T09:52:56+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -741,9 +741,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16752,
+      "stars": 16753,
       "forks": 2368,
-      "updated": "2026-03-27T08:31:50+00:00",
+      "updated": "2026-03-27T09:40:22+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -776,9 +776,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12058,
+      "stars": 12059,
       "forks": 2500,
-      "updated": "2026-03-27T08:54:50+00:00",
+      "updated": "2026-03-27T09:14:57+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -830,9 +830,9 @@
       "title": "quant-trading",
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
-      "stars": 9529,
+      "stars": 9530,
       "forks": 1750,
-      "updated": "2026-03-27T02:58:41+00:00",
+      "updated": "2026-03-27T09:42:23+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1056,9 +1056,9 @@
       "title": "quantstats",
       "description": "Portfolio analytics for quants, written in Python",
       "url": "https://github.com/ranaroussi/quantstats",
-      "stars": 6896,
-      "forks": 1140,
-      "updated": "2026-03-27T00:01:36+00:00",
+      "stars": 6897,
+      "forks": 1139,
+      "updated": "2026-03-27T09:42:36+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -1123,9 +1123,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48081,
+      "stars": 48082,
       "forks": 10020,
-      "updated": "2026-03-27T08:57:03+00:00",
+      "updated": "2026-03-27T10:05:34+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1150,9 +1150,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19550,
+      "stars": 19551,
       "forks": 4951,
-      "updated": "2026-03-26T18:02:26+00:00",
+      "updated": "2026-03-27T10:05:10+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1172,9 +1172,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16633,
+      "stars": 16635,
       "forks": 4469,
-      "updated": "2026-03-27T08:58:23+00:00",
+      "updated": "2026-03-27T09:40:59+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1201,9 +1201,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14584,
-      "forks": 3242,
-      "updated": "2026-03-27T08:56:23+00:00",
+      "stars": 14585,
+      "forks": 3243,
+      "updated": "2026-03-27T09:23:24+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
