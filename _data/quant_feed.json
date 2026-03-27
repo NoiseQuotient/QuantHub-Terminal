@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T23:31:56.027253",
+  "last_updated": "2026-03-27T23:58:07.167177",
   "items": [
     {
       "id": "2603.25678v1",
@@ -341,29 +341,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.23790v1",
-      "source": "arxiv",
-      "title": "Root Finding and Metamodeling for Rapid and Robust Computer Model Calibration",
-      "authors": [
-        "Yongseok Jeon",
-        "Sara Shashaani"
-      ],
-      "abstract": "We concern computer model calibration problem where the goal is to find the parameters that minimize the discrepancy between the multivariate real-world and computer model outputs. We propose to solve an approximation using signed residuals that enables a root finding approach and an accelerated search. We characterize the distance of the solutions to the approximation from the solutions of the original problem for the strongly-convex objective functions, showing that it depends on variability of the signed residuals across output dimensions, as wells as their variance and covariance. We develop a metamodel-based root finding framework under kriging and stochastic kriging that is augmented with a sequential search space reduction. We derive three new acquisition functions for finding roots of the approximate problem along with their derivatives usable by first-order solvers. Compared to kriging, stochastic kriging accounts for observational noise, promoting more robust solutions. We also analyze the case where a root may not exist. Our analysis of the asymptotic behavior in this context show that, since existence of roots in the approximation problem may not be known a priori, using new acquisition functions will not compromise the outcome. Numerical experiments on data-driven and physics-based examples demonstrate significant computational gains over standard calibration approaches.",
-      "published": "2026-03-24T23:45:54+00:00",
-      "url": "http://arxiv.org/abs/2603.23790v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23790v1",
-      "categories": [
-        "stat.ME",
-        "cs.CE"
-      ],
-      "primary_category": "stat.ME",
-      "core_idea": "We concern computer model calibration problem where the goal is to find the parameters that minimize the discrepancy between the multivariate real-world and computer model outputs",
-      "methodology": "We propose to solve an approximation using signed residuals that enables a root finding approach and an accelerated search",
-      "quant_impact": "We characterize the distance of the solutions to the approximation from the solutions of the original problem for the strongly-convex objective functions, showing that it depends on variability of the signed residuals across output dimensions, as wells as their variance and covariance",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
       "id": "2603.23842v1",
       "source": "arxiv",
       "title": "Environmental CVA with K-Robust Wrong-Way Risk",
@@ -457,6 +434,29 @@
       "quant_impact": "Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants",
       "relevance_score": 5,
       "ranking_score": 28.79285714285714
+    },
+    {
+      "id": "2603.23790v1",
+      "source": "arxiv",
+      "title": "Root Finding and Metamodeling for Rapid and Robust Computer Model Calibration",
+      "authors": [
+        "Yongseok Jeon",
+        "Sara Shashaani"
+      ],
+      "abstract": "We concern computer model calibration problem where the goal is to find the parameters that minimize the discrepancy between the multivariate real-world and computer model outputs. We propose to solve an approximation using signed residuals that enables a root finding approach and an accelerated search. We characterize the distance of the solutions to the approximation from the solutions of the original problem for the strongly-convex objective functions, showing that it depends on variability of the signed residuals across output dimensions, as wells as their variance and covariance. We develop a metamodel-based root finding framework under kriging and stochastic kriging that is augmented with a sequential search space reduction. We derive three new acquisition functions for finding roots of the approximate problem along with their derivatives usable by first-order solvers. Compared to kriging, stochastic kriging accounts for observational noise, promoting more robust solutions. We also analyze the case where a root may not exist. Our analysis of the asymptotic behavior in this context show that, since existence of roots in the approximation problem may not be known a priori, using new acquisition functions will not compromise the outcome. Numerical experiments on data-driven and physics-based examples demonstrate significant computational gains over standard calibration approaches.",
+      "published": "2026-03-24T23:45:54+00:00",
+      "url": "http://arxiv.org/abs/2603.23790v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23790v1",
+      "categories": [
+        "stat.ME",
+        "cs.CE"
+      ],
+      "primary_category": "stat.ME",
+      "core_idea": "We concern computer model calibration problem where the goal is to find the parameters that minimize the discrepancy between the multivariate real-world and computer model outputs",
+      "methodology": "We propose to solve an approximation using signed residuals that enables a root finding approach and an accelerated search",
+      "quant_impact": "We characterize the distance of the solutions to the approximation from the solutions of the original problem for the strongly-convex objective functions, showing that it depends on variability of the signed residuals across output dimensions, as wells as their variance and covariance",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
     },
     {
       "id": "2603.23480v1",
@@ -656,9 +656,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25157,
-      "forks": 3325,
-      "updated": "2026-03-27T22:04:40+00:00",
+      "stars": 25158,
+      "forks": 3326,
+      "updated": "2026-03-27T23:39:49+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -921,9 +921,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7530,
+      "stars": 7531,
       "forks": 1070,
-      "updated": "2026-03-27T21:35:34+00:00",
+      "updated": "2026-03-27T23:43:31+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1076,9 +1076,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48096,
+      "stars": 48097,
       "forks": 10019,
-      "updated": "2026-03-27T23:12:46+00:00",
+      "updated": "2026-03-27T23:38:18+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
