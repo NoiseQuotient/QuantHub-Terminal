@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T15:30:39.300046",
+  "last_updated": "2026-03-27T16:31:52.584658",
   "items": [
     {
       "id": "2603.25678v1",
@@ -409,32 +409,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.23584v1",
-      "source": "arxiv",
-      "title": "LineMVGNN: Anti-Money Laundering with Line-Graph-Assisted Multi-View Graph Neural Networks",
-      "authors": [
-        "Chung-Hoo Poon",
-        "James Kwok",
-        "Calvin Chow",
-        "Jang-Hyeon Choi"
-      ],
-      "abstract": "Anti-money laundering (AML) systems are important for protecting the global economy. However, conventional rule-based methods rely on domain knowledge, leading to suboptimal accuracy and a lack of scalability. Graph neural networks (GNNs) for digraphs (directed graphs) can be applied to transaction graphs and capture suspicious transactions or accounts. However, most spectral GNNs do not naturally support multi-dimensional edge features, lack interpretability due to edge modifications, and have limited scalability owing to their spectral nature. Conversely, most spatial methods may not capture the money flow well. Therefore, in this work, we propose LineMVGNN (Line-Graph-Assisted Multi-View Graph Neural Network), a novel spatial method that considers payment and receipt transactions. Specifically, the LineMVGNN model extends a lightweight MVGNN module, which performs two-way message passing between nodes in a transaction graph. Additionally, LineMVGNN incorporates a line graph view of the original transaction graph to enhance the propagation of transaction information. We conduct experiments on two real-world account-based transaction datasets: the Ethereum phishing transaction network dataset and a financial payment transaction dataset from one of our industry partners. The results show that our proposed method outperforms state-of-the-art methods, reflecting the effectiveness of money laundering detection with line-graph-assisted multi-view graph learning. We also discuss scalability, adversarial robustness, and regulatory considerations of our proposed method.",
-      "published": "2026-03-24T16:17:21+00:00",
-      "url": "http://arxiv.org/abs/2603.23584v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23584v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "q-fin.CP"
-      ],
-      "primary_category": "cs.LG",
-      "core_idea": "Anti-money laundering (AML) systems are important for protecting the global economy",
-      "methodology": "However, conventional rule-based methods rely on domain knowledge, leading to suboptimal accuracy and a lack of scalability",
-      "quant_impact": "Graph neural networks (GNNs) for digraphs (directed graphs) can be applied to transaction graphs and capture suspicious transactions or accounts",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
       "id": "2603.24215v1",
       "source": "arxiv",
       "title": "Adapting Altman's bankruptcy prediction model to the compositional data methodology",
@@ -533,6 +507,32 @@
       "ranking_score": 28.364285714285714
     },
     {
+      "id": "2603.23584v1",
+      "source": "arxiv",
+      "title": "LineMVGNN: Anti-Money Laundering with Line-Graph-Assisted Multi-View Graph Neural Networks",
+      "authors": [
+        "Chung-Hoo Poon",
+        "James Kwok",
+        "Calvin Chow",
+        "Jang-Hyeon Choi"
+      ],
+      "abstract": "Anti-money laundering (AML) systems are important for protecting the global economy. However, conventional rule-based methods rely on domain knowledge, leading to suboptimal accuracy and a lack of scalability. Graph neural networks (GNNs) for digraphs (directed graphs) can be applied to transaction graphs and capture suspicious transactions or accounts. However, most spectral GNNs do not naturally support multi-dimensional edge features, lack interpretability due to edge modifications, and have limited scalability owing to their spectral nature. Conversely, most spatial methods may not capture the money flow well. Therefore, in this work, we propose LineMVGNN (Line-Graph-Assisted Multi-View Graph Neural Network), a novel spatial method that considers payment and receipt transactions. Specifically, the LineMVGNN model extends a lightweight MVGNN module, which performs two-way message passing between nodes in a transaction graph. Additionally, LineMVGNN incorporates a line graph view of the original transaction graph to enhance the propagation of transaction information. We conduct experiments on two real-world account-based transaction datasets: the Ethereum phishing transaction network dataset and a financial payment transaction dataset from one of our industry partners. The results show that our proposed method outperforms state-of-the-art methods, reflecting the effectiveness of money laundering detection with line-graph-assisted multi-view graph learning. We also discuss scalability, adversarial robustness, and regulatory considerations of our proposed method.",
+      "published": "2026-03-24T16:17:21+00:00",
+      "url": "http://arxiv.org/abs/2603.23584v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23584v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "q-fin.CP"
+      ],
+      "primary_category": "cs.LG",
+      "core_idea": "Anti-money laundering (AML) systems are important for protecting the global economy",
+      "methodology": "However, conventional rule-based methods rely on domain knowledge, leading to suboptimal accuracy and a lack of scalability",
+      "quant_impact": "Graph neural networks (GNNs) for digraphs (directed graphs) can be applied to transaction graphs and capture suspicious transactions or accounts",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
+    },
+    {
       "id": "2603.23300v1",
       "source": "arxiv",
       "title": "Designing Agentic AI-Based Screening for Portfolio Investment",
@@ -589,9 +589,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63637,
-      "forks": 6267,
-      "updated": "2026-03-27T15:21:42+00:00",
+      "stars": 63642,
+      "forks": 6268,
+      "updated": "2026-03-27T16:10:54+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -620,9 +620,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39401,
-      "forks": 6141,
-      "updated": "2026-03-27T15:10:52+00:00",
+      "stars": 39402,
+      "forks": 6142,
+      "updated": "2026-03-27T15:44:29+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -656,9 +656,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25153,
+      "stars": 25154,
       "forks": 3324,
-      "updated": "2026-03-27T15:18:00+00:00",
+      "updated": "2026-03-27T15:54:31+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -694,9 +694,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16755,
+      "stars": 16757,
       "forks": 2368,
-      "updated": "2026-03-27T13:36:38+00:00",
+      "updated": "2026-03-27T16:11:33+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -729,9 +729,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12062,
+      "stars": 12064,
       "forks": 2502,
-      "updated": "2026-03-27T13:42:09+00:00",
+      "updated": "2026-03-27T16:20:19+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -822,7 +822,7 @@
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
       "stars": 9460,
-      "forks": 2089,
+      "forks": 2090,
       "updated": "2026-03-27T13:49:38+00:00",
       "language": "C#",
       "topics": [
@@ -885,9 +885,9 @@
       "title": "jesse",
       "description": "An advanced crypto trading bot written in Python",
       "url": "https://github.com/jesse-ai/jesse",
-      "stars": 7600,
+      "stars": 7601,
       "forks": 1074,
-      "updated": "2026-03-27T15:26:41+00:00",
+      "updated": "2026-03-27T15:42:01+00:00",
       "language": "JavaScript",
       "topics": [
         "algo-trading",
@@ -960,7 +960,7 @@
       "url": "https://github.com/polakowo/vectorbt",
       "stars": 6999,
       "forks": 898,
-      "updated": "2026-03-27T12:12:49+00:00",
+      "updated": "2026-03-27T16:18:41+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1009,9 +1009,9 @@
       "title": "quantstats",
       "description": "Portfolio analytics for quants, written in Python",
       "url": "https://github.com/ranaroussi/quantstats",
-      "stars": 6899,
+      "stars": 6900,
       "forks": 1139,
-      "updated": "2026-03-27T13:23:03+00:00",
+      "updated": "2026-03-27T16:18:46+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -1076,9 +1076,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48087,
-      "forks": 10018,
-      "updated": "2026-03-27T15:24:56+00:00",
+      "stars": 48089,
+      "forks": 10019,
+      "updated": "2026-03-27T16:23:43+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1103,9 +1103,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19552,
+      "stars": 19553,
       "forks": 4951,
-      "updated": "2026-03-27T13:11:06+00:00",
+      "updated": "2026-03-27T15:37:10+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1125,9 +1125,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16635,
+      "stars": 16636,
       "forks": 4469,
-      "updated": "2026-03-27T14:36:52+00:00",
+      "updated": "2026-03-27T16:07:09+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1154,9 +1154,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14589,
+      "stars": 14590,
       "forks": 3243,
-      "updated": "2026-03-27T14:22:34+00:00",
+      "updated": "2026-03-27T15:33:03+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1254,9 +1254,9 @@
       "title": "Crypto-Signal",
       "description": "Github.com/CryptoSignal - Trading & Technical Analysis Bot - 4,100+ stars, 1,100+ forks",
       "url": "https://github.com/CryptoSignal/Crypto-Signal",
-      "stars": 5504,
+      "stars": 5505,
       "forks": 1342,
-      "updated": "2026-03-27T14:09:47+00:00",
+      "updated": "2026-03-27T16:00:14+00:00",
       "language": "Python",
       "topics": [
         "abenezer-mamo",
