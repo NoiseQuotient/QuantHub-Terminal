@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T14:49:04.862370",
+  "last_updated": "2026-03-28T15:22:15.335382",
   "items": [
     {
       "id": "2603.25678v1",
@@ -159,33 +159,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.24382v1",
-      "source": "arxiv",
-      "title": "MolEvolve: LLM-Guided Evolutionary Search for Interpretable Molecular Optimization",
-      "authors": [
-        "Xiangsen Chen",
-        "Ruilong Wu",
-        "Yanyan Lan",
-        "Ting Ma",
-        "Yang Liu"
-      ],
-      "abstract": "Despite deep learning's success in chemistry, its impact is hindered by a lack of interpretability and an inability to resolve activity cliffs, where minor structural nuances trigger drastic property shifts. Current representation learning, bound by the similarity principle, often fails to capture these structural-activity discontinuities. To address this, we introduce MolEvolve, an evolutionary framework that reformulates molecular discovery as an autonomous, look-ahead planning problem. Unlike traditional methods that depend on human-engineered features or rigid prior knowledge, MolEvolve leverages a Large Language Model (LLM) to actively explore and evolve a library of executable chemical symbolic operations. By utilizing the LLM to cold start and an Monte Carlo Tree Search (MCTS) engine for test-time planning with external tools (e.g. RDKit), the system self-discovers optimal trajectories autonomously. This process evolves transparent reasoning chains that translate complex structural transformations into actionable, human-readable chemical insights. Experimental results demonstrate that MolEvolve's autonomous search not only evolves transparent, human-readable chemical insights, but also outperforms baselines in both property prediction and molecule optimization tasks.",
-      "published": "2026-03-25T15:01:03+00:00",
-      "url": "http://arxiv.org/abs/2603.24382v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24382v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CE"
-      ],
-      "primary_category": "cs.LG",
-      "core_idea": "Despite deep learning's success in chemistry, its impact is hindered by a lack of interpretability and an inability to resolve activity cliffs, where minor structural nuances trigger drastic property shifts",
-      "methodology": "Current representation learning, bound by the similarity principle, often fails to capture these structural-activity discontinuities",
-      "quant_impact": "To address this, we introduce MolEvolve, an evolutionary framework that reformulates molecular discovery as an autonomous, look-ahead planning problem",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
       "id": "2603.25338v1",
       "source": "arxiv",
       "title": "Optimal threshold resetting in collective diffusive search",
@@ -210,6 +183,33 @@
       "quant_impact": "In a recent Letter by Biswas et al, we introduced threshold resetting (TR) as an alternative, event-driven optimization strategy for target search problems",
       "relevance_score": 5,
       "ranking_score": 28.79285714285714
+    },
+    {
+      "id": "2603.24382v1",
+      "source": "arxiv",
+      "title": "MolEvolve: LLM-Guided Evolutionary Search for Interpretable Molecular Optimization",
+      "authors": [
+        "Xiangsen Chen",
+        "Ruilong Wu",
+        "Yanyan Lan",
+        "Ting Ma",
+        "Yang Liu"
+      ],
+      "abstract": "Despite deep learning's success in chemistry, its impact is hindered by a lack of interpretability and an inability to resolve activity cliffs, where minor structural nuances trigger drastic property shifts. Current representation learning, bound by the similarity principle, often fails to capture these structural-activity discontinuities. To address this, we introduce MolEvolve, an evolutionary framework that reformulates molecular discovery as an autonomous, look-ahead planning problem. Unlike traditional methods that depend on human-engineered features or rigid prior knowledge, MolEvolve leverages a Large Language Model (LLM) to actively explore and evolve a library of executable chemical symbolic operations. By utilizing the LLM to cold start and an Monte Carlo Tree Search (MCTS) engine for test-time planning with external tools (e.g. RDKit), the system self-discovers optimal trajectories autonomously. This process evolves transparent reasoning chains that translate complex structural transformations into actionable, human-readable chemical insights. Experimental results demonstrate that MolEvolve's autonomous search not only evolves transparent, human-readable chemical insights, but also outperforms baselines in both property prediction and molecule optimization tasks.",
+      "published": "2026-03-25T15:01:03+00:00",
+      "url": "http://arxiv.org/abs/2603.24382v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24382v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CE"
+      ],
+      "primary_category": "cs.LG",
+      "core_idea": "Despite deep learning's success in chemistry, its impact is hindered by a lack of interpretability and an inability to resolve activity cliffs, where minor structural nuances trigger drastic property shifts",
+      "methodology": "Current representation learning, bound by the similarity principle, often fails to capture these structural-activity discontinuities",
+      "quant_impact": "To address this, we introduce MolEvolve, an evolutionary framework that reformulates molecular discovery as an autonomous, look-ahead planning problem",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
     },
     {
       "id": "2603.24236v1",
@@ -387,31 +387,6 @@
       "ranking_score": 28.364285714285714
     },
     {
-      "id": "2603.23290v1",
-      "source": "arxiv",
-      "title": "Traveling Salesman Problem with a preprocessing method for classical and quantum optimization",
-      "authors": [
-        "Alessia Ciacco",
-        "Luigi Di Puglia Pugliese",
-        "Francesca Guerriero"
-      ],
-      "abstract": "The Traveling Salesman Problem is a fundamental combinatorial optimization problem widely studied in operations research. Despite its simple formulation, it remains computationally challenging due to the exponential growth of the search space and the large number of constraints required to eliminate subtours. This paper introduces a preprocessing strategy that significantly reduces the size of the optimization model by restricting the set of candidate arcs and retaining only the lowest-cost neighbors for each vertex. Computational experiments on TSPLIB benchmark instances demonstrate that the proposed approach substantially reduces the number of decision variables. The method is evaluated using both classical and quantum optimization techniques, showing improvements in computational time and reductions in optimality gaps. Overall, the results indicate that the proposed preprocessing enhances the scalability of the formulations and makes them more suitable for both classical solvers and emerging quantum optimization frameworks.",
-      "published": "2026-03-24T14:54:14+00:00",
-      "url": "http://arxiv.org/abs/2603.23290v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23290v1",
-      "categories": [
-        "quant-ph",
-        "cs.CE",
-        "math.CO"
-      ],
-      "primary_category": "quant-ph",
-      "core_idea": "The Traveling Salesman Problem is a fundamental combinatorial optimization problem widely studied in operations research",
-      "methodology": "Despite its simple formulation, it remains computationally challenging due to the exponential growth of the search space and the large number of constraints required to eliminate subtours",
-      "quant_impact": "This paper introduces a preprocessing strategy that significantly reduces the size of the optimization model by restricting the set of candidate arcs and retaining only the lowest-cost neighbors for each vertex",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
       "id": "2603.23842v1",
       "source": "arxiv",
       "title": "Environmental CVA with K-Robust Wrong-Way Risk",
@@ -510,33 +485,6 @@
       "ranking_score": 28.364285714285714
     },
     {
-      "id": "2603.23300v1",
-      "source": "arxiv",
-      "title": "Designing Agentic AI-Based Screening for Portfolio Investment",
-      "authors": [
-        "Mehmet Caner",
-        "Agostino Capponi",
-        "Nathan Sun",
-        "Jonathan Y. Tan"
-      ],
-      "abstract": "We introduce a new agentic artificial intelligence (AI) platform for portfolio management. Our architecture consists of three layers. First, two large language model (LLM) agents are assigned specialized tasks: one agent screens for firms with desirable fundamentals, while a sentiment analysis agent screens for firms with desirable news. Second, these agents deliberate to generate and agree upon buy and sell signals from a large portfolio, substantially narrowing the pool of candidate assets. Finally, we apply a high-dimensional precision matrix estimation procedure to determine optimal portfolio weights. A defining theoretical feature of our framework is that the number of assets in the portfolio is itself a random variable, realized through the screening process. We introduce the concept of sensible screening and establish that, under mild screening errors, the squared Sharpe ratio of the screened portfolio consistently estimates its target. Empirically, our method achieves superior Sharpe ratios relative to an unscreened baseline portfolio and to conventional screening approaches, evaluated on S&P 500 data over the period 2020--2024.",
-      "published": "2026-03-24T15:03:40+00:00",
-      "url": "http://arxiv.org/abs/2603.23300v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23300v1",
-      "categories": [
-        "q-fin.PM",
-        "cs.AI",
-        "cs.MA",
-        "q-fin.ST"
-      ],
-      "primary_category": "q-fin.PM",
-      "core_idea": "We introduce a new agentic artificial intelligence (AI) platform for portfolio management",
-      "methodology": "Our architecture consists of three layers",
-      "quant_impact": "First, two large language model (LLM) agents are assigned specialized tasks: one agent screens for firms with desirable fundamentals, while a sentiment analysis agent screens for firms with desirable news",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
       "id": "2603.24137v1",
       "source": "arxiv",
       "title": "Bridging the Reality Gap in Limit Order Book Simulation",
@@ -565,9 +513,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63676,
-      "forks": 6273,
-      "updated": "2026-03-28T14:48:22+00:00",
+      "stars": 63682,
+      "forks": 6274,
+      "updated": "2026-03-28T15:17:01+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -598,7 +546,7 @@
       "url": "https://github.com/microsoft/qlib",
       "stars": 39433,
       "forks": 6158,
-      "updated": "2026-03-28T14:39:44+00:00",
+      "updated": "2026-03-28T15:13:23+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -632,9 +580,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25173,
+      "stars": 25174,
       "forks": 3330,
-      "updated": "2026-03-28T14:32:49+00:00",
+      "updated": "2026-03-28T15:09:20+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -759,9 +707,9 @@
       "title": "quant-trading",
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
-      "stars": 9538,
+      "stars": 9539,
       "forks": 1752,
-      "updated": "2026-03-28T13:22:01+00:00",
+      "updated": "2026-03-28T15:12:30+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -863,7 +811,7 @@
       "url": "https://github.com/jesse-ai/jesse",
       "stars": 7604,
       "forks": 1075,
-      "updated": "2026-03-28T14:36:33+00:00",
+      "updated": "2026-03-28T15:04:53+00:00",
       "language": "JavaScript",
       "topics": [
         "algo-trading",
@@ -1054,7 +1002,7 @@
       "url": "https://github.com/freqtrade/freqtrade",
       "stars": 48114,
       "forks": 10025,
-      "updated": "2026-03-28T14:43:45+00:00",
+      "updated": "2026-03-28T15:20:55+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1102,7 +1050,7 @@
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
       "stars": 16644,
-      "forks": 4473,
+      "forks": 4474,
       "updated": "2026-03-28T14:06:57+00:00",
       "language": "Python",
       "topics": [
@@ -1348,6 +1296,36 @@
       "author": "",
       "core_idea": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek\u2019s new AI model hit U.S",
       "methodology": "tech stocks.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 28.0
+    },
+    {
+      "id": "WP-WSJ-0002355062",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "Natural Gas Falls on Shifting Weather Forecasts",
+      "summary": "U.S. natural gas futures fell after weekend updates took some of the chill out of early February weather forecasts.",
+      "published": "Mon, 27 Jan 2025 09:05:00 -0500",
+      "url": "https://www.wsj.com/articles/u-s-natural-gas-futures-fall-on-shifting-weather-forecasts-1ef3e457?mod=rss_markets_main",
+      "author": "",
+      "core_idea": "U.S",
+      "methodology": "natural gas futures fell after weekend updates took some of the chill out of early February weather forecasts.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 28.0
+    },
+    {
+      "id": "WP-WSJ-0002353768",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "Building-Products Distributor QXO Launches Hostile Bid for Beacon",
+      "summary": "QXO is taking its offer directly to shareholders after being rebuffed on several occasions.",
+      "published": "Mon, 27 Jan 2025 08:28:00 -0500",
+      "url": "https://www.wsj.com/articles/building-products-distributor-qxo-launching-hostile-bid-for-beacon-de024410?mod=rss_markets_main",
+      "author": "",
+      "core_idea": "QXO is taking its offer directly to shareholders after being rebuffed on several occasions.",
+      "methodology": "No methodology extracted.",
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
