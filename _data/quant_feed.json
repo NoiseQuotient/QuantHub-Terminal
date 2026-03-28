@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T23:58:07.167177",
+  "last_updated": "2026-03-28T02:55:51.110338",
   "items": [
     {
       "id": "2603.25678v1",
@@ -105,33 +105,6 @@
       "ranking_score": 29.22142857142857
     },
     {
-      "id": "2603.24933v1",
-      "source": "arxiv",
-      "title": "Decoding Market Emotions in Cryptocurrency Tweets via Predictive Statement Classification with Machine Learning and Transformers",
-      "authors": [
-        "Moein Shahiki Tash",
-        "Zahra Ahani",
-        "Mohim Tash",
-        "Mostafa Keikhay Farzaneh",
-        "Ari Y. Barrera-Animas",
-        "Olga Kolesnikova"
-      ],
-      "abstract": "The growing prominence of cryptocurrencies has triggered widespread public engagement and increased speculative activity, particularly on social media platforms. This study introduces a novel classification framework for identifying predictive statements in cryptocurrency-related tweets, focusing on five popular cryptocurrencies: Cardano, Matic, Binance, Ripple, and Fantom. The classification process is divided into two stages: Task 1 involves binary classification to distinguish between Predictive and Non-Predictive statements. Tweets identified as Predictive proceed to Task 2, where they are further categorized as Incremental, Decremental, or Neutral. To build a robust dataset, we combined manual and GPT-based annotation methods and utilized SenticNet to extract emotion features corresponding to each prediction category. To address class imbalance, GPT-generated paraphrasing was employed for data augmentation. We evaluated a wide range of machine learning, deep learning, and transformer-based models across both tasks. The results show that GPT-based balancing significantly enhanced model performance, with transformer models achieving the highest F1-score in Task 1, while traditional machine learning models performed best in Task 2. Furthermore, our emotion analysis revealed distinct emotional patterns associated with each prediction category across the different cryptocurrencies.",
-      "published": "2026-03-26T01:52:36+00:00",
-      "url": "http://arxiv.org/abs/2603.24933v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24933v1",
-      "categories": [
-        "cs.AI",
-        "cs.CE"
-      ],
-      "primary_category": "cs.AI",
-      "core_idea": "The growing prominence of cryptocurrencies has triggered widespread public engagement and increased speculative activity, particularly on social media platforms",
-      "methodology": "This study introduces a novel classification framework for identifying predictive statements in cryptocurrency-related tweets, focusing on five popular cryptocurrencies: Cardano, Matic, Binance, Ripple, and Fantom",
-      "quant_impact": "The classification process is divided into two stages: Task 1 involves binary classification to distinguish between Predictive and Non-Predictive statements",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
-    },
-    {
       "id": "2603.25338v1",
       "source": "arxiv",
       "title": "Optimal threshold resetting in collective diffusive search",
@@ -156,6 +129,33 @@
       "quant_impact": "In a recent Letter by Biswas et al, we introduced threshold resetting (TR) as an alternative, event-driven optimization strategy for target search problems",
       "relevance_score": 5,
       "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.24933v1",
+      "source": "arxiv",
+      "title": "Decoding Market Emotions in Cryptocurrency Tweets via Predictive Statement Classification with Machine Learning and Transformers",
+      "authors": [
+        "Moein Shahiki Tash",
+        "Zahra Ahani",
+        "Mohim Tash",
+        "Mostafa Keikhay Farzaneh",
+        "Ari Y. Barrera-Animas",
+        "Olga Kolesnikova"
+      ],
+      "abstract": "The growing prominence of cryptocurrencies has triggered widespread public engagement and increased speculative activity, particularly on social media platforms. This study introduces a novel classification framework for identifying predictive statements in cryptocurrency-related tweets, focusing on five popular cryptocurrencies: Cardano, Matic, Binance, Ripple, and Fantom. The classification process is divided into two stages: Task 1 involves binary classification to distinguish between Predictive and Non-Predictive statements. Tweets identified as Predictive proceed to Task 2, where they are further categorized as Incremental, Decremental, or Neutral. To build a robust dataset, we combined manual and GPT-based annotation methods and utilized SenticNet to extract emotion features corresponding to each prediction category. To address class imbalance, GPT-generated paraphrasing was employed for data augmentation. We evaluated a wide range of machine learning, deep learning, and transformer-based models across both tasks. The results show that GPT-based balancing significantly enhanced model performance, with transformer models achieving the highest F1-score in Task 1, while traditional machine learning models performed best in Task 2. Furthermore, our emotion analysis revealed distinct emotional patterns associated with each prediction category across the different cryptocurrencies.",
+      "published": "2026-03-26T01:52:36+00:00",
+      "url": "http://arxiv.org/abs/2603.24933v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24933v1",
+      "categories": [
+        "cs.AI",
+        "cs.CE"
+      ],
+      "primary_category": "cs.AI",
+      "core_idea": "The growing prominence of cryptocurrencies has triggered widespread public engagement and increased speculative activity, particularly on social media platforms",
+      "methodology": "This study introduces a novel classification framework for identifying predictive statements in cryptocurrency-related tweets, focusing on five popular cryptocurrencies: Cardano, Matic, Binance, Ripple, and Fantom",
+      "quant_impact": "The classification process is divided into two stages: Task 1 involves binary classification to distinguish between Predictive and Non-Predictive statements",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
     },
     {
       "id": "2603.24790v1",
@@ -314,55 +314,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.23854v1",
-      "source": "arxiv",
-      "title": "Symbolic--KAN: Kolmogorov-Arnold Networks with Discrete Symbolic Structure for Interpretable Learning",
-      "authors": [
-        "Salah A Faroughi",
-        "Farinaz Mostajeran",
-        "Amirhossein Arzani",
-        "Shirko Faroughi"
-      ],
-      "abstract": "Symbolic discovery of governing equations is a long-standing goal in scientific machine learning, yet a fundamental trade-off persists between interpretability and scalable learning. Classical symbolic regression methods yield explicit analytic expressions but rely on combinatorial search, whereas neural networks scale efficiently with data and dimensionality but produce opaque representations. In this work, we introduce Symbolic Kolmogorov-Arnold Networks (Symbolic-KANs), a neural architecture that bridges this gap by embedding discrete symbolic structure directly within a trainable deep network. Symbolic-KANs represent multivariate functions as compositions of learned univariate primitives applied to learned scalar projections, guided by a library of analytic primitives, hierarchical gating, and symbolic regularization that progressively sharpens continuous mixtures into one-hot selections. After gated training and discretization, each active unit selects a single primitive and projection direction, yielding compact closed-form expressions without post-hoc symbolic fitting. Symbolic-KANs further act as scalable primitive discovery mechanisms, identifying the most relevant analytic components that can subsequently inform candidate libraries for sparse equation-learning methods. We demonstrate that Symbolic-KAN reliably recovers correct primitive terms and governing structures in data-driven regression and inverse dynamical systems. Moreover, the framework extends to forward and inverse physics-informed learning of partial differential equations, producing accurate solutions directly from governing constraints while constructing compact symbolic representations whose selected primitives reflect the true analytical structure of the underlying equations. These results position Symbolic-KAN as a step toward scalable, interpretable, and mechanistically grounded learning of governing laws.",
-      "published": "2026-03-25T02:31:13+00:00",
-      "url": "http://arxiv.org/abs/2603.23854v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23854v1",
-      "categories": [
-        "cs.LG",
-        "cs.CE",
-        "math.AP",
-        "math.DS"
-      ],
-      "primary_category": "cs.LG",
-      "core_idea": "Symbolic discovery of governing equations is a long-standing goal in scientific machine learning, yet a fundamental trade-off persists between interpretability and scalable learning",
-      "methodology": "Classical symbolic regression methods yield explicit analytic expressions but rely on combinatorial search, whereas neural networks scale efficiently with data and dimensionality but produce opaque representations",
-      "quant_impact": "In this work, we introduce Symbolic Kolmogorov-Arnold Networks (Symbolic-KANs), a neural architecture that bridges this gap by embedding discrete symbolic structure directly within a trainable deep network",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
-      "id": "2603.23842v1",
-      "source": "arxiv",
-      "title": "Environmental CVA with K-Robust Wrong-Way Risk",
-      "authors": [
-        "Takayuki Sakuma"
-      ],
-      "abstract": "Although climate and nature related scenario analysis is increasingly important in finance, there is still no operational framework that translates long horizon environmental scenarios into counterparty credit risk measures for pricing and regulatory capital. We propose an environmental valuation adjustment framework for CVA with three components: (i) a scenario to credit translation that maps environmental scenario drivers into hazard rates; (ii) nature specific tail generators that quantify model risk in scenario generation; and (iii) a distributionally robust wrong way risk bound based on Kullback-Leibler (KL) divergence. We compute climate CVAs using transition scenarios and nature CVAs using biodiversity indicators. Our results show that nature CVAs can vary materially across alternative ecosystem generators, highlighting an additional source of model uncertainty. Our case study further shows that environmental credit risk may operate through linked climate nature transmission channels, motivating an integrated Environmental CVA framework.",
-      "published": "2026-03-25T01:55:51+00:00",
-      "url": "http://arxiv.org/abs/2603.23842v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23842v1",
-      "categories": [
-        "q-fin.RM",
-        "q-fin.CP"
-      ],
-      "primary_category": "q-fin.RM",
-      "core_idea": "Although climate and nature related scenario analysis is increasingly important in finance, there is still no operational framework that translates long horizon environmental scenarios into counterparty credit risk measures for pricing and regulatory capital",
-      "methodology": "We propose an environmental valuation adjustment framework for CVA with three components: (i) a scenario to credit translation that maps environmental scenario drivers into hazard rates; (ii) nature specific tail generators that quantify model risk in scenario generation; and (iii) a distributionally robust wrong way risk bound based on Kullback-Leibler (KL) divergence",
-      "quant_impact": "We compute climate CVAs using transition scenarios and nature CVAs using biodiversity indicators",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
       "id": "2603.24215v1",
       "source": "arxiv",
       "title": "Adapting Altman's bankruptcy prediction model to the compositional data methodology",
@@ -436,6 +387,33 @@
       "ranking_score": 28.79285714285714
     },
     {
+      "id": "2603.23854v1",
+      "source": "arxiv",
+      "title": "Symbolic--KAN: Kolmogorov-Arnold Networks with Discrete Symbolic Structure for Interpretable Learning",
+      "authors": [
+        "Salah A Faroughi",
+        "Farinaz Mostajeran",
+        "Amirhossein Arzani",
+        "Shirko Faroughi"
+      ],
+      "abstract": "Symbolic discovery of governing equations is a long-standing goal in scientific machine learning, yet a fundamental trade-off persists between interpretability and scalable learning. Classical symbolic regression methods yield explicit analytic expressions but rely on combinatorial search, whereas neural networks scale efficiently with data and dimensionality but produce opaque representations. In this work, we introduce Symbolic Kolmogorov-Arnold Networks (Symbolic-KANs), a neural architecture that bridges this gap by embedding discrete symbolic structure directly within a trainable deep network. Symbolic-KANs represent multivariate functions as compositions of learned univariate primitives applied to learned scalar projections, guided by a library of analytic primitives, hierarchical gating, and symbolic regularization that progressively sharpens continuous mixtures into one-hot selections. After gated training and discretization, each active unit selects a single primitive and projection direction, yielding compact closed-form expressions without post-hoc symbolic fitting. Symbolic-KANs further act as scalable primitive discovery mechanisms, identifying the most relevant analytic components that can subsequently inform candidate libraries for sparse equation-learning methods. We demonstrate that Symbolic-KAN reliably recovers correct primitive terms and governing structures in data-driven regression and inverse dynamical systems. Moreover, the framework extends to forward and inverse physics-informed learning of partial differential equations, producing accurate solutions directly from governing constraints while constructing compact symbolic representations whose selected primitives reflect the true analytical structure of the underlying equations. These results position Symbolic-KAN as a step toward scalable, interpretable, and mechanistically grounded learning of governing laws.",
+      "published": "2026-03-25T02:31:13+00:00",
+      "url": "http://arxiv.org/abs/2603.23854v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23854v1",
+      "categories": [
+        "cs.LG",
+        "cs.CE",
+        "math.AP",
+        "math.DS"
+      ],
+      "primary_category": "cs.LG",
+      "core_idea": "Symbolic discovery of governing equations is a long-standing goal in scientific machine learning, yet a fundamental trade-off persists between interpretability and scalable learning",
+      "methodology": "Classical symbolic regression methods yield explicit analytic expressions but rely on combinatorial search, whereas neural networks scale efficiently with data and dimensionality but produce opaque representations",
+      "quant_impact": "In this work, we introduce Symbolic Kolmogorov-Arnold Networks (Symbolic-KANs), a neural architecture that bridges this gap by embedding discrete symbolic structure directly within a trainable deep network",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
+    },
+    {
       "id": "2603.23790v1",
       "source": "arxiv",
       "title": "Root Finding and Metamodeling for Rapid and Robust Computer Model Calibration",
@@ -503,6 +481,28 @@
       "core_idea": "The Traveling Salesman Problem is a fundamental combinatorial optimization problem widely studied in operations research",
       "methodology": "Despite its simple formulation, it remains computationally challenging due to the exponential growth of the search space and the large number of constraints required to eliminate subtours",
       "quant_impact": "This paper introduces a preprocessing strategy that significantly reduces the size of the optimization model by restricting the set of candidate arcs and retaining only the lowest-cost neighbors for each vertex",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
+    },
+    {
+      "id": "2603.23842v1",
+      "source": "arxiv",
+      "title": "Environmental CVA with K-Robust Wrong-Way Risk",
+      "authors": [
+        "Takayuki Sakuma"
+      ],
+      "abstract": "Although climate and nature related scenario analysis is increasingly important in finance, there is still no operational framework that translates long horizon environmental scenarios into counterparty credit risk measures for pricing and regulatory capital. We propose an environmental valuation adjustment framework for CVA with three components: (i) a scenario to credit translation that maps environmental scenario drivers into hazard rates; (ii) nature specific tail generators that quantify model risk in scenario generation; and (iii) a distributionally robust wrong way risk bound based on Kullback-Leibler (KL) divergence. We compute climate CVAs using transition scenarios and nature CVAs using biodiversity indicators. Our results show that nature CVAs can vary materially across alternative ecosystem generators, highlighting an additional source of model uncertainty. Our case study further shows that environmental credit risk may operate through linked climate nature transmission channels, motivating an integrated Environmental CVA framework.",
+      "published": "2026-03-25T01:55:51+00:00",
+      "url": "http://arxiv.org/abs/2603.23842v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23842v1",
+      "categories": [
+        "q-fin.RM",
+        "q-fin.CP"
+      ],
+      "primary_category": "q-fin.RM",
+      "core_idea": "Although climate and nature related scenario analysis is increasingly important in finance, there is still no operational framework that translates long horizon environmental scenarios into counterparty credit risk measures for pricing and regulatory capital",
+      "methodology": "We propose an environmental valuation adjustment framework for CVA with three components: (i) a scenario to credit translation that maps environmental scenario drivers into hazard rates; (ii) nature specific tail generators that quantify model risk in scenario generation; and (iii) a distributionally robust wrong way risk bound based on Kullback-Leibler (KL) divergence",
+      "quant_impact": "We compute climate CVAs using transition scenarios and nature CVAs using biodiversity indicators",
       "relevance_score": 5,
       "ranking_score": 28.364285714285714
     },
@@ -589,9 +589,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63649,
+      "stars": 63650,
       "forks": 6270,
-      "updated": "2026-03-27T23:18:13+00:00",
+      "updated": "2026-03-28T00:19:42+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -620,9 +620,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39407,
-      "forks": 6144,
-      "updated": "2026-03-27T22:27:15+00:00",
+      "stars": 39410,
+      "forks": 6147,
+      "updated": "2026-03-28T02:46:16+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -656,9 +656,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25158,
-      "forks": 3326,
-      "updated": "2026-03-27T23:39:49+00:00",
+      "stars": 25160,
+      "forks": 3327,
+      "updated": "2026-03-28T01:55:52+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -694,9 +694,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16757,
+      "stars": 16759,
       "forks": 2368,
-      "updated": "2026-03-27T16:11:33+00:00",
+      "updated": "2026-03-28T01:22:06+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -729,9 +729,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12067,
-      "forks": 2503,
-      "updated": "2026-03-27T19:31:57+00:00",
+      "stars": 12069,
+      "forks": 2504,
+      "updated": "2026-03-28T01:08:18+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -759,9 +759,9 @@
       "title": "ta-lib-python",
       "description": "Python wrapper for TA-Lib (http://ta-lib.org/).",
       "url": "https://github.com/TA-Lib/ta-lib-python",
-      "stars": 11812,
+      "stars": 11813,
       "forks": 1969,
-      "updated": "2026-03-27T14:50:13+00:00",
+      "updated": "2026-03-28T00:20:11+00:00",
       "language": "Cython",
       "topics": [
         "finance",
@@ -821,9 +821,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9464,
+      "stars": 9465,
       "forks": 2090,
-      "updated": "2026-03-27T23:29:07+00:00",
+      "updated": "2026-03-28T02:21:32+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -921,9 +921,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7531,
-      "forks": 1070,
-      "updated": "2026-03-27T23:43:31+00:00",
+      "stars": 7533,
+      "forks": 1071,
+      "updated": "2026-03-28T02:25:08+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -990,9 +990,9 @@
       "title": "QuantLib",
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
-      "stars": 6918,
+      "stars": 6919,
       "forks": 2154,
-      "updated": "2026-03-27T11:15:38+00:00",
+      "updated": "2026-03-28T01:28:22+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -1076,9 +1076,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48097,
-      "forks": 10019,
-      "updated": "2026-03-27T23:38:18+00:00",
+      "stars": 48100,
+      "forks": 10020,
+      "updated": "2026-03-28T02:43:31+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1103,9 +1103,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19553,
-      "forks": 4951,
-      "updated": "2026-03-27T20:56:56+00:00",
+      "stars": 19554,
+      "forks": 4953,
+      "updated": "2026-03-28T01:19:40+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1125,9 +1125,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16637,
-      "forks": 4469,
-      "updated": "2026-03-27T20:52:55+00:00",
+      "stars": 16638,
+      "forks": 4470,
+      "updated": "2026-03-28T01:16:15+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1154,9 +1154,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14594,
+      "stars": 14595,
       "forks": 3244,
-      "updated": "2026-03-27T22:58:57+00:00",
+      "updated": "2026-03-28T00:52:22+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
