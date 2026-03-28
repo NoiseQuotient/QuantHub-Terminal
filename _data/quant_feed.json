@@ -1,38 +1,15 @@
 {
-  "last_updated": "2026-03-28T18:38:18.949046",
+  "last_updated": "2026-03-28T19:25:05.971648",
   "items": [
-    {
-      "id": "2603.24137v1",
-      "source": "arxiv",
-      "title": "Bridging the Reality Gap in Limit Order Book Simulation",
-      "authors": [
-        "Patrick Noble",
-        "Mathieu Rosenbaum",
-        "Saad Souilmi"
-      ],
-      "abstract": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L. The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data. Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants. We further incorporate a feedback mechanism that accumulates signed trade flow through a power-law decay kernel, reproducing both concave market impact during execution and partial post-trade reversion. Across several stocks and strategy case studies, the simulator yields realistic behavior where profitability becomes highly sensitive to execution parameters. We present the approach as a practical recipe: project, estimate, validate, adapt, for building realistic limit order book simulations.",
-      "published": "2026-03-25T10:02:03+00:00",
-      "url": "http://arxiv.org/abs/2603.24137v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24137v1",
-      "categories": [
-        "q-fin.TR"
-      ],
-      "primary_category": "q-fin.TR",
-      "core_idea": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L",
-      "methodology": "The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data",
-      "quant_impact": "Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
     {
       "id": "323048702",
       "source": "github",
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63696,
-      "forks": 6276,
-      "updated": "2026-03-28T18:35:21+00:00",
+      "stars": 63702,
+      "forks": 6278,
+      "updated": "2026-03-28T19:10:07+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -61,9 +38,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39434,
+      "stars": 39437,
       "forks": 6159,
-      "updated": "2026-03-28T18:32:31+00:00",
+      "updated": "2026-03-28T19:20:04+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -97,9 +74,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25176,
+      "stars": 25177,
       "forks": 3331,
-      "updated": "2026-03-28T16:21:33+00:00",
+      "updated": "2026-03-28T18:58:54+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -262,9 +239,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9470,
+      "stars": 9472,
       "forks": 2089,
-      "updated": "2026-03-28T18:14:36+00:00",
+      "updated": "2026-03-28T19:04:20+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -300,9 +277,9 @@
       "title": "financial-machine-learning",
       "description": "A curated list of practical financial machine learning tools and applications.",
       "url": "https://github.com/firmai/financial-machine-learning",
-      "stars": 8461,
+      "stars": 8462,
       "forks": 1396,
-      "updated": "2026-03-27T02:02:56+00:00",
+      "updated": "2026-03-28T18:44:13+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -431,9 +408,9 @@
       "title": "QuantLib",
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
-      "stars": 6922,
+      "stars": 6923,
       "forks": 2157,
-      "updated": "2026-03-28T18:01:24+00:00",
+      "updated": "2026-03-28T18:56:14+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -517,9 +494,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48120,
-      "forks": 10027,
-      "updated": "2026-03-28T18:29:52+00:00",
+      "stars": 48121,
+      "forks": 10028,
+      "updated": "2026-03-28T18:54:19+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -544,9 +521,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19556,
-      "forks": 4953,
-      "updated": "2026-03-28T13:21:05+00:00",
+      "stars": 19557,
+      "forks": 4954,
+      "updated": "2026-03-28T18:49:20+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1399,6 +1376,21 @@
       "author": "",
       "core_idea": "The Communist Party\u2019s technological ambition is breathtaking",
       "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 27.55
+    },
+    {
+      "id": "3534fb75-ad50-41b6-9cb8-8a37a19ef995",
+      "source": "https://www.economist.com/finance-and-economics/rss.xml",
+      "source_type": "news",
+      "title": "How high could global inflation go?",
+      "summary": "With luck, the Iran war won\u2019t cause a recession. But the surge in energy prices will push up the cost of living",
+      "published": "Mon, 23 Mar 2026 20:37:50 +0000",
+      "url": "https://www.economist.com/finance-and-economics/2026/03/23/how-high-could-global-inflation-go",
+      "author": "",
+      "core_idea": "With luck, the Iran war won\u2019t cause a recession",
+      "methodology": "But the surge in energy prices will push up the cost of living",
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 27.55
