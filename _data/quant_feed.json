@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T11:34:57.961396",
+  "last_updated": "2026-03-28T11:57:44.471795",
   "items": [
     {
       "id": "2603.25678v1",
@@ -235,30 +235,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.24215v1",
-      "source": "arxiv",
-      "title": "Adapting Altman's bankruptcy prediction model to the compositional data methodology",
-      "authors": [
-        "Fatemeh Keivani",
-        "Germ\u00e0 Coenders",
-        "Ge\u00f2rgia Escaram\u00eds"
-      ],
-      "abstract": "Using standard financial ratios as variables in statistical analyses has been related to several serious problems, such as extreme outliers, asymmetry, non-normality, and non-linearity. The compositional-data methodology has been successfully applied to solve these problems and has always yielded substantially different results when compared to standard financial ratios. An under-researched area is the use of financial log-ratios computed with the compositional-data methodology to predict bankruptcy or the related terms of business default, insolvency or failure. Another under-researched area is the use of machine learning methods in combination with compositional log-ratios. The present article adapts the classical Altman bankruptcy prediction model and some of its extensions to the compositional methodology with pairwise log-ratios and three common statistical and machine learning tools: logistic regression models, k-nearest neighbours, and random forests, and compares the results with standard financial ratios. Data from the sector in the Spanish economy with the largest number of bankrupt firms according to the first two digits of the NACE code (46XX \"wholesale trade, except of motor vehicles and motorcycles\") were obtained from the Iberian Balance sheet Analysis System. The sample size (31,131 firms, of which 97 were bankrupt) was divided into a training and a validation dataset. The training data set was downsampled to one healthy firm to each bankrupt firm. No outliers were removed. Focusing on predictive performance, the results show that compositional methods are better than standard ratios in terms of sensitivity, with mixed results regarding specificity, compositional random forests and compositional logistic regression behaving the best.",
-      "published": "2026-03-25T11:44:20+00:00",
-      "url": "http://arxiv.org/abs/2603.24215v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24215v1",
-      "categories": [
-        "q-fin.ST",
-        "stat.AP"
-      ],
-      "primary_category": "q-fin.ST",
-      "core_idea": "Using standard financial ratios as variables in statistical analyses has been related to several serious problems, such as extreme outliers, asymmetry, non-normality, and non-linearity",
-      "methodology": "The compositional-data methodology has been successfully applied to solve these problems and has always yielded substantially different results when compared to standard financial ratios",
-      "quant_impact": "An under-researched area is the use of financial log-ratios computed with the compositional-data methodology to predict bankruptcy or the related terms of business default, insolvency or failure",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
       "id": "2603.24114v1",
       "source": "arxiv",
       "title": "FFV-PINN: A Fast Physics-Informed Neural Network with Simplified Finite Volume Discretization and Residual Correction",
@@ -484,6 +460,30 @@
       "ranking_score": 28.364285714285714
     },
     {
+      "id": "2603.24215v1",
+      "source": "arxiv",
+      "title": "Adapting Altman's bankruptcy prediction model to the compositional data methodology",
+      "authors": [
+        "Fatemeh Keivani",
+        "Germ\u00e0 Coenders",
+        "Ge\u00f2rgia Escaram\u00eds"
+      ],
+      "abstract": "Using standard financial ratios as variables in statistical analyses has been related to several serious problems, such as extreme outliers, asymmetry, non-normality, and non-linearity. The compositional-data methodology has been successfully applied to solve these problems and has always yielded substantially different results when compared to standard financial ratios. An under-researched area is the use of financial log-ratios computed with the compositional-data methodology to predict bankruptcy or the related terms of business default, insolvency or failure. Another under-researched area is the use of machine learning methods in combination with compositional log-ratios. The present article adapts the classical Altman bankruptcy prediction model and some of its extensions to the compositional methodology with pairwise log-ratios and three common statistical and machine learning tools: logistic regression models, k-nearest neighbours, and random forests, and compares the results with standard financial ratios. Data from the sector in the Spanish economy with the largest number of bankrupt firms according to the first two digits of the NACE code (46XX \"wholesale trade, except of motor vehicles and motorcycles\") were obtained from the Iberian Balance sheet Analysis System. The sample size (31,131 firms, of which 97 were bankrupt) was divided into a training and a validation dataset. The training data set was downsampled to one healthy firm to each bankrupt firm. No outliers were removed. Focusing on predictive performance, the results show that compositional methods are better than standard ratios in terms of sensitivity, with mixed results regarding specificity, compositional random forests and compositional logistic regression behaving the best.",
+      "published": "2026-03-25T11:44:20+00:00",
+      "url": "http://arxiv.org/abs/2603.24215v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24215v1",
+      "categories": [
+        "q-fin.ST",
+        "stat.AP"
+      ],
+      "primary_category": "q-fin.ST",
+      "core_idea": "Using standard financial ratios as variables in statistical analyses has been related to several serious problems, such as extreme outliers, asymmetry, non-normality, and non-linearity",
+      "methodology": "The compositional-data methodology has been successfully applied to solve these problems and has always yielded substantially different results when compared to standard financial ratios",
+      "quant_impact": "An under-researched area is the use of financial log-ratios computed with the compositional-data methodology to predict bankruptcy or the related terms of business default, insolvency or failure",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
+    },
+    {
       "id": "2603.24190v1",
       "source": "arxiv",
       "title": "Dynamical thermalization and turbulence in social stratification models",
@@ -596,9 +596,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39423,
+      "stars": 39424,
       "forks": 6156,
-      "updated": "2026-03-28T10:34:40+00:00",
+      "updated": "2026-03-28T11:44:02+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -632,9 +632,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25166,
-      "forks": 3329,
-      "updated": "2026-03-28T11:09:55+00:00",
+      "stars": 25167,
+      "forks": 3330,
+      "updated": "2026-03-28T11:54:16+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -670,9 +670,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16763,
+      "stars": 16764,
       "forks": 2371,
-      "updated": "2026-03-28T11:01:22+00:00",
+      "updated": "2026-03-28T11:36:07+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -967,7 +967,7 @@
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
       "stars": 6920,
-      "forks": 2155,
+      "forks": 2156,
       "updated": "2026-03-28T06:24:14+00:00",
       "language": "C++",
       "topics": [
@@ -1052,9 +1052,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48109,
+      "stars": 48110,
       "forks": 10022,
-      "updated": "2026-03-28T10:53:01+00:00",
+      "updated": "2026-03-28T11:43:35+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
