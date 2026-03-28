@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T11:57:44.471795",
+  "last_updated": "2026-03-28T13:15:57.950841",
   "items": [
     {
       "id": "2603.25678v1",
@@ -186,29 +186,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.24236v1",
-      "source": "arxiv",
-      "title": "S$^{3}$G: Stock State Space Graph for Enhanced Stock Trend Prediction",
-      "authors": [
-        "Yao Lu",
-        "Kaiyi Hu",
-        "Luyan Zhang"
-      ],
-      "abstract": "Stock trend prediction has attracted considerable attention for its potential to generate tangible investment returns. With the advent of deep learning in quantitative finance, researchers have increasingly recognized the importance of synergies between stocks, such as sector membership or upstream-downstream relationships, in accurately capturing market dynamics. However, previous work often relies on static industry graphs or constructs graphs at each time step via similarity measures, overlooking the fluid evolution of stock relationships. We observe that as companies interact competitively and cooperatively, their interdependencies change in a fine-grained, time-varying manner that cannot be fully captured by coarse, static connections or simple similarity-based snapshots. To address these challenges, we introduce the Stock State Space Graph (S$^{3}$G) framework for enhanced stock trend prediction. First, we apply wavelet transforms to denoise the inherently low signal-to-noise financial series and extract salient patterns. After that, we construct data-dependent graphs at each time point and employ state space models to characterize the evolutionary dynamics of these graphs. Finally, we perform a graph aggregation operation to obtain the predicted return. Extensive experiments on historical CSI 500 data demonstrate the state-of-the-art performance of S$^{3}$G, with superior annualized returns and Sharpe ratios compared to other baselines.",
-      "published": "2026-03-25T12:17:07+00:00",
-      "url": "http://arxiv.org/abs/2603.24236v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24236v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Stock trend prediction has attracted considerable attention for its potential to generate tangible investment returns",
-      "methodology": "With the advent of deep learning in quantitative finance, researchers have increasingly recognized the importance of synergies between stocks, such as sector membership or upstream-downstream relationships, in accurately capturing market dynamics",
-      "quant_impact": "However, previous work often relies on static industry graphs or constructs graphs at each time step via similarity measures, overlooking the fluid evolution of stock relationships",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
       "id": "2603.25338v1",
       "source": "arxiv",
       "title": "Optimal threshold resetting in collective diffusive search",
@@ -233,6 +210,29 @@
       "quant_impact": "In a recent Letter by Biswas et al, we introduced threshold resetting (TR) as an alternative, event-driven optimization strategy for target search problems",
       "relevance_score": 5,
       "ranking_score": 28.79285714285714
+    },
+    {
+      "id": "2603.24236v1",
+      "source": "arxiv",
+      "title": "S$^{3}$G: Stock State Space Graph for Enhanced Stock Trend Prediction",
+      "authors": [
+        "Yao Lu",
+        "Kaiyi Hu",
+        "Luyan Zhang"
+      ],
+      "abstract": "Stock trend prediction has attracted considerable attention for its potential to generate tangible investment returns. With the advent of deep learning in quantitative finance, researchers have increasingly recognized the importance of synergies between stocks, such as sector membership or upstream-downstream relationships, in accurately capturing market dynamics. However, previous work often relies on static industry graphs or constructs graphs at each time step via similarity measures, overlooking the fluid evolution of stock relationships. We observe that as companies interact competitively and cooperatively, their interdependencies change in a fine-grained, time-varying manner that cannot be fully captured by coarse, static connections or simple similarity-based snapshots. To address these challenges, we introduce the Stock State Space Graph (S$^{3}$G) framework for enhanced stock trend prediction. First, we apply wavelet transforms to denoise the inherently low signal-to-noise financial series and extract salient patterns. After that, we construct data-dependent graphs at each time point and employ state space models to characterize the evolutionary dynamics of these graphs. Finally, we perform a graph aggregation operation to obtain the predicted return. Extensive experiments on historical CSI 500 data demonstrate the state-of-the-art performance of S$^{3}$G, with superior annualized returns and Sharpe ratios compared to other baselines.",
+      "published": "2026-03-25T12:17:07+00:00",
+      "url": "http://arxiv.org/abs/2603.24236v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24236v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Stock trend prediction has attracted considerable attention for its potential to generate tangible investment returns",
+      "methodology": "With the advent of deep learning in quantitative finance, researchers have increasingly recognized the importance of synergies between stocks, such as sector membership or upstream-downstream relationships, in accurately capturing market dynamics",
+      "quant_impact": "However, previous work often relies on static industry graphs or constructs graphs at each time step via similarity measures, overlooking the fluid evolution of stock relationships",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
     },
     {
       "id": "2603.24114v1",
@@ -565,9 +565,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63656,
-      "forks": 6272,
-      "updated": "2026-03-28T10:26:52+00:00",
+      "stars": 63664,
+      "forks": 6273,
+      "updated": "2026-03-28T13:07:13+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -596,9 +596,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39424,
-      "forks": 6156,
-      "updated": "2026-03-28T11:44:02+00:00",
+      "stars": 39428,
+      "forks": 6157,
+      "updated": "2026-03-28T13:12:04+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -632,9 +632,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25167,
+      "stars": 25170,
       "forks": 3330,
-      "updated": "2026-03-28T11:54:16+00:00",
+      "updated": "2026-03-28T13:15:23+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -759,9 +759,9 @@
       "title": "quant-trading",
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
-      "stars": 9536,
+      "stars": 9537,
       "forks": 1752,
-      "updated": "2026-03-28T07:18:46+00:00",
+      "updated": "2026-03-28T12:57:01+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -797,9 +797,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9467,
+      "stars": 9469,
       "forks": 2090,
-      "updated": "2026-03-28T11:31:57+00:00",
+      "updated": "2026-03-28T13:11:11+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -861,9 +861,9 @@
       "title": "jesse",
       "description": "An advanced crypto trading bot written in Python",
       "url": "https://github.com/jesse-ai/jesse",
-      "stars": 7603,
+      "stars": 7604,
       "forks": 1075,
-      "updated": "2026-03-28T05:30:47+00:00",
+      "updated": "2026-03-28T13:10:19+00:00",
       "language": "JavaScript",
       "topics": [
         "algo-trading",
@@ -897,9 +897,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7535,
+      "stars": 7536,
       "forks": 1071,
-      "updated": "2026-03-28T09:07:45+00:00",
+      "updated": "2026-03-28T13:10:57+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -934,9 +934,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 7005,
+      "stars": 7006,
       "forks": 902,
-      "updated": "2026-03-27T23:24:42+00:00",
+      "updated": "2026-03-28T12:24:38+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -967,7 +967,7 @@
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
       "stars": 6920,
-      "forks": 2156,
+      "forks": 2157,
       "updated": "2026-03-28T06:24:14+00:00",
       "language": "C++",
       "topics": [
@@ -1052,9 +1052,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48110,
-      "forks": 10022,
-      "updated": "2026-03-28T11:43:35+00:00",
+      "stars": 48111,
+      "forks": 10023,
+      "updated": "2026-03-28T13:12:51+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1101,9 +1101,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16642,
+      "stars": 16643,
       "forks": 4473,
-      "updated": "2026-03-28T08:55:43+00:00",
+      "updated": "2026-03-28T12:40:04+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1130,9 +1130,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14597,
+      "stars": 14599,
       "forks": 3244,
-      "updated": "2026-03-28T11:03:57+00:00",
+      "updated": "2026-03-28T12:12:05+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1200,9 +1200,9 @@
       "title": "PyPortfolioOpt",
       "description": "Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
       "url": "https://github.com/PyPortfolio/PyPortfolioOpt",
-      "stars": 5587,
+      "stars": 5588,
       "forks": 1102,
-      "updated": "2026-03-28T03:37:59+00:00",
+      "updated": "2026-03-28T13:06:13+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
