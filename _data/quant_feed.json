@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T15:54:59.913958",
+  "last_updated": "2026-03-28T16:44:40.237320",
   "items": [
     {
       "id": "2603.25678v1",
@@ -409,32 +409,6 @@
       "ranking_score": 28.364285714285714
     },
     {
-      "id": "2603.23584v1",
-      "source": "arxiv",
-      "title": "LineMVGNN: Anti-Money Laundering with Line-Graph-Assisted Multi-View Graph Neural Networks",
-      "authors": [
-        "Chung-Hoo Poon",
-        "James Kwok",
-        "Calvin Chow",
-        "Jang-Hyeon Choi"
-      ],
-      "abstract": "Anti-money laundering (AML) systems are important for protecting the global economy. However, conventional rule-based methods rely on domain knowledge, leading to suboptimal accuracy and a lack of scalability. Graph neural networks (GNNs) for digraphs (directed graphs) can be applied to transaction graphs and capture suspicious transactions or accounts. However, most spectral GNNs do not naturally support multi-dimensional edge features, lack interpretability due to edge modifications, and have limited scalability owing to their spectral nature. Conversely, most spatial methods may not capture the money flow well. Therefore, in this work, we propose LineMVGNN (Line-Graph-Assisted Multi-View Graph Neural Network), a novel spatial method that considers payment and receipt transactions. Specifically, the LineMVGNN model extends a lightweight MVGNN module, which performs two-way message passing between nodes in a transaction graph. Additionally, LineMVGNN incorporates a line graph view of the original transaction graph to enhance the propagation of transaction information. We conduct experiments on two real-world account-based transaction datasets: the Ethereum phishing transaction network dataset and a financial payment transaction dataset from one of our industry partners. The results show that our proposed method outperforms state-of-the-art methods, reflecting the effectiveness of money laundering detection with line-graph-assisted multi-view graph learning. We also discuss scalability, adversarial robustness, and regulatory considerations of our proposed method.",
-      "published": "2026-03-24T16:17:21+00:00",
-      "url": "http://arxiv.org/abs/2603.23584v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23584v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "q-fin.CP"
-      ],
-      "primary_category": "cs.LG",
-      "core_idea": "Anti-money laundering (AML) systems are important for protecting the global economy",
-      "methodology": "However, conventional rule-based methods rely on domain knowledge, leading to suboptimal accuracy and a lack of scalability",
-      "quant_impact": "Graph neural networks (GNNs) for digraphs (directed graphs) can be applied to transaction graphs and capture suspicious transactions or accounts",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
       "id": "2603.24215v1",
       "source": "arxiv",
       "title": "Adapting Altman's bankruptcy prediction model to the compositional data methodology",
@@ -513,9 +487,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63686,
+      "stars": 63689,
       "forks": 6276,
-      "updated": "2026-03-28T15:47:35+00:00",
+      "updated": "2026-03-28T16:34:46+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -544,9 +518,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39433,
+      "stars": 39431,
       "forks": 6158,
-      "updated": "2026-03-28T15:13:23+00:00",
+      "updated": "2026-03-28T16:15:28+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -580,9 +554,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25175,
-      "forks": 3330,
-      "updated": "2026-03-28T15:26:53+00:00",
+      "stars": 25176,
+      "forks": 3331,
+      "updated": "2026-03-28T16:21:33+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -618,9 +592,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16764,
+      "stars": 16765,
       "forks": 2371,
-      "updated": "2026-03-28T11:36:07+00:00",
+      "updated": "2026-03-28T16:16:40+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -745,9 +719,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9469,
+      "stars": 9470,
       "forks": 2089,
-      "updated": "2026-03-28T13:37:55+00:00",
+      "updated": "2026-03-28T16:23:20+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -1000,9 +974,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48115,
-      "forks": 10026,
-      "updated": "2026-03-28T15:32:53+00:00",
+      "stars": 48114,
+      "forks": 10027,
+      "updated": "2026-03-28T16:42:58+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1049,9 +1023,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16645,
+      "stars": 16646,
       "forks": 4474,
-      "updated": "2026-03-28T15:47:13+00:00",
+      "updated": "2026-03-28T16:03:55+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1329,6 +1303,31 @@
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
+    },
+    {
+      "id": "2603.23290v1",
+      "source": "arxiv",
+      "title": "Traveling Salesman Problem with a preprocessing method for classical and quantum optimization",
+      "authors": [
+        "Alessia Ciacco",
+        "Luigi Di Puglia Pugliese",
+        "Francesca Guerriero"
+      ],
+      "abstract": "The Traveling Salesman Problem is a fundamental combinatorial optimization problem widely studied in operations research. Despite its simple formulation, it remains computationally challenging due to the exponential growth of the search space and the large number of constraints required to eliminate subtours. This paper introduces a preprocessing strategy that significantly reduces the size of the optimization model by restricting the set of candidate arcs and retaining only the lowest-cost neighbors for each vertex. Computational experiments on TSPLIB benchmark instances demonstrate that the proposed approach substantially reduces the number of decision variables. The method is evaluated using both classical and quantum optimization techniques, showing improvements in computational time and reductions in optimality gaps. Overall, the results indicate that the proposed preprocessing enhances the scalability of the formulations and makes them more suitable for both classical solvers and emerging quantum optimization frameworks.",
+      "published": "2026-03-24T14:54:14+00:00",
+      "url": "http://arxiv.org/abs/2603.23290v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23290v1",
+      "categories": [
+        "quant-ph",
+        "cs.CE",
+        "math.CO"
+      ],
+      "primary_category": "quant-ph",
+      "core_idea": "The Traveling Salesman Problem is a fundamental combinatorial optimization problem widely studied in operations research",
+      "methodology": "Despite its simple formulation, it remains computationally challenging due to the exponential growth of the search space and the large number of constraints required to eliminate subtours",
+      "quant_impact": "This paper introduces a preprocessing strategy that significantly reduces the size of the optimization model by restricting the set of candidate arcs and retaining only the lowest-cost neighbors for each vertex",
+      "relevance_score": 5,
+      "ranking_score": 27.935714285714283
     }
   ]
 }
