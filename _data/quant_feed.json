@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T07:57:23.430431",
+  "last_updated": "2026-03-28T08:53:51.959484",
   "items": [
     {
       "id": "2603.25678v1",
@@ -565,9 +565,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63651,
+      "stars": 63652,
       "forks": 6270,
-      "updated": "2026-03-28T07:50:02+00:00",
+      "updated": "2026-03-28T08:02:29+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -596,9 +596,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39420,
-      "forks": 6155,
-      "updated": "2026-03-28T07:30:00+00:00",
+      "stars": 39423,
+      "forks": 6156,
+      "updated": "2026-03-28T08:14:41+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -672,7 +672,7 @@
       "url": "https://github.com/UFund-Me/Qbot",
       "stars": 16761,
       "forks": 2371,
-      "updated": "2026-03-28T07:23:27+00:00",
+      "updated": "2026-03-28T08:05:37+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -705,9 +705,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12073,
-      "forks": 2505,
-      "updated": "2026-03-28T07:40:31+00:00",
+      "stars": 12075,
+      "forks": 2506,
+      "updated": "2026-03-28T08:28:58+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -967,7 +967,7 @@
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
       "stars": 6920,
-      "forks": 2154,
+      "forks": 2155,
       "updated": "2026-03-28T06:24:14+00:00",
       "language": "C++",
       "topics": [
@@ -1101,9 +1101,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16640,
-      "forks": 4472,
-      "updated": "2026-03-28T07:50:47+00:00",
+      "stars": 16641,
+      "forks": 4473,
+      "updated": "2026-03-28T08:20:32+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
