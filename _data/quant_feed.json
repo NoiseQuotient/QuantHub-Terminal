@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T08:53:51.959484",
+  "last_updated": "2026-03-28T09:42:00.829240",
   "items": [
     {
       "id": "2603.25678v1",
@@ -52,6 +52,32 @@
       "ranking_score": 29.22142857142857
     },
     {
+      "id": "2603.25338v1",
+      "source": "arxiv",
+      "title": "Optimal threshold resetting in collective diffusive search",
+      "authors": [
+        "Arup Biswas",
+        "Satya N Majumdar",
+        "Arnab Pal"
+      ],
+      "abstract": "Stochastic resetting has attracted significant attention in recent years due to its wide-ranging applications across physics, biology, and search processes. In most existing studies, however, resetting events are governed by an external timer and remain decoupled from the system's intrinsic dynamics. In a recent Letter by Biswas et al, we introduced threshold resetting (TR) as an alternative, event-driven optimization strategy for target search problems. Under TR, the entire process is reset whenever any searcher reaches a prescribed threshold, thereby coupling the resetting mechanism directly to the internal dynamics. In this work, we study TR-enabled search by $N$ non-interacting diffusive searchers in a one-dimensional box $[0,L]$, with the target at the origin and the threshold at $L$. By optimally tuning the scaled threshold distance $u = x_0/L$, the mean first-passage time can be significantly reduced for $N \\geq 2$. We identify a critical population size $N_c(u)$ below which TR outperforms reset-free dynamics. Furthermore, for fixed $u$, the mean first-passage time depends non-monotonically on $N$, attaining a minimum at $N_{\\mathrm{opt}}(u)$. We also quantify the achievable speed-up and analyze the operational cost of TR, revealing a nontrivial optimization landscape. These findings highlight threshold resetting as an efficient and realistic optimization mechanism for complex stochastic search processes.",
+      "published": "2026-03-26T11:29:43+00:00",
+      "url": "http://arxiv.org/abs/2603.25338v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.25338v1",
+      "categories": [
+        "cond-mat.stat-mech",
+        "math.OC",
+        "math.PR",
+        "q-fin.ST"
+      ],
+      "primary_category": "cond-mat.stat-mech",
+      "core_idea": "Stochastic resetting has attracted significant attention in recent years due to its wide-ranging applications across physics, biology, and search processes",
+      "methodology": "In most existing studies, however, resetting events are governed by an external timer and remain decoupled from the system's intrinsic dynamics",
+      "quant_impact": "In a recent Letter by Biswas et al, we introduced threshold resetting (TR) as an alternative, event-driven optimization strategy for target search problems",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
+    },
+    {
       "id": "2603.25207v1",
       "source": "arxiv",
       "title": "Semi-Automated Generation and Hemodynamic Assessment of Surgical Baffle Geometry for Biventricular Repair",
@@ -78,33 +104,7 @@
       "methodology": "One promising application is complex biventricular repair, which often requires construction of a custom intraventricular baffle to establish a physiologic left ventricle-to-aorta outflow pathway",
       "quant_impact": "In current practice, baffle geometry is designed and shaped intraoperatively and preoperative planning remains largely manual, limiting the ability to generate anatomically conformal, watertight models suitable for quantitative hemodynamic assessment",
       "relevance_score": 5,
-      "ranking_score": 29.22142857142857
-    },
-    {
-      "id": "2603.25338v1",
-      "source": "arxiv",
-      "title": "Optimal threshold resetting in collective diffusive search",
-      "authors": [
-        "Arup Biswas",
-        "Satya N Majumdar",
-        "Arnab Pal"
-      ],
-      "abstract": "Stochastic resetting has attracted significant attention in recent years due to its wide-ranging applications across physics, biology, and search processes. In most existing studies, however, resetting events are governed by an external timer and remain decoupled from the system's intrinsic dynamics. In a recent Letter by Biswas et al, we introduced threshold resetting (TR) as an alternative, event-driven optimization strategy for target search problems. Under TR, the entire process is reset whenever any searcher reaches a prescribed threshold, thereby coupling the resetting mechanism directly to the internal dynamics. In this work, we study TR-enabled search by $N$ non-interacting diffusive searchers in a one-dimensional box $[0,L]$, with the target at the origin and the threshold at $L$. By optimally tuning the scaled threshold distance $u = x_0/L$, the mean first-passage time can be significantly reduced for $N \\geq 2$. We identify a critical population size $N_c(u)$ below which TR outperforms reset-free dynamics. Furthermore, for fixed $u$, the mean first-passage time depends non-monotonically on $N$, attaining a minimum at $N_{\\mathrm{opt}}(u)$. We also quantify the achievable speed-up and analyze the operational cost of TR, revealing a nontrivial optimization landscape. These findings highlight threshold resetting as an efficient and realistic optimization mechanism for complex stochastic search processes.",
-      "published": "2026-03-26T11:29:43+00:00",
-      "url": "http://arxiv.org/abs/2603.25338v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25338v1",
-      "categories": [
-        "cond-mat.stat-mech",
-        "math.OC",
-        "math.PR",
-        "q-fin.ST"
-      ],
-      "primary_category": "cond-mat.stat-mech",
-      "core_idea": "Stochastic resetting has attracted significant attention in recent years due to its wide-ranging applications across physics, biology, and search processes",
-      "methodology": "In most existing studies, however, resetting events are governed by an external timer and remain decoupled from the system's intrinsic dynamics",
-      "quant_impact": "In a recent Letter by Biswas et al, we introduced threshold resetting (TR) as an alternative, event-driven optimization strategy for target search problems",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
+      "ranking_score": 28.79285714285714
     },
     {
       "id": "2603.25099v1",
@@ -235,32 +235,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.24114v1",
-      "source": "arxiv",
-      "title": "FFV-PINN: A Fast Physics-Informed Neural Network with Simplified Finite Volume Discretization and Residual Correction",
-      "authors": [
-        "Chang Wei",
-        "Yuchen Fan",
-        "Jian Cheng Wong",
-        "Chin Chun Ooi",
-        "Heyang Wang",
-        "Pao-Hsiung Chiu"
-      ],
-      "abstract": "Physics-informed neural networks (PINNs) have emerged as a major research focus. However, today's PINNs encounter several limitations. Firstly, during the construction of the loss function using automatic differentiation, PINNs often neglect information from neighboring points, which hinders their ability to enforce physical constraints and diminishes their accuracy. Furthermore, issues such as instability and poor convergence persist during PINN training, limiting their applicability to complex fluid dynamics problems. To address these challenges, a fast physics-informed neural network framework that integrates a simplified finite volume method (FVM) and residual correction loss term has been proposed, referred to as Fast Finite Volume PINN (FFV-PINN). FFV-PINN utilizes a simplified FVM discretization for the convection term, with an accompanying improvement in the dispersion and dissipation behavior. Unlike traditional FVM, the FFV-PINN outputs can be simply and directly harnessed to approximate values on control surfaces, thereby simplifying the discretization process. Moreover, a residual correction loss term is introduced to significantly accelerates convergence and improves training efficiency. To validate the performance, we solve a series of challenging problems -- including flow in the two-dimensional steady and unsteady lid-driven cavity, three-dimensional steady lid-driven cavity, backward-facing step flows, and natural convection at high Reynolds number and Rayleigh number. Notably, the FFV-PINN can achieve data-free solutions for the lid-driven cavity flow at Re = 10000 and natural convection at Ra = 1e8 for the first time in PINN literature, even while requiring only 680s and 231s. It further highlights the effectiveness of FFV-PINN in improving both speed and accuracy, marking another step forward in the progression of PINNs as competitive neural PDE solvers.",
-      "published": "2026-03-25T09:22:30+00:00",
-      "url": "http://arxiv.org/abs/2603.24114v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24114v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Physics-informed neural networks (PINNs) have emerged as a major research focus",
-      "methodology": "However, today's PINNs encounter several limitations",
-      "quant_impact": "Firstly, during the construction of the loss function using automatic differentiation, PINNs often neglect information from neighboring points, which hinders their ability to enforce physical constraints and diminishes their accuracy",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
       "id": "2603.24215v1",
       "source": "arxiv",
       "title": "Adapting Altman's bankruptcy prediction model to the compositional data methodology",
@@ -332,6 +306,32 @@
       "quant_impact": "Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants",
       "relevance_score": 5,
       "ranking_score": 28.79285714285714
+    },
+    {
+      "id": "2603.24114v1",
+      "source": "arxiv",
+      "title": "FFV-PINN: A Fast Physics-Informed Neural Network with Simplified Finite Volume Discretization and Residual Correction",
+      "authors": [
+        "Chang Wei",
+        "Yuchen Fan",
+        "Jian Cheng Wong",
+        "Chin Chun Ooi",
+        "Heyang Wang",
+        "Pao-Hsiung Chiu"
+      ],
+      "abstract": "Physics-informed neural networks (PINNs) have emerged as a major research focus. However, today's PINNs encounter several limitations. Firstly, during the construction of the loss function using automatic differentiation, PINNs often neglect information from neighboring points, which hinders their ability to enforce physical constraints and diminishes their accuracy. Furthermore, issues such as instability and poor convergence persist during PINN training, limiting their applicability to complex fluid dynamics problems. To address these challenges, a fast physics-informed neural network framework that integrates a simplified finite volume method (FVM) and residual correction loss term has been proposed, referred to as Fast Finite Volume PINN (FFV-PINN). FFV-PINN utilizes a simplified FVM discretization for the convection term, with an accompanying improvement in the dispersion and dissipation behavior. Unlike traditional FVM, the FFV-PINN outputs can be simply and directly harnessed to approximate values on control surfaces, thereby simplifying the discretization process. Moreover, a residual correction loss term is introduced to significantly accelerates convergence and improves training efficiency. To validate the performance, we solve a series of challenging problems -- including flow in the two-dimensional steady and unsteady lid-driven cavity, three-dimensional steady lid-driven cavity, backward-facing step flows, and natural convection at high Reynolds number and Rayleigh number. Notably, the FFV-PINN can achieve data-free solutions for the lid-driven cavity flow at Re = 10000 and natural convection at Ra = 1e8 for the first time in PINN literature, even while requiring only 680s and 231s. It further highlights the effectiveness of FFV-PINN in improving both speed and accuracy, marking another step forward in the progression of PINNs as competitive neural PDE solvers.",
+      "published": "2026-03-25T09:22:30+00:00",
+      "url": "http://arxiv.org/abs/2603.24114v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24114v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Physics-informed neural networks (PINNs) have emerged as a major research focus",
+      "methodology": "However, today's PINNs encounter several limitations",
+      "quant_impact": "Firstly, during the construction of the loss function using automatic differentiation, PINNs often neglect information from neighboring points, which hinders their ability to enforce physical constraints and diminishes their accuracy",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
     },
     {
       "id": "2603.24013v1",
@@ -565,9 +565,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63652,
-      "forks": 6270,
-      "updated": "2026-03-28T08:02:29+00:00",
+      "stars": 63655,
+      "forks": 6272,
+      "updated": "2026-03-28T09:35:02+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -632,9 +632,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25163,
+      "stars": 25164,
       "forks": 3329,
-      "updated": "2026-03-28T07:46:11+00:00",
+      "updated": "2026-03-28T09:23:02+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -735,9 +735,9 @@
       "title": "ta-lib-python",
       "description": "Python wrapper for TA-Lib (http://ta-lib.org/).",
       "url": "https://github.com/TA-Lib/ta-lib-python",
-      "stars": 11813,
+      "stars": 11814,
       "forks": 1969,
-      "updated": "2026-03-28T00:20:11+00:00",
+      "updated": "2026-03-28T09:04:22+00:00",
       "language": "Cython",
       "topics": [
         "finance",
@@ -760,7 +760,7 @@
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
       "stars": 9536,
-      "forks": 1751,
+      "forks": 1752,
       "updated": "2026-03-28T07:18:46+00:00",
       "language": "Python",
       "topics": [
@@ -897,9 +897,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7534,
+      "stars": 7535,
       "forks": 1071,
-      "updated": "2026-03-28T03:32:35+00:00",
+      "updated": "2026-03-28T09:07:45+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1052,9 +1052,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48106,
+      "stars": 48107,
       "forks": 10021,
-      "updated": "2026-03-28T06:23:15+00:00",
+      "updated": "2026-03-28T09:16:52+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1101,9 +1101,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16641,
+      "stars": 16642,
       "forks": 4473,
-      "updated": "2026-03-28T08:20:32+00:00",
+      "updated": "2026-03-28T08:55:43+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1231,7 +1231,7 @@
       "description": "Github.com/CryptoSignal - Trading & Technical Analysis Bot - 4,100+ stars, 1,100+ forks",
       "url": "https://github.com/CryptoSignal/Crypto-Signal",
       "stars": 5505,
-      "forks": 1342,
+      "forks": 1343,
       "updated": "2026-03-27T16:00:14+00:00",
       "language": "Python",
       "topics": [
