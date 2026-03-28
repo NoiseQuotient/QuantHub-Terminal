@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T07:15:22.539291",
+  "last_updated": "2026-03-28T07:57:23.430431",
   "items": [
     {
       "id": "2603.25678v1",
@@ -261,32 +261,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.24013v1",
-      "source": "arxiv",
-      "title": "Bridging Computational Fluid Dynamics Algorithm and Physics-Informed Learning: SIMPLE-PINN for Incompressible Navier-Stokes Equations",
-      "authors": [
-        "Chang Wei",
-        "Yuchen Fan",
-        "Chin Chun Ooi",
-        "Jian Cheng Wong",
-        "Heyang Wang",
-        "Pao-Hsiung Chiu"
-      ],
-      "abstract": "Physics-informed neural networks (PINNs) have shown promise for solving partial differential equations (PDEs) by directly embedding them into the loss function. Despite their notable success, existing PINNs often exhibit training instability and slow convergence when applied to strongly nonlinear fluid dynamics problems. To address these challenges, this paper proposes a novel PINN framework, named as SIMPLE-PINN, which incorporates velocity and pressure correction loss terms inspired by the semi-implicit pressure link equation. These correction terms, derived from the momentum and continuity residuals, are tailored for the PINN framework, ensuring velocity-pressure coupling and reinforcing the underlying physical constraints of the Navier-Stokes equations. Through this, the framework can effectively mitigate training instability and accelerate convergence to achieve accurate solution. Furthermore, a hybrid numerical-automatic differentiation strategy is employed to improve the model's generalizability in resolving flows involving complex geometries. The performance of SIMPLE-PINN is evaluated on a range of challenging benchmark cases, including strongly nonlinear flows, long-term flow prediction, and multiphysics coupling problems. The numerical results demonstrate SIMPLE-PINN's high accuracy and rapid convergence. Notably, SIMPLE-PINN achieves, for the first time, a fully data-free solution of lid-driven cavity flow at Re=20000 in just 448s, and successfully captures the onset and long-time evolution of vortex shedding in flow past a cylinder over t=0-100. These findings demonstrate SIMPLE-PINN's potential as a reliable and competitive neural solver for complex PDEs in intelligent scientific computing, with promising engineering applications in aerospace, civil engineering, and mechanical engineering.",
-      "published": "2026-03-25T07:19:38+00:00",
-      "url": "http://arxiv.org/abs/2603.24013v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24013v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Physics-informed neural networks (PINNs) have shown promise for solving partial differential equations (PDEs) by directly embedding them into the loss function",
-      "methodology": "Despite their notable success, existing PINNs often exhibit training instability and slow convergence when applied to strongly nonlinear fluid dynamics problems",
-      "quant_impact": "To address these challenges, this paper proposes a novel PINN framework, named as SIMPLE-PINN, which incorporates velocity and pressure correction loss terms inspired by the semi-implicit pressure link equation",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
       "id": "2603.24215v1",
       "source": "arxiv",
       "title": "Adapting Altman's bankruptcy prediction model to the compositional data methodology",
@@ -358,6 +332,32 @@
       "quant_impact": "Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants",
       "relevance_score": 5,
       "ranking_score": 28.79285714285714
+    },
+    {
+      "id": "2603.24013v1",
+      "source": "arxiv",
+      "title": "Bridging Computational Fluid Dynamics Algorithm and Physics-Informed Learning: SIMPLE-PINN for Incompressible Navier-Stokes Equations",
+      "authors": [
+        "Chang Wei",
+        "Yuchen Fan",
+        "Chin Chun Ooi",
+        "Jian Cheng Wong",
+        "Heyang Wang",
+        "Pao-Hsiung Chiu"
+      ],
+      "abstract": "Physics-informed neural networks (PINNs) have shown promise for solving partial differential equations (PDEs) by directly embedding them into the loss function. Despite their notable success, existing PINNs often exhibit training instability and slow convergence when applied to strongly nonlinear fluid dynamics problems. To address these challenges, this paper proposes a novel PINN framework, named as SIMPLE-PINN, which incorporates velocity and pressure correction loss terms inspired by the semi-implicit pressure link equation. These correction terms, derived from the momentum and continuity residuals, are tailored for the PINN framework, ensuring velocity-pressure coupling and reinforcing the underlying physical constraints of the Navier-Stokes equations. Through this, the framework can effectively mitigate training instability and accelerate convergence to achieve accurate solution. Furthermore, a hybrid numerical-automatic differentiation strategy is employed to improve the model's generalizability in resolving flows involving complex geometries. The performance of SIMPLE-PINN is evaluated on a range of challenging benchmark cases, including strongly nonlinear flows, long-term flow prediction, and multiphysics coupling problems. The numerical results demonstrate SIMPLE-PINN's high accuracy and rapid convergence. Notably, SIMPLE-PINN achieves, for the first time, a fully data-free solution of lid-driven cavity flow at Re=20000 in just 448s, and successfully captures the onset and long-time evolution of vortex shedding in flow past a cylinder over t=0-100. These findings demonstrate SIMPLE-PINN's potential as a reliable and competitive neural solver for complex PDEs in intelligent scientific computing, with promising engineering applications in aerospace, civil engineering, and mechanical engineering.",
+      "published": "2026-03-25T07:19:38+00:00",
+      "url": "http://arxiv.org/abs/2603.24013v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24013v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Physics-informed neural networks (PINNs) have shown promise for solving partial differential equations (PDEs) by directly embedding them into the loss function",
+      "methodology": "Despite their notable success, existing PINNs often exhibit training instability and slow convergence when applied to strongly nonlinear fluid dynamics problems",
+      "quant_impact": "To address these challenges, this paper proposes a novel PINN framework, named as SIMPLE-PINN, which incorporates velocity and pressure correction loss terms inspired by the semi-implicit pressure link equation",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
     },
     {
       "id": "2603.23942v1",
@@ -560,38 +560,14 @@
       "ranking_score": 28.364285714285714
     },
     {
-      "id": "2603.22886v1",
-      "source": "arxiv",
-      "title": "Conditionally Identifiable Latent Representation for Multivariate Time Series with Structural Dynamics",
-      "authors": [
-        "Minkey Chang",
-        "Jae-Young Kim"
-      ],
-      "abstract": "We propose the Identifiable Variational Dynamic Factor Model (iVDFM), which learns latent factors from multivariate time series with identifiability guarantees. By applying iVAE-style conditioning to the innovation process driving the dynamics rather than to the latent states, we show that factors are identifiable up to permutation and component-wise affine (or monotone invertible) transformations. Linear diagonal dynamics preserve this identifiability and admit scalable computation via companion-matrix and Krylov methods. We demonstrate improved factor recovery on synthetic data, stable intervention accuracy on synthetic SCMs, and competitive probabilistic forecasting on real-world benchmarks.",
-      "published": "2026-03-24T07:35:27+00:00",
-      "url": "http://arxiv.org/abs/2603.22886v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.22886v1",
-      "categories": [
-        "cs.LG",
-        "q-fin.GN",
-        "q-fin.ST"
-      ],
-      "primary_category": "cs.LG",
-      "core_idea": "We propose the Identifiable Variational Dynamic Factor Model (iVDFM), which learns latent factors from multivariate time series with identifiability guarantees",
-      "methodology": "By applying iVAE-style conditioning to the innovation process driving the dynamics rather than to the latent states, we show that factors are identifiable up to permutation and component-wise affine (or monotone invertible) transformations",
-      "quant_impact": "Linear diagonal dynamics preserve this identifiability and admit scalable computation via companion-matrix and Krylov methods",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
       "id": "323048702",
       "source": "github",
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63650,
+      "stars": 63651,
       "forks": 6270,
-      "updated": "2026-03-28T06:49:37+00:00",
+      "updated": "2026-03-28T07:50:02+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -620,9 +596,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39418,
-      "forks": 6153,
-      "updated": "2026-03-28T07:12:18+00:00",
+      "stars": 39420,
+      "forks": 6155,
+      "updated": "2026-03-28T07:30:00+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -656,9 +632,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25162,
-      "forks": 3328,
-      "updated": "2026-03-28T06:24:33+00:00",
+      "stars": 25163,
+      "forks": 3329,
+      "updated": "2026-03-28T07:46:11+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -694,9 +670,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16760,
-      "forks": 2370,
-      "updated": "2026-03-28T06:21:27+00:00",
+      "stars": 16761,
+      "forks": 2371,
+      "updated": "2026-03-28T07:23:27+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -729,9 +705,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12072,
-      "forks": 2504,
-      "updated": "2026-03-28T07:15:06+00:00",
+      "stars": 12073,
+      "forks": 2505,
+      "updated": "2026-03-28T07:40:31+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -783,9 +759,9 @@
       "title": "quant-trading",
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
-      "stars": 9535,
+      "stars": 9536,
       "forks": 1751,
-      "updated": "2026-03-27T22:51:23+00:00",
+      "updated": "2026-03-28T07:18:46+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1077,7 +1053,7 @@
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
       "stars": 48106,
-      "forks": 10022,
+      "forks": 10021,
       "updated": "2026-03-28T06:23:15+00:00",
       "language": "Python",
       "topics": [
@@ -1125,9 +1101,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16639,
-      "forks": 4471,
-      "updated": "2026-03-28T07:07:24+00:00",
+      "stars": 16640,
+      "forks": 4472,
+      "updated": "2026-03-28T07:50:47+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1357,6 +1333,21 @@
       "author": "",
       "core_idea": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump\u2019s threats to impose tariffs and economic sanctions on Colombia.",
       "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 28.0
+    },
+    {
+      "id": "WP-WSJ-0002354017",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
+      "summary": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek\u2019s new AI model hit U.S. tech stocks.",
+      "published": "Mon, 27 Jan 2025 09:55:00 -0500",
+      "url": "https://www.wsj.com/articles/safe-haven-currencies-strengthen-amid-fears-over-global-tariffs-9964e17a?mod=rss_markets_main",
+      "author": "",
+      "core_idea": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek\u2019s new AI model hit U.S",
+      "methodology": "tech stocks.",
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
