@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T13:15:57.950841",
+  "last_updated": "2026-03-28T14:05:56.720054",
   "items": [
     {
       "id": "2603.25678v1",
@@ -412,54 +412,6 @@
       "ranking_score": 28.364285714285714
     },
     {
-      "id": "2603.23842v1",
-      "source": "arxiv",
-      "title": "Environmental CVA with K-Robust Wrong-Way Risk",
-      "authors": [
-        "Takayuki Sakuma"
-      ],
-      "abstract": "Although climate and nature related scenario analysis is increasingly important in finance, there is still no operational framework that translates long horizon environmental scenarios into counterparty credit risk measures for pricing and regulatory capital. We propose an environmental valuation adjustment framework for CVA with three components: (i) a scenario to credit translation that maps environmental scenario drivers into hazard rates; (ii) nature specific tail generators that quantify model risk in scenario generation; and (iii) a distributionally robust wrong way risk bound based on Kullback-Leibler (KL) divergence. We compute climate CVAs using transition scenarios and nature CVAs using biodiversity indicators. Our results show that nature CVAs can vary materially across alternative ecosystem generators, highlighting an additional source of model uncertainty. Our case study further shows that environmental credit risk may operate through linked climate nature transmission channels, motivating an integrated Environmental CVA framework.",
-      "published": "2026-03-25T01:55:51+00:00",
-      "url": "http://arxiv.org/abs/2603.23842v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23842v1",
-      "categories": [
-        "q-fin.RM",
-        "q-fin.CP"
-      ],
-      "primary_category": "q-fin.RM",
-      "core_idea": "Although climate and nature related scenario analysis is increasingly important in finance, there is still no operational framework that translates long horizon environmental scenarios into counterparty credit risk measures for pricing and regulatory capital",
-      "methodology": "We propose an environmental valuation adjustment framework for CVA with three components: (i) a scenario to credit translation that maps environmental scenario drivers into hazard rates; (ii) nature specific tail generators that quantify model risk in scenario generation; and (iii) a distributionally robust wrong way risk bound based on Kullback-Leibler (KL) divergence",
-      "quant_impact": "We compute climate CVAs using transition scenarios and nature CVAs using biodiversity indicators",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
-      "id": "2603.23584v1",
-      "source": "arxiv",
-      "title": "LineMVGNN: Anti-Money Laundering with Line-Graph-Assisted Multi-View Graph Neural Networks",
-      "authors": [
-        "Chung-Hoo Poon",
-        "James Kwok",
-        "Calvin Chow",
-        "Jang-Hyeon Choi"
-      ],
-      "abstract": "Anti-money laundering (AML) systems are important for protecting the global economy. However, conventional rule-based methods rely on domain knowledge, leading to suboptimal accuracy and a lack of scalability. Graph neural networks (GNNs) for digraphs (directed graphs) can be applied to transaction graphs and capture suspicious transactions or accounts. However, most spectral GNNs do not naturally support multi-dimensional edge features, lack interpretability due to edge modifications, and have limited scalability owing to their spectral nature. Conversely, most spatial methods may not capture the money flow well. Therefore, in this work, we propose LineMVGNN (Line-Graph-Assisted Multi-View Graph Neural Network), a novel spatial method that considers payment and receipt transactions. Specifically, the LineMVGNN model extends a lightweight MVGNN module, which performs two-way message passing between nodes in a transaction graph. Additionally, LineMVGNN incorporates a line graph view of the original transaction graph to enhance the propagation of transaction information. We conduct experiments on two real-world account-based transaction datasets: the Ethereum phishing transaction network dataset and a financial payment transaction dataset from one of our industry partners. The results show that our proposed method outperforms state-of-the-art methods, reflecting the effectiveness of money laundering detection with line-graph-assisted multi-view graph learning. We also discuss scalability, adversarial robustness, and regulatory considerations of our proposed method.",
-      "published": "2026-03-24T16:17:21+00:00",
-      "url": "http://arxiv.org/abs/2603.23584v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23584v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "q-fin.CP"
-      ],
-      "primary_category": "cs.LG",
-      "core_idea": "Anti-money laundering (AML) systems are important for protecting the global economy",
-      "methodology": "However, conventional rule-based methods rely on domain knowledge, leading to suboptimal accuracy and a lack of scalability",
-      "quant_impact": "Graph neural networks (GNNs) for digraphs (directed graphs) can be applied to transaction graphs and capture suspicious transactions or accounts",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
       "id": "2603.24215v1",
       "source": "arxiv",
       "title": "Adapting Altman's bankruptcy prediction model to the compositional data methodology",
@@ -565,9 +517,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63664,
+      "stars": 63672,
       "forks": 6273,
-      "updated": "2026-03-28T13:07:13+00:00",
+      "updated": "2026-03-28T14:04:50+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -596,9 +548,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39428,
-      "forks": 6157,
-      "updated": "2026-03-28T13:12:04+00:00",
+      "stars": 39429,
+      "forks": 6158,
+      "updated": "2026-03-28T13:30:47+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -632,9 +584,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25170,
+      "stars": 25171,
       "forks": 3330,
-      "updated": "2026-03-28T13:15:23+00:00",
+      "updated": "2026-03-28T13:36:11+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -705,9 +657,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12077,
-      "forks": 2506,
-      "updated": "2026-03-28T10:55:04+00:00",
+      "stars": 12078,
+      "forks": 2505,
+      "updated": "2026-03-28T13:44:05+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -759,9 +711,9 @@
       "title": "quant-trading",
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
-      "stars": 9537,
+      "stars": 9538,
       "forks": 1752,
-      "updated": "2026-03-28T12:57:01+00:00",
+      "updated": "2026-03-28T13:22:01+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -799,7 +751,7 @@
       "url": "https://github.com/StockSharp/StockSharp",
       "stars": 9469,
       "forks": 2090,
-      "updated": "2026-03-28T13:11:11+00:00",
+      "updated": "2026-03-28T13:37:55+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -934,9 +886,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 7006,
+      "stars": 7007,
       "forks": 902,
-      "updated": "2026-03-28T12:24:38+00:00",
+      "updated": "2026-03-28T13:21:17+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -967,7 +919,7 @@
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
       "stars": 6920,
-      "forks": 2157,
+      "forks": 2156,
       "updated": "2026-03-28T06:24:14+00:00",
       "language": "C++",
       "topics": [
@@ -1052,9 +1004,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48111,
-      "forks": 10023,
-      "updated": "2026-03-28T13:12:51+00:00",
+      "stars": 48113,
+      "forks": 10024,
+      "updated": "2026-03-28T14:01:31+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1079,9 +1031,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19555,
+      "stars": 19556,
       "forks": 4953,
-      "updated": "2026-03-28T10:17:19+00:00",
+      "updated": "2026-03-28T13:21:05+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1162,9 +1114,9 @@
       "title": "backtesting.py",
       "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
       "url": "https://github.com/kernc/backtesting.py",
-      "stars": 8119,
+      "stars": 8118,
       "forks": 1419,
-      "updated": "2026-03-28T03:14:36+00:00",
+      "updated": "2026-03-28T13:16:04+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -1348,6 +1300,36 @@
       "author": "",
       "core_idea": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek\u2019s new AI model hit U.S",
       "methodology": "tech stocks.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 28.0
+    },
+    {
+      "id": "WP-WSJ-0002355062",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "Natural Gas Falls on Shifting Weather Forecasts",
+      "summary": "U.S. natural gas futures fell after weekend updates took some of the chill out of early February weather forecasts.",
+      "published": "Mon, 27 Jan 2025 09:05:00 -0500",
+      "url": "https://www.wsj.com/articles/u-s-natural-gas-futures-fall-on-shifting-weather-forecasts-1ef3e457?mod=rss_markets_main",
+      "author": "",
+      "core_idea": "U.S",
+      "methodology": "natural gas futures fell after weekend updates took some of the chill out of early February weather forecasts.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 28.0
+    },
+    {
+      "id": "WP-WSJ-0002353768",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "Building-Products Distributor QXO Launches Hostile Bid for Beacon",
+      "summary": "QXO is taking its offer directly to shareholders after being rebuffed on several occasions.",
+      "published": "Mon, 27 Jan 2025 08:28:00 -0500",
+      "url": "https://www.wsj.com/articles/building-products-distributor-qxo-launching-hostile-bid-for-beacon-de024410?mod=rss_markets_main",
+      "author": "",
+      "core_idea": "QXO is taking its offer directly to shareholders after being rebuffed on several occasions.",
+      "methodology": "No methodology extracted.",
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
