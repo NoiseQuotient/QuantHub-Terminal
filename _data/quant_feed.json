@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T19:46:48.346806",
+  "last_updated": "2026-03-29T20:07:10.194525",
   "items": [
     {
       "id": "323048702",
@@ -7,9 +7,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63937,
-      "forks": 6299,
-      "updated": "2026-03-29T19:45:07+00:00",
+      "stars": 63941,
+      "forks": 6300,
+      "updated": "2026-03-29T20:05:24+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -339,9 +339,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7550,
+      "stars": 7551,
       "forks": 1072,
-      "updated": "2026-03-29T16:26:24+00:00",
+      "updated": "2026-03-29T19:47:09+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -494,9 +494,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48161,
+      "stars": 48162,
       "forks": 10032,
-      "updated": "2026-03-29T19:42:14+00:00",
+      "updated": "2026-03-29T20:06:51+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
