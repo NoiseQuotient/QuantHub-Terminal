@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T20:50:51.248426",
+  "last_updated": "2026-03-29T21:28:32.010985",
   "items": [
     {
       "id": "323048702",
@@ -7,9 +7,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63953,
-      "forks": 6302,
-      "updated": "2026-03-29T20:50:23+00:00",
+      "stars": 63966,
+      "forks": 6303,
+      "updated": "2026-03-29T21:20:10+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -495,7 +495,7 @@
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
       "stars": 48163,
-      "forks": 10032,
+      "forks": 10033,
       "updated": "2026-03-29T20:46:29+00:00",
       "language": "Python",
       "topics": [
@@ -1236,7 +1236,7 @@
       "url": "https://github.com/HaSerZin/trade_political_distance_wto",
       "stars": 2,
       "forks": 0,
-      "updated": "2026-03-29T18:27:50+00:00",
+      "updated": "2026-03-29T21:06:55+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "bayesian-filtering",
