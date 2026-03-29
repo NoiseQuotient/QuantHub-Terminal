@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T11:46:09.797913",
+  "last_updated": "2026-03-29T12:05:22.532046",
   "items": [
     {
       "id": "323048702",
@@ -7,9 +7,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63789,
+      "stars": 63800,
       "forks": 6287,
-      "updated": "2026-03-29T11:45:19+00:00",
+      "updated": "2026-03-29T12:03:33+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -38,9 +38,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39467,
-      "forks": 6167,
-      "updated": "2026-03-29T10:49:21+00:00",
+      "stars": 39468,
+      "forks": 6168,
+      "updated": "2026-03-29T11:52:16+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -112,9 +112,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16771,
+      "stars": 16772,
       "forks": 2370,
-      "updated": "2026-03-29T11:09:25+00:00",
+      "updated": "2026-03-29T11:51:18+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -376,9 +376,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 7016,
+      "stars": 7017,
       "forks": 901,
-      "updated": "2026-03-29T11:27:40+00:00",
+      "updated": "2026-03-29T11:58:19+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -496,7 +496,7 @@
       "url": "https://github.com/freqtrade/freqtrade",
       "stars": 48146,
       "forks": 10033,
-      "updated": "2026-03-29T11:34:13+00:00",
+      "updated": "2026-03-29T11:53:20+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
