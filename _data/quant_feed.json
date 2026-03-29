@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T14:57:44.257242",
+  "last_updated": "2026-03-29T15:33:21.906691",
   "items": [
     {
       "id": "323048702",
@@ -7,9 +7,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63855,
-      "forks": 6293,
-      "updated": "2026-03-29T14:57:05+00:00",
+      "stars": 63870,
+      "forks": 6294,
+      "updated": "2026-03-29T15:31:32+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -38,9 +38,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39476,
+      "stars": 39480,
       "forks": 6172,
-      "updated": "2026-03-29T14:52:45+00:00",
+      "updated": "2026-03-29T15:32:17+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -74,9 +74,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25195,
+      "stars": 25196,
       "forks": 3336,
-      "updated": "2026-03-29T14:47:33+00:00",
+      "updated": "2026-03-29T15:31:26+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -114,7 +114,7 @@
       "url": "https://github.com/UFund-Me/Qbot",
       "stars": 16774,
       "forks": 2370,
-      "updated": "2026-03-29T12:51:41+00:00",
+      "updated": "2026-03-29T15:24:24+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -147,9 +147,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12085,
+      "stars": 12086,
       "forks": 2505,
-      "updated": "2026-03-29T13:20:08+00:00",
+      "updated": "2026-03-29T15:09:16+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -241,7 +241,7 @@
       "url": "https://github.com/StockSharp/StockSharp",
       "stars": 9478,
       "forks": 2089,
-      "updated": "2026-03-29T14:08:41+00:00",
+      "updated": "2026-03-29T15:32:28+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -408,9 +408,9 @@
       "title": "QuantLib",
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
-      "stars": 6924,
+      "stars": 6925,
       "forks": 2156,
-      "updated": "2026-03-29T12:17:26+00:00",
+      "updated": "2026-03-29T14:59:23+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -427,9 +427,9 @@
       "title": "quantstats",
       "description": "Portfolio analytics for quants, written in Python",
       "url": "https://github.com/ranaroussi/quantstats",
-      "stars": 6908,
+      "stars": 6909,
       "forks": 1140,
-      "updated": "2026-03-29T06:28:46+00:00",
+      "updated": "2026-03-29T15:28:45+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -495,7 +495,7 @@
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
       "stars": 48154,
-      "forks": 10032,
+      "forks": 10033,
       "updated": "2026-03-29T14:54:23+00:00",
       "language": "Python",
       "topics": [
@@ -823,54 +823,6 @@
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
-    },
-    {
-      "id": "2603.23842v1",
-      "source": "arxiv",
-      "title": "Environmental CVA with K-Robust Wrong-Way Risk",
-      "authors": [
-        "Takayuki Sakuma"
-      ],
-      "abstract": "Although climate and nature related scenario analysis is increasingly important in finance, there is still no operational framework that translates long horizon environmental scenarios into counterparty credit risk measures for pricing and regulatory capital. We propose an environmental valuation adjustment framework for CVA with three components: (i) a scenario to credit translation that maps environmental scenario drivers into hazard rates; (ii) nature specific tail generators that quantify model risk in scenario generation; and (iii) a distributionally robust wrong way risk bound based on Kullback-Leibler (KL) divergence. We compute climate CVAs using transition scenarios and nature CVAs using biodiversity indicators. Our results show that nature CVAs can vary materially across alternative ecosystem generators, highlighting an additional source of model uncertainty. Our case study further shows that environmental credit risk may operate through linked climate nature transmission channels, motivating an integrated Environmental CVA framework.",
-      "published": "2026-03-25T01:55:51+00:00",
-      "url": "http://arxiv.org/abs/2603.23842v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23842v1",
-      "categories": [
-        "q-fin.RM",
-        "q-fin.CP"
-      ],
-      "primary_category": "q-fin.RM",
-      "core_idea": "Although climate and nature related scenario analysis is increasingly important in finance, there is still no operational framework that translates long horizon environmental scenarios into counterparty credit risk measures for pricing and regulatory capital",
-      "methodology": "We propose an environmental valuation adjustment framework for CVA with three components: (i) a scenario to credit translation that maps environmental scenario drivers into hazard rates; (ii) nature specific tail generators that quantify model risk in scenario generation; and (iii) a distributionally robust wrong way risk bound based on Kullback-Leibler (KL) divergence",
-      "quant_impact": "We compute climate CVAs using transition scenarios and nature CVAs using biodiversity indicators",
-      "relevance_score": 5,
-      "ranking_score": 27.935714285714283
-    },
-    {
-      "id": "2603.23584v1",
-      "source": "arxiv",
-      "title": "LineMVGNN: Anti-Money Laundering with Line-Graph-Assisted Multi-View Graph Neural Networks",
-      "authors": [
-        "Chung-Hoo Poon",
-        "James Kwok",
-        "Calvin Chow",
-        "Jang-Hyeon Choi"
-      ],
-      "abstract": "Anti-money laundering (AML) systems are important for protecting the global economy. However, conventional rule-based methods rely on domain knowledge, leading to suboptimal accuracy and a lack of scalability. Graph neural networks (GNNs) for digraphs (directed graphs) can be applied to transaction graphs and capture suspicious transactions or accounts. However, most spectral GNNs do not naturally support multi-dimensional edge features, lack interpretability due to edge modifications, and have limited scalability owing to their spectral nature. Conversely, most spatial methods may not capture the money flow well. Therefore, in this work, we propose LineMVGNN (Line-Graph-Assisted Multi-View Graph Neural Network), a novel spatial method that considers payment and receipt transactions. Specifically, the LineMVGNN model extends a lightweight MVGNN module, which performs two-way message passing between nodes in a transaction graph. Additionally, LineMVGNN incorporates a line graph view of the original transaction graph to enhance the propagation of transaction information. We conduct experiments on two real-world account-based transaction datasets: the Ethereum phishing transaction network dataset and a financial payment transaction dataset from one of our industry partners. The results show that our proposed method outperforms state-of-the-art methods, reflecting the effectiveness of money laundering detection with line-graph-assisted multi-view graph learning. We also discuss scalability, adversarial robustness, and regulatory considerations of our proposed method.",
-      "published": "2026-03-24T16:17:21+00:00",
-      "url": "http://arxiv.org/abs/2603.23584v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.23584v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "q-fin.CP"
-      ],
-      "primary_category": "cs.LG",
-      "core_idea": "Anti-money laundering (AML) systems are important for protecting the global economy",
-      "methodology": "However, conventional rule-based methods rely on domain knowledge, leading to suboptimal accuracy and a lack of scalability",
-      "quant_impact": "Graph neural networks (GNNs) for digraphs (directed graphs) can be applied to transaction graphs and capture suspicious transactions or accounts",
-      "relevance_score": 5,
-      "ranking_score": 27.935714285714283
     },
     {
       "id": "669186039",
@@ -1408,6 +1360,36 @@
       "url": "https://www.economist.com/finance-and-economics/2026/03/26/christine-lagardes-sober-tone-on-the-gulf-war-energy-shock",
       "author": "",
       "core_idea": "Our interview with the ECB\u2019s president",
+      "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 27.55
+    },
+    {
+      "id": "c8eaf135-9653-4fa9-b986-23cbd94d1a15",
+      "source": "https://www.economist.com/finance-and-economics/rss.xml",
+      "source_type": "news",
+      "title": "Markets are gripped by an alarming cognitive dissonance",
+      "summary": "Investors all seem to think everyone else is wrong",
+      "published": "Tue, 24 Mar 2026 19:14:39 +0000",
+      "url": "https://www.economist.com/finance-and-economics/2026/03/24/markets-are-gripped-by-an-alarming-cognitive-dissonance",
+      "author": "",
+      "core_idea": "Investors all seem to think everyone else is wrong",
+      "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 27.55
+    },
+    {
+      "id": "9b2b723a-95fb-4c27-a091-ee0ae8710756",
+      "source": "https://www.economist.com/finance-and-economics/rss.xml",
+      "source_type": "news",
+      "title": "China\u2019s new masterplan for its tech economy in 2030 and beyond",
+      "summary": "The Communist Party\u2019s technological ambition is breathtaking",
+      "published": "Tue, 24 Mar 2026 14:12:18 +0000",
+      "url": "https://www.economist.com/finance-and-economics/2026/03/24/chinas-new-masterplan-for-its-tech-economy-in-2030-and-beyond",
+      "author": "",
+      "core_idea": "The Communist Party\u2019s technological ambition is breathtaking",
       "methodology": "No methodology extracted.",
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
