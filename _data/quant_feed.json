@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T21:28:32.010985",
+  "last_updated": "2026-03-29T22:01:32.746552",
   "items": [
     {
       "id": "323048702",
@@ -7,9 +7,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63966,
+      "stars": 63974,
       "forks": 6303,
-      "updated": "2026-03-29T21:20:10+00:00",
+      "updated": "2026-03-29T22:00:15+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -495,7 +495,7 @@
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
       "stars": 48163,
-      "forks": 10033,
+      "forks": 10034,
       "updated": "2026-03-29T20:46:29+00:00",
       "language": "Python",
       "topics": [
@@ -522,7 +522,7 @@
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
       "stars": 19561,
-      "forks": 4954,
+      "forks": 4953,
       "updated": "2026-03-29T12:26:06+00:00",
       "language": "Python",
       "topics": [
@@ -605,7 +605,7 @@
       "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
       "url": "https://github.com/kernc/backtesting.py",
       "stars": 8126,
-      "forks": 1419,
+      "forks": 1418,
       "updated": "2026-03-29T13:55:01+00:00",
       "language": "Python",
       "topics": [
@@ -672,9 +672,9 @@
       "title": "Crypto-Signal",
       "description": "Github.com/CryptoSignal - Trading & Technical Analysis Bot - 4,100+ stars, 1,100+ forks",
       "url": "https://github.com/CryptoSignal/Crypto-Signal",
-      "stars": 5510,
+      "stars": 5511,
       "forks": 1344,
-      "updated": "2026-03-29T11:25:58+00:00",
+      "updated": "2026-03-29T21:55:59+00:00",
       "language": "Python",
       "topics": [
         "abenezer-mamo",
