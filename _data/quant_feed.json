@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T09:53:24.832784",
+  "last_updated": "2026-03-29T10:28:38.630979",
   "items": [
     {
       "id": "323048702",
@@ -7,9 +7,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63755,
-      "forks": 6284,
-      "updated": "2026-03-29T09:36:31+00:00",
+      "stars": 63757,
+      "forks": 6285,
+      "updated": "2026-03-29T10:19:14+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -494,9 +494,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48143,
+      "stars": 48146,
       "forks": 10033,
-      "updated": "2026-03-29T08:45:47+00:00",
+      "updated": "2026-03-29T10:23:41+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -521,9 +521,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19562,
+      "stars": 19561,
       "forks": 4954,
-      "updated": "2026-03-29T06:24:05+00:00",
+      "updated": "2026-03-29T10:22:37+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -823,6 +823,29 @@
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
+    },
+    {
+      "id": "2603.24137v1",
+      "source": "arxiv",
+      "title": "Bridging the Reality Gap in Limit Order Book Simulation",
+      "authors": [
+        "Patrick Noble",
+        "Mathieu Rosenbaum",
+        "Saad Souilmi"
+      ],
+      "abstract": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L. The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data. Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants. We further incorporate a feedback mechanism that accumulates signed trade flow through a power-law decay kernel, reproducing both concave market impact during execution and partial post-trade reversion. Across several stocks and strategy case studies, the simulator yields realistic behavior where profitability becomes highly sensitive to execution parameters. We present the approach as a practical recipe: project, estimate, validate, adapt, for building realistic limit order book simulations.",
+      "published": "2026-03-25T10:02:03+00:00",
+      "url": "http://arxiv.org/abs/2603.24137v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24137v1",
+      "categories": [
+        "q-fin.TR"
+      ],
+      "primary_category": "q-fin.TR",
+      "core_idea": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L",
+      "methodology": "The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data",
+      "quant_impact": "Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants",
+      "relevance_score": 5,
+      "ranking_score": 27.935714285714283
     },
     {
       "id": "669186039",
@@ -1376,21 +1399,6 @@
       "author": "",
       "core_idea": "The Communist Party\u2019s technological ambition is breathtaking",
       "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 27.55
-    },
-    {
-      "id": "3534fb75-ad50-41b6-9cb8-8a37a19ef995",
-      "source": "https://www.economist.com/finance-and-economics/rss.xml",
-      "source_type": "news",
-      "title": "How high could global inflation go?",
-      "summary": "With luck, the Iran war won\u2019t cause a recession. But the surge in energy prices will push up the cost of living",
-      "published": "Mon, 23 Mar 2026 20:37:50 +0000",
-      "url": "https://www.economist.com/finance-and-economics/2026/03/23/how-high-could-global-inflation-go",
-      "author": "",
-      "core_idea": "With luck, the Iran war won\u2019t cause a recession",
-      "methodology": "But the surge in energy prices will push up the cost of living",
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 27.55
