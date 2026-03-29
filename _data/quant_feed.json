@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T20:07:10.194525",
+  "last_updated": "2026-03-29T20:50:51.248426",
   "items": [
     {
       "id": "323048702",
@@ -7,9 +7,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63941,
-      "forks": 6300,
-      "updated": "2026-03-29T20:05:24+00:00",
+      "stars": 63953,
+      "forks": 6302,
+      "updated": "2026-03-29T20:50:23+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -38,9 +38,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39487,
+      "stars": 39488,
       "forks": 6174,
-      "updated": "2026-03-29T19:34:06+00:00",
+      "updated": "2026-03-29T20:32:23+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -76,7 +76,7 @@
       "url": "https://github.com/wilsonfreitas/awesome-quant",
       "stars": 25201,
       "forks": 3336,
-      "updated": "2026-03-29T19:43:34+00:00",
+      "updated": "2026-03-29T20:47:23+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -241,7 +241,7 @@
       "url": "https://github.com/StockSharp/StockSharp",
       "stars": 9480,
       "forks": 2090,
-      "updated": "2026-03-29T16:44:45+00:00",
+      "updated": "2026-03-29T20:14:24+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -494,9 +494,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48162,
+      "stars": 48163,
       "forks": 10032,
-      "updated": "2026-03-29T20:06:51+00:00",
+      "updated": "2026-03-29T20:46:29+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -823,29 +823,6 @@
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
-    },
-    {
-      "id": "2603.24137v1",
-      "source": "arxiv",
-      "title": "Bridging the Reality Gap in Limit Order Book Simulation",
-      "authors": [
-        "Patrick Noble",
-        "Mathieu Rosenbaum",
-        "Saad Souilmi"
-      ],
-      "abstract": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L. The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data. Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants. We further incorporate a feedback mechanism that accumulates signed trade flow through a power-law decay kernel, reproducing both concave market impact during execution and partial post-trade reversion. Across several stocks and strategy case studies, the simulator yields realistic behavior where profitability becomes highly sensitive to execution parameters. We present the approach as a practical recipe: project, estimate, validate, adapt, for building realistic limit order book simulations.",
-      "published": "2026-03-25T10:02:03+00:00",
-      "url": "http://arxiv.org/abs/2603.24137v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24137v1",
-      "categories": [
-        "q-fin.TR"
-      ],
-      "primary_category": "q-fin.TR",
-      "core_idea": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L",
-      "methodology": "The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data",
-      "quant_impact": "Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants",
-      "relevance_score": 5,
-      "ranking_score": 27.935714285714283
     },
     {
       "id": "669186039",
@@ -1398,6 +1375,21 @@
       "url": "https://www.economist.com/finance-and-economics/2026/03/24/markets-are-gripped-by-an-alarming-cognitive-dissonance",
       "author": "",
       "core_idea": "Investors all seem to think everyone else is wrong",
+      "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 27.55
+    },
+    {
+      "id": "9b2b723a-95fb-4c27-a091-ee0ae8710756",
+      "source": "https://www.economist.com/finance-and-economics/rss.xml",
+      "source_type": "news",
+      "title": "China\u2019s new masterplan for its tech economy in 2030 and beyond",
+      "summary": "The Communist Party\u2019s technological ambition is breathtaking",
+      "published": "Tue, 24 Mar 2026 14:12:18 +0000",
+      "url": "https://www.economist.com/finance-and-economics/2026/03/24/chinas-new-masterplan-for-its-tech-economy-in-2030-and-beyond",
+      "author": "",
+      "core_idea": "The Communist Party\u2019s technological ambition is breathtaking",
       "methodology": "No methodology extracted.",
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
