@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T13:22:13.680621",
+  "last_updated": "2026-03-29T14:07:33.382608",
   "items": [
     {
       "id": "323048702",
@@ -7,9 +7,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 63825,
-      "forks": 6290,
-      "updated": "2026-03-29T13:11:18+00:00",
+      "stars": 63839,
+      "forks": 6291,
+      "updated": "2026-03-29T14:06:52+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -38,9 +38,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39472,
-      "forks": 6169,
-      "updated": "2026-03-29T13:19:08+00:00",
+      "stars": 39473,
+      "forks": 6170,
+      "updated": "2026-03-29T13:29:22+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -74,9 +74,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25195,
+      "stars": 25196,
       "forks": 3336,
-      "updated": "2026-03-29T13:20:32+00:00",
+      "updated": "2026-03-29T13:28:19+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -239,9 +239,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9477,
+      "stars": 9478,
       "forks": 2089,
-      "updated": "2026-03-29T08:24:35+00:00",
+      "updated": "2026-03-29T13:49:23+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -277,9 +277,9 @@
       "title": "financial-machine-learning",
       "description": "A curated list of practical financial machine learning tools and applications.",
       "url": "https://github.com/firmai/financial-machine-learning",
-      "stars": 8464,
+      "stars": 8465,
       "forks": 1396,
-      "updated": "2026-03-29T02:59:33+00:00",
+      "updated": "2026-03-29T13:22:12+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -339,9 +339,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7546,
+      "stars": 7548,
       "forks": 1072,
-      "updated": "2026-03-29T13:04:11+00:00",
+      "updated": "2026-03-29T14:04:20+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -494,9 +494,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48149,
+      "stars": 48152,
       "forks": 10032,
-      "updated": "2026-03-29T12:48:50+00:00",
+      "updated": "2026-03-29T13:49:28+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -604,9 +604,9 @@
       "title": "backtesting.py",
       "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
       "url": "https://github.com/kernc/backtesting.py",
-      "stars": 8125,
+      "stars": 8126,
       "forks": 1419,
-      "updated": "2026-03-29T06:29:28+00:00",
+      "updated": "2026-03-29T13:55:01+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -642,9 +642,9 @@
       "title": "PyPortfolioOpt",
       "description": "Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
       "url": "https://github.com/PyPortfolio/PyPortfolioOpt",
-      "stars": 5590,
+      "stars": 5591,
       "forks": 1103,
-      "updated": "2026-03-29T06:31:09+00:00",
+      "updated": "2026-03-29T13:37:30+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -823,29 +823,6 @@
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
-    },
-    {
-      "id": "2603.24137v1",
-      "source": "arxiv",
-      "title": "Bridging the Reality Gap in Limit Order Book Simulation",
-      "authors": [
-        "Patrick Noble",
-        "Mathieu Rosenbaum",
-        "Saad Souilmi"
-      ],
-      "abstract": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L. The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data. Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants. We further incorporate a feedback mechanism that accumulates signed trade flow through a power-law decay kernel, reproducing both concave market impact during execution and partial post-trade reversion. Across several stocks and strategy case studies, the simulator yields realistic behavior where profitability becomes highly sensitive to execution parameters. We present the approach as a practical recipe: project, estimate, validate, adapt, for building realistic limit order book simulations.",
-      "published": "2026-03-25T10:02:03+00:00",
-      "url": "http://arxiv.org/abs/2603.24137v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24137v1",
-      "categories": [
-        "q-fin.TR"
-      ],
-      "primary_category": "q-fin.TR",
-      "core_idea": "We introduce a practical, interactive simulator of the limit order book for large-tick assets, designed to produce realistic execution, costs, and P&L",
-      "methodology": "The book state is projected onto a tractable representation based on spread and volume imbalance, enabling robust estimation from market data",
-      "quant_impact": "Event timing is calibrated to reproduce the fine-scale temporal structure of real markets, revealing a pronounced mode at exchange round-trip latency consistent with simultaneous reactions and latency races among participants",
-      "relevance_score": 5,
-      "ranking_score": 27.935714285714283
     },
     {
       "id": "669186039",
@@ -1398,6 +1375,21 @@
       "url": "https://www.economist.com/finance-and-economics/2026/03/24/markets-are-gripped-by-an-alarming-cognitive-dissonance",
       "author": "",
       "core_idea": "Investors all seem to think everyone else is wrong",
+      "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 27.55
+    },
+    {
+      "id": "9b2b723a-95fb-4c27-a091-ee0ae8710756",
+      "source": "https://www.economist.com/finance-and-economics/rss.xml",
+      "source_type": "news",
+      "title": "China\u2019s new masterplan for its tech economy in 2030 and beyond",
+      "summary": "The Communist Party\u2019s technological ambition is breathtaking",
+      "published": "Tue, 24 Mar 2026 14:12:18 +0000",
+      "url": "https://www.economist.com/finance-and-economics/2026/03/24/chinas-new-masterplan-for-its-tech-economy-in-2030-and-beyond",
+      "author": "",
+      "core_idea": "The Communist Party\u2019s technological ambition is breathtaking",
       "methodology": "No methodology extracted.",
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
