@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T16:40:23.706831",
+  "last_updated": "2026-03-30T17:39:54.610070",
   "items": [
     {
       "id": "2603.26517v1",
@@ -202,30 +202,6 @@
       "ranking_score": 28.364285714285714
     },
     {
-      "id": "2603.25678v1",
-      "source": "arxiv",
-      "title": "Concentration And Distribution of Container Flows In Mauritania's Maritime System (2019-2022)",
-      "authors": [
-        "Mohamed Bouka",
-        "Moulaye Abdel Kader Ould Moulaye Ismail"
-      ],
-      "abstract": "Small, trade-dependent economies often exhibit limited maritime connectivity, yet empirical evidence on the structural configuration of their container systems remains limited. This study analyzes route concentration and node distributions in Mauritania's maritime container system during 2019-2022 using shipment-level data measured in forty-foot equivalent units (FFE). Routes, origin nodes, destination nodes, and industries are represented as FFE-weighted probability distributions, and concentration and divergence metrics are used to assess structural properties. The results show strong corridor concentration across the seven observed routes (HHI = 0.296), with the top three accounting for approximately 84% of total FFE. Node structures differ by direction: imports are associated with a highly concentrated set of destination nodes (HHI = 0.848), while exports originate from only two origin nodes (HHI = 0.567) and are distributed across a large number of destinations (HHI = 0.053). Industry distributions are more concentrated for exports (HHI = 0.352) than for imports (HHI = 0.096), with frozen fish and seafood accounting for more than 53% of export volume. Temporal analysis shows that route concentration remains stable over time (HHI ~ 0.293-0.303), while node distributions exhibit measurable variation, particularly for export destinations (JSD ~ 0.395) and import origins (JSD ~ 0.250).",
-      "published": "2026-03-26T17:31:12+00:00",
-      "url": "http://arxiv.org/abs/2603.25678v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25678v1",
-      "categories": [
-        "cs.CE",
-        "econ.GN",
-        "stat.AP"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Small, trade-dependent economies often exhibit limited maritime connectivity, yet empirical evidence on the structural configuration of their container systems remains limited",
-      "methodology": "This study analyzes route concentration and node distributions in Mauritania's maritime container system during 2019-2022 using shipment-level data measured in forty-foot equivalent units (FFE)",
-      "quant_impact": "Routes, origin nodes, destination nodes, and industries are represented as FFE-weighted probability distributions, and concentration and divergence metrics are used to assess structural properties",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
       "id": "2603.26514v1",
       "source": "arxiv",
       "title": "Rough volatility dynamics in commodity markets",
@@ -303,9 +279,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64388,
-      "forks": 6339,
-      "updated": "2026-03-30T16:39:36+00:00",
+      "stars": 64403,
+      "forks": 6342,
+      "updated": "2026-03-30T17:31:20+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -334,9 +310,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39532,
+      "stars": 39534,
       "forks": 6183,
-      "updated": "2026-03-30T15:59:17+00:00",
+      "updated": "2026-03-30T17:30:45+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -370,9 +346,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25225,
+      "stars": 25224,
       "forks": 3340,
-      "updated": "2026-03-30T15:35:54+00:00",
+      "updated": "2026-03-30T17:12:06+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -473,9 +449,9 @@
       "title": "ta-lib-python",
       "description": "Python wrapper for TA-Lib (http://ta-lib.org/).",
       "url": "https://github.com/TA-Lib/ta-lib-python",
-      "stars": 11817,
+      "stars": 11816,
       "forks": 1968,
-      "updated": "2026-03-30T04:00:11+00:00",
+      "updated": "2026-03-30T17:12:27+00:00",
       "language": "Cython",
       "topics": [
         "finance",
@@ -535,9 +511,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9489,
+      "stars": 9490,
       "forks": 2092,
-      "updated": "2026-03-30T13:44:21+00:00",
+      "updated": "2026-03-30T17:25:18+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -674,7 +650,7 @@
       "url": "https://github.com/polakowo/vectorbt",
       "stars": 7024,
       "forks": 904,
-      "updated": "2026-03-30T13:57:00+00:00",
+      "updated": "2026-03-30T17:10:45+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -790,9 +766,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48176,
-      "forks": 10037,
-      "updated": "2026-03-30T16:28:02+00:00",
+      "stars": 48177,
+      "forks": 10038,
+      "updated": "2026-03-30T16:55:26+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -817,9 +793,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19564,
+      "stars": 19563,
       "forks": 4955,
-      "updated": "2026-03-30T16:11:53+00:00",
+      "updated": "2026-03-30T17:12:05+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -900,9 +876,9 @@
       "title": "backtesting.py",
       "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
       "url": "https://github.com/kernc/backtesting.py",
-      "stars": 8132,
+      "stars": 8131,
       "forks": 1423,
-      "updated": "2026-03-30T15:41:18+00:00",
+      "updated": "2026-03-30T17:07:31+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -1119,6 +1095,30 @@
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
+    },
+    {
+      "id": "2603.25678v1",
+      "source": "arxiv",
+      "title": "Concentration And Distribution of Container Flows In Mauritania's Maritime System (2019-2022)",
+      "authors": [
+        "Mohamed Bouka",
+        "Moulaye Abdel Kader Ould Moulaye Ismail"
+      ],
+      "abstract": "Small, trade-dependent economies often exhibit limited maritime connectivity, yet empirical evidence on the structural configuration of their container systems remains limited. This study analyzes route concentration and node distributions in Mauritania's maritime container system during 2019-2022 using shipment-level data measured in forty-foot equivalent units (FFE). Routes, origin nodes, destination nodes, and industries are represented as FFE-weighted probability distributions, and concentration and divergence metrics are used to assess structural properties. The results show strong corridor concentration across the seven observed routes (HHI = 0.296), with the top three accounting for approximately 84% of total FFE. Node structures differ by direction: imports are associated with a highly concentrated set of destination nodes (HHI = 0.848), while exports originate from only two origin nodes (HHI = 0.567) and are distributed across a large number of destinations (HHI = 0.053). Industry distributions are more concentrated for exports (HHI = 0.352) than for imports (HHI = 0.096), with frozen fish and seafood accounting for more than 53% of export volume. Temporal analysis shows that route concentration remains stable over time (HHI ~ 0.293-0.303), while node distributions exhibit measurable variation, particularly for export destinations (JSD ~ 0.395) and import origins (JSD ~ 0.250).",
+      "published": "2026-03-26T17:31:12+00:00",
+      "url": "http://arxiv.org/abs/2603.25678v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.25678v1",
+      "categories": [
+        "cs.CE",
+        "econ.GN",
+        "stat.AP"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Small, trade-dependent economies often exhibit limited maritime connectivity, yet empirical evidence on the structural configuration of their container systems remains limited",
+      "methodology": "This study analyzes route concentration and node distributions in Mauritania's maritime container system during 2019-2022 using shipment-level data measured in forty-foot equivalent units (FFE)",
+      "quant_impact": "Routes, origin nodes, destination nodes, and industries are represented as FFE-weighted probability distributions, and concentration and divergence metrics are used to assess structural properties",
+      "relevance_score": 5,
+      "ranking_score": 27.935714285714283
     },
     {
       "id": "2603.25263v1",
