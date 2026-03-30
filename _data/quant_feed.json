@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T19:44:19.553168",
+  "last_updated": "2026-03-30T20:31:33.619958",
   "items": [
     {
       "id": "2603.26517v1",
@@ -279,9 +279,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64450,
-      "forks": 6343,
-      "updated": "2026-03-30T19:35:09+00:00",
+      "stars": 64466,
+      "forks": 6347,
+      "updated": "2026-03-30T20:28:36+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -311,7 +311,7 @@
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
       "stars": 39535,
-      "forks": 6183,
+      "forks": 6184,
       "updated": "2026-03-30T19:01:25+00:00",
       "language": "Python",
       "topics": [
@@ -346,9 +346,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25225,
+      "stars": 25226,
       "forks": 3342,
-      "updated": "2026-03-30T18:05:14+00:00",
+      "updated": "2026-03-30T19:46:27+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -648,9 +648,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 7025,
+      "stars": 7026,
       "forks": 904,
-      "updated": "2026-03-30T18:39:40+00:00",
+      "updated": "2026-03-30T19:54:56+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -681,7 +681,7 @@
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
       "stars": 6926,
-      "forks": 2155,
+      "forks": 2156,
       "updated": "2026-03-30T15:15:20+00:00",
       "language": "C++",
       "topics": [
@@ -815,9 +815,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16661,
+      "stars": 16662,
       "forks": 4477,
-      "updated": "2026-03-30T17:42:02+00:00",
+      "updated": "2026-03-30T20:10:48+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1227,33 +1227,6 @@
       "ranking_score": 27.935714285714283
     },
     {
-      "id": "2603.24790v1",
-      "source": "arxiv",
-      "title": "Local learning for stable backpropagation-free neural network training towards physical learning",
-      "authors": [
-        "Yaqi Guo",
-        "Fabian Braun",
-        "Bastiaan Ketelaar",
-        "Stephanie Tan",
-        "Richard Norte",
-        "Siddhant Kumar"
-      ],
-      "abstract": "While backpropagation and automatic differentiation have driven deep learning's success, the physical limits of chip manufacturing and rising environmental costs of deep learning motivate alternative learning paradigms such as physical neural networks. However, most existing physical neural networks still rely on digital computing for training, largely because backpropagation and automatic differentiation are difficult to realize in physical systems. We introduce FFzero, a forward-only learning framework enabling stable neural network training without backpropagation or automatic differentiation. FFzero combines layer-wise local learning, prototype-based representations, and directional-derivative-based optimization through forward evaluations only. We show that local learning is effective under forward-only optimization, where backpropagation fails. FFzero generalizes to multilayer perceptron and convolutional neural networks across classification and regression. Using a simulated photonic neural network as an example, we demonstrate that FFzero provides a viable path toward backpropagation-free in-situ physical learning.",
-      "published": "2026-03-25T20:06:09+00:00",
-      "url": "http://arxiv.org/abs/2603.24790v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24790v1",
-      "categories": [
-        "cs.LG",
-        "cs.CE"
-      ],
-      "primary_category": "cs.LG",
-      "core_idea": "While backpropagation and automatic differentiation have driven deep learning's success, the physical limits of chip manufacturing and rising environmental costs of deep learning motivate alternative learning paradigms such as physical neural networks",
-      "methodology": "However, most existing physical neural networks still rely on digital computing for training, largely because backpropagation and automatic differentiation are difficult to realize in physical systems",
-      "quant_impact": "We introduce FFzero, a forward-only learning framework enabling stable neural network training without backpropagation or automatic differentiation",
-      "relevance_score": 5,
-      "ranking_score": 27.935714285714283
-    },
-    {
       "id": "2603.25338v1",
       "source": "arxiv",
       "title": "Optimal threshold resetting in collective diffusive search",
@@ -1342,6 +1315,44 @@
       "quant_impact": "Focused on real-world DeFi security and robust token design.",
       "relevance_score": 5,
       "ranking_score": 27.856
+    },
+    {
+      "id": "1103862773",
+      "source": "github",
+      "title": "Defi-Risk-Scenario-Lab",
+      "description": "A research-grade lab for stress-testing DeFi protocols using Solidity mini-systems, a Python simulation engine, and a Streamlit dashboard. Simulates price crashes, liquidity shifts, AMM behavior, lending liquidations, and systemic risk dynamics. Designed for DeFi engineers, auditors, and researchers.",
+      "url": "https://github.com/AmirhosseinHonardoust/Defi-Risk-Scenario-Lab",
+      "stars": 17,
+      "forks": 2,
+      "updated": "2026-02-26T13:35:51+00:00",
+      "language": "Python",
+      "topics": [
+        "amm",
+        "decentralized-finance",
+        "defi",
+        "economics",
+        "ethereum",
+        "financial-modeling",
+        "lending-protocols",
+        "onchain-data",
+        "protocol-design",
+        "python",
+        "quantitative-finance",
+        "risk-analysis",
+        "risk-modeling",
+        "security-research",
+        "simulation",
+        "smart-contracts",
+        "solidity",
+        "streamlit",
+        "stress-testing",
+        "systemic-risk"
+      ],
+      "core_idea": "A research-grade lab for stress-testing DeFi protocols using Solidity mini-systems, a Python simulation engine, and a Streamlit dashboard",
+      "methodology": "Simulates price crashes, liquidity shifts, AMM behavior, lending liquidations, and systemic risk dynamics",
+      "quant_impact": "Designed for DeFi engineers, auditors, and researchers.",
+      "relevance_score": 5,
+      "ranking_score": 27.8551
     }
   ]
 }
