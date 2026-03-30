@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T21:24:52.074122",
+  "last_updated": "2026-03-30T22:06:52.367347",
   "items": [
     {
       "id": "2603.26517v1",
@@ -279,9 +279,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64481,
+      "stars": 64492,
       "forks": 6347,
-      "updated": "2026-03-30T21:24:26+00:00",
+      "updated": "2026-03-30T22:00:02+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -346,9 +346,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25227,
+      "stars": 25228,
       "forks": 3342,
-      "updated": "2026-03-30T21:22:08+00:00",
+      "updated": "2026-03-30T22:02:08+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -766,9 +766,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48178,
-      "forks": 10039,
-      "updated": "2026-03-30T20:42:09+00:00",
+      "stars": 48180,
+      "forks": 10040,
+      "updated": "2026-03-30T21:54:23+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
