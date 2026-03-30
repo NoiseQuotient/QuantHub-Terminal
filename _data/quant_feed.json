@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T15:38:13.964225",
+  "last_updated": "2026-03-30T16:40:23.706831",
   "items": [
     {
       "id": "2603.26517v1",
@@ -303,9 +303,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64358,
-      "forks": 6336,
-      "updated": "2026-03-30T15:37:26+00:00",
+      "stars": 64388,
+      "forks": 6339,
+      "updated": "2026-03-30T16:39:36+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -334,9 +334,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39530,
-      "forks": 6182,
-      "updated": "2026-03-30T15:04:09+00:00",
+      "stars": 39532,
+      "forks": 6183,
+      "updated": "2026-03-30T15:59:17+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -574,7 +574,7 @@
       "description": "A curated list of practical financial machine learning tools and applications.",
       "url": "https://github.com/firmai/financial-machine-learning",
       "stars": 8466,
-      "forks": 1395,
+      "forks": 1396,
       "updated": "2026-03-30T02:38:02+00:00",
       "language": "Python",
       "topics": [
@@ -635,9 +635,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7563,
+      "stars": 7564,
       "forks": 1072,
-      "updated": "2026-03-30T13:54:58+00:00",
+      "updated": "2026-03-30T16:05:03+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -723,9 +723,9 @@
       "title": "quantstats",
       "description": "Portfolio analytics for quants, written in Python",
       "url": "https://github.com/ranaroussi/quantstats",
-      "stars": 6911,
+      "stars": 6910,
       "forks": 1141,
-      "updated": "2026-03-30T12:55:54+00:00",
+      "updated": "2026-03-30T16:24:52+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -790,9 +790,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48177,
-      "forks": 10036,
-      "updated": "2026-03-30T14:44:09+00:00",
+      "stars": 48176,
+      "forks": 10037,
+      "updated": "2026-03-30T16:28:02+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -817,9 +817,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19565,
+      "stars": 19564,
       "forks": 4955,
-      "updated": "2026-03-30T11:50:26+00:00",
+      "updated": "2026-03-30T16:11:53+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -870,7 +870,7 @@
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
       "stars": 14618,
       "forks": 3249,
-      "updated": "2026-03-30T13:53:46+00:00",
+      "updated": "2026-03-30T16:23:57+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -900,9 +900,9 @@
       "title": "backtesting.py",
       "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
       "url": "https://github.com/kernc/backtesting.py",
-      "stars": 8131,
+      "stars": 8132,
       "forks": 1423,
-      "updated": "2026-03-30T09:19:55+00:00",
+      "updated": "2026-03-30T15:41:18+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
