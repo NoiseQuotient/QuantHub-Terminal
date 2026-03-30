@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T20:31:33.619958",
+  "last_updated": "2026-03-30T21:24:52.074122",
   "items": [
     {
       "id": "2603.26517v1",
@@ -279,9 +279,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64466,
+      "stars": 64481,
       "forks": 6347,
-      "updated": "2026-03-30T20:28:36+00:00",
+      "updated": "2026-03-30T21:24:26+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -310,9 +310,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39535,
-      "forks": 6184,
-      "updated": "2026-03-30T19:01:25+00:00",
+      "stars": 39536,
+      "forks": 6185,
+      "updated": "2026-03-30T21:12:02+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -346,9 +346,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25226,
+      "stars": 25227,
       "forks": 3342,
-      "updated": "2026-03-30T19:46:27+00:00",
+      "updated": "2026-03-30T21:22:08+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -680,9 +680,9 @@
       "title": "QuantLib",
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
-      "stars": 6926,
+      "stars": 6925,
       "forks": 2156,
-      "updated": "2026-03-30T15:15:20+00:00",
+      "updated": "2026-03-30T21:11:55+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -768,7 +768,7 @@
       "url": "https://github.com/freqtrade/freqtrade",
       "stars": 48178,
       "forks": 10039,
-      "updated": "2026-03-30T18:38:23+00:00",
+      "updated": "2026-03-30T20:42:09+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
