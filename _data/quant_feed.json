@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T18:41:02.024332",
+  "last_updated": "2026-03-30T19:44:19.553168",
   "items": [
     {
       "id": "2603.26517v1",
@@ -279,9 +279,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64427,
+      "stars": 64450,
       "forks": 6343,
-      "updated": "2026-03-30T18:40:26+00:00",
+      "updated": "2026-03-30T19:35:09+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -310,9 +310,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39534,
+      "stars": 39535,
       "forks": 6183,
-      "updated": "2026-03-30T17:30:45+00:00",
+      "updated": "2026-03-30T19:01:25+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -347,7 +347,7 @@
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
       "stars": 25225,
-      "forks": 3341,
+      "forks": 3342,
       "updated": "2026-03-30T18:05:14+00:00",
       "language": "HTML",
       "topics": [
@@ -612,7 +612,7 @@
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
       "stars": 7564,
-      "forks": 1072,
+      "forks": 1073,
       "updated": "2026-03-30T16:05:03+00:00",
       "language": "Python",
       "topics": [
@@ -844,9 +844,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14619,
+      "stars": 14620,
       "forks": 3249,
-      "updated": "2026-03-30T17:40:56+00:00",
+      "updated": "2026-03-30T18:57:35+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -877,7 +877,7 @@
       "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
       "url": "https://github.com/kernc/backtesting.py",
       "stars": 8132,
-      "forks": 1423,
+      "forks": 1424,
       "updated": "2026-03-30T17:41:59+00:00",
       "language": "Python",
       "topics": [
