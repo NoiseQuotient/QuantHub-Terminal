@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T22:06:52.367347",
+  "last_updated": "2026-03-30T22:56:22.455813",
   "items": [
     {
       "id": "2603.26517v1",
@@ -279,9 +279,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64492,
-      "forks": 6347,
-      "updated": "2026-03-30T22:00:02+00:00",
+      "stars": 64503,
+      "forks": 6348,
+      "updated": "2026-03-30T22:52:25+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -310,9 +310,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39536,
-      "forks": 6185,
-      "updated": "2026-03-30T21:12:02+00:00",
+      "stars": 39535,
+      "forks": 6184,
+      "updated": "2026-03-30T22:10:40+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -611,9 +611,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7564,
+      "stars": 7563,
       "forks": 1073,
-      "updated": "2026-03-30T16:05:03+00:00",
+      "updated": "2026-03-30T22:48:07+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -648,9 +648,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 7026,
+      "stars": 7024,
       "forks": 904,
-      "updated": "2026-03-30T19:54:56+00:00",
+      "updated": "2026-03-30T22:48:06+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -766,9 +766,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48180,
-      "forks": 10040,
-      "updated": "2026-03-30T21:54:23+00:00",
+      "stars": 48181,
+      "forks": 10042,
+      "updated": "2026-03-30T22:11:16+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -844,9 +844,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14620,
+      "stars": 14619,
       "forks": 3249,
-      "updated": "2026-03-30T18:57:35+00:00",
+      "updated": "2026-03-30T22:33:39+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -915,7 +915,7 @@
       "description": "Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
       "url": "https://github.com/PyPortfolio/PyPortfolioOpt",
       "stars": 5601,
-      "forks": 1105,
+      "forks": 1106,
       "updated": "2026-03-30T13:39:48+00:00",
       "language": "Jupyter Notebook",
       "topics": [
