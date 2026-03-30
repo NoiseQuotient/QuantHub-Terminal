@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T08:47:07.309254",
+  "last_updated": "2026-03-30T10:03:26.600921",
   "items": [
     {
       "id": "2603.26517v1",
@@ -298,61 +298,6 @@
       "ranking_score": 28.364285714285714
     },
     {
-      "id": "2603.25263v1",
-      "source": "arxiv",
-      "title": "XBRLTagRec: Domain-Specific Fine-Tuning and Zero-Shot Re-Ranking with LLMs for Extreme Financial Numeral Labeling",
-      "authors": [
-        "Gang Hu",
-        "Qun Zhang",
-        "Jingyao Luo",
-        "Yile Jiang",
-        "Jing Chai",
-        "Haiyan Ding"
-      ],
-      "abstract": "Publicly traded companies must disclose financial information under regulations of the Securities and Exchange Commission (SEC) and the Generally Accepted Accounting Principles (GAAP). The eXtensible Business Reporting Language (XBRL), as an XML-based financial language, enables standardized and machine-readable reporting, but accurate tag selection from large taxonomies remains challenging. Existing fine-tuning-based methods struggle to distinguish highly similar XBRL tags, limiting performance in financial data matching. To address these issues, we introduce XBRLTagRec, an end-to-end framework for automated financial numeral tagging. The framework generates semantic tag documents with a fine-tuned FLAN-T5-Large model, retrieves relevant candidates via semantic similarity, and applies zero-shot re-ranking with ChatGPT-3.5 to select the optimal tag. Experiments on the FNXL dataset show that XBRLTagRec outperforms the state-of-the-art FLAN-FinXC framework, achieving 2.64%-4.47% improvements in Hits@1 and Macro metrics. These results demonstrate its effectiveness in large-scale and semantically complex tag matching scenarios.",
-      "published": "2026-03-26T10:02:32+00:00",
-      "url": "http://arxiv.org/abs/2603.25263v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25263v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Publicly traded companies must disclose financial information under regulations of the Securities and Exchange Commission (SEC) and the Generally Accepted Accounting Principles (GAAP)",
-      "methodology": "The eXtensible Business Reporting Language (XBRL), as an XML-based financial language, enables standardized and machine-readable reporting, but accurate tag selection from large taxonomies remains challenging",
-      "quant_impact": "Existing fine-tuning-based methods struggle to distinguish highly similar XBRL tags, limiting performance in financial data matching",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
-      "id": "2603.25207v1",
-      "source": "arxiv",
-      "title": "Semi-Automated Generation and Hemodynamic Assessment of Surgical Baffle Geometry for Biventricular Repair",
-      "authors": [
-        "Elena Sabdy Martinez",
-        "Alexander D. Kaiser",
-        "Alexander K. Reed",
-        "Sascha W. Stocker",
-        "Amit Sharir",
-        "Perry S. Choi",
-        "Shiraz A. Maskatia",
-        "Michael R. Ma",
-        "Alison Lesly Marsden"
-      ],
-      "abstract": "Patient-specific computational modeling has emerged as a powerful tool for surgical planning in complex congenital heart disease. One promising application is complex biventricular repair, which often requires construction of a custom intraventricular baffle to establish a physiologic left ventricle-to-aorta outflow pathway. In current practice, baffle geometry is designed and shaped intraoperatively and preoperative planning remains largely manual, limiting the ability to generate anatomically conformal, watertight models suitable for quantitative hemodynamic assessment. In this work, we present a semi-automated computational framework for the design and assessment of patient-specific intraventricular baffles. The method constructs an explicit VSD-to-aorta flow pathway, preserves native right ventricular geometry, and reshapes only the baffle region using section-wise area constraints along a physiologically aligned centerline. The resulting geometry is integrated into a closed, multi-labeled domain for computational fluid dynamics analysis. We retrospectively applied this framework to four patients with double outlet right ventricle (DORV) who previously underwent biventricular repair. For each case, a patient-specific baffle was generated and its hemodynamic performance was evaluated using CFD. Predicted pressure gradients across the reconstructed outflow were within clinically acceptable ranges and comparable to the patients' postoperative echocardiographs. This approach enables quantitative, pre-operative design and evaluation of candidate baffle geometries and provides a reproducible method for generating simulation-ready models. By combining physiologically constrained geometric design with CFD-based assessment, the framework represents a step toward computational, patient-specific decision support for biventricular flow restoration in a complex heterogeneous patient population.",
-      "published": "2026-03-26T09:10:03+00:00",
-      "url": "http://arxiv.org/abs/2603.25207v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25207v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Patient-specific computational modeling has emerged as a powerful tool for surgical planning in complex congenital heart disease",
-      "methodology": "One promising application is complex biventricular repair, which often requires construction of a custom intraventricular baffle to establish a physiologic left ventricle-to-aorta outflow pathway",
-      "quant_impact": "In current practice, baffle geometry is designed and shaped intraoperatively and preoperative planning remains largely manual, limiting the ability to generate anatomically conformal, watertight models suitable for quantitative hemodynamic assessment",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
       "id": "2603.25338v1",
       "source": "arxiv",
       "title": "Optimal threshold resetting in collective diffusive search",
@@ -384,9 +329,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64210,
-      "forks": 6324,
-      "updated": "2026-03-30T08:46:31+00:00",
+      "stars": 64237,
+      "forks": 6328,
+      "updated": "2026-03-30T10:03:06+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -415,9 +360,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39511,
-      "forks": 6176,
-      "updated": "2026-03-30T08:45:56+00:00",
+      "stars": 39517,
+      "forks": 6177,
+      "updated": "2026-03-30T10:02:24+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -451,9 +396,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25220,
-      "forks": 3339,
-      "updated": "2026-03-30T08:44:40+00:00",
+      "stars": 25221,
+      "forks": 3340,
+      "updated": "2026-03-30T09:45:51+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -524,9 +469,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12088,
+      "stars": 12089,
       "forks": 2506,
-      "updated": "2026-03-30T08:37:19+00:00",
+      "updated": "2026-03-30T09:10:23+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -754,7 +699,7 @@
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
       "stars": 7022,
-      "forks": 902,
+      "forks": 903,
       "updated": "2026-03-30T08:11:45+00:00",
       "language": "Python",
       "topics": [
@@ -871,9 +816,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48170,
-      "forks": 10037,
-      "updated": "2026-03-30T08:15:13+00:00",
+      "stars": 48172,
+      "forks": 10035,
+      "updated": "2026-03-30T09:48:09+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -981,9 +926,9 @@
       "title": "backtesting.py",
       "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
       "url": "https://github.com/kernc/backtesting.py",
-      "stars": 8130,
+      "stars": 8131,
       "forks": 1420,
-      "updated": "2026-03-30T08:39:35+00:00",
+      "updated": "2026-03-30T09:19:55+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -1019,9 +964,9 @@
       "title": "PyPortfolioOpt",
       "description": "Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
       "url": "https://github.com/PyPortfolio/PyPortfolioOpt",
-      "stars": 5598,
+      "stars": 5600,
       "forks": 1105,
-      "updated": "2026-03-30T06:38:16+00:00",
+      "updated": "2026-03-30T09:41:27+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1200,6 +1145,61 @@
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
+    },
+    {
+      "id": "2603.25263v1",
+      "source": "arxiv",
+      "title": "XBRLTagRec: Domain-Specific Fine-Tuning and Zero-Shot Re-Ranking with LLMs for Extreme Financial Numeral Labeling",
+      "authors": [
+        "Gang Hu",
+        "Qun Zhang",
+        "Jingyao Luo",
+        "Yile Jiang",
+        "Jing Chai",
+        "Haiyan Ding"
+      ],
+      "abstract": "Publicly traded companies must disclose financial information under regulations of the Securities and Exchange Commission (SEC) and the Generally Accepted Accounting Principles (GAAP). The eXtensible Business Reporting Language (XBRL), as an XML-based financial language, enables standardized and machine-readable reporting, but accurate tag selection from large taxonomies remains challenging. Existing fine-tuning-based methods struggle to distinguish highly similar XBRL tags, limiting performance in financial data matching. To address these issues, we introduce XBRLTagRec, an end-to-end framework for automated financial numeral tagging. The framework generates semantic tag documents with a fine-tuned FLAN-T5-Large model, retrieves relevant candidates via semantic similarity, and applies zero-shot re-ranking with ChatGPT-3.5 to select the optimal tag. Experiments on the FNXL dataset show that XBRLTagRec outperforms the state-of-the-art FLAN-FinXC framework, achieving 2.64%-4.47% improvements in Hits@1 and Macro metrics. These results demonstrate its effectiveness in large-scale and semantically complex tag matching scenarios.",
+      "published": "2026-03-26T10:02:32+00:00",
+      "url": "http://arxiv.org/abs/2603.25263v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.25263v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Publicly traded companies must disclose financial information under regulations of the Securities and Exchange Commission (SEC) and the Generally Accepted Accounting Principles (GAAP)",
+      "methodology": "The eXtensible Business Reporting Language (XBRL), as an XML-based financial language, enables standardized and machine-readable reporting, but accurate tag selection from large taxonomies remains challenging",
+      "quant_impact": "Existing fine-tuning-based methods struggle to distinguish highly similar XBRL tags, limiting performance in financial data matching",
+      "relevance_score": 5,
+      "ranking_score": 27.935714285714283
+    },
+    {
+      "id": "2603.25207v1",
+      "source": "arxiv",
+      "title": "Semi-Automated Generation and Hemodynamic Assessment of Surgical Baffle Geometry for Biventricular Repair",
+      "authors": [
+        "Elena Sabdy Martinez",
+        "Alexander D. Kaiser",
+        "Alexander K. Reed",
+        "Sascha W. Stocker",
+        "Amit Sharir",
+        "Perry S. Choi",
+        "Shiraz A. Maskatia",
+        "Michael R. Ma",
+        "Alison Lesly Marsden"
+      ],
+      "abstract": "Patient-specific computational modeling has emerged as a powerful tool for surgical planning in complex congenital heart disease. One promising application is complex biventricular repair, which often requires construction of a custom intraventricular baffle to establish a physiologic left ventricle-to-aorta outflow pathway. In current practice, baffle geometry is designed and shaped intraoperatively and preoperative planning remains largely manual, limiting the ability to generate anatomically conformal, watertight models suitable for quantitative hemodynamic assessment. In this work, we present a semi-automated computational framework for the design and assessment of patient-specific intraventricular baffles. The method constructs an explicit VSD-to-aorta flow pathway, preserves native right ventricular geometry, and reshapes only the baffle region using section-wise area constraints along a physiologically aligned centerline. The resulting geometry is integrated into a closed, multi-labeled domain for computational fluid dynamics analysis. We retrospectively applied this framework to four patients with double outlet right ventricle (DORV) who previously underwent biventricular repair. For each case, a patient-specific baffle was generated and its hemodynamic performance was evaluated using CFD. Predicted pressure gradients across the reconstructed outflow were within clinically acceptable ranges and comparable to the patients' postoperative echocardiographs. This approach enables quantitative, pre-operative design and evaluation of candidate baffle geometries and provides a reproducible method for generating simulation-ready models. By combining physiologically constrained geometric design with CFD-based assessment, the framework represents a step toward computational, patient-specific decision support for biventricular flow restoration in a complex heterogeneous patient population.",
+      "published": "2026-03-26T09:10:03+00:00",
+      "url": "http://arxiv.org/abs/2603.25207v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.25207v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Patient-specific computational modeling has emerged as a powerful tool for surgical planning in complex congenital heart disease",
+      "methodology": "One promising application is complex biventricular repair, which often requires construction of a custom intraventricular baffle to establish a physiologic left ventricle-to-aorta outflow pathway",
+      "quant_impact": "In current practice, baffle geometry is designed and shaped intraoperatively and preoperative planning remains largely manual, limiting the ability to generate anatomically conformal, watertight models suitable for quantitative hemodynamic assessment",
+      "relevance_score": 5,
+      "ranking_score": 27.935714285714283
     },
     {
       "id": "2603.25099v1",
