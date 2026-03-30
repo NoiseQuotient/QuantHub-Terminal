@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T14:03:47.683167",
+  "last_updated": "2026-03-30T15:38:13.964225",
   "items": [
     {
       "id": "2603.26517v1",
@@ -22,7 +22,7 @@
       "methodology": "In recent years, this challenge has increasingly been framed within the broader paradigm of data-driven scientific discovery, where governing laws are inferred directly from observations",
       "quant_impact": "However, existing methods require either stress-strain pairs or full-field displacement measurements, which are often inaccessible in practice",
       "relevance_score": 5,
-      "ranking_score": 28.79285714285714
+      "ranking_score": 28.364285714285714
     },
     {
       "id": "2603.26446v1",
@@ -46,7 +46,7 @@
       "methodology": "Previous studies have shown that the actual topography of contact interfaces may have a strong effect on the dynamics of jointed structures",
       "quant_impact": "The multi-scale nature of manufactured surfaces makes finite element (FE) simulations computationally challenging or even infeasible, especially for long-duration transient dynamic simulations",
       "relevance_score": 5,
-      "ranking_score": 28.79285714285714
+      "ranking_score": 28.364285714285714
     },
     {
       "id": "2603.26440v1",
@@ -71,32 +71,7 @@
       "methodology": "Classical travel demand models provide behavioural structure but rely on strong assumptions and extensive calibration, whereas generic deep learning models capture complex patterns but often lack theoretical grounding and spatial transferability, limiting their usefulness for long-term planning applications",
       "quant_impact": "We propose DeepDemand, a theory-informed deep learning framework that embeds key components of travel demand theory to predict long-term highway traffic volumes using external socioeconomic features and road-network structure",
       "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
-      "id": "2603.26514v1",
-      "source": "arxiv",
-      "title": "Rough volatility dynamics in commodity markets",
-      "authors": [
-        "Roberto Daluiso",
-        "H\u00e9ctor Folgar-Came\u00e1n",
-        "Andrea Pallavicini",
-        "Carlos V\u00e1zquez"
-      ],
-      "abstract": "In this paper, we develop a general rough volatility model for commodities that provides an automatic calibration of the initial term structure of the futures prices and an appropriate treatment of the Samuelson effect. After the theoretical analysis of this general model, we focus on the rBergomi and rHeston models and their calibration to market data of vanilla futures options on WTI Crude Oil. Finally, numerical results illustrate the performance of the proposed rough volatility models for commodities pricing.",
-      "published": "2026-03-27T15:25:18+00:00",
-      "url": "http://arxiv.org/abs/2603.26514v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26514v1",
-      "categories": [
-        "q-fin.PR",
-        "q-fin.CP"
-      ],
-      "primary_category": "q-fin.PR",
-      "core_idea": "In this paper, we develop a general rough volatility model for commodities that provides an automatic calibration of the initial term structure of the futures prices and an appropriate treatment of the Samuelson effect",
-      "methodology": "After the theoretical analysis of this general model, we focus on the rBergomi and rHeston models and their calibration to market data of vanilla futures options on WTI Crude Oil",
-      "quant_impact": "Finally, numerical results illustrate the performance of the proposed rough volatility models for commodities pricing.",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
+      "ranking_score": 28.364285714285714
     },
     {
       "id": "2603.26396v1",
@@ -251,6 +226,31 @@
       "ranking_score": 28.364285714285714
     },
     {
+      "id": "2603.26514v1",
+      "source": "arxiv",
+      "title": "Rough volatility dynamics in commodity markets",
+      "authors": [
+        "Roberto Daluiso",
+        "H\u00e9ctor Folgar-Came\u00e1n",
+        "Andrea Pallavicini",
+        "Carlos V\u00e1zquez"
+      ],
+      "abstract": "In this paper, we develop a general rough volatility model for commodities that provides an automatic calibration of the initial term structure of the futures prices and an appropriate treatment of the Samuelson effect. After the theoretical analysis of this general model, we focus on the rBergomi and rHeston models and their calibration to market data of vanilla futures options on WTI Crude Oil. Finally, numerical results illustrate the performance of the proposed rough volatility models for commodities pricing.",
+      "published": "2026-03-27T15:25:18+00:00",
+      "url": "http://arxiv.org/abs/2603.26514v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.26514v1",
+      "categories": [
+        "q-fin.PR",
+        "q-fin.CP"
+      ],
+      "primary_category": "q-fin.PR",
+      "core_idea": "In this paper, we develop a general rough volatility model for commodities that provides an automatic calibration of the initial term structure of the futures prices and an appropriate treatment of the Samuelson effect",
+      "methodology": "After the theoretical analysis of this general model, we focus on the rBergomi and rHeston models and their calibration to market data of vanilla futures options on WTI Crude Oil",
+      "quant_impact": "Finally, numerical results illustrate the performance of the proposed rough volatility models for commodities pricing.",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
+    },
+    {
       "id": "2603.26291v1",
       "source": "arxiv",
       "title": "Monotone 2D Integration Scheme for Mean-CVaR Optimization via Fourier-Trained Transition Kernels",
@@ -303,9 +303,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64316,
-      "forks": 6333,
-      "updated": "2026-03-30T14:02:39+00:00",
+      "stars": 64358,
+      "forks": 6336,
+      "updated": "2026-03-30T15:37:26+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -334,9 +334,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39525,
-      "forks": 6178,
-      "updated": "2026-03-30T13:16:58+00:00",
+      "stars": 39530,
+      "forks": 6182,
+      "updated": "2026-03-30T15:04:09+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -372,7 +372,7 @@
       "url": "https://github.com/wilsonfreitas/awesome-quant",
       "stars": 25225,
       "forks": 3340,
-      "updated": "2026-03-30T14:01:12+00:00",
+      "updated": "2026-03-30T15:35:54+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -408,9 +408,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16785,
+      "stars": 16787,
       "forks": 2373,
-      "updated": "2026-03-30T13:16:12+00:00",
+      "updated": "2026-03-30T15:31:47+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -443,9 +443,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12092,
-      "forks": 2506,
-      "updated": "2026-03-30T13:46:56+00:00",
+      "stars": 12093,
+      "forks": 2507,
+      "updated": "2026-03-30T15:15:06+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -497,9 +497,9 @@
       "title": "quant-trading",
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
-      "stars": 9558,
+      "stars": 9559,
       "forks": 1755,
-      "updated": "2026-03-30T13:44:48+00:00",
+      "updated": "2026-03-30T15:37:05+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -601,7 +601,7 @@
       "url": "https://github.com/jesse-ai/jesse",
       "stars": 7608,
       "forks": 1076,
-      "updated": "2026-03-30T03:29:43+00:00",
+      "updated": "2026-03-30T14:47:17+00:00",
       "language": "JavaScript",
       "topics": [
         "algo-trading",
@@ -704,9 +704,9 @@
       "title": "QuantLib",
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
-      "stars": 6925,
-      "forks": 2156,
-      "updated": "2026-03-30T13:24:32+00:00",
+      "stars": 6926,
+      "forks": 2155,
+      "updated": "2026-03-30T15:15:20+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -790,9 +790,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48176,
-      "forks": 10034,
-      "updated": "2026-03-30T13:48:36+00:00",
+      "stars": 48177,
+      "forks": 10036,
+      "updated": "2026-03-30T14:44:09+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -839,9 +839,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16658,
+      "stars": 16660,
       "forks": 4477,
-      "updated": "2026-03-30T13:27:14+00:00",
+      "updated": "2026-03-30T15:15:40+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1254,33 +1254,6 @@
       "ranking_score": 27.935714285714283
     },
     {
-      "id": "2603.24382v1",
-      "source": "arxiv",
-      "title": "MolEvolve: LLM-Guided Evolutionary Search for Interpretable Molecular Optimization",
-      "authors": [
-        "Xiangsen Chen",
-        "Ruilong Wu",
-        "Yanyan Lan",
-        "Ting Ma",
-        "Yang Liu"
-      ],
-      "abstract": "Despite deep learning's success in chemistry, its impact is hindered by a lack of interpretability and an inability to resolve activity cliffs, where minor structural nuances trigger drastic property shifts. Current representation learning, bound by the similarity principle, often fails to capture these structural-activity discontinuities. To address this, we introduce MolEvolve, an evolutionary framework that reformulates molecular discovery as an autonomous, look-ahead planning problem. Unlike traditional methods that depend on human-engineered features or rigid prior knowledge, MolEvolve leverages a Large Language Model (LLM) to actively explore and evolve a library of executable chemical symbolic operations. By utilizing the LLM to cold start and an Monte Carlo Tree Search (MCTS) engine for test-time planning with external tools (e.g. RDKit), the system self-discovers optimal trajectories autonomously. This process evolves transparent reasoning chains that translate complex structural transformations into actionable, human-readable chemical insights. Experimental results demonstrate that MolEvolve's autonomous search not only evolves transparent, human-readable chemical insights, but also outperforms baselines in both property prediction and molecule optimization tasks.",
-      "published": "2026-03-25T15:01:03+00:00",
-      "url": "http://arxiv.org/abs/2603.24382v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24382v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CE"
-      ],
-      "primary_category": "cs.LG",
-      "core_idea": "Despite deep learning's success in chemistry, its impact is hindered by a lack of interpretability and an inability to resolve activity cliffs, where minor structural nuances trigger drastic property shifts",
-      "methodology": "Current representation learning, bound by the similarity principle, often fails to capture these structural-activity discontinuities",
-      "quant_impact": "To address this, we introduce MolEvolve, an evolutionary framework that reformulates molecular discovery as an autonomous, look-ahead planning problem",
-      "relevance_score": 5,
-      "ranking_score": 27.935714285714283
-    },
-    {
       "id": "2603.25338v1",
       "source": "arxiv",
       "title": "Optimal threshold resetting in collective diffusive search",
@@ -1329,6 +1302,44 @@
       "core_idea": "Prototype risk modeling simulation for Portfolio using Arbiter.",
       "methodology": "No methodology extracted.",
       "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 27.856
+    },
+    {
+      "id": "1105944255",
+      "source": "github",
+      "title": "Safe-Token-Design-Guide",
+      "description": "A comprehensive guide to designing economically safe ERC-20 tokens using formal invariants and strict permission boundaries. Covers supply caps, fee ceilings, liquidity guarantees, transfer safety, oracle integrity, upgrade control, and economic threat modeling. Focused on real-world DeFi security and robust token design.",
+      "url": "https://github.com/AmirhosseinHonardoust/Safe-Token-Design-Guide",
+      "stars": 20,
+      "forks": 1,
+      "updated": "2026-02-23T09:40:06+00:00",
+      "language": null,
+      "topics": [
+        "audit",
+        "best-practices",
+        "blockchain",
+        "decentralized-finance",
+        "defi",
+        "economic-invariants",
+        "economic-security",
+        "erc20",
+        "ethereum",
+        "governance",
+        "incentive-design",
+        "permission-boundaries",
+        "protocol-design",
+        "risk-modeling",
+        "security-analysis",
+        "smart-contracts",
+        "solidity",
+        "solidity-security",
+        "token-design",
+        "tokenomics"
+      ],
+      "core_idea": "A comprehensive guide to designing economically safe ERC-20 tokens using formal invariants and strict permission boundaries",
+      "methodology": "Covers supply caps, fee ceilings, liquidity guarantees, transfer safety, oracle integrity, upgrade control, and economic threat modeling",
+      "quant_impact": "Focused on real-world DeFi security and robust token design.",
       "relevance_score": 5,
       "ranking_score": 27.856
     }
