@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T10:41:48.162716",
+  "last_updated": "2026-03-31T11:37:45.997024",
   "items": [
     {
       "id": "2603.28707v1",
@@ -462,92 +462,14 @@
       "ranking_score": 28.364285714285714
     },
     {
-      "id": "2603.26291v1",
-      "source": "arxiv",
-      "title": "Monotone 2D Integration Scheme for Mean-CVaR Optimization via Fourier-Trained Transition Kernels",
-      "authors": [
-        "Duy-Minh Dang",
-        "Hao Zhou"
-      ],
-      "abstract": "We present a strictly monotone, provably convergent two-dimensional (2D) integration method for multi-period mean-conditional value-at-risk (mean-CVaR) reward-risk stochastic control in models whose one-step increment law is specified via a closed-form characteristic function (CF). When the transition density is unavailable in closed form, we learn a nonnegative, normalized 2D transition kernel in Fourier space using a simplex-constrained Gaussian-mixture parameterization, and discretize the resulting convolution integrals with composite quadrature rules with nonnegative weights to guarantee monotonicity. The scheme is implemented efficiently using 2D fast Fourier transforms. Under mild Fourier-tail decay assumptions on the CF, we derive Fourier-domain $L_2$ kernel-approximation and truncation error estimates and translate them into real-space bounds that are used to establish $\\ell_\\infty$-stability, consistency, and pointwise convergence as the discretization and kernel-approximation parameters vanish. Numerical experiments for a fully coupled 2D jump--diffusion model in a multi-period portfolio optimization setting illustrate robustness and accuracy.",
-      "published": "2026-03-27T10:59:09+00:00",
-      "url": "http://arxiv.org/abs/2603.26291v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26291v1",
-      "categories": [
-        "math.OC",
-        "q-fin.CP"
-      ],
-      "primary_category": "math.OC",
-      "core_idea": "We present a strictly monotone, provably convergent two-dimensional (2D) integration method for multi-period mean-conditional value-at-risk (mean-CVaR) reward-risk stochastic control in models whose one-step increment law is specified via a closed-form characteristic function (CF)",
-      "methodology": "When the transition density is unavailable in closed form, we learn a nonnegative, normalized 2D transition kernel in Fourier space using a simplex-constrained Gaussian-mixture parameterization, and discretize the resulting convolution integrals with composite quadrature rules with nonnegative weights to guarantee monotonicity",
-      "quant_impact": "The scheme is implemented efficiently using 2D fast Fourier transforms",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
-      "id": "2603.26318v1",
-      "source": "arxiv",
-      "title": "STN-GPR: A Singularity Tensor Network Framework for Efficient Option Pricing",
-      "authors": [
-        "Dominic Gribben",
-        "Carolina Allende",
-        "Alba Villarino",
-        "Aser Cortines",
-        "Mazen Ali",
-        "Rom\u00e1n Or\u00fas",
-        "Pascal Oswald",
-        "Noureddine Lehdili"
-      ],
-      "abstract": "We develop a tensor-network surrogate for option pricing, targeting large-scale portfolio revaluation problems arising in market risk management (e.g., VaR and Expected Shortfall computations). The method involves representing high-dimensional price surfaces in tensor-train (TT) form using TT-cross approximation, constructing the surrogate directly from black-box price evaluations without materializing the full training tensor. For inference, we use a Laplacian kernel and derive TT representations of the kernel matrix and its closed-form inverse in the noise-free setting, enabling TT-based Gaussian process regression without dense matrix factorization or iterative linear solves. We found that hyperparameter optimization consistently favors a large kernel length-scale and show that in this regime the GPR predictor reduces to multilinear interpolation for off-grid inputs; we also derive a low-rank TT representation for this limit. We evaluate the approach on five-asset basket options over an eight dimensional parameter space (asset spot levels, strike, interest rate, and time to maturity). For European geometric basket puts, the tensor surrogate achieves lower test error at shorter training times than standard GPR by scaling to substantially larger effective training sets. For American arithmetic basket puts trained on LSMC data, the surrogate exhibits more favorable scaling with training-set size while providing millisecond-level evaluation per query, with overall runtime dominated by data generation.",
-      "published": "2026-03-27T11:35:03+00:00",
-      "url": "http://arxiv.org/abs/2603.26318v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26318v1",
-      "categories": [
-        "q-fin.PR",
-        "cs.CE",
-        "cs.LG",
-        "quant-ph"
-      ],
-      "primary_category": "q-fin.PR",
-      "core_idea": "We develop a tensor-network surrogate for option pricing, targeting large-scale portfolio revaluation problems arising in market risk management (e.g., VaR and Expected Shortfall computations)",
-      "methodology": "The method involves representing high-dimensional price surfaces in tensor-train (TT) form using TT-cross approximation, constructing the surrogate directly from black-box price evaluations without materializing the full training tensor",
-      "quant_impact": "For inference, we use a Laplacian kernel and derive TT representations of the kernel matrix and its closed-form inverse in the noise-free setting, enabling TT-based Gaussian process regression without dense matrix factorization or iterative linear solves",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
-      "id": "2603.26290v1",
-      "source": "arxiv",
-      "title": "PEB Separation and State Migration: Unmasking the New Frontiers of DeFi AML Evasion",
-      "authors": [
-        "Yixin Cao",
-        "Xianfeng Cheng",
-        "Yijie Liu"
-      ],
-      "abstract": "Transfer-based anti-money laundering (AML) systems monitor token flows through transaction-graph abstractions, implicitly assuming that economically meaningful value migration is sufficiently encoded in transfer-layer connectivity. In this paper, we demonstrate that this assumption, the bedrock of current industrial forensics, fundamentally collapses in composable smart-contract ecosystems.\n  We formalize two structural mechanisms that undermine the completeness of transfer-layer attribution. First, we introduce Principal-Execution-Beneficiary (PEB) separation, where intent originators, transaction executors (e.g., MEV searchers), and ultimate beneficiaries are functionally decoupled. Second, we formalize state-mediated value migration, where economic coupling is enforced through invariant-driven contract state transitions (e.g., AMM reserve rebalancing) rather than explicit transfer continuity.\n  Through a real-world case study of role-separated limit order execution and a constructive cross-pool arbitrage model, we prove that these mechanisms render transfer-layer observation neither attribution-complete nor causally closed. We further argue that simply expanding transfer-layer tracing capabilities fails to resolve the underlying attribution ambiguity inherent in structurally decoupled execution. Under modular composition and open participation markets, these mechanisms are structurally generative, implying that heuristic-based flow tracing has reached a formal observational boundary. We advocate for a paradigm shift toward AML based on execution semantics, focusing on the restitution of economic causality from atomic execution logic and state invariants rather than static graph connectivity.",
-      "published": "2026-03-27T10:58:54+00:00",
-      "url": "http://arxiv.org/abs/2603.26290v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26290v1",
-      "categories": [
-        "cs.CR",
-        "q-fin.TR"
-      ],
-      "primary_category": "cs.CR",
-      "core_idea": "Transfer-based anti-money laundering (AML) systems monitor token flows through transaction-graph abstractions, implicitly assuming that economically meaningful value migration is sufficiently encoded in transfer-layer connectivity",
-      "methodology": "In this paper, we demonstrate that this assumption, the bedrock of current industrial forensics, fundamentally collapses in composable smart-contract ecosystems.\n  We formalize two structural mechanisms that undermine the completeness of transfer-layer attribution",
-      "quant_impact": "First, we introduce Principal-Execution-Beneficiary (PEB) separation, where intent originators, transaction executors (e.g., MEV searchers), and ultimate beneficiaries are functionally decoupled",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
       "id": "323048702",
       "source": "github",
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64773,
+      "stars": 64781,
       "forks": 6364,
-      "updated": "2026-03-31T10:28:18+00:00",
+      "updated": "2026-03-31T11:37:02+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -576,9 +498,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39573,
-      "forks": 6183,
-      "updated": "2026-03-31T10:29:16+00:00",
+      "stars": 39577,
+      "forks": 6185,
+      "updated": "2026-03-31T11:10:09+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -715,9 +637,9 @@
       "title": "ta-lib-python",
       "description": "Python wrapper for TA-Lib (http://ta-lib.org/).",
       "url": "https://github.com/TA-Lib/ta-lib-python",
-      "stars": 11817,
+      "stars": 11818,
       "forks": 1968,
-      "updated": "2026-03-31T02:17:36+00:00",
+      "updated": "2026-03-31T10:59:20+00:00",
       "language": "Cython",
       "topics": [
         "finance",
@@ -877,9 +799,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7568,
+      "stars": 7567,
       "forks": 1073,
-      "updated": "2026-03-31T10:41:18+00:00",
+      "updated": "2026-03-31T11:07:20+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1181,7 +1103,7 @@
       "description": "Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
       "url": "https://github.com/PyPortfolio/PyPortfolioOpt",
       "stars": 5603,
-      "forks": 1106,
+      "forks": 1107,
       "updated": "2026-03-31T05:26:21+00:00",
       "language": "Jupyter Notebook",
       "topics": [
@@ -1331,6 +1253,59 @@
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
+    },
+    {
+      "id": "WP-WSJ-0002355062",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "Natural Gas Falls on Shifting Weather Forecasts",
+      "summary": "U.S. natural gas futures fell after weekend updates took some of the chill out of early February weather forecasts.",
+      "published": "Mon, 27 Jan 2025 09:05:00 -0500",
+      "url": "https://www.wsj.com/articles/u-s-natural-gas-futures-fall-on-shifting-weather-forecasts-1ef3e457?mod=rss_markets_main",
+      "author": "",
+      "core_idea": "U.S",
+      "methodology": "natural gas futures fell after weekend updates took some of the chill out of early February weather forecasts.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 28.0
+    },
+    {
+      "id": "WP-WSJ-0002353768",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "Building-Products Distributor QXO Launches Hostile Bid for Beacon",
+      "summary": "QXO is taking its offer directly to shareholders after being rebuffed on several occasions.",
+      "published": "Mon, 27 Jan 2025 08:28:00 -0500",
+      "url": "https://www.wsj.com/articles/building-products-distributor-qxo-launching-hostile-bid-for-beacon-de024410?mod=rss_markets_main",
+      "author": "",
+      "core_idea": "QXO is taking its offer directly to shareholders after being rebuffed on several occasions.",
+      "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 28.0
+    },
+    {
+      "id": "2603.26291v1",
+      "source": "arxiv",
+      "title": "Monotone 2D Integration Scheme for Mean-CVaR Optimization via Fourier-Trained Transition Kernels",
+      "authors": [
+        "Duy-Minh Dang",
+        "Hao Zhou"
+      ],
+      "abstract": "We present a strictly monotone, provably convergent two-dimensional (2D) integration method for multi-period mean-conditional value-at-risk (mean-CVaR) reward-risk stochastic control in models whose one-step increment law is specified via a closed-form characteristic function (CF). When the transition density is unavailable in closed form, we learn a nonnegative, normalized 2D transition kernel in Fourier space using a simplex-constrained Gaussian-mixture parameterization, and discretize the resulting convolution integrals with composite quadrature rules with nonnegative weights to guarantee monotonicity. The scheme is implemented efficiently using 2D fast Fourier transforms. Under mild Fourier-tail decay assumptions on the CF, we derive Fourier-domain $L_2$ kernel-approximation and truncation error estimates and translate them into real-space bounds that are used to establish $\\ell_\\infty$-stability, consistency, and pointwise convergence as the discretization and kernel-approximation parameters vanish. Numerical experiments for a fully coupled 2D jump--diffusion model in a multi-period portfolio optimization setting illustrate robustness and accuracy.",
+      "published": "2026-03-27T10:59:09+00:00",
+      "url": "http://arxiv.org/abs/2603.26291v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.26291v1",
+      "categories": [
+        "math.OC",
+        "q-fin.CP"
+      ],
+      "primary_category": "math.OC",
+      "core_idea": "We present a strictly monotone, provably convergent two-dimensional (2D) integration method for multi-period mean-conditional value-at-risk (mean-CVaR) reward-risk stochastic control in models whose one-step increment law is specified via a closed-form characteristic function (CF)",
+      "methodology": "When the transition density is unavailable in closed form, we learn a nonnegative, normalized 2D transition kernel in Fourier space using a simplex-constrained Gaussian-mixture parameterization, and discretize the resulting convolution integrals with composite quadrature rules with nonnegative weights to guarantee monotonicity",
+      "quant_impact": "The scheme is implemented efficiently using 2D fast Fourier transforms",
+      "relevance_score": 5,
+      "ranking_score": 27.935714285714283
     }
   ]
 }
