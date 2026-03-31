@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T23:21:16.933453",
+  "last_updated": "2026-03-31T23:57:34.988060",
   "items": [
     {
       "id": "2603.28707v1",
@@ -312,6 +312,30 @@
       "ranking_score": 28.79285714285714
     },
     {
+      "id": "2603.27501v1",
+      "source": "arxiv",
+      "title": "From Volatility to Variance: A Skew-Enhanced SABR Model and Its Empirical Study in the Chinese Financial Options Market",
+      "authors": [
+        "Wenxuan Zhang",
+        "Zhouchi Lin",
+        "Benzhuo Lu"
+      ],
+      "abstract": "Accurately characterizing the implied volatility curves is a central challenge in option pricing and risk management. The classical SABR model by Hagan et al. has been widely adopted in practice due to its well-defined stochastic volatility structure and its tractable closed-form approximation for Black implied volatility. However, under complex market conditions, its fitting accuracy for implied volatility curves remains limited. To address this issue, this paper proposes an extended model within the SABR framework, referred to as skew-SABR. Specifically, the proposed approach introduces an extension to the stochastic dynamics of the underlying asset price and its variance process, under which a corresponding Black implied volatility expression is derived. By further simplifying and reorganizing the resulting formula, the implied volatility can be expressed in a form that explicitly incorporates a skew parameter, thereby enabling a direct characterization of the asymmetry in the implied volatility curve. The resulting expression preserves the structural simplicity of the Hagan-SABR formula, while significantly enhancing the model's flexibility in capturing complex volatility smile patterns. From a theoretical perspective, the paper provides a systematic analysis of the model specification and the financial interpretation of its parameters. From an empirical perspective, a comprehensive comparison is conducted using data from the Chinese options market over the period 2018--2025. The skew-SABR model is evaluated against the classical Hagan-SABR model, the SVI parameterization, polynomial fitting, and spline-based methods. Numerical results show that, across different market regimes and a wide range of implied volatility curve shapes, the skew-SABR model consistently achieves high and stable fitting accuracy.",
+      "published": "2026-03-29T03:41:13+00:00",
+      "url": "http://arxiv.org/abs/2603.27501v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27501v1",
+      "categories": [
+        "q-fin.MF",
+        "q-fin.CP"
+      ],
+      "primary_category": "q-fin.MF",
+      "core_idea": "Accurately characterizing the implied volatility curves is a central challenge in option pricing and risk management",
+      "methodology": "The classical SABR model by Hagan et al",
+      "quant_impact": "has been widely adopted in practice due to its well-defined stochastic volatility structure and its tractable closed-form approximation for Black implied volatility",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
+    },
+    {
       "id": "2603.27448v1",
       "source": "arxiv",
       "title": "GIFT: Bootstrapping Image-to-CAD Program Synthesis via Geometric Feedback",
@@ -337,31 +361,7 @@
       "methodology": "Existing fine-tuning approaches rely on either limited supervised datasets or expensive post-training pipelines, resulting in brittle systems that restrict progress in generative CAD design",
       "quant_impact": "We argue that the primary bottleneck lies not in model or algorithmic capacity, but in the scarcity of diverse training examples that align visual geometry with program syntax",
       "relevance_score": 5,
-      "ranking_score": 28.79285714285714
-    },
-    {
-      "id": "2603.27501v1",
-      "source": "arxiv",
-      "title": "From Volatility to Variance: A Skew-Enhanced SABR Model and Its Empirical Study in the Chinese Financial Options Market",
-      "authors": [
-        "Wenxuan Zhang",
-        "Zhouchi Lin",
-        "Benzhuo Lu"
-      ],
-      "abstract": "Accurately characterizing the implied volatility curves is a central challenge in option pricing and risk management. The classical SABR model by Hagan et al. has been widely adopted in practice due to its well-defined stochastic volatility structure and its tractable closed-form approximation for Black implied volatility. However, under complex market conditions, its fitting accuracy for implied volatility curves remains limited. To address this issue, this paper proposes an extended model within the SABR framework, referred to as skew-SABR. Specifically, the proposed approach introduces an extension to the stochastic dynamics of the underlying asset price and its variance process, under which a corresponding Black implied volatility expression is derived. By further simplifying and reorganizing the resulting formula, the implied volatility can be expressed in a form that explicitly incorporates a skew parameter, thereby enabling a direct characterization of the asymmetry in the implied volatility curve. The resulting expression preserves the structural simplicity of the Hagan-SABR formula, while significantly enhancing the model's flexibility in capturing complex volatility smile patterns. From a theoretical perspective, the paper provides a systematic analysis of the model specification and the financial interpretation of its parameters. From an empirical perspective, a comprehensive comparison is conducted using data from the Chinese options market over the period 2018--2025. The skew-SABR model is evaluated against the classical Hagan-SABR model, the SVI parameterization, polynomial fitting, and spline-based methods. Numerical results show that, across different market regimes and a wide range of implied volatility curve shapes, the skew-SABR model consistently achieves high and stable fitting accuracy.",
-      "published": "2026-03-29T03:41:13+00:00",
-      "url": "http://arxiv.org/abs/2603.27501v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.27501v1",
-      "categories": [
-        "q-fin.MF",
-        "q-fin.CP"
-      ],
-      "primary_category": "q-fin.MF",
-      "core_idea": "Accurately characterizing the implied volatility curves is a central challenge in option pricing and risk management",
-      "methodology": "The classical SABR model by Hagan et al",
-      "quant_impact": "has been widely adopted in practice due to its well-defined stochastic volatility structure and its tractable closed-form approximation for Black implied volatility",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
+      "ranking_score": 28.364285714285714
     },
     {
       "id": "2603.27354v1",
@@ -442,9 +442,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64817,
-      "forks": 6368,
-      "updated": "2026-03-31T22:47:46+00:00",
+      "stars": 64818,
+      "forks": 6367,
+      "updated": "2026-03-31T23:29:06+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -473,9 +473,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39609,
-      "forks": 6190,
-      "updated": "2026-03-31T22:52:18+00:00",
+      "stars": 39612,
+      "forks": 6191,
+      "updated": "2026-03-31T23:54:15+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -509,9 +509,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25250,
-      "forks": 3346,
-      "updated": "2026-03-31T21:25:17+00:00",
+      "stars": 25252,
+      "forks": 3347,
+      "updated": "2026-03-31T23:46:32+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -612,9 +612,9 @@
       "title": "ta-lib-python",
       "description": "Python wrapper for TA-Lib (http://ta-lib.org/).",
       "url": "https://github.com/TA-Lib/ta-lib-python",
-      "stars": 11819,
+      "stars": 11820,
       "forks": 1967,
-      "updated": "2026-03-31T20:40:21+00:00",
+      "updated": "2026-03-31T23:24:08+00:00",
       "language": "Cython",
       "topics": [
         "finance",
@@ -713,7 +713,7 @@
       "description": "A curated list of practical financial machine learning tools and applications.",
       "url": "https://github.com/firmai/financial-machine-learning",
       "stars": 8466,
-      "forks": 1395,
+      "forks": 1394,
       "updated": "2026-03-30T02:38:02+00:00",
       "language": "Python",
       "topics": [
@@ -843,9 +843,9 @@
       "title": "QuantLib",
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
-      "stars": 6930,
+      "stars": 6932,
       "forks": 2156,
-      "updated": "2026-03-31T21:28:33+00:00",
+      "updated": "2026-03-31T23:50:09+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -929,9 +929,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48212,
+      "stars": 48213,
       "forks": 10047,
-      "updated": "2026-03-31T22:45:13+00:00",
+      "updated": "2026-03-31T23:38:47+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -956,9 +956,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19568,
+      "stars": 19570,
       "forks": 4958,
-      "updated": "2026-03-31T16:24:29+00:00",
+      "updated": "2026-03-31T23:51:45+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1039,9 +1039,9 @@
       "title": "backtesting.py",
       "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
       "url": "https://github.com/kernc/backtesting.py",
-      "stars": 8134,
+      "stars": 8135,
       "forks": 1424,
-      "updated": "2026-03-31T16:26:23+00:00",
+      "updated": "2026-03-31T23:38:34+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
