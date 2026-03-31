@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T18:41:31.337611",
+  "last_updated": "2026-03-31T19:43:48.083499",
   "items": [
     {
       "id": "2603.28707v1",
@@ -442,9 +442,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64806,
+      "stars": 64808,
       "forks": 6366,
-      "updated": "2026-03-31T18:39:24+00:00",
+      "updated": "2026-03-31T19:34:43+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -473,9 +473,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39603,
-      "forks": 6189,
-      "updated": "2026-03-31T18:36:23+00:00",
+      "stars": 39604,
+      "forks": 6190,
+      "updated": "2026-03-31T18:52:49+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -509,9 +509,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25246,
+      "stars": 25247,
       "forks": 3346,
-      "updated": "2026-03-31T17:05:51+00:00",
+      "updated": "2026-03-31T18:51:51+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -739,7 +739,7 @@
       "description": "An advanced crypto trading bot written in Python",
       "url": "https://github.com/jesse-ai/jesse",
       "stars": 7611,
-      "forks": 1077,
+      "forks": 1078,
       "updated": "2026-03-31T15:03:43+00:00",
       "language": "JavaScript",
       "topics": [
