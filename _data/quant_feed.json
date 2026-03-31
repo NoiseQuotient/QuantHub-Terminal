@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T11:37:45.997024",
+  "last_updated": "2026-03-31T12:41:27.421324",
   "items": [
     {
       "id": "2603.28707v1",
@@ -115,7 +115,7 @@
       "methodology": "Can discrete quantum exhaustive search merged with other methods help reduce the carbon footprint? We suggest merging quantum, quantum inspired, and classical tools for a better simulation of various relevant processes",
       "quant_impact": "Quantum tools are often used for analyzing the electronic structure of molecules, sometimes because this problem is not scalable (in the number of orbitals) on classical computers while it is potentially approximately scalable on (future) quantum computers",
       "relevance_score": 5,
-      "ranking_score": 29.65
+      "ranking_score": 29.22142857142857
     },
     {
       "id": "2603.28325v1",
@@ -142,7 +142,7 @@
       "methodology": "Here we present EvidenceNet, a framework and dataset for building disease-specific knowledge graphs from full-text biomedical literature",
       "quant_impact": "EvidenceNet uses a large language model (LLM)-assisted pipeline to extract experimentally grounded findings as structured evidence nodes, normalize biomedical entities, score evidence quality, and connect evidence records through typed semantic relations",
       "relevance_score": 5,
-      "ranking_score": 29.65
+      "ranking_score": 29.22142857142857
     },
     {
       "id": "2603.28160v1",
@@ -467,9 +467,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64781,
+      "stars": 64785,
       "forks": 6364,
-      "updated": "2026-03-31T11:37:02+00:00",
+      "updated": "2026-03-31T12:34:43+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -498,9 +498,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39577,
-      "forks": 6185,
-      "updated": "2026-03-31T11:10:09+00:00",
+      "stars": 39579,
+      "forks": 6188,
+      "updated": "2026-03-31T12:40:09+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -534,9 +534,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25239,
+      "stars": 25240,
       "forks": 3343,
-      "updated": "2026-03-31T08:48:12+00:00",
+      "updated": "2026-03-31T11:57:14+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -608,7 +608,7 @@
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
       "stars": 12108,
-      "forks": 2511,
+      "forks": 2512,
       "updated": "2026-03-31T09:00:34+00:00",
       "language": "Python",
       "topics": [
@@ -836,9 +836,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 7029,
+      "stars": 7030,
       "forks": 906,
-      "updated": "2026-03-31T07:53:13+00:00",
+      "updated": "2026-03-31T12:16:52+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -868,9 +868,9 @@
       "title": "QuantLib",
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
-      "stars": 6926,
+      "stars": 6927,
       "forks": 2156,
-      "updated": "2026-03-31T08:18:45+00:00",
+      "updated": "2026-03-31T11:39:16+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -889,7 +889,7 @@
       "url": "https://github.com/ranaroussi/quantstats",
       "stars": 6912,
       "forks": 1143,
-      "updated": "2026-03-31T07:42:58+00:00",
+      "updated": "2026-03-31T12:36:45+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -954,9 +954,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48206,
+      "stars": 48207,
       "forks": 10048,
-      "updated": "2026-03-31T10:40:32+00:00",
+      "updated": "2026-03-31T12:25:12+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -981,9 +981,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19568,
-      "forks": 4957,
-      "updated": "2026-03-31T09:59:50+00:00",
+      "stars": 19569,
+      "forks": 4958,
+      "updated": "2026-03-31T12:39:55+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1003,9 +1003,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16674,
-      "forks": 4479,
-      "updated": "2026-03-31T09:14:54+00:00",
+      "stars": 16675,
+      "forks": 4481,
+      "updated": "2026-03-31T12:39:31+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1032,9 +1032,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14627,
+      "stars": 14626,
       "forks": 3250,
-      "updated": "2026-03-31T09:12:39+00:00",
+      "updated": "2026-03-31T12:35:11+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1065,7 +1065,7 @@
       "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
       "url": "https://github.com/kernc/backtesting.py",
       "stars": 8133,
-      "forks": 1424,
+      "forks": 1425,
       "updated": "2026-03-31T02:54:06+00:00",
       "language": "Python",
       "topics": [
