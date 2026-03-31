@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T21:10:50.741317",
+  "last_updated": "2026-03-31T21:57:02.360120",
   "items": [
     {
       "id": "2603.28707v1",
@@ -442,9 +442,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64813,
+      "stars": 64815,
       "forks": 6368,
-      "updated": "2026-03-31T20:52:16+00:00",
+      "updated": "2026-03-31T21:56:03+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -473,9 +473,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39605,
+      "stars": 39606,
       "forks": 6190,
-      "updated": "2026-03-31T20:01:24+00:00",
+      "updated": "2026-03-31T21:18:07+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -509,9 +509,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25248,
+      "stars": 25250,
       "forks": 3346,
-      "updated": "2026-03-31T20:03:08+00:00",
+      "updated": "2026-03-31T21:25:17+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -738,9 +738,9 @@
       "title": "jesse",
       "description": "An advanced crypto trading bot written in Python",
       "url": "https://github.com/jesse-ai/jesse",
-      "stars": 7611,
+      "stars": 7612,
       "forks": 1078,
-      "updated": "2026-03-31T15:03:43+00:00",
+      "updated": "2026-03-31T21:24:20+00:00",
       "language": "JavaScript",
       "topics": [
         "algo-trading",
@@ -775,7 +775,7 @@
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
       "stars": 7569,
-      "forks": 1073,
+      "forks": 1074,
       "updated": "2026-03-31T19:46:37+00:00",
       "language": "Python",
       "topics": [
@@ -843,9 +843,9 @@
       "title": "QuantLib",
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
-      "stars": 6929,
+      "stars": 6930,
       "forks": 2156,
-      "updated": "2026-03-31T19:50:54+00:00",
+      "updated": "2026-03-31T21:28:33+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -1107,9 +1107,9 @@
       "title": "Crypto-Signal",
       "description": "Github.com/CryptoSignal - Trading & Technical Analysis Bot - 4,100+ stars, 1,100+ forks",
       "url": "https://github.com/CryptoSignal/Crypto-Signal",
-      "stars": 5513,
+      "stars": 5514,
       "forks": 1344,
-      "updated": "2026-03-31T20:03:31+00:00",
+      "updated": "2026-03-31T21:26:03+00:00",
       "language": "Python",
       "topics": [
         "abenezer-mamo",
