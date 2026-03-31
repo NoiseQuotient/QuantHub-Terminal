@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T22:46:04.050486",
+  "last_updated": "2026-03-31T23:21:16.933453",
   "items": [
     {
       "id": "2603.28707v1",
@@ -442,9 +442,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64816,
+      "stars": 64817,
       "forks": 6368,
-      "updated": "2026-03-31T22:45:23+00:00",
+      "updated": "2026-03-31T22:47:46+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -473,9 +473,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39608,
+      "stars": 39609,
       "forks": 6190,
-      "updated": "2026-03-31T22:19:04+00:00",
+      "updated": "2026-03-31T22:52:18+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
