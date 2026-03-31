@@ -1,29 +1,392 @@
 {
-  "last_updated": "2026-03-31T01:04:52.298626",
+  "last_updated": "2026-03-31T04:07:34.606456",
   "items": [
     {
-      "id": "2603.27501v1",
+      "id": "2603.28707v1",
       "source": "arxiv",
-      "title": "From Volatility to Variance: A Skew-Enhanced SABR Model and Its Empirical Study in the Chinese Financial Options Market",
+      "title": "A Convex Route to Thermomechanics: Learning Internal Energy and Dissipation",
       "authors": [
-        "Wenxuan Zhang",
-        "Zhouchi Lin",
-        "Benzhuo Lu"
+        "Hagen Holthusen",
+        "Paul Steinmann",
+        "Ellen Kuhl"
       ],
-      "abstract": "Accurately characterizing the implied volatility curves is a central challenge in option pricing and risk management. The classical SABR model by Hagan et al. has been widely adopted in practice due to its well-defined stochastic volatility structure and its tractable closed-form approximation for Black implied volatility. However, under complex market conditions, its fitting accuracy for implied volatility curves remains limited. To address this issue, this paper proposes an extended model within the SABR framework, referred to as skew-SABR. Specifically, the proposed approach introduces an extension to the stochastic dynamics of the underlying asset price and its variance process, under which a corresponding Black implied volatility expression is derived. By further simplifying and reorganizing the resulting formula, the implied volatility can be expressed in a form that explicitly incorporates a skew parameter, thereby enabling a direct characterization of the asymmetry in the implied volatility curve. The resulting expression preserves the structural simplicity of the Hagan-SABR formula, while significantly enhancing the model's flexibility in capturing complex volatility smile patterns. From a theoretical perspective, the paper provides a systematic analysis of the model specification and the financial interpretation of its parameters. From an empirical perspective, a comprehensive comparison is conducted using data from the Chinese options market over the period 2018--2025. The skew-SABR model is evaluated against the classical Hagan-SABR model, the SVI parameterization, polynomial fitting, and spline-based methods. Numerical results show that, across different market regimes and a wide range of implied volatility curve shapes, the skew-SABR model consistently achieves high and stable fitting accuracy.",
-      "published": "2026-03-29T03:41:13+00:00",
-      "url": "http://arxiv.org/abs/2603.27501v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.27501v1",
+      "abstract": "We present a physics-based neural network framework for the discovery of constitutive models in fully coupled thermomechanics. In contrast to classical formulations based on the Helmholtz energy, we adopt the internal energy and a dissipation potential as primary constitutive functions, expressed in terms of deformation and entropy. This choice avoids the need to enforce mixed convexity--concavity conditions and facilitates a consistent incorporation of thermodynamic principles. In this contribution, we focus on materials without preferred directions or internal variables.\n  While the formulation is posed in terms of entropy, the temperature is treated as the independent observable, and the entropy is inferred internally through the constitutive relation, enabling thermodynamically consistent modeling without requiring entropy data.\n  Thermodynamic admissibility of the networks is guaranteed by construction. The internal energy and dissipation potential are represented by input convex neural networks, ensuring convexity and compliance with the second law. Objectivity, material symmetry, and normalization are embedded directly into the architecture through invariant-based representations and zero-anchored formulations.\n  We demonstrate the performance of the proposed framework on synthetic and experimental datasets, including purely thermal problems and fully coupled thermomechanical responses of soft tissues and filled rubbers. The results show that the learned models accurately capture the underlying constitutive behavior. All code, data, and trained models are made publicly available via https://doi.org/10.5281/zenodo.19248596.",
+      "published": "2026-03-30T17:26:13+00:00",
+      "url": "http://arxiv.org/abs/2603.28707v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28707v1",
       "categories": [
-        "q-fin.MF",
-        "q-fin.CP"
+        "cs.CE",
+        "cs.AI"
       ],
-      "primary_category": "q-fin.MF",
-      "core_idea": "Accurately characterizing the implied volatility curves is a central challenge in option pricing and risk management",
-      "methodology": "The classical SABR model by Hagan et al",
-      "quant_impact": "has been widely adopted in practice due to its well-defined stochastic volatility structure and its tractable closed-form approximation for Black implied volatility",
+      "primary_category": "cs.CE",
+      "core_idea": "We present a physics-based neural network framework for the discovery of constitutive models in fully coupled thermomechanics",
+      "methodology": "In contrast to classical formulations based on the Helmholtz energy, we adopt the internal energy and a dissipation potential as primary constitutive functions, expressed in terms of deformation and entropy",
+      "quant_impact": "This choice avoids the need to enforce mixed convexity--concavity conditions and facilitates a consistent incorporation of thermodynamic principles",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.28690v1",
+      "source": "arxiv",
+      "title": "Vision-Based Robotic Disassembly Combined with Real-Time MFA Data Acquisition",
+      "authors": [
+        "Federico Zocco",
+        "Maria Pozzi",
+        "Monica Malvezzi"
+      ],
+      "abstract": "Stable and reliable supplies of rare-Earth minerals and critical raw materials (CRMs) are essential for the development of the European Union. Since a large share of these materials enters the Union from outside, a valid option for CRMs supply resilience and security is to recover them from end-of-use products. Hence, in this paper we present the preliminary phases of the development of real-time visual detection of PC desktop components running on edge devices to simultaneously achieve two goals. The first goal is to perform robotic disassembly of PC desktops, where the adaptivity of learning-based vision can enable the processing of items with unpredictable geometry caused by accidental damages. We also discuss the robot end-effectors for different PC components with the object contact points derivable from neural detector bounding boxes. The second goal is to provide in an autonomous, highly-granular, and timely fashion, the data needed to perform material flow analysis (MFA) since, to date, MFA often lacks of the data needed to accurately study material stocks and flows. The second goal is achievable thanks to the recently-proposed synchromaterials, which can generate both local and wide-area (e.g., national) material mass information in a real-time and synchronized fashion.",
+      "published": "2026-03-30T17:10:19+00:00",
+      "url": "http://arxiv.org/abs/2603.28690v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28690v1",
+      "categories": [
+        "cs.RO",
+        "cs.CE"
+      ],
+      "primary_category": "cs.RO",
+      "core_idea": "Stable and reliable supplies of rare-Earth minerals and critical raw materials (CRMs) are essential for the development of the European Union",
+      "methodology": "Since a large share of these materials enters the Union from outside, a valid option for CRMs supply resilience and security is to recover them from end-of-use products",
+      "quant_impact": "Hence, in this paper we present the preliminary phases of the development of real-time visual detection of PC desktop components running on edge devices to simultaneously achieve two goals",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.28576v1",
+      "source": "arxiv",
+      "title": "Tiered Super-Moore's Law: Price Evolution, Production Frontiers, and Market Competition in Large Language Model Inference Services",
+      "authors": [
+        "Mingdeng Du"
+      ],
+      "abstract": "This paper provides the first systematic economic analysis of token pricing in the large language model (LLM) inference market. Assembling a novel dataset integrating OpenRouter API data (318 models), Epoch AI records (3,237 models), and 62 cross-validated milestone observations spanning 2020-2026, we document an approximately 600-fold decline in token prices and propose the \"Tiered Super-Moore\" hypothesis. Economy-tier models exhibit a price half-life of 1.10 years and mid-tier models 1.55 years -- both significantly faster than Moore's Law's two-year benchmark -- while flagship models display near-zero exponential fit (R^2 = 0.031) due to a reasoning premium averaging 31.5 times non-reasoning prices. A Chow structural break test identifies May 2024 as the critical market inflection point (F = 5.74, p = 0.005), marking a transition from technology-driven to competition-driven price acceleration. Cost decomposition reveals that total factor productivity residuals account for approximately 103.7% of cost reduction, with GPU hardware contributing only -0.9%, confirming that software and architectural innovation -- not hardware advances -- drive the decline. Data Envelopment Analysis shows a Malmquist Productivity Index peaking at 4.11 during 2024Q1-Q4, with technological frontier shift (TC = 4.13) as the dominant driver. Training cost-inference pricing elasticity is 0.432, and the 63-fold training cost gap between U.S. and Chinese firms is statistically attributable to architectural innovation ($/FLOP difference insignificant, p = 0.228) rather than factor price differentials. Market concentration declined sharply, with HHI falling from 4,558 to 2,086 over three years. These findings establish token economics as a distinct subfield of digital goods pricing and carry implications for competition policy, AI accessibility, and international technology governance.",
+      "published": "2026-03-30T15:28:50+00:00",
+      "url": "http://arxiv.org/abs/2603.28576v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28576v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "This paper provides the first systematic economic analysis of token pricing in the large language model (LLM) inference market",
+      "methodology": "Assembling a novel dataset integrating OpenRouter API data (318 models), Epoch AI records (3,237 models), and 62 cross-validated milestone observations spanning 2020-2026, we document an approximately 600-fold decline in token prices and propose the \"Tiered Super-Moore\" hypothesis",
+      "quant_impact": "Economy-tier models exhibit a price half-life of 1.10 years and mid-tier models 1.55 years -- both significantly faster than Moore's Law's two-year benchmark -- while flagship models display near-zero exponential fit (R^2 = 0.031) due to a reasoning premium averaging 31.5 times non-reasoning prices",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.28478v1",
+      "source": "arxiv",
+      "title": "Physics-Enforced Neural Ordinary Differential Equation for Chemical Kinetics Optimization in Reaction-Diffusion Systems",
+      "authors": [
+        "Feixue Cai",
+        "Hua Zhou",
+        "Zhuyin Ren"
+      ],
+      "abstract": "Calibrating chemical kinetics in a reaction-diffusion system is challenging because of complex dynamics governed by tightly coupled chemistry and transport, while experimental observations are often sparse and noisy. We propose a physics consistent diffusion-chemistry coupled neural ordinary differential equation (Diff-Chem Neural ODE) that embeds Arrhenius-structured reaction neurons into a fully differentiable streamline formulation and explicitly accounts for diffusion coupling. This design enables direct gradient-based analysis of kinetic parameters without sampling-based pretraining. We validate this method on burner-stabilized flat and stagnation reacting flows using mechanisms spanning different stiffness ranges. The proposed method reproduces species profiles with near-reference accuracy, whereas a pure chemistry Neural ODE that neglects diffusion coupling may misplace ignition and generate an incorrect thin reaction zone. Diff-Chem Neural ODE is more robust than pure chemistry Neural ODE and provides substantial speedups for gradient evaluation compared with fully discretized computations. In kinetics refinement, optimizing only a limited set of \"primal\" species reduces the loss by over 98% and simultaneously recovers unobserved variables, demonstrating physically consistent global control. Finally, tests with 1-20% noise in the objective show stable convergence without local overfitting, supporting its applicability under noisy measurements.",
+      "published": "2026-03-30T14:15:52+00:00",
+      "url": "http://arxiv.org/abs/2603.28478v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28478v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Calibrating chemical kinetics in a reaction-diffusion system is challenging because of complex dynamics governed by tightly coupled chemistry and transport, while experimental observations are often sparse and noisy",
+      "methodology": "We propose a physics consistent diffusion-chemistry coupled neural ordinary differential equation (Diff-Chem Neural ODE) that embeds Arrhenius-structured reaction neurons into a fully differentiable streamline formulation and explicitly accounts for diffusion coupling",
+      "quant_impact": "This design enables direct gradient-based analysis of kinetic parameters without sampling-based pretraining",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.28343v1",
+      "source": "arxiv",
+      "title": "Towards Analyzing Formic Acid Using Classical and Quantum Methods",
+      "authors": [
+        "Omer Gurevich",
+        "Tal Mor",
+        "Ido Ram"
+      ],
+      "abstract": "Catalytic carbon fixation to formic acid is important for studying the reduction of carbon footprint and the emergence of life. Can discrete quantum exhaustive search merged with other methods help reduce the carbon footprint? We suggest merging quantum, quantum inspired, and classical tools for a better simulation of various relevant processes. Quantum tools are often used for analyzing the electronic structure of molecules, sometimes because this problem is not scalable (in the number of orbitals) on classical computers while it is potentially approximately scalable on (future) quantum computers. It is potentially even solvable in the near future using variational quantum eigensolvers (VQE) yet a major obstacle to such analysis is the appearance of barren plateaus in the Hilbert space describing the problem.\n  Here we make use of the basic (standard) tools while also including a novel one -- the discrete quantum exhaustive search, which relies on mutually unbiased bases, for analyzing the simplest non-catalytic process involving carbon dioxide, hydrogen and formic acid.",
+      "published": "2026-03-30T12:13:12+00:00",
+      "url": "http://arxiv.org/abs/2603.28343v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28343v1",
+      "categories": [
+        "quant-ph",
+        "cs.CE"
+      ],
+      "primary_category": "quant-ph",
+      "core_idea": "Catalytic carbon fixation to formic acid is important for studying the reduction of carbon footprint and the emergence of life",
+      "methodology": "Can discrete quantum exhaustive search merged with other methods help reduce the carbon footprint? We suggest merging quantum, quantum inspired, and classical tools for a better simulation of various relevant processes",
+      "quant_impact": "Quantum tools are often used for analyzing the electronic structure of molecules, sometimes because this problem is not scalable (in the number of orbitals) on classical computers while it is potentially approximately scalable on (future) quantum computers",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.28325v1",
+      "source": "arxiv",
+      "title": "Building evidence-based knowledge graphs from full-text literature for disease-specific biomedical reasoning",
+      "authors": [
+        "Chang Zong",
+        "Sicheng Lv",
+        "Si-tu Xue",
+        "Huilin Zheng",
+        "Jian Wan",
+        "Lei Zhang"
+      ],
+      "abstract": "Biomedical knowledge resources often either preserve evidence as unstructured text or compress it into flat triples that omit study design, provenance, and quantitative support. Here we present EvidenceNet, a framework and dataset for building disease-specific knowledge graphs from full-text biomedical literature. EvidenceNet uses a large language model (LLM)-assisted pipeline to extract experimentally grounded findings as structured evidence nodes, normalize biomedical entities, score evidence quality, and connect evidence records through typed semantic relations. We release two resources: EvidenceNet-HCC with 7,872 evidence records, 10,328 graph nodes, and 49,756 edges, and EvidenceNet-CRC with 6,622 records, 8,795 nodes, and 39,361 edges. Technical validation shows high component fidelity, including 98.3% field-level extraction accuracy, 100.0% high-confidence entity-link accuracy, 87.5% fusion integrity, and 90.0% semantic relation-type accuracy. In downstream evaluation, EvidenceNet improves internal and external retrieval-augmented question answering and retains structural signal for future link prediction and target prioritization. These results establish EvidenceNet as a disease-specific resource for evidence-aware biomedical reasoning and hypothesis generation.",
+      "published": "2026-03-30T11:53:45+00:00",
+      "url": "http://arxiv.org/abs/2603.28325v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28325v1",
+      "categories": [
+        "cs.CE",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Biomedical knowledge resources often either preserve evidence as unstructured text or compress it into flat triples that omit study design, provenance, and quantitative support",
+      "methodology": "Here we present EvidenceNet, a framework and dataset for building disease-specific knowledge graphs from full-text biomedical literature",
+      "quant_impact": "EvidenceNet uses a large language model (LLM)-assisted pipeline to extract experimentally grounded findings as structured evidence nodes, normalize biomedical entities, score evidence quality, and connect evidence records through typed semantic relations",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.28160v1",
+      "source": "arxiv",
+      "title": "An efficient open-source framework for high-fidelity 3D surface topography and roughness prediction in milling",
+      "authors": [
+        "Hadi Bakhshan",
+        "Sima Farshbaf",
+        "Adri\u00e1n Travieso-Disotuar",
+        "Luciano Mija\u00edl Villarreal",
+        "Fernando Rastellini Canela",
+        "Josep Maria Carbonell"
+      ],
+      "abstract": "With the emergence of data-driven approaches in science, there is growing interest in their application to manufacturing, particularly in surface precision engineering. However, generating large datasets required for model training is often impractical experimentally due to high costs and the time-intensive nature of measurements. High-fidelity synthetic datasets offer a viable alternative if they can be generated both efficiently and accurately. To address this challenge, this paper presents an efficient framework for generating accurate 3D surface topographies and roughness indicators in milling operations using numerical methods. First, a conventional topography prediction model is developed based on the forward solution method (FSM). Building on this, an optimized computational algorithm is proposed to establish an efficient FSM with significantly improved performance. The model is validated against two independent sets of experimental results, assessing both prediction accuracy and computational efficiency. The results demonstrate acceptable prediction errors and an average computational speedup of 42.2x. The proposed open-source model provides a generalizable framework for large-scale analysis, enabling the generation of extensive datasets for data-driven surrogate modeling.",
+      "published": "2026-03-30T08:26:08+00:00",
+      "url": "http://arxiv.org/abs/2603.28160v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28160v1",
+      "categories": [
+        "cs.CE",
+        "cond-mat.mtrl-sci"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "With the emergence of data-driven approaches in science, there is growing interest in their application to manufacturing, particularly in surface precision engineering",
+      "methodology": "However, generating large datasets required for model training is often impractical experimentally due to high costs and the time-intensive nature of measurements",
+      "quant_impact": "High-fidelity synthetic datasets offer a viable alternative if they can be generated both efficiently and accurately",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.28048v1",
+      "source": "arxiv",
+      "title": "Self-Organizing Score-based Data Assimilation",
+      "authors": [
+        "Yuma Yamaoka",
+        "Seiichi Uchida",
+        "Shoji Toyota"
+      ],
+      "abstract": "A state-space model is a statistical framework for inferring latent states from observed time-series data. However, inference with nonlinear and high-dimensional state-space models remains challenging. To this end, an approach based on diffusion models-a powerful class of deep generative models-has been developed, known as Score-based Data Assimilation (SDA). However, SDA cannot be directly applied when the latent-state transition depends on unknown parameters that must be inferred jointly with the latent states. To overcome this limitation, we propose a framework that enables SDA to handle latent states with unknown parameters. A key feature of the proposed method is the incorporation of the self-organization technique, which has been used in classical state-space modeling for the joint estimation of latent states and parameters. By integrating this classical technique into modern SDA, our method enables joint inference of latent states and unknown parameters while maintaining the high training efficiency of SDA. The effectiveness of the proposed approach is validated through numerical experiments on dynamical systems arising in neuroscience and atmospheric science. In addition, its scalability is demonstrated using a high-dimensional Kolmogorov flow, with the data dimension on the order of several hundred thousand.",
+      "published": "2026-03-30T05:24:24+00:00",
+      "url": "http://arxiv.org/abs/2603.28048v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28048v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "A state-space model is a statistical framework for inferring latent states from observed time-series data",
+      "methodology": "However, inference with nonlinear and high-dimensional state-space models remains challenging",
+      "quant_impact": "To this end, an approach based on diffusion models-a powerful class of deep generative models-has been developed, known as Score-based Data Assimilation (SDA)",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.28257v1",
+      "source": "arxiv",
+      "title": "Nonlinear Factor Decomposition via Kolmogorov-Arnold Networks: A Spectral Approach to Asset Return Analysis",
+      "authors": [
+        "David Breazu"
+      ],
+      "abstract": "KAN-PCA is an autoencoder that uses a KAN as encoder and a linear map as decoder. It generalizes classical PCA by replacing linear projections with learned B-spline functions on each edge. The motivation is to capture more variance than classical PCA, which becomes inefficient during market crises when the linear assumption breaks down and correlations between assets change dramatically.\n  We prove that if the spline activations are forced to be linear, KAN-PCA yields exactly the same results as classical PCA, establishing PCA as a special case. Experiments on 20 S&P 500 stocks (2015-2024) show that KAN-PCA achieves a reconstruction R^2 of 66.57%, compared to 62.99% for classical PCA with the same 3 factors, while matching PCA out-of-sample after correcting for data leakage in the training procedure.",
+      "published": "2026-03-30T10:33:59+00:00",
+      "url": "http://arxiv.org/abs/2603.28257v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28257v1",
+      "categories": [
+        "q-fin.ST",
+        "cs.LG"
+      ],
+      "primary_category": "q-fin.ST",
+      "core_idea": "KAN-PCA is an autoencoder that uses a KAN as encoder and a linear map as decoder",
+      "methodology": "It generalizes classical PCA by replacing linear projections with learned B-spline functions on each edge",
+      "quant_impact": "The motivation is to capture more variance than classical PCA, which becomes inefficient during market crises when the linear assumption breaks down and correlations between assets change dramatically.\n  We prove that if the spline activations are forced to be linear, KAN-PCA yields exactly the same results as classical PCA, establishing PCA as a special case",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.28198v1",
+      "source": "arxiv",
+      "title": "Policy-Controlled Generalized Share: A General Framework with a Transformer Instantiation for Strictly Online Switching-Oracle Tracking",
+      "authors": [
+        "Hongkai Hu"
+      ],
+      "abstract": "Static regret to a single expert is often the wrong target for strictly online prediction under non-stationarity, where the best expert may switch repeatedly over time. We study Policy-Controlled Generalized Share (PCGS), a general strictly online framework in which the generalized-share recursion is fixed while the post-loss update controls are allowed to vary adaptively. Its principal instantiation in this paper is PCGS-TF, which uses a causal Transformer as an update controller: after round t finishes and the loss vector is observed, the Transformer outputs the controls that map w_t to w_{t+1} without altering the already committed decision w_t. Under admissible post-loss update controls, we obtain a pathwise weighted regret guarantee for general time-varying learning rates, and a standard dynamic-regret guarantee against any expert path with at most S switches under the constant-learning-rate specialization. Empirically, on a controlled synthetic suite with exact dynamic-programming switching-oracle evaluation, PCGS-TF attains the lowest mean dynamic regret in all seven non-stationary families, with its advantage increasing for larger expert pools. On a reproduced household-electricity benchmark, PCGS-TF also achieves the lowest normalized dynamic regret for S = 5, 10, and 20.",
+      "published": "2026-03-30T09:07:10+00:00",
+      "url": "http://arxiv.org/abs/2603.28198v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28198v1",
+      "categories": [
+        "cs.LG",
+        "q-fin.ST"
+      ],
+      "primary_category": "cs.LG",
+      "core_idea": "Static regret to a single expert is often the wrong target for strictly online prediction under non-stationarity, where the best expert may switch repeatedly over time",
+      "methodology": "We study Policy-Controlled Generalized Share (PCGS), a general strictly online framework in which the generalized-share recursion is fixed while the post-loss update controls are allowed to vary adaptively",
+      "quant_impact": "Its principal instantiation in this paper is PCGS-TF, which uses a causal Transformer as an update controller: after round t finishes and the loss vector is observed, the Transformer outputs the controls that map w_t to w_{t+1} without altering the already committed decision w_t",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.27856v1",
+      "source": "arxiv",
+      "title": "Hierarchical Tensor Network Structure Search for High-Dimensional Data",
+      "authors": [
+        "Zheng Guo",
+        "Aditya Deshpande",
+        "Xinyu Wang",
+        "Brian C. Kiedrowski",
+        "Alex A. Gorodetsky"
+      ],
+      "abstract": "Tensor network methods provide a scalable solution to represent high-dimensional data. However, their efficacy is often limited by static, expert-defined structures that fail to adapt to evolving data correlations. We address this limitation by formalizing the tensor network structural rounding problem and introducing the hierarchical structure search algorithm HISS, which automatically identifies near-optimal structures and index reshaping for arbitrary tree networks. To navigate the combinatorial explosion of the structural search space, HISS integrates stochastic sub-network sampling with hierarchical refinement. This approach utilizes entropy-guided index clustering to reduce dimensionality and targeted reshaping to expose latent data correlations. Numerical experiments on analytical functions and real-world physics applications, including thermal radiation transport, neutron diffusion, and computational fluid dynamics, demonstrate that HISS exhibits empirical polynomial scaling with dimensionality relative to the sampling budget, bypassing the scalability barriers in prior work. HISS achieves compression ratios $2.5\\times$ to $100\\times$ higher than standard fixed formats such as Tensor Trains and Hierarchical Tuckers~(peaking at $1000\\times$). Furthermore, HISS discovers structures that generalize effectively: applying a structure optimized for one data instance to a related target data typically maintains compression performance within $10\\%$ of the result obtained by performing structure search on that target data. These results highlight HISS as a robust, automated tool for adaptive data representation and high-dimensional simulation compression with tensor network methods.",
+      "published": "2026-03-29T20:22:01+00:00",
+      "url": "http://arxiv.org/abs/2603.27856v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27856v1",
+      "categories": [
+        "cs.CE",
+        "math.NA"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Tensor network methods provide a scalable solution to represent high-dimensional data",
+      "methodology": "However, their efficacy is often limited by static, expert-defined structures that fail to adapt to evolving data correlations",
+      "quant_impact": "We address this limitation by formalizing the tensor network structural rounding problem and introducing the hierarchical structure search algorithm HISS, which automatically identifies near-optimal structures and index reshaping for arbitrary tree networks",
       "relevance_score": 5,
       "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.27755v1",
+      "source": "arxiv",
+      "title": "Computational Facilitation of Large Scale Microfluidic Fuel Cell Architectures",
+      "authors": [
+        "Michel Takken",
+        "Robert Wille"
+      ],
+      "abstract": "Hydrogen fuel cells are a key technology in the transition toward carbon-neutral energy systems, offering clean power with water as the only byproduct. Microfluidic fuel cells, which operate at the microliter scale, are an emerging variant that offer fine control over fluid and thermal dynamics, along with compact, efficient designs. However, scaling these systems to meet practical power demands remains a major challenge -- particularly due to the limitations of conventional simulation methods like Computational Fluid Dynamics (CFD), which are computationally expensive and scale poorly. In this work, we propose a reduced-order simulation method that models the behavior of individual microfluidic fuel cells and efficiently extends it to large scale stacks. This approach significantly reduces simulation time while maintaining close agreement with detailed CFD results. The method is validated, evaluated for scalability, and discussed in the context of ongoing advancements in microfluidic fuel cell fabrication. The obtained results demonstrate that this abstraction can support the design and development of scalable microfluidic fuel cell systems and, for the first time, the consideration of first macroscale instances of practical value.",
+      "published": "2026-03-29T16:15:26+00:00",
+      "url": "http://arxiv.org/abs/2603.27755v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27755v1",
+      "categories": [
+        "cs.CE",
+        "cs.ET"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Hydrogen fuel cells are a key technology in the transition toward carbon-neutral energy systems, offering clean power with water as the only byproduct",
+      "methodology": "Microfluidic fuel cells, which operate at the microliter scale, are an emerging variant that offer fine control over fluid and thermal dynamics, along with compact, efficient designs",
+      "quant_impact": "However, scaling these systems to meet practical power demands remains a major challenge -- particularly due to the limitations of conventional simulation methods like Computational Fluid Dynamics (CFD), which are computationally expensive and scale poorly",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.27539v1",
+      "source": "arxiv",
+      "title": "Toward Reliable Evaluation of LLM-Based Financial Multi-Agent Systems: Taxonomy, Coordination Primacy, and Cost Awareness",
+      "authors": [
+        "Phat Nguyen",
+        "Thang Pham"
+      ],
+      "abstract": "Multi-agent systems based on large language models (LLMs) for financial trading have grown rapidly since 2023, yet the field lacks a shared framework for understanding what drives performance or for evaluating claims credibly. This survey makes three contributions. First, we introduce a four-dimensional taxonomy, covering architecture pattern, coordination mechanism, memory architecture, and tool integration; applied to 12 multi-agent systems and two single-agent baselines. Second, we formulate the Coordination Primacy Hypothesis (CPH): inter-agent coordination protocol design is a primary driver of trading decision quality, often exerting greater influence than model scaling. CPH is presented as a falsifiable research hypothesis supported by tiered structural evidence rather than as an empirically validated conclusion; its definitive validation requires evaluation infrastructure that does not yet exist in the field. Third, we document five pervasive evaluation failures (look-ahead bias, survivorship bias, backtesting overfitting, transaction cost neglect, and regime-shift blindness) and show that these can reverse the sign of reported returns. Building on the CPH and the evaluation critique, we introduce the Coordination Breakeven Spread (CBS), a metric for determining whether multi-agent coordination adds genuine value net of transaction costs, and propose minimum evaluation standards as prerequisites for validating the CPH.",
+      "published": "2026-03-29T06:35:07+00:00",
+      "url": "http://arxiv.org/abs/2603.27539v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27539v1",
+      "categories": [
+        "cs.MA",
+        "cs.AI",
+        "cs.CE"
+      ],
+      "primary_category": "cs.MA",
+      "core_idea": "Multi-agent systems based on large language models (LLMs) for financial trading have grown rapidly since 2023, yet the field lacks a shared framework for understanding what drives performance or for evaluating claims credibly",
+      "methodology": "This survey makes three contributions",
+      "quant_impact": "First, we introduce a four-dimensional taxonomy, covering architecture pattern, coordination mechanism, memory architecture, and tool integration; applied to 12 multi-agent systems and two single-agent baselines",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.27448v1",
+      "source": "arxiv",
+      "title": "GIFT: Bootstrapping Image-to-CAD Program Synthesis via Geometric Feedback",
+      "authors": [
+        "Giorgio Giannone",
+        "Anna Clare Doris",
+        "Amin Heyrani Nobari",
+        "Kai Xu",
+        "Akash Srivastava",
+        "Faez Ahmed"
+      ],
+      "abstract": "Generating executable CAD programs from images requires alignment between visual geometry and symbolic program representations, a capability that current methods fail to learn reliably as design complexity increases. Existing fine-tuning approaches rely on either limited supervised datasets or expensive post-training pipelines, resulting in brittle systems that restrict progress in generative CAD design. We argue that the primary bottleneck lies not in model or algorithmic capacity, but in the scarcity of diverse training examples that align visual geometry with program syntax. This limitation is especially acute because the collection of diverse and verified engineering datasets is both expensive and difficult to scale, constraining the development of robust generative CAD models. We introduce Geometric Inference Feedback Tuning (GIFT), a data augmentation framework that leverages geometric feedback to turn test-time compute into a bootstrapped set of high-quality training samples. GIFT combines two mechanisms: Soft-Rejection Sampling (GIFT-REJECT), which retains diverse high-fidelity programs beyond exact ground-truth matches, and Failure-Driven Augmentation (GIFT-FAIL), which converts near-miss predictions into synthetic training examples that improve robustness on challenging geometries. By amortizing inference-time search into the model parameters, GIFT captures the benefits of test-time scaling while reducing inference compute by 80%. It improves mean IoU by 12% over a strong supervised baseline and remains competitive with more complex multimodal systems, without requiring additional human annotation or specialized architectures.",
+      "published": "2026-03-28T23:49:20+00:00",
+      "url": "http://arxiv.org/abs/2603.27448v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27448v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CE"
+      ],
+      "primary_category": "cs.LG",
+      "core_idea": "Generating executable CAD programs from images requires alignment between visual geometry and symbolic program representations, a capability that current methods fail to learn reliably as design complexity increases",
+      "methodology": "Existing fine-tuning approaches rely on either limited supervised datasets or expensive post-training pipelines, resulting in brittle systems that restrict progress in generative CAD design",
+      "quant_impact": "We argue that the primary bottleneck lies not in model or algorithmic capacity, but in the scarcity of diverse training examples that align visual geometry with program syntax",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
+    },
+    {
+      "id": "2603.27354v1",
+      "source": "arxiv",
+      "title": "A Shell-to-Shell Cohesive Line Element for Efficient Modeling of Interfacial Cracking in Overmolded Stiffened Panels",
+      "authors": [
+        "S\u00e9rgio G. F. Cordeiro",
+        "Boyang Chen",
+        "Frans P. van der Meer"
+      ],
+      "abstract": "The wide adoption of thermoplastic composites to reduce weight in structural parts requires reliable numerical methods to account for debonding between overmolded parts. Although cohesive elements are effective for debonding, the need for very fine meshes in the cohesive zone limits their practical use. In the present work, a novel structural cohesive element is proposed for the efficient modeling of debonding in thermoplastic composite panels with overmolded stiffeners. Three-node triangular Kirchhoff-Love shell elements are employed for the modelling of thin panels and stiffeners. The proposed cohesive element perpendicularly connects the shell elements representing the rib to those representing the plate. The displacement discontinuity is defined from the evaluation of the shell fields at the elements edges, while allowing for transmission of cohesive forces and cohesive couples. The model is verified for mode I, mode II and mixed-mode benchmark problems. A debonding problem is analyzed with both standard 3D cohesive elements and the proposed element. The results show that the element size in the proposed models can be much larger than that in the standard model, with more than 95% reduction in CPU time, while retaining prediction accuracy. The debonding analysis of a complex stiffened panel is also presented to demonstrate the intended use of the proposed element for simulating debonding in structural components.",
+      "published": "2026-03-28T18:00:45+00:00",
+      "url": "http://arxiv.org/abs/2603.27354v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27354v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "The wide adoption of thermoplastic composites to reduce weight in structural parts requires reliable numerical methods to account for debonding between overmolded parts",
+      "methodology": "Although cohesive elements are effective for debonding, the need for very fine meshes in the cohesive zone limits their practical use",
+      "quant_impact": "In the present work, a novel structural cohesive element is proposed for the efficient modeling of debonding in thermoplastic composite panels with overmolded stiffeners",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
+    },
+    {
+      "id": "2603.27351v1",
+      "source": "arxiv",
+      "title": "Modeling isotropic polyconvex hyperelasticity by neural networks -- sufficient and necessary criteria for compressible and incompressible materials",
+      "authors": [
+        "Gian-Luca Geuken",
+        "Patrick Kurzeja",
+        "David Wiedemann",
+        "Martin Zlati\u0107",
+        "Marko \u010cana\u0111ija",
+        "J\u00f6rn Mosler"
+      ],
+      "abstract": "This work investigates different sufficient and necessary criteria for hyperelastic, isotropic polyconvex material models, focusing on neural network implementations for incompressible materials. Furthermore, the expressiveness, accuracy, simplicity as well as the efficiency of those models is analyzed. This also enables an assessment of the practical applicability of the models. Convex Signed Singular Value Neural Networks (CSSV-NNs) are applied to compressible materials and tailored to incompressibility (inc-CSSV-NNs), resulting in a universal approximation for frame-indifferent, isotropic polyconvex energies for the compressible as well as incompressible case. While other existing approaches also guarantee frame-indifference, isotropy and polyconvexity, they impose too restrictive constraints and thus limit the expressiveness of the model since they are only based on sufficient but not necessary criteria. This is further substantiated by numerical examples of several, well-established classical models (Neo--Hooke, Mooney--Rivlin, Gent and Arruda--Boyce) and Treloar's experimental data. Moreover, the numerical examples include an explicitly constructed energy function that cannot be approximated by neural networks constrained by Ball's criterion for polyconvexity. This substantiates that Ball's criterion, though sufficient, is not necessary for polyconvexity.",
+      "published": "2026-03-28T17:58:21+00:00",
+      "url": "http://arxiv.org/abs/2603.27351v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27351v1",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "This work investigates different sufficient and necessary criteria for hyperelastic, isotropic polyconvex material models, focusing on neural network implementations for incompressible materials",
+      "methodology": "Furthermore, the expressiveness, accuracy, simplicity as well as the efficiency of those models is analyzed",
+      "quant_impact": "This also enables an assessment of the practical applicability of the models",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
     },
     {
       "id": "2603.27274v1",
@@ -50,156 +413,28 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.26517v1",
+      "id": "2603.27501v1",
       "source": "arxiv",
-      "title": "The internal law of a material can be discovered from its boundary",
+      "title": "From Volatility to Variance: A Skew-Enhanced SABR Model and Its Empirical Study in the Chinese Financial Options Market",
       "authors": [
-        "Francesco Regazzoni"
+        "Wenxuan Zhang",
+        "Zhouchi Lin",
+        "Benzhuo Lu"
       ],
-      "abstract": "Since the earliest stages of human civilization, advances in technology have been tightly linked to our ability to understand and predict the mechanical behavior of materials. In recent years, this challenge has increasingly been framed within the broader paradigm of data-driven scientific discovery, where governing laws are inferred directly from observations. However, existing methods require either stress-strain pairs or full-field displacement measurements, which are often inaccessible in practice. We introduce Neural-DFEM, a method that enables unsupervised discovery of hyperelastic material laws even from partial observations, such as boundary-only measurements. The method embeds a differentiable finite element solver within the learning loop, directly linking candidate energy functionals to available measurements. To guarantee thermodynamic consistency and mathematical well-posedness throughout training, the method employs Hyperelastic Neural Networks, a novel structure-preserving neural architecture that enforces frame indifference, material symmetry, polyconvexity, and coercivity by design. The resulting framework enables robust material model discovery in both two- and three-dimensional settings, including scenarios with boundary-only measurements. Neural-DFEM allows for generalization across geometries and loading conditions, and exhibits unprecedented accuracy and strong resilience to measurement noise. Our results demonstrate that reliable identification of material laws is achievable even under partial observability when strong physical inductive biases are embedded in the learning architecture.",
-      "published": "2026-03-27T15:27:04+00:00",
-      "url": "http://arxiv.org/abs/2603.26517v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26517v1",
+      "abstract": "Accurately characterizing the implied volatility curves is a central challenge in option pricing and risk management. The classical SABR model by Hagan et al. has been widely adopted in practice due to its well-defined stochastic volatility structure and its tractable closed-form approximation for Black implied volatility. However, under complex market conditions, its fitting accuracy for implied volatility curves remains limited. To address this issue, this paper proposes an extended model within the SABR framework, referred to as skew-SABR. Specifically, the proposed approach introduces an extension to the stochastic dynamics of the underlying asset price and its variance process, under which a corresponding Black implied volatility expression is derived. By further simplifying and reorganizing the resulting formula, the implied volatility can be expressed in a form that explicitly incorporates a skew parameter, thereby enabling a direct characterization of the asymmetry in the implied volatility curve. The resulting expression preserves the structural simplicity of the Hagan-SABR formula, while significantly enhancing the model's flexibility in capturing complex volatility smile patterns. From a theoretical perspective, the paper provides a systematic analysis of the model specification and the financial interpretation of its parameters. From an empirical perspective, a comprehensive comparison is conducted using data from the Chinese options market over the period 2018--2025. The skew-SABR model is evaluated against the classical Hagan-SABR model, the SVI parameterization, polynomial fitting, and spline-based methods. Numerical results show that, across different market regimes and a wide range of implied volatility curve shapes, the skew-SABR model consistently achieves high and stable fitting accuracy.",
+      "published": "2026-03-29T03:41:13+00:00",
+      "url": "http://arxiv.org/abs/2603.27501v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27501v1",
       "categories": [
-        "math.NA",
-        "cs.CE",
-        "cs.LG"
+        "q-fin.MF",
+        "q-fin.CP"
       ],
-      "primary_category": "math.NA",
-      "core_idea": "Since the earliest stages of human civilization, advances in technology have been tightly linked to our ability to understand and predict the mechanical behavior of materials",
-      "methodology": "In recent years, this challenge has increasingly been framed within the broader paradigm of data-driven scientific discovery, where governing laws are inferred directly from observations",
-      "quant_impact": "However, existing methods require either stress-strain pairs or full-field displacement measurements, which are often inaccessible in practice",
+      "primary_category": "q-fin.MF",
+      "core_idea": "Accurately characterizing the implied volatility curves is a central challenge in option pricing and risk management",
+      "methodology": "The classical SABR model by Hagan et al",
+      "quant_impact": "has been widely adopted in practice due to its well-defined stochastic volatility structure and its tractable closed-form approximation for Black implied volatility",
       "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
-      "id": "2603.26446v1",
-      "source": "arxiv",
-      "title": "Enabling topography-resolving structural dynamic contact simulation",
-      "authors": [
-        "Hendrik D. Linder",
-        "David A. Najera-Flores",
-        "Robert J. Kuether",
-        "Malte Krack"
-      ],
-      "abstract": "Damping of structures and systems is often dominated by frictional dissipation in connections, the prediction of which remains a longstanding scientific challenge. Previous studies have shown that the actual topography of contact interfaces may have a strong effect on the dynamics of jointed structures. The multi-scale nature of manufactured surfaces makes finite element (FE) simulations computationally challenging or even infeasible, especially for long-duration transient dynamic simulations. We recently proposed a multi-scale method to enable topography resolving simulations. In that method, the contact region is modeled using half-space theory implemented on a fine grid of boundary elements (BE), whereas the underlying bodies are described using a relatively coarse FE model. So far, this FE-BE multi-scale method has been limited to quasi-static analysis. In the present work, we extend the method dynamic analysis, in the form of time integration and Harmonic Balance. As numerical benchmark system, the well-known S4 Beam is used, for which actual topography measurements are available. The proposed method demonstrates high robustness and efficiency, permits relatively large and mesh-independent time steps, and shows no evidence of numerical damping. The simulation results are in overall very good agreement with explicit and implicit full-FE analyses. In the partial slip regime, some discrepancy is found to be of physical origin: Depending on the load history, the system settles to a slightly different equilibrium, which is associated with a distinct residual contact stress field.",
-      "published": "2026-03-27T14:16:10+00:00",
-      "url": "http://arxiv.org/abs/2603.26446v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26446v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Damping of structures and systems is often dominated by frictional dissipation in connections, the prediction of which remains a longstanding scientific challenge",
-      "methodology": "Previous studies have shown that the actual topography of contact interfaces may have a strong effect on the dynamics of jointed structures",
-      "quant_impact": "The multi-scale nature of manufactured surfaces makes finite element (FE) simulations computationally challenging or even infeasible, especially for long-duration transient dynamic simulations",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
-      "id": "2603.26440v1",
-      "source": "arxiv",
-      "title": "Interpretable long-term traffic modelling on national road networks using theory-informed deep learning",
-      "authors": [
-        "Yue Li",
-        "Shujuan Chen",
-        "Akihiro Shimoda",
-        "Ying Jin"
-      ],
-      "abstract": "Long-term traffic modelling is fundamental to transport planning, but existing approaches often trade off interpretability, transferability, and predictive accuracy. Classical travel demand models provide behavioural structure but rely on strong assumptions and extensive calibration, whereas generic deep learning models capture complex patterns but often lack theoretical grounding and spatial transferability, limiting their usefulness for long-term planning applications. We propose DeepDemand, a theory-informed deep learning framework that embeds key components of travel demand theory to predict long-term highway traffic volumes using external socioeconomic features and road-network structure. The framework integrates a competitive two-source Dijkstra procedure for local origin-destination (OD) region extraction and OD pair screening with a differentiable architecture modelling OD interactions and travel-time deterrence. The model is evaluated using eight years (2017-2024) of observations on the UK strategic road network, covering 5088 highway segments. Under random cross-validation, DeepDemand achieves an R2 of 0.718 and an MAE of 7406 vehicles, outperforming linear, ridge, random forest, and gravity-style baselines. Performance remains strong under spatial cross-validation (R2 = 0.665), indicating good geographic transferability. Interpretability analysis reveals a stable nonlinear travel-time deterrence pattern, key socioeconomic drivers of demand, and polycentric OD interaction structures aligned with major employment centres and transport hubs. These results highlight the value of integrating transport theory with deep learning for interpretable highway traffic modelling and practical planning applications.",
-      "published": "2026-03-27T14:08:59+00:00",
-      "url": "http://arxiv.org/abs/2603.26440v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26440v1",
-      "categories": [
-        "cs.LG",
-        "cs.CE"
-      ],
-      "primary_category": "cs.LG",
-      "core_idea": "Long-term traffic modelling is fundamental to transport planning, but existing approaches often trade off interpretability, transferability, and predictive accuracy",
-      "methodology": "Classical travel demand models provide behavioural structure but rely on strong assumptions and extensive calibration, whereas generic deep learning models capture complex patterns but often lack theoretical grounding and spatial transferability, limiting their usefulness for long-term planning applications",
-      "quant_impact": "We propose DeepDemand, a theory-informed deep learning framework that embeds key components of travel demand theory to predict long-term highway traffic volumes using external socioeconomic features and road-network structure",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
-      "id": "2603.26396v1",
-      "source": "arxiv",
-      "title": "Domain decomposition of large neural network surrogate models",
-      "authors": [
-        "Timm G\u00f6dde",
-        "Eisso H. Atzema",
-        "Bojana Rosi\u0107"
-      ],
-      "abstract": "Neural networks (NNs) have gained significant attention across various engineering disciplines, particularly in design optimization, where they are used to build surrogate models for high-dimensional regression problems. Despite their power as global approximators, NNs often fail to accurately capture local nonlinearities without relying on a large number of training parameters. To address these limitations, in this paper we propose domain decomposition methods (DDM), which divide the input feature space into multiple local subdomains, each modeled by a simpler NN, trained in parallel. To recover the accuracy of a global approximation, interface constraints are introduced in the local loss functions to enforce continuity between subdomains. The interface constraints are enforced with two different approaches, by utilizing Lagrange multiplier or augmented Lagrange multiplier methods. Both approaches are validated using synthetic data from 2D and 3D linear compression problems, numerically solved using the finite element method. The study investigates computational time and accuracy across varying numbers of subdomains to identify optimal partitioning strategies. Compared to unconstrained approximations, both methods significantly improve continuity across subdomain interfaces. Also, the use of DDMs improves approximation accuracy in nonlinear regions when compared to standard global NN training. The augmented Lagrange method outperforms the standard Lagrange formulation by converging faster due to lower convergence requirements, albeit with a slightly lower accuracy. Its scalability makes it the preferred choice for large-scale problems, as the faster convergence outweighs the minor loss in accuracy. Overall, these results highlight the augmented Lagrange method as a promising DDM approach for training efficient and scalable NN surrogate models.",
-      "published": "2026-03-27T13:22:03+00:00",
-      "url": "http://arxiv.org/abs/2603.26396v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26396v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Neural networks (NNs) have gained significant attention across various engineering disciplines, particularly in design optimization, where they are used to build surrogate models for high-dimensional regression problems",
-      "methodology": "Despite their power as global approximators, NNs often fail to accurately capture local nonlinearities without relying on a large number of training parameters",
-      "quant_impact": "To address these limitations, in this paper we propose domain decomposition methods (DDM), which divide the input feature space into multiple local subdomains, each modeled by a simpler NN, trained in parallel",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
-      "id": "2603.26318v1",
-      "source": "arxiv",
-      "title": "STN-GPR: A Singularity Tensor Network Framework for Efficient Option Pricing",
-      "authors": [
-        "Dominic Gribben",
-        "Carolina Allende",
-        "Alba Villarino",
-        "Aser Cortines",
-        "Mazen Ali",
-        "Rom\u00e1n Or\u00fas",
-        "Pascal Oswald",
-        "Noureddine Lehdili"
-      ],
-      "abstract": "We develop a tensor-network surrogate for option pricing, targeting large-scale portfolio revaluation problems arising in market risk management (e.g., VaR and Expected Shortfall computations). The method involves representing high-dimensional price surfaces in tensor-train (TT) form using TT-cross approximation, constructing the surrogate directly from black-box price evaluations without materializing the full training tensor. For inference, we use a Laplacian kernel and derive TT representations of the kernel matrix and its closed-form inverse in the noise-free setting, enabling TT-based Gaussian process regression without dense matrix factorization or iterative linear solves. We found that hyperparameter optimization consistently favors a large kernel length-scale and show that in this regime the GPR predictor reduces to multilinear interpolation for off-grid inputs; we also derive a low-rank TT representation for this limit. We evaluate the approach on five-asset basket options over an eight dimensional parameter space (asset spot levels, strike, interest rate, and time to maturity). For European geometric basket puts, the tensor surrogate achieves lower test error at shorter training times than standard GPR by scaling to substantially larger effective training sets. For American arithmetic basket puts trained on LSMC data, the surrogate exhibits more favorable scaling with training-set size while providing millisecond-level evaluation per query, with overall runtime dominated by data generation.",
-      "published": "2026-03-27T11:35:03+00:00",
-      "url": "http://arxiv.org/abs/2603.26318v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26318v1",
-      "categories": [
-        "q-fin.PR",
-        "cs.CE",
-        "cs.LG",
-        "quant-ph"
-      ],
-      "primary_category": "q-fin.PR",
-      "core_idea": "We develop a tensor-network surrogate for option pricing, targeting large-scale portfolio revaluation problems arising in market risk management (e.g., VaR and Expected Shortfall computations)",
-      "methodology": "The method involves representing high-dimensional price surfaces in tensor-train (TT) form using TT-cross approximation, constructing the surrogate directly from black-box price evaluations without materializing the full training tensor",
-      "quant_impact": "For inference, we use a Laplacian kernel and derive TT representations of the kernel matrix and its closed-form inverse in the noise-free setting, enabling TT-based Gaussian process regression without dense matrix factorization or iterative linear solves",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
-      "id": "2603.26245v1",
-      "source": "arxiv",
-      "title": "Physics-Informed Neural Networks and Sequence Encoder: Application to heating and early cooling of thermo-stamping process",
-      "authors": [
-        "Mouad Elaarabi",
-        "Domenico Borzacchiello",
-        "Philippe Le Bot",
-        "Nathan Lauzeral",
-        "Sebastien Comas-Cardona"
-      ],
-      "abstract": "In a previous work (Elaarabi et al., 2025b), the Sequence Encoder for online dynamical system identification (Elaarabi et al., 2025a) and its combination with PINN (PINN-SE) were introduced and tested on both synthetic and real data case scenarios. The sequence encoder is able to effectively encode time series into feature vectors, which the PINN then uses to map to dynamical behavior, predicting system response under changes in parameters, ICs and BCs. Previously (Elaarabi et al., 2025b), the tests on real data were limited to simple 1D problems and only 1D time series inputs of the Sequence Encoder. In this work, the possibility of applying PINN-SE to a more realistic case is investigated: heating and early cooling of the thermo-stamping process, which is a critical stage in the forming process of continuous fiber reinforced composite materials with thermoplastic polymer. The possibility of extending the PINN-SE inputs to multimodal data, such as sequences of temporal 2D images and to scenarios involving variable geometries, is also explored. The results show that combining multiple encoders with the previously proposed method (Elaarabi et al., 2025b) is feasible, we also show that training the model on synthetic data generated based on experimental data can help the model to generalize well for real experimental data, unseen during the training phase.",
-      "published": "2026-03-27T10:09:09+00:00",
-      "url": "http://arxiv.org/abs/2603.26245v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26245v1",
-      "categories": [
-        "cs.CE",
-        "cs.AI"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "In a previous work (Elaarabi et al., 2025b), the Sequence Encoder for online dynamical system identification (Elaarabi et al., 2025a) and its combination with PINN (PINN-SE) were introduced and tested on both synthetic and real data case scenarios",
-      "methodology": "The sequence encoder is able to effectively encode time series into feature vectors, which the PINN then uses to map to dynamical behavior, predicting system response under changes in parameters, ICs and BCs",
-      "quant_impact": "Previously (Elaarabi et al., 2025b), the tests on real data were limited to simple 1D problems and only 1D time series inputs of the Sequence Encoder",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
+      "ranking_score": 28.79285714285714
     },
     {
       "id": "2603.26514v1",
@@ -250,6 +485,37 @@
       "ranking_score": 28.364285714285714
     },
     {
+      "id": "2603.26318v1",
+      "source": "arxiv",
+      "title": "STN-GPR: A Singularity Tensor Network Framework for Efficient Option Pricing",
+      "authors": [
+        "Dominic Gribben",
+        "Carolina Allende",
+        "Alba Villarino",
+        "Aser Cortines",
+        "Mazen Ali",
+        "Rom\u00e1n Or\u00fas",
+        "Pascal Oswald",
+        "Noureddine Lehdili"
+      ],
+      "abstract": "We develop a tensor-network surrogate for option pricing, targeting large-scale portfolio revaluation problems arising in market risk management (e.g., VaR and Expected Shortfall computations). The method involves representing high-dimensional price surfaces in tensor-train (TT) form using TT-cross approximation, constructing the surrogate directly from black-box price evaluations without materializing the full training tensor. For inference, we use a Laplacian kernel and derive TT representations of the kernel matrix and its closed-form inverse in the noise-free setting, enabling TT-based Gaussian process regression without dense matrix factorization or iterative linear solves. We found that hyperparameter optimization consistently favors a large kernel length-scale and show that in this regime the GPR predictor reduces to multilinear interpolation for off-grid inputs; we also derive a low-rank TT representation for this limit. We evaluate the approach on five-asset basket options over an eight dimensional parameter space (asset spot levels, strike, interest rate, and time to maturity). For European geometric basket puts, the tensor surrogate achieves lower test error at shorter training times than standard GPR by scaling to substantially larger effective training sets. For American arithmetic basket puts trained on LSMC data, the surrogate exhibits more favorable scaling with training-set size while providing millisecond-level evaluation per query, with overall runtime dominated by data generation.",
+      "published": "2026-03-27T11:35:03+00:00",
+      "url": "http://arxiv.org/abs/2603.26318v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.26318v1",
+      "categories": [
+        "q-fin.PR",
+        "cs.CE",
+        "cs.LG",
+        "quant-ph"
+      ],
+      "primary_category": "q-fin.PR",
+      "core_idea": "We develop a tensor-network surrogate for option pricing, targeting large-scale portfolio revaluation problems arising in market risk management (e.g., VaR and Expected Shortfall computations)",
+      "methodology": "The method involves representing high-dimensional price surfaces in tensor-train (TT) form using TT-cross approximation, constructing the surrogate directly from black-box price evaluations without materializing the full training tensor",
+      "quant_impact": "For inference, we use a Laplacian kernel and derive TT representations of the kernel matrix and its closed-form inverse in the noise-free setting, enabling TT-based Gaussian process regression without dense matrix factorization or iterative linear solves",
+      "relevance_score": 5,
+      "ranking_score": 28.364285714285714
+    },
+    {
       "id": "2603.26290v1",
       "source": "arxiv",
       "title": "PEB Separation and State Migration: Unmasking the New Frontiers of DeFi AML Evasion",
@@ -279,9 +545,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64535,
-      "forks": 6348,
-      "updated": "2026-03-31T01:02:27+00:00",
+      "stars": 64617,
+      "forks": 6353,
+      "updated": "2026-03-31T03:57:42+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -310,9 +576,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39539,
-      "forks": 6185,
-      "updated": "2026-03-31T01:00:44+00:00",
+      "stars": 39551,
+      "forks": 6184,
+      "updated": "2026-03-31T03:52:34+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -346,9 +612,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25229,
-      "forks": 3342,
-      "updated": "2026-03-30T23:48:24+00:00",
+      "stars": 25231,
+      "forks": 3343,
+      "updated": "2026-03-31T03:55:17+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -384,9 +650,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16787,
-      "forks": 2373,
-      "updated": "2026-03-30T15:31:47+00:00",
+      "stars": 16790,
+      "forks": 2374,
+      "updated": "2026-03-31T03:07:53+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -419,9 +685,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12094,
-      "forks": 2507,
-      "updated": "2026-03-30T17:46:53+00:00",
+      "stars": 12100,
+      "forks": 2508,
+      "updated": "2026-03-31T03:47:16+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -449,9 +715,9 @@
       "title": "ta-lib-python",
       "description": "Python wrapper for TA-Lib (http://ta-lib.org/).",
       "url": "https://github.com/TA-Lib/ta-lib-python",
-      "stars": 11816,
+      "stars": 11817,
       "forks": 1968,
-      "updated": "2026-03-30T17:12:27+00:00",
+      "updated": "2026-03-31T02:17:36+00:00",
       "language": "Cython",
       "topics": [
         "finance",
@@ -511,9 +777,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9493,
+      "stars": 9495,
       "forks": 2093,
-      "updated": "2026-03-31T00:29:16+00:00",
+      "updated": "2026-03-31T02:11:56+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -575,9 +841,9 @@
       "title": "jesse",
       "description": "An advanced crypto trading bot written in Python",
       "url": "https://github.com/jesse-ai/jesse",
-      "stars": 7608,
+      "stars": 7609,
       "forks": 1076,
-      "updated": "2026-03-30T14:47:17+00:00",
+      "updated": "2026-03-31T01:41:22+00:00",
       "language": "JavaScript",
       "topics": [
         "algo-trading",
@@ -648,9 +914,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 7024,
-      "forks": 904,
-      "updated": "2026-03-30T22:48:06+00:00",
+      "stars": 7025,
+      "forks": 905,
+      "updated": "2026-03-31T03:48:51+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -680,9 +946,9 @@
       "title": "QuantLib",
       "description": "The QuantLib C++ library",
       "url": "https://github.com/lballabio/QuantLib",
-      "stars": 6925,
+      "stars": 6926,
       "forks": 2156,
-      "updated": "2026-03-30T21:11:55+00:00",
+      "updated": "2026-03-31T02:17:30+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -766,9 +1032,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48183,
-      "forks": 10041,
-      "updated": "2026-03-31T01:01:01+00:00",
+      "stars": 48194,
+      "forks": 10043,
+      "updated": "2026-03-31T03:49:45+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -793,9 +1059,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19564,
-      "forks": 4955,
-      "updated": "2026-03-31T00:00:27+00:00",
+      "stars": 19565,
+      "forks": 4956,
+      "updated": "2026-03-31T02:17:21+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -815,9 +1081,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16663,
+      "stars": 16667,
       "forks": 4477,
-      "updated": "2026-03-31T00:20:32+00:00",
+      "updated": "2026-03-31T03:34:02+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -844,9 +1110,9 @@
       "title": "FinRL",
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14622,
+      "stars": 14624,
       "forks": 3250,
-      "updated": "2026-03-31T00:29:11+00:00",
+      "updated": "2026-03-31T04:04:40+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -876,9 +1142,9 @@
       "title": "backtesting.py",
       "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
       "url": "https://github.com/kernc/backtesting.py",
-      "stars": 8132,
+      "stars": 8133,
       "forks": 1424,
-      "updated": "2026-03-30T17:41:59+00:00",
+      "updated": "2026-03-31T02:54:06+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -914,9 +1180,9 @@
       "title": "PyPortfolioOpt",
       "description": "Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
       "url": "https://github.com/PyPortfolio/PyPortfolioOpt",
-      "stars": 5601,
+      "stars": 5602,
       "forks": 1106,
-      "updated": "2026-03-30T13:39:48+00:00",
+      "updated": "2026-03-31T03:05:01+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1065,266 +1331,6 @@
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
-    },
-    {
-      "id": "WP-WSJ-0002355062",
-      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-      "source_type": "quant",
-      "title": "Natural Gas Falls on Shifting Weather Forecasts",
-      "summary": "U.S. natural gas futures fell after weekend updates took some of the chill out of early February weather forecasts.",
-      "published": "Mon, 27 Jan 2025 09:05:00 -0500",
-      "url": "https://www.wsj.com/articles/u-s-natural-gas-futures-fall-on-shifting-weather-forecasts-1ef3e457?mod=rss_markets_main",
-      "author": "",
-      "core_idea": "U.S",
-      "methodology": "natural gas futures fell after weekend updates took some of the chill out of early February weather forecasts.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.0
-    },
-    {
-      "id": "WP-WSJ-0002353768",
-      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-      "source_type": "quant",
-      "title": "Building-Products Distributor QXO Launches Hostile Bid for Beacon",
-      "summary": "QXO is taking its offer directly to shareholders after being rebuffed on several occasions.",
-      "published": "Mon, 27 Jan 2025 08:28:00 -0500",
-      "url": "https://www.wsj.com/articles/building-products-distributor-qxo-launching-hostile-bid-for-beacon-de024410?mod=rss_markets_main",
-      "author": "",
-      "core_idea": "QXO is taking its offer directly to shareholders after being rebuffed on several occasions.",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.0
-    },
-    {
-      "id": "2603.25978v1",
-      "source": "arxiv",
-      "title": "Global Location-Invariant Peak Storm Surge Prediction",
-      "authors": [
-        "Benjamin Pachev",
-        "Prateek Arora",
-        "Jinpai Zhao",
-        "Eirik Valseth"
-      ],
-      "abstract": "Storm surge is a significant threat to coastal communities across the globe, responsible for loss of life and enormous property damage. Consequently, significant efforts have been expended to develop high-fidelity physics-based models for storm surge prediction. However, such models are often extremely computationally expensive and require supercomputing resources. In recent years, there has been a growing trend towards data-driven surrogate models, which approximate the capabilities of high-fidelity models at a tiny fraction of the computational cost.\n  Most datasets of high-fidelity storm surge model output are limited to narrow geographical regions, with the majority focused on the continental United States and China. This trend is reflected in the scope of existing storm surge surrogate models. In this work, we present a novel dataset for training storm surge surrogate models with global applicability. The dataset consists of high-resolution peak surge output from the ADvanced CIRCulation (ADCIRC) model for over 15,000 landfalling synthetic storms distributed across the world. To the author's knowledge, it is the largest dataset of its kind ever assembled, and is unique in its global scope.\n  We additionally present a machine learning model for peak storm surge based on computer vision architecture. The model is trained on our new global dataset and can accurately predict maximum storm surge in disparate geographical regions - including those for which few or no surrogate models exist. Both the dataset and accompanying model are publicly available, with the aim to support the development of additional storm surge models with global reach.",
-      "published": "2026-03-26T23:40:55+00:00",
-      "url": "http://arxiv.org/abs/2603.25978v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25978v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Storm surge is a significant threat to coastal communities across the globe, responsible for loss of life and enormous property damage",
-      "methodology": "Consequently, significant efforts have been expended to develop high-fidelity physics-based models for storm surge prediction",
-      "quant_impact": "However, such models are often extremely computationally expensive and require supercomputing resources",
-      "relevance_score": 5,
-      "ranking_score": 27.935714285714283
-    },
-    {
-      "id": "2603.25965v1",
-      "source": "arxiv",
-      "title": "A Monolithic Computational Homogenization Framework for Nearly Incompressible Magnetoelastic Composites",
-      "authors": [
-        "L. River Spencer",
-        "Manuel K. Rausch",
-        "Chad M. Landis",
-        "Jan N. Fuhg"
-      ],
-      "abstract": "Magneto-active elastomers exhibit large, nonlinear deformations under combined mechanical loading and magnetic fields, and their effective behavior is strongly governed by microstructural heterogeneity. Predictive modeling of these materials is challenging because their response involves strong magneto-mechanical coupling, large deformations, and the nearly incompressible behavior of elastomeric matrices. Existing multiscale approaches often rely on staggered strategies or formulations that do not robustly treat near-incompressibility in strongly coupled settings. This work presents a fully coupled computational homogenization framework for nearly incompressible magnetoelastic composites in which the mechanical deformation and magnetostatic fields are solved monolithically on a representative volume element (RVE). The microscale problem uses a mixed finite-element discretization with Lagrangian displacement degrees of freedom and a N'ed'elec-based magnetic vector potential, enabling a curl-conforming representation of magnetic induction together with periodic boundary constraints for both mechanical and magnetic fields. Near-incompressibility is treated using J-bar stabilization, in which the volumetric response is controlled by the cell-averaged dilatation while the isochoric response is evaluated using a scaled deformation gradient. The constitutive behavior is derived from an additive free-energy decomposition with hyperelastic, vacuum magnetic, and saturation-type magnetization contributions. The resulting formulation enables robust three-dimensional RVE simulations of heterogeneous magneto-elastic composites with complex particle distributions under large deformations and strong coupling. Numerical examples show how particle interactions, microstructural arrangement, and inclusion compressibility influence deformation patterns and the effective magneto-mechanical response.",
-      "published": "2026-03-26T23:11:03+00:00",
-      "url": "http://arxiv.org/abs/2603.25965v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25965v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Magneto-active elastomers exhibit large, nonlinear deformations under combined mechanical loading and magnetic fields, and their effective behavior is strongly governed by microstructural heterogeneity",
-      "methodology": "Predictive modeling of these materials is challenging because their response involves strong magneto-mechanical coupling, large deformations, and the nearly incompressible behavior of elastomeric matrices",
-      "quant_impact": "Existing multiscale approaches often rely on staggered strategies or formulations that do not robustly treat near-incompressibility in strongly coupled settings",
-      "relevance_score": 5,
-      "ranking_score": 27.935714285714283
-    },
-    {
-      "id": "2603.25678v1",
-      "source": "arxiv",
-      "title": "Concentration And Distribution of Container Flows In Mauritania's Maritime System (2019-2022)",
-      "authors": [
-        "Mohamed Bouka",
-        "Moulaye Abdel Kader Ould Moulaye Ismail"
-      ],
-      "abstract": "Small, trade-dependent economies often exhibit limited maritime connectivity, yet empirical evidence on the structural configuration of their container systems remains limited. This study analyzes route concentration and node distributions in Mauritania's maritime container system during 2019-2022 using shipment-level data measured in forty-foot equivalent units (FFE). Routes, origin nodes, destination nodes, and industries are represented as FFE-weighted probability distributions, and concentration and divergence metrics are used to assess structural properties. The results show strong corridor concentration across the seven observed routes (HHI = 0.296), with the top three accounting for approximately 84% of total FFE. Node structures differ by direction: imports are associated with a highly concentrated set of destination nodes (HHI = 0.848), while exports originate from only two origin nodes (HHI = 0.567) and are distributed across a large number of destinations (HHI = 0.053). Industry distributions are more concentrated for exports (HHI = 0.352) than for imports (HHI = 0.096), with frozen fish and seafood accounting for more than 53% of export volume. Temporal analysis shows that route concentration remains stable over time (HHI ~ 0.293-0.303), while node distributions exhibit measurable variation, particularly for export destinations (JSD ~ 0.395) and import origins (JSD ~ 0.250).",
-      "published": "2026-03-26T17:31:12+00:00",
-      "url": "http://arxiv.org/abs/2603.25678v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25678v1",
-      "categories": [
-        "cs.CE",
-        "econ.GN",
-        "stat.AP"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Small, trade-dependent economies often exhibit limited maritime connectivity, yet empirical evidence on the structural configuration of their container systems remains limited",
-      "methodology": "This study analyzes route concentration and node distributions in Mauritania's maritime container system during 2019-2022 using shipment-level data measured in forty-foot equivalent units (FFE)",
-      "quant_impact": "Routes, origin nodes, destination nodes, and industries are represented as FFE-weighted probability distributions, and concentration and divergence metrics are used to assess structural properties",
-      "relevance_score": 5,
-      "ranking_score": 27.935714285714283
-    },
-    {
-      "id": "2603.25263v1",
-      "source": "arxiv",
-      "title": "XBRLTagRec: Domain-Specific Fine-Tuning and Zero-Shot Re-Ranking with LLMs for Extreme Financial Numeral Labeling",
-      "authors": [
-        "Gang Hu",
-        "Qun Zhang",
-        "Jingyao Luo",
-        "Yile Jiang",
-        "Jing Chai",
-        "Haiyan Ding"
-      ],
-      "abstract": "Publicly traded companies must disclose financial information under regulations of the Securities and Exchange Commission (SEC) and the Generally Accepted Accounting Principles (GAAP). The eXtensible Business Reporting Language (XBRL), as an XML-based financial language, enables standardized and machine-readable reporting, but accurate tag selection from large taxonomies remains challenging. Existing fine-tuning-based methods struggle to distinguish highly similar XBRL tags, limiting performance in financial data matching. To address these issues, we introduce XBRLTagRec, an end-to-end framework for automated financial numeral tagging. The framework generates semantic tag documents with a fine-tuned FLAN-T5-Large model, retrieves relevant candidates via semantic similarity, and applies zero-shot re-ranking with ChatGPT-3.5 to select the optimal tag. Experiments on the FNXL dataset show that XBRLTagRec outperforms the state-of-the-art FLAN-FinXC framework, achieving 2.64%-4.47% improvements in Hits@1 and Macro metrics. These results demonstrate its effectiveness in large-scale and semantically complex tag matching scenarios.",
-      "published": "2026-03-26T10:02:32+00:00",
-      "url": "http://arxiv.org/abs/2603.25263v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25263v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Publicly traded companies must disclose financial information under regulations of the Securities and Exchange Commission (SEC) and the Generally Accepted Accounting Principles (GAAP)",
-      "methodology": "The eXtensible Business Reporting Language (XBRL), as an XML-based financial language, enables standardized and machine-readable reporting, but accurate tag selection from large taxonomies remains challenging",
-      "quant_impact": "Existing fine-tuning-based methods struggle to distinguish highly similar XBRL tags, limiting performance in financial data matching",
-      "relevance_score": 5,
-      "ranking_score": 27.935714285714283
-    },
-    {
-      "id": "2603.25207v1",
-      "source": "arxiv",
-      "title": "Semi-Automated Generation and Hemodynamic Assessment of Surgical Baffle Geometry for Biventricular Repair",
-      "authors": [
-        "Elena Sabdy Martinez",
-        "Alexander D. Kaiser",
-        "Alexander K. Reed",
-        "Sascha W. Stocker",
-        "Amit Sharir",
-        "Perry S. Choi",
-        "Shiraz A. Maskatia",
-        "Michael R. Ma",
-        "Alison Lesly Marsden"
-      ],
-      "abstract": "Patient-specific computational modeling has emerged as a powerful tool for surgical planning in complex congenital heart disease. One promising application is complex biventricular repair, which often requires construction of a custom intraventricular baffle to establish a physiologic left ventricle-to-aorta outflow pathway. In current practice, baffle geometry is designed and shaped intraoperatively and preoperative planning remains largely manual, limiting the ability to generate anatomically conformal, watertight models suitable for quantitative hemodynamic assessment. In this work, we present a semi-automated computational framework for the design and assessment of patient-specific intraventricular baffles. The method constructs an explicit VSD-to-aorta flow pathway, preserves native right ventricular geometry, and reshapes only the baffle region using section-wise area constraints along a physiologically aligned centerline. The resulting geometry is integrated into a closed, multi-labeled domain for computational fluid dynamics analysis. We retrospectively applied this framework to four patients with double outlet right ventricle (DORV) who previously underwent biventricular repair. For each case, a patient-specific baffle was generated and its hemodynamic performance was evaluated using CFD. Predicted pressure gradients across the reconstructed outflow were within clinically acceptable ranges and comparable to the patients' postoperative echocardiographs. This approach enables quantitative, pre-operative design and evaluation of candidate baffle geometries and provides a reproducible method for generating simulation-ready models. By combining physiologically constrained geometric design with CFD-based assessment, the framework represents a step toward computational, patient-specific decision support for biventricular flow restoration in a complex heterogeneous patient population.",
-      "published": "2026-03-26T09:10:03+00:00",
-      "url": "http://arxiv.org/abs/2603.25207v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25207v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Patient-specific computational modeling has emerged as a powerful tool for surgical planning in complex congenital heart disease",
-      "methodology": "One promising application is complex biventricular repair, which often requires construction of a custom intraventricular baffle to establish a physiologic left ventricle-to-aorta outflow pathway",
-      "quant_impact": "In current practice, baffle geometry is designed and shaped intraoperatively and preoperative planning remains largely manual, limiting the ability to generate anatomically conformal, watertight models suitable for quantitative hemodynamic assessment",
-      "relevance_score": 5,
-      "ranking_score": 27.935714285714283
-    },
-    {
-      "id": "2603.25099v1",
-      "source": "arxiv",
-      "title": "Large Language Models as Optimization Controllers: Adaptive Continuation for SIMP Topology Optimization",
-      "authors": [
-        "Shaoliang Yang",
-        "Jun Wang",
-        "Yunsheng Wang"
-      ],
-      "abstract": "We present a framework in which a large language model (LLM) acts as an online adaptive controller for SIMP topology optimization, replacing conventional fixed-schedule continuation with real-time, state-conditioned parameter decisions. At every $k$-th iteration, the LLM receives a structured observation$-$current compliance, grayness index, stagnation counter, checkerboard measure, volume fraction, and budget consumption$-$and outputs numerical values for the penalization exponent $p$, projection sharpness $\u03b2$, filter radius $r_{\\min}$, and move limit $\u03b4$ via a Direct Numeric Control interface. A hard grayness gate prevents premature binarization, and a meta-optimization loop uses a second LLM pass to tune the agent's call frequency and gate threshold across runs. We benchmark the agent against four baselines$-$fixed (no-continuation), standard three-field continuation, an expert heuristic, and a schedule-only ablation$-$on three 2-D problems (cantilever, MBB beam, L-bracket) at $120\\!\\times\\!60$ resolution and two 3-D problems (cantilever, MBB beam) at $40\\!\\times\\!20\\!\\times\\!10$ resolution, all run for 300 iterations. A standardized 40-iteration sharpening tail is applied from the best valid snapshot so that compliance differences reflect only the exploration phase. The LLM agent achieves the lowest final compliance on every benchmark: $-5.7\\%$ to $-18.1\\%$ relative to the fixed baseline, with all solutions fully binary. The schedule-only ablation underperforms the fixed baseline on two of three problems, confirming that the LLM's real-time intervention$-$not the schedule geometry$-$drives the gain. Code and reproduction scripts will be released upon publication.",
-      "published": "2026-03-26T07:14:31+00:00",
-      "url": "http://arxiv.org/abs/2603.25099v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25099v1",
-      "categories": [
-        "cs.CE",
-        "cs.AI"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "We present a framework in which a large language model (LLM) acts as an online adaptive controller for SIMP topology optimization, replacing conventional fixed-schedule continuation with real-time, state-conditioned parameter decisions",
-      "methodology": "At every $k$-th iteration, the LLM receives a structured observation$-$current compliance, grayness index, stagnation counter, checkerboard measure, volume fraction, and budget consumption$-$and outputs numerical values for the penalization exponent $p$, projection sharpness $\u03b2$, filter radius $r_{\\min}$, and move limit $\u03b4$ via a Direct Numeric Control interface",
-      "quant_impact": "A hard grayness gate prevents premature binarization, and a meta-optimization loop uses a second LLM pass to tune the agent's call frequency and gate threshold across runs",
-      "relevance_score": 5,
-      "ranking_score": 27.935714285714283
-    },
-    {
-      "id": "2603.24933v1",
-      "source": "arxiv",
-      "title": "Decoding Market Emotions in Cryptocurrency Tweets via Predictive Statement Classification with Machine Learning and Transformers",
-      "authors": [
-        "Moein Shahiki Tash",
-        "Zahra Ahani",
-        "Mohim Tash",
-        "Mostafa Keikhay Farzaneh",
-        "Ari Y. Barrera-Animas",
-        "Olga Kolesnikova"
-      ],
-      "abstract": "The growing prominence of cryptocurrencies has triggered widespread public engagement and increased speculative activity, particularly on social media platforms. This study introduces a novel classification framework for identifying predictive statements in cryptocurrency-related tweets, focusing on five popular cryptocurrencies: Cardano, Matic, Binance, Ripple, and Fantom. The classification process is divided into two stages: Task 1 involves binary classification to distinguish between Predictive and Non-Predictive statements. Tweets identified as Predictive proceed to Task 2, where they are further categorized as Incremental, Decremental, or Neutral. To build a robust dataset, we combined manual and GPT-based annotation methods and utilized SenticNet to extract emotion features corresponding to each prediction category. To address class imbalance, GPT-generated paraphrasing was employed for data augmentation. We evaluated a wide range of machine learning, deep learning, and transformer-based models across both tasks. The results show that GPT-based balancing significantly enhanced model performance, with transformer models achieving the highest F1-score in Task 1, while traditional machine learning models performed best in Task 2. Furthermore, our emotion analysis revealed distinct emotional patterns associated with each prediction category across the different cryptocurrencies.",
-      "published": "2026-03-26T01:52:36+00:00",
-      "url": "http://arxiv.org/abs/2603.24933v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.24933v1",
-      "categories": [
-        "cs.AI",
-        "cs.CE"
-      ],
-      "primary_category": "cs.AI",
-      "core_idea": "The growing prominence of cryptocurrencies has triggered widespread public engagement and increased speculative activity, particularly on social media platforms",
-      "methodology": "This study introduces a novel classification framework for identifying predictive statements in cryptocurrency-related tweets, focusing on five popular cryptocurrencies: Cardano, Matic, Binance, Ripple, and Fantom",
-      "quant_impact": "The classification process is divided into two stages: Task 1 involves binary classification to distinguish between Predictive and Non-Predictive statements",
-      "relevance_score": 5,
-      "ranking_score": 27.935714285714283
-    },
-    {
-      "id": "2603.25338v1",
-      "source": "arxiv",
-      "title": "Optimal threshold resetting in collective diffusive search",
-      "authors": [
-        "Arup Biswas",
-        "Satya N Majumdar",
-        "Arnab Pal"
-      ],
-      "abstract": "Stochastic resetting has attracted significant attention in recent years due to its wide-ranging applications across physics, biology, and search processes. In most existing studies, however, resetting events are governed by an external timer and remain decoupled from the system's intrinsic dynamics. In a recent Letter by Biswas et al, we introduced threshold resetting (TR) as an alternative, event-driven optimization strategy for target search problems. Under TR, the entire process is reset whenever any searcher reaches a prescribed threshold, thereby coupling the resetting mechanism directly to the internal dynamics. In this work, we study TR-enabled search by $N$ non-interacting diffusive searchers in a one-dimensional box $[0,L]$, with the target at the origin and the threshold at $L$. By optimally tuning the scaled threshold distance $u = x_0/L$, the mean first-passage time can be significantly reduced for $N \\geq 2$. We identify a critical population size $N_c(u)$ below which TR outperforms reset-free dynamics. Furthermore, for fixed $u$, the mean first-passage time depends non-monotonically on $N$, attaining a minimum at $N_{\\mathrm{opt}}(u)$. We also quantify the achievable speed-up and analyze the operational cost of TR, revealing a nontrivial optimization landscape. These findings highlight threshold resetting as an efficient and realistic optimization mechanism for complex stochastic search processes.",
-      "published": "2026-03-26T11:29:43+00:00",
-      "url": "http://arxiv.org/abs/2603.25338v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.25338v1",
-      "categories": [
-        "cond-mat.stat-mech",
-        "math.OC",
-        "math.PR",
-        "q-fin.ST"
-      ],
-      "primary_category": "cond-mat.stat-mech",
-      "core_idea": "Stochastic resetting has attracted significant attention in recent years due to its wide-ranging applications across physics, biology, and search processes",
-      "methodology": "In most existing studies, however, resetting events are governed by an external timer and remain decoupled from the system's intrinsic dynamics",
-      "quant_impact": "In a recent Letter by Biswas et al, we introduced threshold resetting (TR) as an alternative, event-driven optimization strategy for target search problems",
-      "relevance_score": 5,
-      "ranking_score": 27.935714285714283
-    },
-    {
-      "id": "669186039",
-      "source": "github",
-      "title": "proto-sim-portfolio",
-      "description": "Prototype risk modeling simulation for Portfolio using Arbiter.",
-      "url": "https://github.com/primitivefinance/proto-sim-portfolio",
-      "stars": 20,
-      "forks": 1,
-      "updated": "2024-08-25T12:01:29+00:00",
-      "language": "Rust",
-      "topics": [
-        "amm",
-        "arbiter",
-        "evm",
-        "portfolio",
-        "risk-modeling",
-        "rust",
-        "security",
-        "solidity"
-      ],
-      "core_idea": "Prototype risk modeling simulation for Portfolio using Arbiter.",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 27.856
     }
   ]
 }
