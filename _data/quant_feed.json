@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T20:29:08.719732",
+  "last_updated": "2026-03-31T21:10:50.741317",
   "items": [
     {
       "id": "2603.28707v1",
@@ -442,9 +442,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64812,
-      "forks": 6367,
-      "updated": "2026-03-31T20:21:17+00:00",
+      "stars": 64813,
+      "forks": 6368,
+      "updated": "2026-03-31T20:52:16+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -614,7 +614,7 @@
       "url": "https://github.com/TA-Lib/ta-lib-python",
       "stars": 11819,
       "forks": 1967,
-      "updated": "2026-03-31T20:03:23+00:00",
+      "updated": "2026-03-31T20:40:21+00:00",
       "language": "Cython",
       "topics": [
         "finance",
@@ -636,9 +636,9 @@
       "title": "quant-trading",
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
-      "stars": 9563,
+      "stars": 9564,
       "forks": 1755,
-      "updated": "2026-03-31T17:08:48+00:00",
+      "updated": "2026-03-31T20:57:51+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -862,9 +862,9 @@
       "title": "quantstats",
       "description": "Portfolio analytics for quants, written in Python",
       "url": "https://github.com/ranaroussi/quantstats",
-      "stars": 6912,
-      "forks": 1143,
-      "updated": "2026-03-31T12:36:45+00:00",
+      "stars": 6913,
+      "forks": 1142,
+      "updated": "2026-03-31T20:53:18+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
