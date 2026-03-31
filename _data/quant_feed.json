@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T16:43:02.293215",
+  "last_updated": "2026-03-31T17:43:36.421491",
   "items": [
     {
       "id": "2603.28707v1",
@@ -23,7 +23,7 @@
       "methodology": "In contrast to classical formulations based on the Helmholtz energy, we adopt the internal energy and a dissipation potential as primary constitutive functions, expressed in terms of deformation and entropy",
       "quant_impact": "This choice avoids the need to enforce mixed convexity--concavity conditions and facilitates a consistent incorporation of thermodynamic principles",
       "relevance_score": 5,
-      "ranking_score": 29.65
+      "ranking_score": 29.22142857142857
     },
     {
       "id": "2603.28690v1",
@@ -47,7 +47,7 @@
       "methodology": "Since a large share of these materials enters the Union from outside, a valid option for CRMs supply resilience and security is to recover them from end-of-use products",
       "quant_impact": "Hence, in this paper we present the preliminary phases of the development of real-time visual detection of PC desktop components running on edge devices to simultaneously achieve two goals",
       "relevance_score": 5,
-      "ranking_score": 29.65
+      "ranking_score": 29.22142857142857
     },
     {
       "id": "2603.28576v1",
@@ -442,9 +442,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64802,
-      "forks": 6366,
-      "updated": "2026-03-31T16:19:43+00:00",
+      "stars": 64803,
+      "forks": 6365,
+      "updated": "2026-03-31T17:41:48+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -473,9 +473,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39594,
+      "stars": 39597,
       "forks": 6189,
-      "updated": "2026-03-31T16:37:40+00:00",
+      "updated": "2026-03-31T17:29:33+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -509,9 +509,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25243,
+      "stars": 25246,
       "forks": 3345,
-      "updated": "2026-03-31T14:36:19+00:00",
+      "updated": "2026-03-31T17:05:51+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -636,9 +636,9 @@
       "title": "quant-trading",
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
-      "stars": 9562,
+      "stars": 9563,
       "forks": 1755,
-      "updated": "2026-03-31T16:41:47+00:00",
+      "updated": "2026-03-31T17:08:48+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -674,9 +674,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9502,
+      "stars": 9503,
       "forks": 2091,
-      "updated": "2026-03-31T16:36:21+00:00",
+      "updated": "2026-03-31T17:03:33+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -774,9 +774,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7569,
+      "stars": 7570,
       "forks": 1073,
-      "updated": "2026-03-31T15:37:26+00:00",
+      "updated": "2026-03-31T16:53:28+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -845,7 +845,7 @@
       "url": "https://github.com/lballabio/QuantLib",
       "stars": 6928,
       "forks": 2156,
-      "updated": "2026-03-31T16:01:58+00:00",
+      "updated": "2026-03-31T16:57:31+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -929,9 +929,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48208,
-      "forks": 10046,
-      "updated": "2026-03-31T16:19:54+00:00",
+      "stars": 48206,
+      "forks": 10047,
+      "updated": "2026-03-31T17:32:42+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1009,7 +1009,7 @@
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
       "stars": 14629,
       "forks": 3250,
-      "updated": "2026-03-31T16:37:57+00:00",
+      "updated": "2026-03-31T17:09:16+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
