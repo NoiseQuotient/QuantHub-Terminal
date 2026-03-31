@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T21:57:02.360120",
+  "last_updated": "2026-03-31T22:46:04.050486",
   "items": [
     {
       "id": "2603.28707v1",
@@ -442,9 +442,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64815,
+      "stars": 64816,
       "forks": 6368,
-      "updated": "2026-03-31T21:56:03+00:00",
+      "updated": "2026-03-31T22:45:23+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -473,9 +473,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39606,
+      "stars": 39608,
       "forks": 6190,
-      "updated": "2026-03-31T21:18:07+00:00",
+      "updated": "2026-03-31T22:19:04+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -636,9 +636,9 @@
       "title": "quant-trading",
       "description": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
       "url": "https://github.com/je-suis-tm/quant-trading",
-      "stars": 9564,
+      "stars": 9565,
       "forks": 1755,
-      "updated": "2026-03-31T20:57:51+00:00",
+      "updated": "2026-03-31T22:16:14+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -929,9 +929,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48210,
+      "stars": 48212,
       "forks": 10047,
-      "updated": "2026-03-31T18:24:54+00:00",
+      "updated": "2026-03-31T22:45:13+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
