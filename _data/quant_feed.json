@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T19:43:48.083499",
+  "last_updated": "2026-03-31T20:29:08.719732",
   "items": [
     {
       "id": "2603.28707v1",
@@ -195,32 +195,6 @@
       "ranking_score": 29.22142857142857
     },
     {
-      "id": "2603.27856v1",
-      "source": "arxiv",
-      "title": "Hierarchical Tensor Network Structure Search for High-Dimensional Data",
-      "authors": [
-        "Zheng Guo",
-        "Aditya Deshpande",
-        "Xinyu Wang",
-        "Brian C. Kiedrowski",
-        "Alex A. Gorodetsky"
-      ],
-      "abstract": "Tensor network methods provide a scalable solution to represent high-dimensional data. However, their efficacy is often limited by static, expert-defined structures that fail to adapt to evolving data correlations. We address this limitation by formalizing the tensor network structural rounding problem and introducing the hierarchical structure search algorithm HISS, which automatically identifies near-optimal structures and index reshaping for arbitrary tree networks. To navigate the combinatorial explosion of the structural search space, HISS integrates stochastic sub-network sampling with hierarchical refinement. This approach utilizes entropy-guided index clustering to reduce dimensionality and targeted reshaping to expose latent data correlations. Numerical experiments on analytical functions and real-world physics applications, including thermal radiation transport, neutron diffusion, and computational fluid dynamics, demonstrate that HISS exhibits empirical polynomial scaling with dimensionality relative to the sampling budget, bypassing the scalability barriers in prior work. HISS achieves compression ratios $2.5\\times$ to $100\\times$ higher than standard fixed formats such as Tensor Trains and Hierarchical Tuckers~(peaking at $1000\\times$). Furthermore, HISS discovers structures that generalize effectively: applying a structure optimized for one data instance to a related target data typically maintains compression performance within $10\\%$ of the result obtained by performing structure search on that target data. These results highlight HISS as a robust, automated tool for adaptive data representation and high-dimensional simulation compression with tensor network methods.",
-      "published": "2026-03-29T20:22:01+00:00",
-      "url": "http://arxiv.org/abs/2603.27856v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.27856v1",
-      "categories": [
-        "cs.CE",
-        "math.NA"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "Tensor network methods provide a scalable solution to represent high-dimensional data",
-      "methodology": "However, their efficacy is often limited by static, expert-defined structures that fail to adapt to evolving data correlations",
-      "quant_impact": "We address this limitation by formalizing the tensor network structural rounding problem and introducing the hierarchical structure search algorithm HISS, which automatically identifies near-optimal structures and index reshaping for arbitrary tree networks",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
-    },
-    {
       "id": "2603.28257v1",
       "source": "arxiv",
       "title": "Nonlinear Factor Decomposition via Kolmogorov-Arnold Networks: A Spectral Approach to Asset Return Analysis",
@@ -263,6 +237,32 @@
       "quant_impact": "Its principal instantiation in this paper is PCGS-TF, which uses a causal Transformer as an update controller: after round t finishes and the loss vector is observed, the Transformer outputs the controls that map w_t to w_{t+1} without altering the already committed decision w_t",
       "relevance_score": 5,
       "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.27856v1",
+      "source": "arxiv",
+      "title": "Hierarchical Tensor Network Structure Search for High-Dimensional Data",
+      "authors": [
+        "Zheng Guo",
+        "Aditya Deshpande",
+        "Xinyu Wang",
+        "Brian C. Kiedrowski",
+        "Alex A. Gorodetsky"
+      ],
+      "abstract": "Tensor network methods provide a scalable solution to represent high-dimensional data. However, their efficacy is often limited by static, expert-defined structures that fail to adapt to evolving data correlations. We address this limitation by formalizing the tensor network structural rounding problem and introducing the hierarchical structure search algorithm HISS, which automatically identifies near-optimal structures and index reshaping for arbitrary tree networks. To navigate the combinatorial explosion of the structural search space, HISS integrates stochastic sub-network sampling with hierarchical refinement. This approach utilizes entropy-guided index clustering to reduce dimensionality and targeted reshaping to expose latent data correlations. Numerical experiments on analytical functions and real-world physics applications, including thermal radiation transport, neutron diffusion, and computational fluid dynamics, demonstrate that HISS exhibits empirical polynomial scaling with dimensionality relative to the sampling budget, bypassing the scalability barriers in prior work. HISS achieves compression ratios $2.5\\times$ to $100\\times$ higher than standard fixed formats such as Tensor Trains and Hierarchical Tuckers~(peaking at $1000\\times$). Furthermore, HISS discovers structures that generalize effectively: applying a structure optimized for one data instance to a related target data typically maintains compression performance within $10\\%$ of the result obtained by performing structure search on that target data. These results highlight HISS as a robust, automated tool for adaptive data representation and high-dimensional simulation compression with tensor network methods.",
+      "published": "2026-03-29T20:22:01+00:00",
+      "url": "http://arxiv.org/abs/2603.27856v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27856v1",
+      "categories": [
+        "cs.CE",
+        "math.NA"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "Tensor network methods provide a scalable solution to represent high-dimensional data",
+      "methodology": "However, their efficacy is often limited by static, expert-defined structures that fail to adapt to evolving data correlations",
+      "quant_impact": "We address this limitation by formalizing the tensor network structural rounding problem and introducing the hierarchical structure search algorithm HISS, which automatically identifies near-optimal structures and index reshaping for arbitrary tree networks",
+      "relevance_score": 5,
+      "ranking_score": 28.79285714285714
     },
     {
       "id": "2603.27755v1",
@@ -442,9 +442,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64808,
-      "forks": 6366,
-      "updated": "2026-03-31T19:34:43+00:00",
+      "stars": 64812,
+      "forks": 6367,
+      "updated": "2026-03-31T20:21:17+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -473,9 +473,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39604,
+      "stars": 39605,
       "forks": 6190,
-      "updated": "2026-03-31T18:52:49+00:00",
+      "updated": "2026-03-31T20:01:24+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -509,9 +509,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25247,
+      "stars": 25248,
       "forks": 3346,
-      "updated": "2026-03-31T18:51:51+00:00",
+      "updated": "2026-03-31T20:03:08+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -612,9 +612,9 @@
       "title": "ta-lib-python",
       "description": "Python wrapper for TA-Lib (http://ta-lib.org/).",
       "url": "https://github.com/TA-Lib/ta-lib-python",
-      "stars": 11818,
+      "stars": 11819,
       "forks": 1967,
-      "updated": "2026-03-31T10:59:20+00:00",
+      "updated": "2026-03-31T20:03:23+00:00",
       "language": "Cython",
       "topics": [
         "finance",
@@ -676,7 +676,7 @@
       "url": "https://github.com/StockSharp/StockSharp",
       "stars": 9503,
       "forks": 2091,
-      "updated": "2026-03-31T17:03:33+00:00",
+      "updated": "2026-03-31T20:15:24+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -774,9 +774,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7570,
+      "stars": 7569,
       "forks": 1073,
-      "updated": "2026-03-31T16:53:28+00:00",
+      "updated": "2026-03-31T19:46:37+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -811,9 +811,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 7031,
+      "stars": 7032,
       "forks": 906,
-      "updated": "2026-03-31T16:23:23+00:00",
+      "updated": "2026-03-31T20:22:18+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -845,7 +845,7 @@
       "url": "https://github.com/lballabio/QuantLib",
       "stars": 6929,
       "forks": 2156,
-      "updated": "2026-03-31T18:07:12+00:00",
+      "updated": "2026-03-31T19:50:54+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -1107,9 +1107,9 @@
       "title": "Crypto-Signal",
       "description": "Github.com/CryptoSignal - Trading & Technical Analysis Bot - 4,100+ stars, 1,100+ forks",
       "url": "https://github.com/CryptoSignal/Crypto-Signal",
-      "stars": 5512,
+      "stars": 5513,
       "forks": 1344,
-      "updated": "2026-03-30T00:44:44+00:00",
+      "updated": "2026-03-31T20:03:31+00:00",
       "language": "Python",
       "topics": [
         "abenezer-mamo",
