@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T05:54:24.843842",
+  "last_updated": "2026-03-31T07:24:04.226858",
   "items": [
     {
       "id": "2603.28707v1",
@@ -309,7 +309,7 @@
       "methodology": "This survey makes three contributions",
       "quant_impact": "First, we introduce a four-dimensional taxonomy, covering architecture pattern, coordination mechanism, memory architecture, and tool integration; applied to 12 multi-agent systems and two single-agent baselines",
       "relevance_score": 5,
-      "ranking_score": 29.22142857142857
+      "ranking_score": 28.79285714285714
     },
     {
       "id": "2603.27448v1",
@@ -545,9 +545,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64649,
-      "forks": 6355,
-      "updated": "2026-03-31T05:48:21+00:00",
+      "stars": 64698,
+      "forks": 6360,
+      "updated": "2026-03-31T07:22:42+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -576,9 +576,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39555,
+      "stars": 39560,
       "forks": 6184,
-      "updated": "2026-03-31T05:43:04+00:00",
+      "updated": "2026-03-31T07:19:44+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -612,9 +612,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25234,
+      "stars": 25237,
       "forks": 3343,
-      "updated": "2026-03-31T05:26:52+00:00",
+      "updated": "2026-03-31T06:37:32+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -650,9 +650,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16790,
-      "forks": 2374,
-      "updated": "2026-03-31T03:07:53+00:00",
+      "stars": 16793,
+      "forks": 2375,
+      "updated": "2026-03-31T07:22:12+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -685,9 +685,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12101,
-      "forks": 2508,
-      "updated": "2026-03-31T05:39:48+00:00",
+      "stars": 12106,
+      "forks": 2510,
+      "updated": "2026-03-31T07:17:32+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -778,7 +778,7 @@
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
       "stars": 9495,
-      "forks": 2093,
+      "forks": 2092,
       "updated": "2026-03-31T02:11:56+00:00",
       "language": "C#",
       "topics": [
@@ -841,9 +841,9 @@
       "title": "jesse",
       "description": "An advanced crypto trading bot written in Python",
       "url": "https://github.com/jesse-ai/jesse",
-      "stars": 7609,
+      "stars": 7610,
       "forks": 1076,
-      "updated": "2026-03-31T01:41:22+00:00",
+      "updated": "2026-03-31T06:52:34+00:00",
       "language": "JavaScript",
       "topics": [
         "algo-trading",
@@ -966,7 +966,7 @@
       "description": "Portfolio analytics for quants, written in Python",
       "url": "https://github.com/ranaroussi/quantstats",
       "stars": 6911,
-      "forks": 1142,
+      "forks": 1143,
       "updated": "2026-03-31T00:20:28+00:00",
       "language": "Python",
       "topics": [
@@ -1032,9 +1032,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48196,
-      "forks": 10042,
-      "updated": "2026-03-31T05:23:41+00:00",
+      "stars": 48200,
+      "forks": 10044,
+      "updated": "2026-03-31T07:02:10+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1059,9 +1059,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19566,
+      "stars": 19567,
       "forks": 4956,
-      "updated": "2026-03-31T04:35:00+00:00",
+      "updated": "2026-03-31T06:53:12+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1081,9 +1081,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16668,
-      "forks": 4478,
-      "updated": "2026-03-31T05:51:49+00:00",
+      "stars": 16671,
+      "forks": 4479,
+      "updated": "2026-03-31T06:38:21+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
