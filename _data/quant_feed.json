@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T07:24:04.226858",
+  "last_updated": "2026-03-31T08:37:54.974851",
   "items": [
     {
       "id": "2603.28707v1",
@@ -145,33 +145,6 @@
       "ranking_score": 29.65
     },
     {
-      "id": "2603.28160v1",
-      "source": "arxiv",
-      "title": "An efficient open-source framework for high-fidelity 3D surface topography and roughness prediction in milling",
-      "authors": [
-        "Hadi Bakhshan",
-        "Sima Farshbaf",
-        "Adri\u00e1n Travieso-Disotuar",
-        "Luciano Mija\u00edl Villarreal",
-        "Fernando Rastellini Canela",
-        "Josep Maria Carbonell"
-      ],
-      "abstract": "With the emergence of data-driven approaches in science, there is growing interest in their application to manufacturing, particularly in surface precision engineering. However, generating large datasets required for model training is often impractical experimentally due to high costs and the time-intensive nature of measurements. High-fidelity synthetic datasets offer a viable alternative if they can be generated both efficiently and accurately. To address this challenge, this paper presents an efficient framework for generating accurate 3D surface topographies and roughness indicators in milling operations using numerical methods. First, a conventional topography prediction model is developed based on the forward solution method (FSM). Building on this, an optimized computational algorithm is proposed to establish an efficient FSM with significantly improved performance. The model is validated against two independent sets of experimental results, assessing both prediction accuracy and computational efficiency. The results demonstrate acceptable prediction errors and an average computational speedup of 42.2x. The proposed open-source model provides a generalizable framework for large-scale analysis, enabling the generation of extensive datasets for data-driven surrogate modeling.",
-      "published": "2026-03-30T08:26:08+00:00",
-      "url": "http://arxiv.org/abs/2603.28160v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.28160v1",
-      "categories": [
-        "cs.CE",
-        "cond-mat.mtrl-sci"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "With the emergence of data-driven approaches in science, there is growing interest in their application to manufacturing, particularly in surface precision engineering",
-      "methodology": "However, generating large datasets required for model training is often impractical experimentally due to high costs and the time-intensive nature of measurements",
-      "quant_impact": "High-fidelity synthetic datasets offer a viable alternative if they can be generated both efficiently and accurately",
-      "relevance_score": 5,
-      "ranking_score": 29.65
-    },
-    {
       "id": "2603.28257v1",
       "source": "arxiv",
       "title": "Nonlinear Factor Decomposition via Kolmogorov-Arnold Networks: A Spectral Approach to Asset Return Analysis",
@@ -214,6 +187,33 @@
       "quant_impact": "Its principal instantiation in this paper is PCGS-TF, which uses a causal Transformer as an update controller: after round t finishes and the loss vector is observed, the Transformer outputs the controls that map w_t to w_{t+1} without altering the already committed decision w_t",
       "relevance_score": 5,
       "ranking_score": 29.65
+    },
+    {
+      "id": "2603.28160v1",
+      "source": "arxiv",
+      "title": "An efficient open-source framework for high-fidelity 3D surface topography and roughness prediction in milling",
+      "authors": [
+        "Hadi Bakhshan",
+        "Sima Farshbaf",
+        "Adri\u00e1n Travieso-Disotuar",
+        "Luciano Mija\u00edl Villarreal",
+        "Fernando Rastellini Canela",
+        "Josep Maria Carbonell"
+      ],
+      "abstract": "With the emergence of data-driven approaches in science, there is growing interest in their application to manufacturing, particularly in surface precision engineering. However, generating large datasets required for model training is often impractical experimentally due to high costs and the time-intensive nature of measurements. High-fidelity synthetic datasets offer a viable alternative if they can be generated both efficiently and accurately. To address this challenge, this paper presents an efficient framework for generating accurate 3D surface topographies and roughness indicators in milling operations using numerical methods. First, a conventional topography prediction model is developed based on the forward solution method (FSM). Building on this, an optimized computational algorithm is proposed to establish an efficient FSM with significantly improved performance. The model is validated against two independent sets of experimental results, assessing both prediction accuracy and computational efficiency. The results demonstrate acceptable prediction errors and an average computational speedup of 42.2x. The proposed open-source model provides a generalizable framework for large-scale analysis, enabling the generation of extensive datasets for data-driven surrogate modeling.",
+      "published": "2026-03-30T08:26:08+00:00",
+      "url": "http://arxiv.org/abs/2603.28160v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28160v1",
+      "categories": [
+        "cs.CE",
+        "cond-mat.mtrl-sci"
+      ],
+      "primary_category": "cs.CE",
+      "core_idea": "With the emergence of data-driven approaches in science, there is growing interest in their application to manufacturing, particularly in surface precision engineering",
+      "methodology": "However, generating large datasets required for model training is often impractical experimentally due to high costs and the time-intensive nature of measurements",
+      "quant_impact": "High-fidelity synthetic datasets offer a viable alternative if they can be generated both efficiently and accurately",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
     },
     {
       "id": "2603.28048v1",
@@ -545,9 +545,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64698,
-      "forks": 6360,
-      "updated": "2026-03-31T07:22:42+00:00",
+      "stars": 64728,
+      "forks": 6361,
+      "updated": "2026-03-31T08:36:35+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -576,9 +576,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39560,
-      "forks": 6184,
-      "updated": "2026-03-31T07:19:44+00:00",
+      "stars": 39562,
+      "forks": 6183,
+      "updated": "2026-03-31T08:33:02+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -612,9 +612,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25237,
+      "stars": 25238,
       "forks": 3343,
-      "updated": "2026-03-31T06:37:32+00:00",
+      "updated": "2026-03-31T07:30:49+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -650,9 +650,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16793,
+      "stars": 16794,
       "forks": 2375,
-      "updated": "2026-03-31T07:22:12+00:00",
+      "updated": "2026-03-31T08:29:48+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -686,7 +686,7 @@
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
       "stars": 12106,
-      "forks": 2510,
+      "forks": 2511,
       "updated": "2026-03-31T07:17:32+00:00",
       "language": "Python",
       "topics": [
@@ -777,9 +777,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9495,
-      "forks": 2092,
-      "updated": "2026-03-31T02:11:56+00:00",
+      "stars": 9498,
+      "forks": 2091,
+      "updated": "2026-03-31T08:36:44+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -816,7 +816,7 @@
       "description": "A curated list of practical financial machine learning tools and applications.",
       "url": "https://github.com/firmai/financial-machine-learning",
       "stars": 8466,
-      "forks": 1396,
+      "forks": 1395,
       "updated": "2026-03-30T02:38:02+00:00",
       "language": "Python",
       "topics": [
@@ -914,9 +914,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 7027,
-      "forks": 905,
-      "updated": "2026-03-31T05:43:48+00:00",
+      "stars": 7029,
+      "forks": 906,
+      "updated": "2026-03-31T07:53:13+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -948,7 +948,7 @@
       "url": "https://github.com/lballabio/QuantLib",
       "stars": 6926,
       "forks": 2156,
-      "updated": "2026-03-31T02:17:30+00:00",
+      "updated": "2026-03-31T08:18:45+00:00",
       "language": "C++",
       "topics": [
         "quantitative-finance"
@@ -965,9 +965,9 @@
       "title": "quantstats",
       "description": "Portfolio analytics for quants, written in Python",
       "url": "https://github.com/ranaroussi/quantstats",
-      "stars": 6911,
+      "stars": 6912,
       "forks": 1143,
-      "updated": "2026-03-31T00:20:28+00:00",
+      "updated": "2026-03-31T07:42:58+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -1032,9 +1032,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48200,
-      "forks": 10044,
-      "updated": "2026-03-31T07:02:10+00:00",
+      "stars": 48203,
+      "forks": 10045,
+      "updated": "2026-03-31T08:22:41+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1059,9 +1059,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19567,
-      "forks": 4956,
-      "updated": "2026-03-31T06:53:12+00:00",
+      "stars": 19568,
+      "forks": 4957,
+      "updated": "2026-03-31T07:27:02+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1081,9 +1081,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16671,
+      "stars": 16672,
       "forks": 4479,
-      "updated": "2026-03-31T06:38:21+00:00",
+      "updated": "2026-03-31T07:44:16+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
