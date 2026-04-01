@@ -34,6 +34,9 @@
         .card-title a { color: #1e293b; text-decoration: none; }
         .card-title a:hover { color: #3b82f6; text-decoration: underline; }
         .card-summary { margin-bottom: 1rem; color: #475569; }
+        .source-link { font-size: 0.875rem; color: #64748b; margin-top: 0.5rem; }
+        .source-link a { color: #3b82f6; text-decoration: none; }
+        .source-link a:hover { text-decoration: underline; }
         .card-footer { display: flex; justify-content: space-between; align-items: center; padding-top: 1rem; border-top: 1px solid #e2e8f0; }
         .card-actions { display: flex; gap: 0.5rem; }
         .read-btn { padding: 0.5rem 1rem; background: #3b82f6; color: white; border-radius: 4px; text-decoration: none; font-size: 0.875rem; }
@@ -137,6 +140,28 @@
             }
         }
         
+        // Format source display name
+        function formatSource(source) {
+            const sourceMap = {
+                'arxiv': 'arXiv',
+                'github': 'GitHub',
+                'rss': 'News',
+                'ssrn': 'SSRN',
+                'risk.net': 'Risk.net'
+            };
+            return sourceMap[source] || source.toUpperCase();
+        }
+        
+        // Get source URL for display
+        function getSourceUrl(item) {
+            if (item.source === 'arxiv') return `https://arxiv.org/abs/${item.id}`;
+            if (item.source === 'github') return item.url;
+            if (item.source === 'rss') return item.url;
+            if (item.source === 'ssrn') return item.url;
+            if (item.source === 'risk.net') return item.url;
+            return item.url;
+        }
+        
         // Render items to the page
         function renderItems(items) {
             const feed = document.getElementById('feed');
@@ -158,9 +183,13 @@
                 const relevance = item.relevance_score || 7;
                 const relevanceColor = relevance >= 9 ? '#10b981' : relevance >= 8 ? '#3b82f6' : '#f59e0b';
                 
+                // Get source URL
+                const sourceUrl = getSourceUrl(item);
+                const sourceName = formatSource(item.source);
+                
                 card.innerHTML = `
                     <div class="card-header">
-                        <span class="source ${sourceClass}">${item.source.toUpperCase()}</span>
+                        <span class="source ${sourceClass}">${sourceName}</span>
                         <span style="font-size:0.875rem; font-weight:600; color:${relevanceColor};">${relevance.toFixed(1)}</span>
                     </div>
                     <h3 class="card-title">
@@ -169,6 +198,9 @@
                     <div class="card-summary">
                         <p><strong>AI Summary:</strong> ${item.summary || 'No summary available'}</p>
                         ${item.quant_impact ? `<p><strong>Quant Impact:</strong> ${item.quant_impact}</p>` : ''}
+                        <div class="source-link">
+                            <strong>Source:</strong> [<a href="${sourceUrl}" target="_blank" rel="noopener">${sourceName}</a>]
+                        </div>
                     </div>
                     <div class="card-footer">
                         <span>Relevance: ${relevance}/10</span>
