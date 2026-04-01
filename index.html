@@ -32,13 +32,13 @@
         .archive-btn { padding: 0.5rem 1rem; background: #10b981; color: white; border-radius: 4px; text-decoration: none; font-size: 0.875rem; border: none; cursor: pointer; }
         .read-btn:hover { background: #2563eb; }
         .archive-btn:hover { background: #059669; }
-        .copy-notification { position: fixed; top: 20px; right: 20px; background: #10b981; color: white; padding: 1rem; border-radius: 4px; display: none; z-index: 1000; }
+
         .footer { background: white; border-top: 1px solid #e2e8f0; padding: 2rem 0; margin-top: 3rem; color: #64748b; }
         @media (max-width: 768px) { .feed { grid-template-columns: 1fr; } .filters { justify-content: center; } .card-actions { flex-direction: column; } }
     </style>
 </head>
 <body>
-    <div class="copy-notification" id="copyNotification">✅ URL copied! Go to archive.ph and paste (Ctrl+V)</div>
+
 
     <div class="header">
         <div class="container">
@@ -92,7 +92,7 @@
                     <span>Relevance: 7/10</span>
                     <div class="card-actions">
                         <a href="https://www.economist.com/finance-and-economics/2026/03/31/the-energy-shock-brings-coal-back-into-fashion" class="read-btn" target="_blank" rel="noopener">Read</a>
-                        <button class="archive-btn" onclick="copyToClipboard('https://www.economist.com/finance-and-economics/2026/03/31/the-energy-shock-brings-coal-back-into-fashion')">Archive</button>
+                        <a href="https://archive.ph/" class="archive-btn" target="_blank" rel="noopener">Archive</a>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                     <span>Relevance: 9/10</span>
                     <div class="card-actions">
                         <a href="https://www.wsj.com/finance/investing" class="read-btn" target="_blank" rel="noopener">Read</a>
-                        <button class="archive-btn" onclick="copyToClipboard('https://www.wsj.com/finance/investing')">Archive</button>
+                        <a href="https://archive.ph/" class="archive-btn" target="_blank" rel="noopener">Archive</a>
                     </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@
                     <span>Relevance: 8/10</span>
                     <div class="card-actions">
                         <a href="https://www.ft.com/markets" class="read-btn" target="_blank" rel="noopener">Read</a>
-                        <button class="archive-btn" onclick="copyToClipboard('https://www.ft.com/markets')">Archive</button>
+                        <a href="https://archive.ph/" class="archive-btn" target="_blank" rel="noopener">Archive</a>
                     </div>
                 </div>
             </div>
@@ -155,7 +155,7 @@
                     <span>Relevance: 7/10</span>
                     <div class="card-actions">
                         <a href="https://www.bloomberg.com/markets" class="read-btn" target="_blank" rel="noopener">Read</a>
-                        <button class="archive-btn" onclick="copyToClipboard('https://www.bloomberg.com/markets')">Archive</button>
+                        <a href="https://archive.ph/" class="archive-btn" target="_blank" rel="noopener">Archive</a>
                     </div>
                 </div>
             </div>
@@ -192,36 +192,6 @@
     </div>
 
     <script>
-        function copyToClipboard(url) {
-            // Create a temporary textarea
-            const textarea = document.createElement('textarea');
-            textarea.value = url;
-            document.body.appendChild(textarea);
-            textarea.select();
-            
-            try {
-                // Try to copy
-                const successful = document.execCommand('copy');
-                if (successful) {
-                    // Show notification
-                    const notification = document.getElementById('copyNotification');
-                    notification.style.display = 'block';
-                    setTimeout(() => {
-                        notification.style.display = 'none';
-                    }, 3000);
-                    
-                    // Just copy - user will manually go to archive.ph
-                    // No auto-open to avoid block page
-                } else {
-                    alert('Copy failed. URL: ' + url);
-                }
-            } catch (err) {
-                alert('Copy failed. URL: ' + url);
-            }
-            
-            // Clean up
-            document.body.removeChild(textarea);
-        }
 
         function filterItems(filter) {
             // Update active button
