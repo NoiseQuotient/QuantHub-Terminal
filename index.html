@@ -42,6 +42,7 @@
         .read-btn { padding: 0.5rem 1rem; background: #3b82f6; color: white; border-radius: 4px; text-decoration: none; font-size: 0.875rem; }
         .read-btn:hover { background: #2563eb; }
         .loading { text-align: center; padding: 3rem; color: #64748b; }
+        .error { text-align: center; padding: 3rem; color: #dc2626; background: #fef2f2; border-radius: 8px; margin: 2rem 0; }
         .footer { background: white; border-top: 1px solid #e2e8f0; padding: 2rem 0; margin-top: 3rem; color: #64748b; }
         @media (max-width: 768px) { .feed { grid-template-columns: 1fr; } .filters { justify-content: center; } .card-actions { flex-direction: column; } }
     </style>
@@ -112,11 +113,22 @@
     </div>
 
     <script>
-        // Load data from JSON feed
+        // Load data from JSON feed with CORS workaround
         async function loadFeed() {
             try {
-                const response = await fetch('/data/quant_feed.json');
-                const data = await response.json();
+                // Try direct fetch first
+                let data;
+                try {
+                    const response = await fetch('/data/quant_feed.json');
+                    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                    data = await response.json();
+                } catch (fetchError) {
+                    console.log('Direct fetch failed, trying CORS proxy:', fetchError);
+                    // Fallback: Use raw.githubusercontent.com (no CORS issues)
+                    const proxyResponse = await fetch('https://raw.githubusercontent.com/NoiseQuotient/QuantHub-Terminal/main/_data/quant_feed.json');
+                    if (!proxyResponse.ok) throw new Error(`Proxy HTTP ${proxyResponse.status}`);
+                    data = await proxyResponse.json();
+                }
                 
                 // Update last updated time
                 document.getElementById('last-updated').textContent = new Date(data.last_updated).toLocaleString();
@@ -136,7 +148,13 @@
                 document.getElementById('loading').style.display = 'none';
             } catch (error) {
                 console.error('Error loading feed:', error);
-                document.getElementById('loading').innerHTML = '<p>Error loading data. Please refresh.</p>';
+                document.getElementById('loading').innerHTML = `
+                    <div class="error">
+                        <p><strong>Error loading data:</strong> ${error.message}</p>
+                        <p>Try refreshing the page or check back in a few minutes.</p>
+                        <p>JSON feed is available at: <a href="/data/quant_feed.json" target="_blank">/data/quant_feed.json</a></p>
+                    </div>
+                `;
             }
         }
         
@@ -167,7 +185,13 @@
             const feed = document.getElementById('feed');
             feed.innerHTML = '';
             
-            items.forEach(item => {
+            // Sort by relevance score (highest first)
+            items.sort((a, b) => (b.relevance_score || 0) - (a.relevance_score || 0));
+            
+            // Show top 20 items
+            const topItems = items.slice(0, 20);
+            
+            topItems.forEach(item => {
                 const card = document.createElement('div');
                 card.className = 'card';
                 card.dataset.source = item.source;
@@ -187,6 +211,10 @@
                 const sourceUrl = getSourceUrl(item);
                 const sourceName = formatSource(item.source);
                 
+                // Truncate summary if too long
+                const summary = item.summary || 'No summary available';
+                const truncatedSummary = summary.length > 300 ? summary.substring(0, 300) + '...' : summary;
+                
                 card.innerHTML = `
                     <div class="card-header">
                         <span class="source ${sourceClass}">${sourceName}</span>
@@ -196,7 +224,7 @@
                         <a href="${item.url}" target="_blank" rel="noopener">${item.title}</a>
                     </h3>
                     <div class="card-summary">
-                        <p><strong>AI Summary:</strong> ${item.summary || 'No summary available'}</p>
+                        <p><strong>AI Summary:</strong> ${truncatedSummary}</p>
                         ${item.quant_impact ? `<p><strong>Quant Impact:</strong> ${item.quant_impact}</p>` : ''}
                         <div class="source-link">
                             <strong>Source:</strong> [<a href="${sourceUrl}" target="_blank" rel="noopener">${sourceName}</a>]
