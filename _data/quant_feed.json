@@ -1,6 +1,186 @@
 {
-  "last_updated": "2026-04-01T08:53:19.852699",
+  "last_updated": "2026-04-01T09:20:15.917823",
   "items": [
+    {
+      "id": "aaa0f5b2-c0af-4511-82d9-63d38ade22a9",
+      "source": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "source_type": "quant",
+      "title": "Crypto asset manager CoinShares to list on Nasdaq after $1.2 billion SPAC deal",
+      "summary": "",
+      "full_text": null,
+      "published": "Wed, 01 Apr 2026 09:17:54 +0000",
+      "url": "https://www.coindesk.com/business/2026/04/01/crypto-asset-manager-coinshares-to-list-on-nasdaq-after-usd1-2-billion-spac-deal",
+      "archive_url": null,
+      "author": "Francisco Rodrigues",
+      "is_quantitative": true,
+      "core_idea": "",
+      "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 33.65
+    },
+    {
+      "id": "e3a0f947-5fcb-454a-96c3-92930186d96b",
+      "source": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "source_type": "quant",
+      "title": "Strategy's STRC keeps dividend payout steady at 11.5% after seven straight increases",
+      "summary": "",
+      "full_text": null,
+      "published": "Wed, 01 Apr 2026 08:19:21 +0000",
+      "url": "https://www.coindesk.com/markets/2026/04/01/strc-keeps-dividend-payout-steady-at-11-5-after-seven-straight-increases",
+      "archive_url": null,
+      "author": "James Van Straten",
+      "is_quantitative": true,
+      "core_idea": "",
+      "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 33.65
+    },
+    {
+      "id": "921e0856-693f-415b-91d7-7672e905202e",
+      "source": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "source_type": "quant",
+      "title": "Australia passes crypto regulation requiring exchanges to obtain financial services licenses",
+      "summary": "",
+      "full_text": null,
+      "published": "Wed, 01 Apr 2026 07:47:52 +0000",
+      "url": "https://www.coindesk.com/policy/2026/04/01/australia-passes-crypto-licensing-bill-as-ausd24-billion-opportunity-comes-into-focus",
+      "archive_url": null,
+      "author": "Sam Reynolds",
+      "is_quantitative": true,
+      "core_idea": "",
+      "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 33.65
+    },
+    {
+      "id": "37417518-4eb8-4d0f-93a1-66e6c615ac88",
+      "source": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "source_type": "quant",
+      "title": "Some quantum-resistant tokens jump 50% as Google flags risks to Bitcoin security",
+      "summary": "",
+      "full_text": null,
+      "published": "Wed, 01 Apr 2026 05:59:35 +0000",
+      "url": "https://www.coindesk.com/markets/2026/04/01/the-first-winners-of-the-quantum-crypto-debate-are-already-clear-and-some-of-them-are-up-50",
+      "archive_url": null,
+      "author": "Omkar Godbole",
+      "is_quantitative": true,
+      "core_idea": "",
+      "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 33.65
+    },
+    {
+      "id": "358bb244-5279-445e-ad63-d74ee8d0ab96",
+      "source": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "source_type": "quant",
+      "title": "These catalysts could bump bitcoin as Trump hands three-week target to end Iran war",
+      "summary": "",
+      "full_text": null,
+      "published": "Wed, 01 Apr 2026 05:19:11 +0000",
+      "url": "https://www.coindesk.com/markets/2026/04/01/these-catalysts-could-bump-bitcoin-as-trump-hands-three-week-target-to-end-iran-war",
+      "archive_url": null,
+      "author": "Shaurya Malwa",
+      "is_quantitative": true,
+      "core_idea": "",
+      "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 33.65
+    },
+    {
+      "id": "WP-WSJ-0002354015",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia was down 16%.",
+      "full_text": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia was down 16%.",
+      "published": "Mon, 27 Jan 2025 14:26:00 -0500",
+      "url": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "archive_url": null,
+      "author": "",
+      "is_quantitative": true,
+      "core_idea": "U.S",
+      "methodology": "stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits",
+      "quant_impact": "Nvidia was down 16%.",
+      "relevance_score": 5,
+      "ranking_score": 33.65
+    },
+    {
+      "id": "WP-WSJ-0002354018",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "Comex Gold, Silver Settle Lower",
+      "summary": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions.",
+      "full_text": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions.",
+      "published": "Mon, 27 Jan 2025 14:01:00 -0500",
+      "url": "https://www.wsj.com/articles/gold-edges-lower-feds-rate-decision-in-focus-09dbfceb?mod=rss_markets_main",
+      "archive_url": null,
+      "author": "",
+      "is_quantitative": true,
+      "core_idea": "Gold settled 1.4% lower, down two of the past three sessions, and silver fell 2.5%, down three of the past four sessions.",
+      "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 33.65
+    },
+    {
+      "id": "WP-WSJ-0002355367",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "DeepSeek Won't Sink U.S. AI Titans",
+      "summary": "Panic fueling the selloff of Nvidia, Broadcom and other tech giants is overblown.",
+      "full_text": "Panic fueling the selloff of Nvidia, Broadcom and other tech giants is overblown.",
+      "published": "Mon, 27 Jan 2025 13:12:00 -0500",
+      "url": "https://www.wsj.com/articles/deepseek-us-ai-stocks-nvidia-broadcom-6cdfae81?mod=rss_markets_main",
+      "archive_url": null,
+      "author": "",
+      "is_quantitative": true,
+      "core_idea": "Panic fueling the selloff of Nvidia, Broadcom and other tech giants is overblown.",
+      "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 33.65
+    },
+    {
+      "id": "WP-WSJ-0002355424",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "Financial Services Roundup: Market Talk",
+      "summary": "Gain insight on Experian, SoFi Technologies and more in the latest Market Talks covering Financial Services.",
+      "full_text": "Gain insight on Experian, SoFi Technologies and more in the latest Market Talks covering Financial Services.",
+      "published": "Mon, 27 Jan 2025 12:27:00 -0500",
+      "url": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main",
+      "archive_url": null,
+      "author": "",
+      "is_quantitative": true,
+      "core_idea": "Gain insight on Experian, SoFi Technologies and more in the latest Market Talks covering Financial Services.",
+      "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 33.65
+    },
+    {
+      "id": "WP-WSJ-0002354874",
+      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "source_type": "quant",
+      "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
+      "summary": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump\u2019s threats to impose tariffs and economic sanctions on Colombia.",
+      "full_text": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump\u2019s threats to impose tariffs and economic sanctions on Colombia.",
+      "published": "Mon, 27 Jan 2025 12:20:00 -0500",
+      "url": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
+      "archive_url": null,
+      "author": "",
+      "is_quantitative": true,
+      "core_idea": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump\u2019s threats to impose tariffs and economic sanctions on Colombia.",
+      "methodology": "No methodology extracted.",
+      "quant_impact": "No quant impact extracted.",
+      "relevance_score": 5,
+      "ranking_score": 33.65
+    },
     {
       "id": "2603.29994v1",
       "source": "arxiv",
@@ -20,11 +200,11 @@
         "q-fin.RM"
       ],
       "primary_category": "q-fin.PR",
-      "core_idea": "This paper studies the problem of hedging and pricing a European call option under proportional transaction costs, from two complementary perspectives",
-      "methodology": "We first derive the optimal hedging strategy under CARA utility, following the stochastic control framework of Davis et al",
-      "quant_impact": "(1993), characterising the no-transaction band via the Hamilton-Jacobi-Bellman Quasi-Variational Inequality (HJBQVI) and the Whalley-Wilmott asymptotic approximation",
-      "relevance_score": 5,
-      "ranking_score": 29.65
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 15.220000000000002
     },
     {
       "id": "2603.29593v1",
@@ -42,11 +222,11 @@
         "q-fin.CP"
       ],
       "primary_category": "physics.soc-ph",
-      "core_idea": "The proliferation of diverse, high-leverage trading instruments in modern financial markets presents a complex, \"noisy\" environment, leading to a critical question: which trading strategies are evolutionarily viable? To investigate this, we construct a large-scale agent-based model, \"MAS-Utopia,\" comprising 10,000 agents with five distinct archetypes",
-      "methodology": "This society is immersed in five years of high-frequency data under a counterfactual baseline: zero transaction friction and a robust Unconditional Basic Income (UBI) safety net",
-      "quant_impact": "The simulation reveals a powerful evolutionary convergence",
-      "relevance_score": 5,
-      "ranking_score": 29.65
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 15.220000000000002
     },
     {
       "id": "2603.29763v1",
@@ -65,11 +245,11 @@
         "q-fin.TR"
       ],
       "primary_category": "q-fin.PR",
-      "core_idea": "We derive the stochastic price process for tokens whose sole price discovery mechanism is a constant-product automated market maker (AMM)",
-      "methodology": "When the net flow into the pool follows a diffusion, the token price follows a constant elasticity of variance (CEV) process, nesting Black-Scholes as the limiting case of infinite liquidity",
-      "quant_impact": "We obtain closed-form European option prices and introduce liquidity-adjusted Greeks",
-      "relevance_score": 5,
-      "ranking_score": 29.65
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 15.220000000000002
     },
     {
       "id": "2603.29751v1",
@@ -87,11 +267,11 @@
         "q-fin.PR"
       ],
       "primary_category": "q-fin.PM",
-      "core_idea": "I derive a size premium from the constant-product automated market maker used to price Bittensor subnet tokens and test the prediction using daily data on 128 subnets",
-      "methodology": "A small-minus-big factor earns 1.01% daily (Newey-West t = 3.28)",
-      "quant_impact": "The December 2025 halving of token emissions, which the theory predicts should halve the premium, reduces it from 1.17% to 0.51% (p = 0.044)",
-      "relevance_score": 5,
-      "ranking_score": 29.65
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 15.220000000000002
     },
     {
       "id": "2603.29176v1",
@@ -123,11 +303,11 @@
         "cs.CV"
       ],
       "primary_category": "q-bio.NC",
-      "core_idea": "Parkinson's disease (PD) affects over ten million people worldwide",
-      "methodology": "Although temporal interference (TI) and deep brain stimulation (DBS) are promising therapies, inter-individual variability limits empirical treatment selection, increasing non-negligible surgical risk and cost",
-      "quant_impact": "Previous explorations either resort to limited statistical biomarkers that are insufficient to characterize variability, or employ AI-driven methods which is prone to overfitting and opacity",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.862857142857145
     },
     {
       "id": "2603.29086v1",
@@ -146,11 +326,11 @@
         "cs.CE"
       ],
       "primary_category": "cs.LG",
-      "core_idea": "Reinforcement learning (RL) has shown promise for trading, yet most open-source backtesting environments assume negligible or fixed transaction costs, causing agents to learn trading behaviors that fail under realistic execution",
-      "methodology": "We introduce three Gymnasium-compatible trading environments -- MACE (Market-Adjusted Cost Execution) stock trading, margin trading, and portfolio optimization -- that integrate nonlinear market impact models grounded in the Almgren-Chriss framework and the empirically validated square-root impact law",
-      "quant_impact": "Each environment provides pluggable cost models, permanent impact tracking with exponential decay, and comprehensive trade-level logging",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.862857142857145
     },
     {
       "id": "2603.28987v1",
@@ -172,11 +352,11 @@
         "stat.ML"
       ],
       "primary_category": "math.OC",
-      "core_idea": "Aircraft design relies heavily on solving challenging and computationally expensive Multidisciplinary Design Optimization problems",
-      "methodology": "In this context, there has been growing interest in multi-fidelity models for Bayesian optimization to improve the MDO process by balancing computational cost and accuracy through the combination of high- and low-fidelity simulation models, enabling efficient exploration of the design process at a minimal computational effort",
-      "quant_impact": "In the existing literature, fidelity selection focuses only on the objective function to decide how to integrate multiple fidelity levels, balancing precision and computational cost using variance reduction criteria",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.862857142857145
     },
     {
       "id": "2603.28845v1",
@@ -209,11 +389,11 @@
         "cs.CL"
       ],
       "primary_category": "cs.LG",
-      "core_idea": "Deploying foundation models is increasingly constrained by memory footprint, latency, and hardware costs",
-      "methodology": "Post-training compression can mitigate these bottlenecks by reducing the precision of model parameters without significantly degrading performance; however, its practical implementation remains challenging as practitioners navigate a fragmented landscape of quantization algorithms, precision budgets, data-driven calibration strategies, and hardware-dependent execution regimes",
-      "quant_impact": "We present OneComp, an open-source compression framework that transforms this expert workflow into a reproducible, resource-adaptive pipeline",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.862857142857145
     },
     {
       "id": "2603.28707v2",
@@ -233,11 +413,11 @@
         "cs.AI"
       ],
       "primary_category": "cs.CE",
-      "core_idea": "We present a physics-based neural network framework for the discovery of constitutive models in fully coupled thermomechanics",
-      "methodology": "In contrast to classical formulations based on the Helmholtz energy, we adopt the internal energy and a dissipation potential as primary constitutive functions, expressed in terms of deformation and entropy",
-      "quant_impact": "This choice avoids the need to enforce mixed convexity--concavity conditions and facilitates a consistent incorporation of thermodynamic principles",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.862857142857145
     },
     {
       "id": "2603.28690v1",
@@ -257,11 +437,11 @@
         "cs.CE"
       ],
       "primary_category": "cs.RO",
-      "core_idea": "Stable and reliable supplies of rare-Earth minerals and critical raw materials (CRMs) are essential for the development of the European Union",
-      "methodology": "Since a large share of these materials enters the Union from outside, a valid option for CRMs supply resilience and security is to recover them from end-of-use products",
-      "quant_impact": "Hence, in this paper we present the preliminary phases of the development of real-time visual detection of PC desktop components running on edge devices to simultaneously achieve two goals",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.862857142857145
     },
     {
       "id": "2603.28576v1",
@@ -278,11 +458,11 @@
         "cs.CE"
       ],
       "primary_category": "cs.CE",
-      "core_idea": "This paper provides the first systematic economic analysis of token pricing in the large language model (LLM) inference market",
-      "methodology": "Assembling a novel dataset integrating OpenRouter API data (318 models), Epoch AI records (3,237 models), and 62 cross-validated milestone observations spanning 2020-2026, we document an approximately 600-fold decline in token prices and propose the \"Tiered Super-Moore\" hypothesis",
-      "quant_impact": "Economy-tier models exhibit a price half-life of 1.10 years and mid-tier models 1.55 years -- both significantly faster than Moore's Law's two-year benchmark -- while flagship models display near-zero exponential fit (R^2 = 0.031) due to a reasoning premium averaging 31.5 times non-reasoning prices",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.862857142857145
     },
     {
       "id": "2603.28478v1",
@@ -301,11 +481,11 @@
         "cs.CE"
       ],
       "primary_category": "cs.CE",
-      "core_idea": "Calibrating chemical kinetics in a reaction-diffusion system is challenging because of complex dynamics governed by tightly coupled chemistry and transport, while experimental observations are often sparse and noisy",
-      "methodology": "We propose a physics consistent diffusion-chemistry coupled neural ordinary differential equation (Diff-Chem Neural ODE) that embeds Arrhenius-structured reaction neurons into a fully differentiable streamline formulation and explicitly accounts for diffusion coupling",
-      "quant_impact": "This design enables direct gradient-based analysis of kinetic parameters without sampling-based pretraining",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.862857142857145
     },
     {
       "id": "2603.28343v1",
@@ -325,11 +505,11 @@
         "cs.CE"
       ],
       "primary_category": "quant-ph",
-      "core_idea": "Catalytic carbon fixation to formic acid is important for studying the reduction of carbon footprint and the emergence of life",
-      "methodology": "Can discrete quantum exhaustive search merged with other methods help reduce the carbon footprint? We suggest merging quantum, quantum inspired, and classical tools for a better simulation of various relevant processes",
-      "quant_impact": "Quantum tools are often used for analyzing the electronic structure of molecules, sometimes because this problem is not scalable (in the number of orbitals) on classical computers while it is potentially approximately scalable on (future) quantum computers",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.862857142857145
     },
     {
       "id": "2603.28325v2",
@@ -352,11 +532,11 @@
         "cs.AI"
       ],
       "primary_category": "cs.CE",
-      "core_idea": "Biomedical knowledge resources often either preserve evidence as unstructured text or compress it into flat triples that omit study design, provenance, and quantitative support",
-      "methodology": "Here we present EvidenceNet, a framework and dataset for building disease-specific knowledge graphs from full-text biomedical literature",
-      "quant_impact": "EvidenceNet uses a large language model (LLM)-assisted pipeline to extract experimentally grounded findings as structured evidence nodes, normalize biomedical entities, score evidence quality, and connect evidence records through typed semantic relations",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.862857142857145
     },
     {
       "id": "2603.29430v1",
@@ -377,11 +557,11 @@
         "q-fin.CP"
       ],
       "primary_category": "q-fin.MF",
-      "core_idea": "Options with maturities below one week, hereafter \"ultra-short-term\" options, have seen a sharp increase in trading activity in recent years",
-      "methodology": "Yet, these instruments are difficult to price jointly using classical pricing models due to the pronounced oscillations observed in the at-the-money implied-volatility term structure across ultra-short-term tenors",
-      "quant_impact": "We propose Edgeworth++, a parsimonious jump-diffusion model featuring a nonparametric stochastic volatility component, which provides flexibility in capturing implied-volatility smiles for each tenor, combined with a deterministic shift extension, which allows the model to fit rich at-the-money implied-volatility shapes across tenors",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.862857142857145
     },
     {
       "id": "2603.28257v1",
@@ -399,33 +579,11 @@
         "cs.LG"
       ],
       "primary_category": "q-fin.ST",
-      "core_idea": "KAN-PCA is an autoencoder that uses a KAN as encoder and a linear map as decoder",
-      "methodology": "It generalizes classical PCA by replacing linear projections with learned B-spline functions on each edge",
-      "quant_impact": "The motivation is to capture more variance than classical PCA, which becomes inefficient during market crises when the linear assumption breaks down and correlations between assets change dramatically.\n  We prove that if the spline activations are forced to be linear, KAN-PCA yields exactly the same results as classical PCA, establishing PCA as a special case",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
-    },
-    {
-      "id": "2603.28198v1",
-      "source": "arxiv",
-      "title": "Policy-Controlled Generalized Share: A General Framework with a Transformer Instantiation for Strictly Online Switching-Oracle Tracking",
-      "authors": [
-        "Hongkai Hu"
-      ],
-      "abstract": "Static regret to a single expert is often the wrong target for strictly online prediction under non-stationarity, where the best expert may switch repeatedly over time. We study Policy-Controlled Generalized Share (PCGS), a general strictly online framework in which the generalized-share recursion is fixed while the post-loss update controls are allowed to vary adaptively. Its principal instantiation in this paper is PCGS-TF, which uses a causal Transformer as an update controller: after round t finishes and the loss vector is observed, the Transformer outputs the controls that map w_t to w_{t+1} without altering the already committed decision w_t. Under admissible post-loss update controls, we obtain a pathwise weighted regret guarantee for general time-varying learning rates, and a standard dynamic-regret guarantee against any expert path with at most S switches under the constant-learning-rate specialization. Empirically, on a controlled synthetic suite with exact dynamic-programming switching-oracle evaluation, PCGS-TF attains the lowest mean dynamic regret in all seven non-stationary families, with its advantage increasing for larger expert pools. On a reproduced household-electricity benchmark, PCGS-TF also achieves the lowest normalized dynamic regret for S = 5, 10, and 20.",
-      "published": "2026-03-30T09:07:10+00:00",
-      "url": "http://arxiv.org/abs/2603.28198v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.28198v1",
-      "categories": [
-        "cs.LG",
-        "q-fin.ST"
-      ],
-      "primary_category": "cs.LG",
-      "core_idea": "Static regret to a single expert is often the wrong target for strictly online prediction under non-stationarity, where the best expert may switch repeatedly over time",
-      "methodology": "We study Policy-Controlled Generalized Share (PCGS), a general strictly online framework in which the generalized-share recursion is fixed while the post-loss update controls are allowed to vary adaptively",
-      "quant_impact": "Its principal instantiation in this paper is PCGS-TF, which uses a causal Transformer as an update controller: after round t finishes and the loss vector is observed, the Transformer outputs the controls that map w_t to w_{t+1} without altering the already committed decision w_t",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.862857142857145
     },
     {
       "id": "2603.28898v1",
@@ -451,11 +609,11 @@
         "q-fin.TR"
       ],
       "primary_category": "q-fin.TR",
-      "core_idea": "We address the problem of executing large client orders in continuous double-auction markets under time and liquidity constraints",
-      "methodology": "We propose a model predictive control (MPC) framework that balances three competing objectives: order completion, market impact, and opportunity cost",
-      "quant_impact": "Our algorithm is guided by a trading schedule (such as time-weighted average price or volume-weighted average price) but allows for deviations to reduce the expected execution cost, with due regard to risk.\n  Our MPC algorithm executes the order progressively, and at each decision step it solves a fast quadratic program that trades off expected transaction cost against schedule deviation, while incorporating a residual cost term derived from a simple base policy",
-      "relevance_score": 5,
-      "ranking_score": 29.22142857142857
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.862857142857145
     },
     {
       "id": "2603.28160v1",
@@ -478,11 +636,11 @@
         "cond-mat.mtrl-sci"
       ],
       "primary_category": "cs.CE",
-      "core_idea": "With the emergence of data-driven approaches in science, there is growing interest in their application to manufacturing, particularly in surface precision engineering",
-      "methodology": "However, generating large datasets required for model training is often impractical experimentally due to high costs and the time-intensive nature of measurements",
-      "quant_impact": "High-fidelity synthetic datasets offer a viable alternative if they can be generated both efficiently and accurately",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.505714285714287
     },
     {
       "id": "2603.28048v1",
@@ -501,11 +659,11 @@
         "cs.CE"
       ],
       "primary_category": "cs.CE",
-      "core_idea": "A state-space model is a statistical framework for inferring latent states from observed time-series data",
-      "methodology": "However, inference with nonlinear and high-dimensional state-space models remains challenging",
-      "quant_impact": "To this end, an approach based on diffusion models-a powerful class of deep generative models-has been developed, known as Score-based Data Assimilation (SDA)",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.505714285714287
     },
     {
       "id": "2603.27856v1",
@@ -527,11 +685,11 @@
         "math.NA"
       ],
       "primary_category": "cs.CE",
-      "core_idea": "Tensor network methods provide a scalable solution to represent high-dimensional data",
-      "methodology": "However, their efficacy is often limited by static, expert-defined structures that fail to adapt to evolving data correlations",
-      "quant_impact": "We address this limitation by formalizing the tensor network structural rounding problem and introducing the hierarchical structure search algorithm HISS, which automatically identifies near-optimal structures and index reshaping for arbitrary tree networks",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.505714285714287
     },
     {
       "id": "2603.27755v1",
@@ -550,11 +708,33 @@
         "cs.ET"
       ],
       "primary_category": "cs.CE",
-      "core_idea": "Hydrogen fuel cells are a key technology in the transition toward carbon-neutral energy systems, offering clean power with water as the only byproduct",
-      "methodology": "Microfluidic fuel cells, which operate at the microliter scale, are an emerging variant that offer fine control over fluid and thermal dynamics, along with compact, efficient designs",
-      "quant_impact": "However, scaling these systems to meet practical power demands remains a major challenge -- particularly due to the limitations of conventional simulation methods like Computational Fluid Dynamics (CFD), which are computationally expensive and scale poorly",
-      "relevance_score": 5,
-      "ranking_score": 28.79285714285714
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.505714285714287
+    },
+    {
+      "id": "2603.28198v1",
+      "source": "arxiv",
+      "title": "Policy-Controlled Generalized Share: A General Framework with a Transformer Instantiation for Strictly Online Switching-Oracle Tracking",
+      "authors": [
+        "Hongkai Hu"
+      ],
+      "abstract": "Static regret to a single expert is often the wrong target for strictly online prediction under non-stationarity, where the best expert may switch repeatedly over time. We study Policy-Controlled Generalized Share (PCGS), a general strictly online framework in which the generalized-share recursion is fixed while the post-loss update controls are allowed to vary adaptively. Its principal instantiation in this paper is PCGS-TF, which uses a causal Transformer as an update controller: after round t finishes and the loss vector is observed, the Transformer outputs the controls that map w_t to w_{t+1} without altering the already committed decision w_t. Under admissible post-loss update controls, we obtain a pathwise weighted regret guarantee for general time-varying learning rates, and a standard dynamic-regret guarantee against any expert path with at most S switches under the constant-learning-rate specialization. Empirically, on a controlled synthetic suite with exact dynamic-programming switching-oracle evaluation, PCGS-TF attains the lowest mean dynamic regret in all seven non-stationary families, with its advantage increasing for larger expert pools. On a reproduced household-electricity benchmark, PCGS-TF also achieves the lowest normalized dynamic regret for S = 5, 10, and 20.",
+      "published": "2026-03-30T09:07:10+00:00",
+      "url": "http://arxiv.org/abs/2603.28198v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28198v1",
+      "categories": [
+        "cs.LG",
+        "q-fin.ST"
+      ],
+      "primary_category": "cs.LG",
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.505714285714287
     },
     {
       "id": "2603.27539v1",
@@ -574,11 +754,11 @@
         "cs.CE"
       ],
       "primary_category": "cs.MA",
-      "core_idea": "Multi-agent systems based on large language models (LLMs) for financial trading have grown rapidly since 2023, yet the field lacks a shared framework for understanding what drives performance or for evaluating claims credibly",
-      "methodology": "This survey makes three contributions",
-      "quant_impact": "First, we introduce a four-dimensional taxonomy, covering architecture pattern, coordination mechanism, memory architecture, and tool integration; applied to 12 multi-agent systems and two single-agent baselines",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.14857142857143
     },
     {
       "id": "2603.27501v1",
@@ -598,11 +778,11 @@
         "q-fin.CP"
       ],
       "primary_category": "q-fin.MF",
-      "core_idea": "Accurately characterizing the implied volatility curves is a central challenge in option pricing and risk management",
-      "methodology": "The classical SABR model by Hagan et al",
-      "quant_impact": "has been widely adopted in practice due to its well-defined stochastic volatility structure and its tractable closed-form approximation for Black implied volatility",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.14857142857143
     },
     {
       "id": "2603.27274v1",
@@ -622,11 +802,11 @@
         "q-fin.RM"
       ],
       "primary_category": "cs.CE",
-      "core_idea": "In the context of containment of default contagion in financial networks, we here study a regulator that allocates pre-shock capital or liquidity buffers across banks connected by interbank liabilities and common external asset exposures",
-      "methodology": "The regulator chooses a nonnegative buffer vector under a linear budget before asset-price shocks realize",
-      "quant_impact": "Shocks are modeled as belonging to either an $\\ell_{\\infty}$ or an $\\ell_{1}$ uncertainty set, and the design objective is either to enlarge the certified no-default/no-insolvency region or to minimize worst-case clearing losses at a prescribed stress radius",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
+      "core_idea": "",
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 14.14857142857143
     },
     {
       "id": "323048702",
@@ -634,9 +814,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64853,
+      "stars": 64854,
       "forks": 6375,
-      "updated": "2026-04-01T08:47:55+00:00",
+      "updated": "2026-04-01T09:19:19+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -654,10 +834,10 @@
         "stocks"
       ],
       "core_idea": "Financial data platform for analysts, quants and AI agents.",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 13.970000000000002
     },
     {
       "id": "287463830",
@@ -665,9 +845,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39669,
+      "stars": 39677,
       "forks": 6202,
-      "updated": "2026-04-01T08:50:14+00:00",
+      "updated": "2026-04-01T09:15:54+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -691,9 +871,9 @@
       ],
       "core_idea": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions",
       "methodology": "Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 13.970000000000002
     },
     {
       "id": "43425480",
@@ -728,10 +908,10 @@
         "yahoo-finance"
       ],
       "core_idea": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 13.970000000000002
     },
     {
       "id": "569509049",
@@ -739,9 +919,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16806,
+      "stars": 16808,
       "forks": 2379,
-      "updated": "2026-04-01T08:52:25+00:00",
+      "updated": "2026-04-01T09:00:42+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -764,9 +944,9 @@
       ],
       "core_idea": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform",
       "methodology": "\ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 13.970000000000002
     },
     {
       "id": "616738094",
@@ -793,10 +973,10 @@
         "strategy"
       ],
       "core_idea": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 13.970000000000002
     },
     {
       "id": "3810626",
@@ -804,9 +984,9 @@
       "title": "ta-lib-python",
       "description": "Python wrapper for TA-Lib (http://ta-lib.org/).",
       "url": "https://github.com/TA-Lib/ta-lib-python",
-      "stars": 11822,
+      "stars": 11821,
       "forks": 1967,
-      "updated": "2026-04-01T02:56:06+00:00",
+      "updated": "2026-04-01T09:14:02+00:00",
       "language": "Cython",
       "topics": [
         "finance",
@@ -817,10 +997,10 @@
         "technical-analysis"
       ],
       "core_idea": "Python wrapper for TA-Lib (http://ta-lib.org/).",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 13.970000000000002
     },
     {
       "id": "127918080",
@@ -855,10 +1035,10 @@
         "trading-systems"
       ],
       "core_idea": "Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 13.970000000000002
     },
     {
       "id": "27703983",
@@ -893,10 +1073,10 @@
         "trading-strategies"
       ],
       "core_idea": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 13.970000000000002
     },
     {
       "id": "177023075",
@@ -919,10 +1099,10 @@
         "trading-strategies"
       ],
       "core_idea": "A curated list of practical financial machine learning tools and applications.",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 13.970000000000002
     },
     {
       "id": "156847937",
@@ -955,10 +1135,10 @@
         "trading-strategies"
       ],
       "core_idea": "An advanced crypto trading bot written in Python",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 13.970000000000002
     },
     {
       "id": "455982203",
@@ -992,10 +1172,10 @@
         "trading-strategies"
       ],
       "core_idea": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 13.970000000000002
     },
     {
       "id": "110684325",
@@ -1024,10 +1204,10 @@
         "trading-strategies"
       ],
       "core_idea": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 13.970000000000002
     },
     {
       "id": "48185587",
@@ -1043,10 +1223,10 @@
         "quantitative-finance"
       ],
       "core_idea": "The QuantLib C++ library",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 13.970000000000002
     },
     {
       "id": "184420323",
@@ -1072,10 +1252,10 @@
         "visualization"
       ],
       "core_idea": "Portfolio analytics for quants, written in Python",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 13.970000000000002
     },
     {
       "id": "207623149",
@@ -1110,271 +1290,10 @@
         "stochastic-processes"
       ],
       "core_idea": "Collection of notebooks about quantitative finance, with interactive python code.",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
-    },
-    {
-      "id": "91629816",
-      "source": "github",
-      "title": "freqtrade",
-      "description": "Free, open source crypto trading bot",
-      "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48224,
-      "forks": 10047,
-      "updated": "2026-04-01T08:44:25+00:00",
-      "language": "Python",
-      "topics": [
-        "algorithmic-trading",
-        "bitcoin",
-        "cryptocurrencies",
-        "cryptocurrency",
-        "freqtrade",
-        "python",
-        "telegram-bot",
-        "trade",
-        "trading-bot"
-      ],
-      "core_idea": "Free, open source crypto trading bot",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
-    },
-    {
-      "id": "6297520",
-      "source": "github",
-      "title": "zipline",
-      "description": "Zipline, a Pythonic Algorithmic Trading Library",
-      "url": "https://github.com/quantopian/zipline",
-      "stars": 19571,
-      "forks": 4957,
-      "updated": "2026-04-01T08:23:50+00:00",
-      "language": "Python",
-      "topics": [
-        "algorithmic-trading",
-        "python",
-        "quant",
-        "zipline"
-      ],
-      "core_idea": "Zipline, a Pythonic Algorithmic Trading Library",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
-    },
-    {
-      "id": "68619379",
-      "source": "github",
-      "title": "abu",
-      "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
-      "url": "https://github.com/bbfamily/abu",
-      "stars": 16683,
-      "forks": 4483,
-      "updated": "2026-04-01T08:31:21+00:00",
-      "language": "Python",
-      "topics": [
-        "algorithmic-trading",
-        "bitcoin",
-        "machine-learning",
-        "matplotlib",
-        "numpy",
-        "pandas",
-        "quant",
-        "quantitative-trading",
-        "stock",
-        "trade",
-        "trading"
-      ],
-      "core_idea": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
-    },
-    {
-      "id": "282653872",
-      "source": "github",
-      "title": "FinRL",
-      "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
-      "url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 14631,
-      "forks": 3248,
-      "updated": "2026-04-01T06:16:02+00:00",
-      "language": "Jupyter Notebook",
-      "topics": [
-        "algorithmic-trading",
-        "deep-reinforcement-learning",
-        "drl-algorithms",
-        "drl-framework",
-        "drl-trading-agents",
-        "finance",
-        "fintech",
-        "multi-agent-learning",
-        "openai-gym",
-        "pythorch",
-        "stock-markets",
-        "stock-trading",
-        "tensorflow2",
-        "trading-tasks"
-      ],
-      "core_idea": "FinRL\u00ae:  Financial Reinforcement Learning",
-      "methodology": "\ud83d\udd25",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
-    },
-    {
-      "id": "163788469",
-      "source": "github",
-      "title": "backtesting.py",
-      "description": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
-      "url": "https://github.com/kernc/backtesting.py",
-      "stars": 8133,
-      "forks": 1423,
-      "updated": "2026-04-01T06:05:28+00:00",
-      "language": "Python",
-      "topics": [
-        "algo-trading",
-        "algorithmic-trading",
-        "backtesting",
-        "backtesting-engine",
-        "backtesting-frameworks",
-        "backtesting-trading-strategies",
-        "finance",
-        "financial-markets",
-        "forex",
-        "forex-trading",
-        "framework",
-        "hacktoberfest",
-        "investing",
-        "investment",
-        "investment-strategies",
-        "stocks",
-        "trading",
-        "trading-algorithms",
-        "trading-simulator",
-        "trading-strategies"
-      ],
-      "core_idea": "\ud83d\udd0e \ud83d\udcc8 \ud83d\udc0d \ud83d\udcb0  Backtest trading strategies in Python.",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
-    },
-    {
-      "id": "135300551",
-      "source": "github",
-      "title": "PyPortfolioOpt",
-      "description": "Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
-      "url": "https://github.com/PyPortfolio/PyPortfolioOpt",
-      "stars": 5604,
-      "forks": 1105,
-      "updated": "2026-04-01T04:54:38+00:00",
-      "language": "Jupyter Notebook",
-      "topics": [
-        "algorithmic-trading",
-        "covariance",
-        "efficient-frontier",
-        "finance",
-        "financial-analysis",
-        "investing",
-        "investment",
-        "investment-analysis",
-        "portfolio-management",
-        "portfolio-optimization",
-        "python",
-        "quantitative-finance"
-      ],
-      "core_idea": "Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
-    },
-    {
-      "id": "103791045",
-      "source": "github",
-      "title": "Crypto-Signal",
-      "description": "Github.com/CryptoSignal - Trading & Technical Analysis Bot - 4,100+ stars, 1,100+ forks",
-      "url": "https://github.com/CryptoSignal/Crypto-Signal",
-      "stars": 5514,
-      "forks": 1344,
-      "updated": "2026-03-31T21:26:03+00:00",
-      "language": "Python",
-      "topics": [
-        "abenezer-mamo",
-        "algorithmic-trading",
-        "binance",
-        "binance-api",
-        "bitcoin",
-        "bittrex-api",
-        "coinbase",
-        "coinbase-api",
-        "coinbase-pro",
-        "crypto",
-        "crypto-signal",
-        "cryptosignal",
-        "cryptotrading",
-        "ethereum",
-        "gdax",
-        "mamo",
-        "technical-analysis",
-        "trading",
-        "trading-bot",
-        "trading-strategies"
-      ],
-      "core_idea": "Github.com/CryptoSignal - Trading & Technical Analysis Bot - 4,100+ stars, 1,100+ forks",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.15
-    },
-    {
-      "id": "108285455",
-      "source": "https://www.cnbc.com/id/10000664/device/rss/rss.html",
-      "source_type": "quant",
-      "title": "Warren Buffett says Iran bomb would make nuclear disaster harder to avoid",
-      "summary": "The Berkshire Hathaway chairman said the growing number of nuclear-armed states has fundamentally altered the global risk landscape.",
-      "published": "Tue, 31 Mar 2026 17:16:22 GMT",
-      "url": "https://www.cnbc.com/2026/03/31/warren-buffett-says-iran-bomb-would-make-nuclear-disaster-harder-to-avoid.html",
-      "author": "",
-      "core_idea": "The Berkshire Hathaway chairman said the growing number of nuclear-armed states has fundamentally altered the global risk landscape.",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.0
-    },
-    {
-      "id": "108284980",
-      "source": "https://www.cnbc.com/id/10000664/device/rss/rss.html",
-      "source_type": "quant",
-      "title": "Warren Buffett says he sold Apple too soon and would buy more of it, though not in this market",
-      "summary": "Apple remains Berkshire Hathaway's largest holding even after the conglomerate trimmed its stake at the end of last year.",
-      "published": "Tue, 31 Mar 2026 15:31:12 GMT",
-      "url": "https://www.cnbc.com/2026/03/31/warren-buffett-says-he-sold-apple-too-soon-and-would-buy-more-of-it-though-not-in-this-market-.html",
-      "author": "",
-      "core_idea": "Apple remains Berkshire Hathaway's largest holding even after the conglomerate trimmed its stake at the end of last year.",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.0
-    },
-    {
-      "id": "108285078",
-      "source": "https://www.cnbc.com/id/10000664/device/rss/rss.html",
-      "source_type": "quant",
-      "title": "Warren Buffett says he's still making calls on investments at Berkshire, flags 'tiny' new buy",
-      "summary": "The 95-year-old investor said he still comes into the office daily and stays engaged with markets.",
-      "published": "Tue, 31 Mar 2026 15:02:49 GMT",
-      "url": "https://www.cnbc.com/2026/03/31/warren-buffett-says-hes-still-making-calls-on-investments-at-berkshire-flags-tiny-new-buy.html",
-      "author": "",
-      "core_idea": "The 95-year-old investor said he still comes into the office daily and stays engaged with markets.",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.0
+      "methodology": "",
+      "quant_impact": "",
+      "relevance_score": 3,
+      "ranking_score": 13.970000000000002
     }
   ]
 }
