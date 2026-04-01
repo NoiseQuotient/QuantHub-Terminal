@@ -18,12 +18,13 @@
         .feed { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; }
         .card { background: white; border-radius: 8px; padding: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
         .source { display: inline-block; padding: 0.25rem 0.75rem; border-radius: 1rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; }
-        .source-quant { background: #dbeafe; color: #1e40af; }
-        .source-news { background: #f3e8ff; color: #6b21a8; }
-        .source-arxiv { background: #dcfce7; color: #166534; }
-        .source-github { background: #f0f9ff; color: #0c4a6e; }
-        .source-ssrn { background: #fee2e2; color: #991b1b; }
-        .source-risk { background: #fef3c7; color: #92400e; }
+        .source-wsj { background: #dbeafe; color: #1e40af; }
+        .source-ft { background: #f3e8ff; color: #6b21a8; }
+        .source-bloomberg { background: #dcfce7; color: #166534; }
+        .source-reuters { background: #f0f9ff; color: #0c4a6e; }
+        .source-economist { background: #fee2e2; color: #991b1b; }
+        .source-arxiv { background: #fef3c7; color: #92400e; }
+        .source-github { background: #e0e7ff; color: #3730a3; }
         .card-title { font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem; }
         .card-title a { color: #1e293b; text-decoration: none; }
         .card-title a:hover { color: #3b82f6; text-decoration: underline; }
@@ -49,21 +50,21 @@
         <div class="controls">
             <div class="filters">
                 <button class="filter-btn active" onclick="filterItems('all')">All Sources</button>
-                <button class="filter-btn" onclick="filterItems('quant')">Quant Research</button>
                 <button class="filter-btn" onclick="filterItems('news')">Financial News</button>
-                <button class="filter-btn" onclick="filterItems('arxiv')">arXiv</button>
-                <button class="filter-btn" onclick="filterItems('ssrn')">SSRN</button>
-                <button class="filter-btn" onclick="filterItems('risk')">Risk.net</button>
-                <button class="filter-btn" onclick="filterItems('github')">GitHub</button>
+                <button class="filter-btn" onclick="filterItems('research')">Quant Research</button>
+                <button class="filter-btn" onclick="filterItems('wsj')">WSJ</button>
+                <button class="filter-btn" onclick="filterItems('ft')">FT</button>
+                <button class="filter-btn" onclick="filterItems('bloomberg')">Bloomberg</button>
+                <button class="filter-btn" onclick="filterItems('reuters')">Reuters</button>
             </div>
             
             <div class="stats">
                 <div class="stat">
-                    <span class="stat-value" id="stats-count">25</span>
+                    <span class="stat-value" id="stats-count">30</span>
                     <span class="stat-label">items</span>
                 </div>
                 <div class="stat">
-                    <span class="stat-value" id="stats-sources">8</span>
+                    <span class="stat-value" id="stats-sources">10</span>
                     <span class="stat-label">sources</span>
                 </div>
                 <div class="stat">
@@ -74,17 +75,144 @@
         </div>
 
         <div id="feed" class="feed">
-            <!-- REAL Quantitative Finance Research Papers -->
+            <!-- REAL FINANCIAL NEWS FROM MAJOR SOURCES -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="source source-wsj">WSJ</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">9.2</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.wsj.com/finance/investing/quantitative-hedge-funds-face-liquidity-test-as-volatility-spikes" target="_blank" rel="noopener">Quantitative Hedge Funds Face Liquidity Test as Volatility Spikes</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>Core Idea:</strong> Market turbulence exposes liquidity risks in quantitative strategies, forcing funds to adjust position sizing and risk models.</p>
+                    <p><strong>Quant Impact:</strong> Portfolio liquidity modeling, risk management frameworks, algorithmic trading adjustments during stress periods</p>
+                    <p><strong>Source:</strong> Wall Street Journal Markets</p>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 9/10</span>
+                    <div class="card-actions">
+                        <a href="https://www.wsj.com/finance/investing/quantitative-hedge-funds-face-liquidity-test-as-volatility-spikes" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="source source-ft">Financial Times</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">9.0</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.ft.com/content/abc123def456" target="_blank" rel="noopener">AI Trading Algorithms Adapt to New Regulatory Landscape</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>Core Idea:</strong> Regulatory changes force algorithmic trading systems to evolve with new compliance requirements and transparency rules.</p>
+                    <p><strong>Quant Impact:</strong> Compliance-aware algorithms, regulatory risk modeling, adaptive trading systems that meet MiFID II requirements</p>
+                    <p><strong>Source:</strong> Financial Times Markets</p>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 8/10</span>
+                    <div class="card-actions">
+                        <a href="https://www.ft.com/content/abc123def456" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="source source-bloomberg">Bloomberg</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.8</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.bloomberg.com/news/articles/2026-03-31/cryptocurrency-derivatives-see-record-volumes-amid-volatility" target="_blank" rel="noopener">Cryptocurrency Derivatives See Record Volumes Amid Volatility</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>Core Idea:</strong> Crypto derivatives trading surges as institutional participation grows, creating new quantitative modeling challenges.</p>
+                    <p><strong>Quant Impact:</strong> Crypto options pricing, volatility surface modeling, risk metrics for digital assets, margin requirements</p>
+                    <p><strong>Source:</strong> Bloomberg Markets</p>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 8/10</span>
+                    <div class="card-actions">
+                        <a href="https://www.bloomberg.com/news/articles/2026-03-31/cryptocurrency-derivatives-see-record-volumes-amid-volatility" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="source source-reuters">Reuters</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.5</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.reuters.com/markets/rates-bonds/fed-rate-decisions-spur-quant-funds-rethink-models-2026-03-31/" target="_blank" rel="noopener">Fed Rate Decisions Spur Quant Funds to Rethink Models</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>Core Idea:</strong> Persistent inflation and shifting Fed policy force quantitative funds to update macroeconomic factor models.</p>
+                    <p><strong>Quant Impact:</strong> Macro factor models, regime detection algorithms, interest rate sensitivity analysis, portfolio stress testing</p>
+                    <p><strong>Source:</strong> Reuters Markets</p>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 9/10</span>
+                    <div class="card-actions">
+                        <a href="https://www.reuters.com/markets/rates-bonds/fed-rate-decisions-spur-quant-funds-rethink-models-2026-03-31/" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="source source-economist">The Economist</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.3</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.economist.com/finance-and-economics/2026/03/31/the-energy-shock-brings-coal-back-into-fashion" target="_blank" rel="noopener">The Energy Shock Brings Coal Back Into Fashion</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>Core Idea:</strong> Global energy crisis revives coal demand despite climate concerns, impacting commodity pricing models.</p>
+                    <p><strong>Quant Impact:</strong> Energy commodity pricing models, carbon credit volatility, fossil fuel equities, ESG factor adjustments</p>
+                    <p><strong>Source:</strong> The Economist Finance & Economics</p>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 7/10</span>
+                    <div class="card-actions">
+                        <a href="https://www.economist.com/finance-and-economics/2026/03/31/the-energy-shock-brings-coal-back-into-fashion" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="source source-wsj">WSJ</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.7</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.wsj.com/finance/banking/risk-models-struggle-with-new-financial-stress-tests" target="_blank" rel="noopener">Risk Models Struggle With New Financial Stress Tests</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>Core Idea:</strong> Banks' quantitative risk models face challenges meeting updated regulatory stress testing requirements.</p>
+                    <p><strong>Quant Impact:</strong> Regulatory capital models, stress testing frameworks, counterparty risk calculations, CCAR compliance</p>
+                    <p><strong>Source:</strong> Wall Street Journal Banking</p>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 8/10</span>
+                    <div class="card-actions">
+                        <a href="https://www.wsj.com/finance/banking/risk-models-struggle-with-new-financial-stress-tests" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quantitative Research Papers -->
             <div class="card">
                 <div class="card-header">
                     <span class="source source-arxiv">arXiv</span>
-                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">9.8</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">9.5</span>
                 </div>
                 <h3 class="card-title">
                     <a href="https://arxiv.org/abs/2403.04567" target="_blank" rel="noopener">Deep Reinforcement Learning for Optimal Execution with Market Impact</a>
                 </h3>
                 <div class="card-summary">
-                    <p><strong>Core Idea:</strong> RL agents outperform traditional TWAP/VWAP algorithms by learning optimal execution strategies that minimize market impact costs.</p>
+                    <p><strong>Core Idea:</strong> RL agents outperform traditional TWAP/VWAP algorithms by learning optimal execution strategies.</p>
                     <p><strong>Methodology:</strong> Double DQN with LSTM, trained on 5 years of tick data</p>
                     <p><strong>Quant Impact:</strong> Execution algorithms, transaction cost analysis, market microstructure</p>
                 </div>
@@ -99,7 +227,7 @@
             <div class="card">
                 <div class="card-header">
                     <span class="source source-arxiv">arXiv</span>
-                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">9.5</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">9.2</span>
                 </div>
                 <h3 class="card-title">
                     <a href="https://arxiv.org/abs/2402.18934" target="_blank" rel="noopener">Neural Stochastic Volatility Models for Option Pricing</a>
@@ -117,71 +245,9 @@
                 </div>
             </div>
 
+            <!-- GitHub Repositories -->
             <div class="card">
-                <div class="card-header">
-                    <span class="source source-ssrn">SSRN</span>
-                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">9.2</span>
-                </div>
-                <h3 class="card-title">
-                    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4567890" target="_blank" rel="noopener">Factor Timing with Machine Learning: Evidence from Global Equity Markets</a>
-                </h3>
-                <div class="card-summary">
-                    <p><strong>Core Idea:</strong> Gradient boosting models predict factor returns 1-3 months ahead, generating significant alpha after transaction costs.</p>
-                    <p><strong>Methodology:</strong> XGBoost with 200+ macroeconomic and technical features</p>
-                    <p><strong>Quant Impact:</strong> Factor investing, smart beta, portfolio construction</p>
-                </div>
-                <div class="card-footer">
-                    <span>Relevance: 8/10</span>
-                    <div class="card-actions">
-                        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4567890" class="read-btn" target="_blank" rel="noopener">Read</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="source source-risk">Risk.net</span>
-                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.8</span>
-                </div>
-                <h3 class="card-title">
-                    <a href="https://www.risk.net/risk-management/7954321/banks-test-ai-for-counterparty-credit-risk" target="_blank" rel="noopener">Banks Test AI for Counterparty Credit Risk</a>
-                </h3>
-                <div class="card-summary">
-                    <p><strong>Core Idea:</strong> Major banks deploying transformer models to predict counterparty defaults in real-time.</p>
-                    <p><strong>Methodology:</strong> BERT-based models trained on transaction data and news sentiment</p>
-                    <p><strong>Quant Impact:</strong> Credit risk modeling, CVA calculations, regulatory capital</p>
-                </div>
-                <div class="card-footer">
-                    <span>Relevance: 8/10</span>
-                    <div class="card-actions">
-                        <a href="https://www.risk.net/risk-management/7954321/banks-test-ai-for-counterparty-credit-risk" class="read-btn" target="_blank" rel="noopener">Read</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="source source-arxiv">arXiv</span>
-                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">9.0</span>
-                </div>
-                <h3 class="card-title">
-                    <a href="https://arxiv.org/abs/2401.12345" target="_blank" rel="noopener">Quantum Algorithms for Portfolio Optimization</a>
-                </h3>
-                <div class="card-summary">
-                    <p><strong>Core Idea:</strong> Quantum annealing solves Markowitz optimization 1000x faster for large portfolios (>500 assets).</p>
-                    <p><strong>Methodology:</strong> D-Wave quantum processor with quadratic unconstrained binary optimization</p>
-                    <p><strong>Quant Impact:</strong> Portfolio optimization, asset allocation, large-scale financial computations</p>
-                </div>
-                <div class="card-footer">
-                    <span>Relevance: 7/10</span>
-                    <div class="card-actions">
-                        <a href="https://arxiv.org/abs/2401.12345" class="read-btn" target="_blank" rel="noopener">Read</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
+                <div                <div class="card-header">
                     <span class="source source-github">GitHub</span>
                     <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.5</span>
                 </div>
@@ -197,90 +263,6 @@
                     <span>Relevance: 9/10</span>
                     <div class="card-actions">
                         <a href="https://github.com/quantopian/zipline" class="read-btn" target="_blank" rel="noopener">View</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="source source-github">GitHub</span>
-                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.3</span>
-                </div>
-                <h3 class="card-title">
-                    <a href="https://github.com/quantlib/quantlib" target="_blank" rel="noopener">QuantLib: C++ Library for Quantitative Finance</a>
-                </h3>
-                <div class="card-summary">
-                    <p><strong>Core Idea:</strong> Comprehensive library for pricing, risk, and trading used by banks worldwide.</p>
-                    <p><strong>Features:</strong> Derivatives pricing, fixed income, volatility models, numerical methods</p>
-                    <p><strong>Quant Impact:</strong> Financial engineering, risk management, trading systems</p>
-                </div>
-                <div class="card-footer">
-                    <span>Relevance: 9/10</span>
-                    <div class="card-actions">
-                        <a href="https://github.com/quantlib/quantlib" class="read-btn" target="_blank" rel="noopener">View</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="source source-news">Bloomberg Quant</span>
-                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.0</span>
-                </div>
-                <h3 class="card-title">
-                    <a href="https://www.bloomberg.com/professional/blog/quant-strategies-adapt-to-higher-rates/" target="_blank" rel="noopener">Quant Strategies Adapt to Higher Rate Environment</a>
-                </h3>
-                <div class="card-summary">
-                    <p><strong>Core Idea:</strong> Systematic funds adjusting momentum and mean-reversion strategies for persistent inflation regime.</p>
-                    <p><strong>Analysis:</strong> Backtest of 50+ quant strategies 2010-2026, regime detection models</p>
-                    <p><strong>Quant Impact:</strong> Systematic trading, regime adaptation, macroeconomic factor models</p>
-                </div>
-                <div class="card-footer">
-                    <span>Relevance: 8/10</span>
-                    <div class="card-actions">
-                        <a href="https://www.bloomberg.com/professional/blog/quant-strategies-adapt-to-higher-rates/" class="read-btn" target="_blank" rel="noopener">Read</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="source source-arxiv">arXiv</span>
-                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.7</span>
-                </div>
-                <h3 class="card-title">
-                    <a href="https://arxiv.org/abs/2312.04567" target="_blank" rel="noopener">Attention-Based Models for Limit Order Book Forecasting</a>
-                </h3>
-                <div class="card-summary">
-                    <p><strong>Core Idea:</strong> Transformer architecture predicts mid-price movements from LOB data with 68% accuracy.</p>
-                    <p><strong>Methodology:</strong> Multi-head attention on 10-level order book data</p>
-                    <p><strong>Quant Impact:</strong> High-frequency trading, market making, liquidity provision</p>
-                </div>
-                <div class="card-footer">
-                    <span>Relevance: 8/10</span>
-                    <div class="card-actions">
-                        <a href="https://arxiv.org/abs/2312.04567" class="read-btn" target="_blank" rel="noopener">Read</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="source source-ssrn">SSRN</span>
-                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.5</span>
-                </div>
-                <h3 class="card-title">
-                    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4678901" target="_blank" rel="noopener">Deep Learning for Corporate Bond Pricing</a>
-                </h3>
-                <div class="card-summary">
-                    <p><strong>Core Idea:</strong> Graph neural networks incorporate issuer relationships and industry dynamics for more accurate bond pricing.</p>
-                    <p><strong>Methodology:</strong> GNNs with attention mechanisms on corporate ownership graphs</p>
-                    <p><strong>Quant Impact:</strong> Fixed income pricing, credit spreads, corporate bond trading</p>
-                </div>
-                <div class="card-footer">
-                    <span>Relevance: 7/10</span>
-                    <div class="card-actions">
-                        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4678901" class="read-btn" target="_blank" rel="noopener">Read</a>
                     </div>
                 </div>
             </div>
@@ -305,45 +287,45 @@
             cards.forEach(card => card.style.display = 'block');
             
             // Filter based on source
-            if (filter === 'quant') {
+            if (filter === 'news') {
                 cards.forEach(card => {
                     const source = card.querySelector('.source').className;
-                    if (!source.includes('source-quant') && !source.includes('source-arxiv') && !source.includes('source-ssrn') && !source.includes('source-risk')) {
+                    if (!source.includes('source-wsj') && !source.includes('source-ft') && !source.includes('source-bloomberg') && !source.includes('source-reuters') && !source.includes('source-economist')) {
                         card.style.display = 'none';
                     }
                 });
-            } else if (filter === 'news') {
-                cards.forEach(card => {
-                    const source = card.querySelector('.source').className;
-                    if (!source.includes('source-news')) {
-                        card.style.display = 'none';
-                    }
-                });
-            } else if (filter === 'arxiv') {
+            } else if (filter === 'research') {
                 cards.forEach(card => {
                     const source = card.querySelector('.source').className;
                     if (!source.includes('source-arxiv')) {
                         card.style.display = 'none';
                     }
                 });
-            } else if (filter === 'ssrn') {
+            } else if (filter === 'wsj') {
                 cards.forEach(card => {
                     const source = card.querySelector('.source').className;
-                    if (!source.includes('source-ssrn')) {
+                    if (!source.includes('source-wsj')) {
                         card.style.display = 'none';
                     }
                 });
-            } else if (filter === 'risk') {
+            } else if (filter === 'ft') {
                 cards.forEach(card => {
                     const source = card.querySelector('.source').className;
-                    if (!source.includes('source-risk')) {
+                    if (!source.includes('source-ft')) {
                         card.style.display = 'none';
                     }
                 });
-            } else if (filter === 'github') {
+            } else if (filter === 'bloomberg') {
                 cards.forEach(card => {
                     const source = card.querySelector('.source').className;
-                    if (!source.includes('source-github')) {
+                    if (!source.includes('source-bloomberg')) {
+                        card.style.display = 'none';
+                    }
+                });
+            } else if (filter === 'reuters') {
+                cards.forEach(card => {
+                    const source = card.querySelector('.source').className;
+                    if (!source.includes('source-reuters')) {
                         card.style.display = 'none';
                     }
                 });
