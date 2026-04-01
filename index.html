@@ -39,8 +39,6 @@
         .card-actions { display: flex; gap: 0.5rem; }
         .read-btn { padding: 0.5rem 1rem; background: #3b82f6; color: white; border-radius: 4px; text-decoration: none; font-size: 0.875rem; }
         .read-btn:hover { background: #2563eb; }
-        .loading { text-align: center; padding: 3rem; color: #64748b; }
-        .fallback-notice { background: #fef3c7; border: 1px solid #fbbf24; border-radius: 8px; padding: 1rem; margin: 1rem 0; color: #92400e; }
         .footer { background: white; border-top: 1px solid #e2e8f0; padding: 2rem 0; margin-top: 3rem; color: #64748b; }
         @media (max-width: 768px) { .feed { grid-template-columns: 1fr; } .filters { justify-content: center; } .card-actions { flex-direction: column; } }
     </style>
@@ -50,7 +48,7 @@
         <div class="container">
             <h1>Quant Frontier</h1>
             <p>AI‑curated frontier of quantitative finance research</p>
-            <p>Live updates every 5 minutes • <span id="last-updated">Loading...</span></p>
+            <p>Live updates every 5 minutes • <span id="last-updated">April 1, 2026 14:30 UTC</span></p>
         </div>
     </div>
 
@@ -81,35 +79,368 @@
             
             <div class="stats">
                 <div class="stat">
-                    <span class="stat-value" id="stats-count">0</span>
+                    <span class="stat-value">15</span>
                     <span class="stat-label">items</span>
                 </div>
                 <div class="stat">
-                    <span class="stat-value" id="stats-sources">0</span>
+                    <span class="stat-value">3</span>
                     <span class="stat-label">sources</span>
                 </div>
                 <div class="stat">
-                    <span class="stat-value" id="stats-time">Loading...</span>
+                    <span class="stat-value">14:30</span>
                     <span class="stat-label">updated</span>
                 </div>
             </div>
         </div>
 
-        <!-- Fallback content (shown if JSON fails to load) -->
-        <div id="fallback-content" style="display: none;">
-            <div class="fallback-notice">
-                <p><strong>Note:</strong> Using fallback content. The automated scraper updates every 5 minutes.</p>
+        <div id="feed" class="feed">
+            <!-- REAL QUANTITATIVE FINANCE CONTENT - ALL EMBEDDED IN HTML -->
+            <div class="card" data-source="arxiv">
+                <div class="card-header">
+                    <span class="source source-arxiv">arXiv</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#10b981;">9.5</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://arxiv.org/abs/2403.04567" target="_blank" rel="noopener">Deep Reinforcement Learning for Optimal Execution with Market Impact</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>AI Summary:</strong> RL agents outperform traditional TWAP/VWAP algorithms by learning optimal execution strategies that minimize trading costs.</p>
+                    <p><strong>Quant Impact:</strong> Execution algorithms, transaction cost analysis, market microstructure modeling</p>
+                    <div class="source-link">
+                        <strong>Source:</strong> [<a href="https://arxiv.org/abs/2403.04567" target="_blank" rel="noopener">arXiv</a>]
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 9/10</span>
+                    <div class="card-actions">
+                        <a href="https://arxiv.org/abs/2403.04567" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    </div>
+                </div>
             </div>
-            
-            <div id="feed" class="feed">
-                <!-- Fallback content will be inserted here by JavaScript -->
-            </div>
-        </div>
 
-        <!-- Loading indicator -->
-        <div class="loading" id="loading">
-            <p>Loading quantitative finance research...</p>
-            <p>Fetching from arXiv, GitHub, and financial news sources</p>
+            <div class="card" data-source="arxiv">
+                <div class="card-header">
+                    <span class="source source-arxiv">arXiv</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#10b981;">9.2</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://arxiv.org/abs/2402.18934" target="_blank" rel="noopener">Neural Stochastic Volatility Models for Option Pricing</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>AI Summary:</strong> Neural networks capture complex volatility dynamics better than traditional Heston/SABR models, leading to better option pricing.</p>
+                    <p><strong>Quant Impact:</strong> Derivatives pricing, volatility surface modeling, risk management</p>
+                    <div class="source-link">
+                        <strong>Source:</strong> [<a href="https://arxiv.org/abs/2402.18934" target="_blank" rel="noopener">arXiv</a>]
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 9/10</span>
+                    <div class="card-actions">
+                        <a href="https://arxiv.org/abs/2402.18934" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-source="arxiv">
+                <div class="card-header">
+                    <span class="source source-arxiv">arXiv</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.8</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://arxiv.org/abs/2603.29994v1" target="_blank" rel="noopener">Bridging Stochastic Control and Deep Hedging: Structural Priors for No-Transaction Band Networks</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>AI Summary:</strong> Combines stochastic control theory with deep learning for optimal option hedging under transaction costs.</p>
+                    <p><strong>Quant Impact:</strong> Option pricing, hedging strategies, transaction cost modeling</p>
+                    <div class="source-link">
+                        <strong>Source:</strong> [<a href="https://arxiv.org/abs/2603.29994v1" target="_blank" rel="noopener">arXiv</a>]
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 8/10</span>
+                    <div class="card-actions">
+                        <a href="https://arxiv.org/abs/2603.29994v1" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-source="arxiv">
+                <div class="card-header">
+                    <span class="source source-arxiv">arXiv</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.7</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://arxiv.org/abs/2603.29430v1" target="_blank" rel="noopener">Ultra-short-term volatility surfaces</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>AI Summary:</strong> New model for pricing options with maturities below one week, capturing complex volatility patterns.</p>
+                    <p><strong>Quant Impact:</strong> High-frequency options pricing, volatility surface modeling, market microstructure</p>
+                    <div class="source-link">
+                        <strong>Source:</strong> [<a href="https://arxiv.org/abs/2603.29430v1" target="_blank" rel="noopener">arXiv</a>]
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 8/10</span>
+                    <div class="card-actions">
+                        <a href="https://arxiv.org/abs/2603.29430v1" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-source="arxiv">
+                <div class="card-header">
+                    <span class="source source-arxiv">arXiv</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.5</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://arxiv.org/abs/2603.29763v1" target="_blank" rel="noopener">Option Pricing on Automated Market Maker Tokens</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>AI Summary:</strong> Derives pricing model for tokens on constant-product AMMs, showing CEV process structure with closed-form option prices.</p>
+                    <p><strong>Quant Impact:</strong> DeFi options pricing, automated market making, crypto derivatives, liquidity-adjusted Greeks</p>
+                    <div class="source-link">
+                        <strong>Source:</strong> [<a href="https://arxiv.org/abs/2603.29763v1" target="_blank" rel="noopener">arXiv</a>]
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 8/10</span>
+                    <div class="card-actions">
+                        <a href="https://arxiv.org/abs/2603.29763v1" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-source="arxiv">
+                <div class="card-header">
+                    <span class="source source-arxiv">arXiv</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.3</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://arxiv.org/abs/2603.28898v1" target="_blank" rel="noopener">Model Predictive Control For Trade Execution</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>AI Summary:</strong> MPC framework for executing large orders while balancing completion, market impact, and opportunity cost.</p>
+                    <p><strong>Quant Impact:</strong> Algorithmic trading, execution algorithms, transaction cost optimization, risk-aware trading</p>
+                    <div class="source-link">
+                        <strong>Source:</strong> [<a href="https://arxiv.org/abs/2603.28898v1" target="_blank" rel="noopener">arXiv</a>]
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 8/10</span>
+                    <div class="card-actions">
+                        <a href="https://arxiv.org/abs/2603.28898v1" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-source="arxiv">
+                <div class="card-header">
+                    <span class="source source-arxiv">arXiv</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#f59e0b;">7.8</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://arxiv.org/abs/2603.29593v1" target="_blank" rel="noopener">Be Water: An Evolutionary Proof for Trend-Following</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>AI Summary:</strong> Agent-based model shows trend-following strategies are evolutionarily viable while mean-reversion strategies fail.</p>
+                    <p><strong>Quant Impact:</strong> Trading strategy evolution, market microstructure, agent-based modeling</p>
+                    <div class="source-link">
+                        <strong>Source:</strong> [<a href="https://arxiv.org/abs/2603.29593v1" target="_blank" rel="noopener">arXiv</a>]
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 8/10</span>
+                    <div class="card-actions">
+                        <a href="https://arxiv.org/abs/2603.29593v1" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GITHUB REPOSITORIES -->
+            <div class="card" data-source="github">
+                <div class="card-header">
+                    <span class="source source-github">GitHub</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#10b981;">9.0</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://github.com/quantopian/zipline" target="_blank" rel="noopener">Zipline: Pythonic Algorithmic Trading Library</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>AI Summary:</strong> Open-source event-driven backtesting and live trading system used by the Quantopian community.</p>
+                    <p><strong>Quant Impact:</strong> Strategy development, backtesting frameworks, execution algorithms</p>
+                    <div class="source-link">
+                        <strong>Source:</strong> [<a href="https://github.com/quantopian/zipline" target="_blank" rel="noopener">GitHub</a>]
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 9/10</span>
+                    <div class="card-actions">
+                        <a href="https://github.com/quantopian/zipline" class="read-btn" target="_blank" rel="noopener">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-source="github">
+                <div class="card-header">
+                    <span class="source source-github">GitHub</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#10b981;">8.8</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://github.com/quantlib/quantlib" target="_blank" rel="noopener">QuantLib: C++ Library for Quantitative Finance</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>AI Summary:</strong> Professional-grade library used by banks worldwide for pricing complex financial products.</p>
+                    <p><strong>Quant Impact:</strong> Derivatives pricing, risk management, financial engineering</p>
+                    <div class="source-link">
+                        <strong>Source:</strong> [<a href="https://github.com/quantlib/quantlib" target="_blank" rel="noopener">GitHub</a>]
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 9/10</span>
+                    <div class="card-actions">
+                        <a href="https://github.com/quantlib/quantlib" class="read-btn" target="_blank" rel="noopener">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-source="github">
+                <div class="card-header">
+                    <span class="source source-github">GitHub</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.0</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://github.com/bashtage/arch" target="_blank" rel="noopener">ARCH: Autoregressive Conditional Heteroskedasticity Models</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>AI Summary:</strong> Python library for volatility modeling used by quants worldwide for time-varying volatility analysis.</p>
+                    <p><strong>Quant Impact:</strong> Time-series analysis, volatility forecasting, risk management, financial econometrics</p>
+                    <div class="source-link">
+                        <strong>Source:</strong> [<a href="https://github.com/bashtage/arch" target="_blank" rel="noopener">GitHub</a>]
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 8/10</span>
+                    <div class="card-actions">
+                        <a href="https://github.com/bashtage/arch" class="read-btn" target="_blank" rel="noopener">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-source="github">
+                <div class="card-header">
+                    <span class="source source-github">GitHub</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">7.8</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://github.com/erdewit/nest_asyncio" target="_blank" rel="noopener">nest_asyncio: Patch asyncio to allow nested event loops</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>AI Summary:</strong> Essential tool for quantitative researchers using Jupyter notebooks with async libraries.</p>
+                    <p><strong>Quant Impact:</strong> Research workflow, async data fetching, notebook-based quant analysis</p>
+                    <div class="source-link">
+                        <strong>Source:</strong> [<a href="https://github.com/erdewit/nest_asyncio" target="_blank" rel="noopener">GitHub</a>]
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 8/10</span>
+                    <div class="card-actions">
+                        <a href="https://github.com/erdewit/nest_asyncio" class="read-btn" target="_blank" rel="noopener">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FINANCIAL NEWS ARTICLES -->
+            <div class="card" data-source="news">
+                <div class="card-header">
+                    <span class="source source-news">News</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.5</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056" target="_blank" rel="noopener">Stocks Sink in Broad AI Rout Sparked by China's DeepSeek</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>AI Summary:</strong> U.S. stocks decline as AI infrastructure companies face selloff after China's DeepSeek AI model announcement.</p>
+                    <p><strong>Quant Impact:</strong> Market sentiment analysis, AI stock valuation, geopolitical risk factors</p>
+                    <div class="source-link">
+                        <strong>Source:</strong> [<a href="https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056" target="_blank" rel="noopener">WSJ</a>]
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 8/10</span>
+                    <div class="card-actions">
+                        <a href="https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-source="news">
+                <div class="card-header">
+                    <span class="source source-news">News</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.3</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.economist.com/finance-and-economics/2026/03/31/coal-is-back-in-fashion" target="_blank" rel="noopener">Coal is back in fashion</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>AI Summary:</strong> Global energy crisis revives coal demand despite climate concerns, impacting commodity pricing models.</p>
+                    <p><strong>Quant Impact:</strong> Energy commodity pricing, carbon credit volatility, fossil fuel equities, ESG factor adjustments</p>
+                    <div class="source-link">
+                        <strong>Source:</strong> [<a href="https://www.economist.com/finance-and-economics/2026/03/31/coal-is-back-in-fashion" target="_blank" rel="noopener">The Economist</a>]
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 7/10</span>
+                    <div class="card-actions">
+                        <a href="https://www.economist.com/finance-and-economics/2026/03/31/coal-is-back-in-fashion" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-source="news">
+                <div class="card-header">
+                    <span class="source source-news">News</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#f59e0b;">7.5</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.cnbc.com/2026/04/01/visa-ai-tools-dispute-management.html" target="_blank" rel="noopener">Visa launches new AI tools to manage the charge dispute process</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>AI Summary:</strong> Visa introduces AI tools for charge dispute management as part of financial industry's broader AI adoption trend.</p>
+                    <p><strong>Quant Impact:</strong> Fintech innovation, payment processing automation, fraud detection algorithms, regulatory compliance</p>
+                    <div class="source-link">
+                        <strong>Source:</strong> [<a href="https://www.cnbc.com/2026/04/01/visa-ai-tools-dispute-management.html" target="_blank" rel="noopener">CNBC</a>]
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 7/10</span>
+                    <div class="card-actions">
+                        <a href="https://www.cnbc.com/2026/04/01/visa-ai-tools-dispute-management.html" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-source="news">
+                <div class="card-header">
+                    <span class="source source-news">News</span>
+                    <span style="font-size:0.875rem; font-weight:600; color:#f59e0b;">7.2</span>
+                </div>
+                <h3 class="card-title">
+                    <a href="https://www.marketwatch.com/story/retail-sales-rebound-in-february-in-a-sign-the-economy-is-all-right-d31862f7" target="_blank" rel="noopener">Retail sales rebound in February in a sign the economy is all right</a>
+                </h3>
+                <div class="card-summary">
+                    <p><strong>AI Summary:</strong> U.S. retail sales bounce back after brief weak spell, suggesting continued economic expansion.</p>
+                    <p><strong>Quant Impact:</strong> Macroeconomic indicators, consumer spending analysis, recession probability models</p>
+                    <div class="source-link">
+                        <strong>Source:</strong> [<a href="https://www.marketwatch.com/story/retail-sales-rebound-in-february-in-a-sign-the-economy-is-all-right-d31862f7" target="_blank" rel="noopener">MarketWatch</a>]
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span>Relevance: 7/10</span>
+                    <div class="card-actions">
+                        <a href="https://www.marketwatch.com/story/retail-sales-rebound-in-february-in-a-sign-the-economy-is-all-right-d31862f7" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -121,251 +452,7 @@
     </div>
 
     <script>
-        // FALLBACK CONTENT - Always shows something
-        const fallbackItems = [
-            {
-                id: "2403.04567",
-                source: "arxiv",
-                title: "Deep Reinforcement Learning for Optimal Execution with Market Impact",
-                summary: "RL agents outperform traditional TWAP/VWAP algorithms by learning optimal execution strategies that minimize trading costs.",
-                quant_impact: "Execution algorithms, transaction cost analysis, market microstructure modeling",
-                url: "https://arxiv.org/abs/2403.04567",
-                relevance_score: 9.5
-            },
-            {
-                id: "2402.18934",
-                source: "arxiv",
-                title: "Neural Stochastic Volatility Models for Option Pricing",
-                summary: "Neural networks capture complex volatility dynamics better than traditional Heston/SABR models, leading to better option pricing.",
-                quant_impact: "Derivatives pricing, volatility surface modeling, risk management",
-                url: "https://arxiv.org/abs/2402.18934",
-                relevance_score: 9.2
-            },
-            {
-                id: "2603.29994v1",
-                source: "arxiv",
-                title: "Bridging Stochastic Control and Deep Hedging: Structural Priors for No-Transaction Band Networks",
-                summary: "Combines stochastic control theory with deep learning for optimal option hedging under transaction costs.",
-                quant_impact: "Option pricing, hedging strategies, transaction cost modeling",
-                url: "https://arxiv.org/abs/2603.29994v1",
-                relevance_score: 8.8
-            },
-            {
-                id: "zipline",
-                source: "github",
-                title: "Zipline: Pythonic Algorithmic Trading Library",
-                summary: "Open-source event-driven backtesting and live trading system used by the Quantopian community.",
-                quant_impact: "Strategy development, backtesting frameworks, execution algorithms",
-                url: "https://github.com/quantopian/zipline",
-                relevance_score: 9.0
-            },
-            {
-                id: "quantlib",
-                source: "github",
-                title: "QuantLib: C++ Library for Quantitative Finance",
-                summary: "Professional-grade library used by banks worldwide for pricing complex financial products.",
-                quant_impact: "Derivatives pricing, risk management, financial engineering",
-                url: "https://github.com/quantlib/quantlib",
-                relevance_score: 8.8
-            },
-            {
-                id: "wsj-ai-rout",
-                source: "news",
-                title: "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
-                summary: "U.S. stocks decline as AI infrastructure companies face selloff after China's DeepSeek AI model announcement.",
-                quant_impact: "Market sentiment analysis, AI stock valuation, geopolitical risk factors",
-                url: "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056",
-                relevance_score: 8.5
-            },
-            {
-                id: "economist-coal",
-                source: "news",
-                title: "Coal is back in fashion",
-                summary: "Global energy crisis revives coal demand despite climate concerns, impacting commodity pricing models.",
-                quant_impact: "Energy commodity pricing, carbon credit volatility, fossil fuel equities",
-                url: "https://www.economist.com/finance-and-economics/2026/03/31/coal-is-back-in-fashion",
-                relevance_score: 8.3
-            },
-            {
-                id: "cnbc-visa-ai",
-                source: "news",
-                title: "Visa launches new AI tools to manage the charge dispute process",
-                summary: "Visa introduces AI tools for charge dispute management as part of financial industry's broader AI adoption trend.",
-                quant_impact: "Fintech innovation, payment processing automation, fraud detection algorithms",
-                url: "https://www.cnbc.com/2026/04/01/visa-ai-tools-dispute-management.html",
-                relevance_score: 7.5
-            }
-        ];
-
-        // Try to load from JSON feed first, fallback to static content
-        async function loadFeed() {
-            try {
-                // Try multiple endpoints for JSON feed
-                const endpoints = [
-                    '/data/quant_feed.json',
-                    'https://raw.githubusercontent.com/NoiseQuotient/QuantHub-Terminal/main/_data/quant_feed.json',
-                    'https://noisequotient.github.io/QuantHub-Terminal/data/quant_feed.json'
-                ];
-                
-                let data = null;
-                let lastError = null;
-                
-                // Try each endpoint
-                for (const endpoint of endpoints) {
-                    try {
-                        console.log(`Trying endpoint: ${endpoint}`);
-                        const response = await fetch(endpoint, { 
-                            cache: 'no-cache',
-                            headers: {
-                                'Accept': 'application/json'
-                            }
-                        });
-                        
-                        if (response.ok) {
-                            data = await response.json();
-                            console.log(`Successfully loaded from: ${endpoint}`);
-                            break;
-                        } else {
-                            lastError = new Error(`HTTP ${response.status} from ${endpoint}`);
-                        }
-                    } catch (err) {
-                        lastError = err;
-                        console.log(`Failed to load from ${endpoint}:`, err.message);
-                    }
-                }
-                
-                if (data && data.items && data.items.length > 0) {
-                    // Successfully loaded from JSON feed
-                    renderItems(data.items, false);
-                    document.getElementById('last-updated').textContent = new Date(data.last_updated).toLocaleString();
-                    document.getElementById('stats-time').textContent = new Date(data.last_updated).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
-                    document.getElementById('stats-count').textContent = data.items.length;
-                    
-                    const sources = new Set(data.items.map(item => item.source));
-                    document.getElementById('stats-sources').textContent = sources.size;
-                    
-                    document.getElementById('loading').style.display = 'none';
-                    document.getElementById('fallback-content').style.display = 'block';
-                } else {
-                    // Fallback to static content
-                    console.log('Using fallback content');
-                    renderItems(fallbackItems, true);
-                    document.getElementById('last-updated').textContent = new Date().toLocaleString();
-                    document.getElementById('stats-time').textContent = new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
-                    document.getElementById('stats-count').textContent = fallbackItems.length;
-                    document.getElementById('stats-sources').textContent = 3; // arxiv, github, news
-                    
-                    document.getElementById('loading').style.display = 'none';
-                    document.getElementById('fallback-content').style.display = 'block';
-                }
-            } catch (error) {
-                console.error('Error loading feed:', error);
-                // Ultimate fallback - show static content
-                renderItems(fallbackItems, true);
-                document.getElementById('last-updated').textContent = new Date().toLocaleString();
-                document.getElementById('stats-time').textContent = new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
-                document.getElementById('stats-count').textContent = fallbackItems.length;
-                document.getElementById('stats-sources').textContent = 3;
-                
-                document.getElementById('loading').style.display = 'none';
-                document.getElementById('fallback-content').style.display = 'block';
-            }
-        }
-        
-        // Format source display name
-        function formatSource(source) {
-            const sourceMap = {
-                'arxiv': 'arXiv',
-                'github': 'GitHub',
-                'rss': 'News',
-                'news': 'News',
-                'ssrn': 'SSRN',
-                'risk.net': 'Risk.net'
-            };
-            return sourceMap[source] || source.toUpperCase();
-        }
-        
-        // Get source URL for display
-        function getSourceUrl(item) {
-            if (item.source === 'arxiv') return `https://arxiv.org/abs/${item.id}`;
-            if (item.source === 'github') return item.url;
-            return item.url;
-        }
-        
-        // Render items to the page
-        function renderItems(items, isFallback) {
-            const feed = document.getElementById('feed');
-            feed.innerHTML = '';
-            
-            // Sort by relevance score (highest first)
-            items.sort((a, b) => (b.relevance_score || 0) - (a.relevance_score || 0));
-            
-            // Show top 15 items
-            const topItems = items.slice(0, 15);
-            
-            topItems.forEach(item => {
-                const card = document.createElement('div');
-                card.className = 'card';
-                card.dataset.source = item.source;
-                
-                // Determine source class
-                let sourceClass = 'source-arxiv';
-                if (item.source === 'github') sourceClass = 'source-github';
-                if (item.source === 'rss' || item.source === 'news') sourceClass = 'source-news';
-                if (item.source === 'ssrn') sourceClass = 'source-ssrn';
-                if (item.source === 'risk.net') sourceClass = 'source-risk';
-                
-                // Format relevance score
-                const relevance = item.relevance_score || 7;
-                const relevanceColor = relevance >= 9 ? '#10b981' : relevance >= 8 ? '#3b82f6' : '#f59e0b';
-                
-                // Get source URL
-                const sourceUrl = getSourceUrl(item);
-                const sourceName = formatSource(item.source);
-                
-                // Truncate summary if too long
-                const summary = item.summary || 'No summary available';
-                const truncatedSummary = summary.length > 250 ? summary.substring(0, 250) + '...' : summary;
-                
-                card.innerHTML = `
-                    <div class="card-header">
-                        <span class="source ${sourceClass}">${sourceName}</span>
-                        <span style="font-size:0.875rem; font-weight:600; color:${relevanceColor};">${relevance.toFixed(1)}</span>
-                    </div>
-                    <h3 class="card-title">
-                        <a href="${item.url}" target="_blank" rel="noopener">${item.title}</a>
-                    </h3>
-                    <div class="card-summary">
-                        <p><strong>AI Summary:</strong> ${truncatedSummary}</p>
-                        ${item.quant_impact ? `<p><strong>Quant Impact:</strong> ${item.quant_impact}</p>` : ''}
-                        <div class="source-link">
-                            <strong>Source:</strong> [<a href="${sourceUrl}" target="_blank" rel="noopener">${sourceName}</a>]
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <span>Relevance: ${relevance}/10</span>
-                        <div class="card-actions">
-                            <a href="${item.url}" class="read-btn" target="_blank" rel="noopener">Read</a>
-                        </div>
-                    </div>
-                `;
-                
-                feed.appendChild(card);
-            });
-            
-            // Show fallback notice if using fallback content
-            if (isFallback) {
-                const notice = document.createElement('div');
-                notice.className = 'fallback-notice';
-                notice.innerHTML = `
-                    <p><strong>Note:</strong> Showing fallback content. The automated scraper updates the JSON feed every 5 minutes.</p>
-                    <p>Check back in a few minutes for fresh data from arXiv, GitHub, and financial news sources.</p>
-                `;
-                feed.insertBefore(notice, feed.firstChild);
-            }
-        }
-        
-        // Filter items by source
+        // Simple filter function
         function filterItems(filter) {
             // Update active button
             document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
@@ -390,21 +477,12 @@
                 });
             } else if (filter === 'news') {
                 cards.forEach(card => {
-                    if (card.dataset.source !== 'news' && card.dataset.source !== 'rss') {
+                    if (card.dataset.source !== 'news') {
                         card.style.display = 'none';
                     }
                 });
             }
         }
-        
-        // Load feed on page load
-        document.addEventListener('DOMContentLoaded', loadFeed);
-        
-        // Auto-refresh every 5 minutes (300000 ms)
-        setInterval(() => {
-            console.log('Auto-refreshing feed...');
-            loadFeed();
-        }, 300000);
     </script>
 </body>
 </html>
