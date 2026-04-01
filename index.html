@@ -25,13 +25,11 @@
         .feed { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; }
         .card { background: white; border-radius: 8px; padding: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
         .source { display: inline-block; padding: 0.25rem 0.75rem; border-radius: 1rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; }
-        .source-wsj { background: #dbeafe; color: #1e40af; }
-        .source-ft { background: #f3e8ff; color: #6b21a8; }
-        .source-bloomberg { background: #dcfce7; color: #166534; }
-        .source-reuters { background: #f0f9ff; color: #0c4a6e; }
-        .source-economist { background: #fee2e2; color: #991b1b; }
         .source-arxiv { background: #fef3c7; color: #92400e; }
         .source-github { background: #e0e7ff; color: #3730a3; }
+        .source-rss { background: #dbeafe; color: #1e40af; }
+        .source-ssrn { background: #f3e8ff; color: #6b21a8; }
+        .source-risk { background: #dcfce7; color: #166534; }
         .card-title { font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem; }
         .card-title a { color: #1e293b; text-decoration: none; }
         .card-title a:hover { color: #3b82f6; text-decoration: underline; }
@@ -40,6 +38,7 @@
         .card-actions { display: flex; gap: 0.5rem; }
         .read-btn { padding: 0.5rem 1rem; background: #3b82f6; color: white; border-radius: 4px; text-decoration: none; font-size: 0.875rem; }
         .read-btn:hover { background: #2563eb; }
+        .loading { text-align: center; padding: 3rem; color: #64748b; }
         .footer { background: white; border-top: 1px solid #e2e8f0; padding: 2rem 0; margin-top: 3rem; color: #64748b; }
         @media (max-width: 768px) { .feed { grid-template-columns: 1fr; } .filters { justify-content: center; } .card-actions { flex-direction: column; } }
     </style>
@@ -49,7 +48,7 @@
         <div class="container">
             <h1>Quant Frontier</h1>
             <p>AI‑curated frontier of quantitative finance research</p>
-            <p>Live updates every 5 minutes • <span id="last-updated">April 1, 2026 09:20</span></p>
+            <p>Live updates every 5 minutes • <span id="last-updated">Loading...</span></p>
         </div>
     </div>
 
@@ -73,195 +72,31 @@
         <div class="controls">
             <div class="filters">
                 <button class="filter-btn active" onclick="filterItems('all')">All Sources</button>
-                <button class="filter-btn" onclick="filterItems('news')">Financial News</button>
-                <button class="filter-btn" onclick="filterItems('research')">Quant Research</button>
-                <button class="filter-btn" onclick="filterItems('github')">GitHub Tools</button>
+                <button class="filter-btn" onclick="filterItems('arxiv')">arXiv</button>
+                <button class="filter-btn" onclick="filterItems('github')">GitHub</button>
+                <button class="filter-btn" onclick="filterItems('rss')">News</button>
             </div>
             
             <div class="stats">
                 <div class="stat">
-                    <span class="stat-value" id="stats-count">8</span>
+                    <span class="stat-value" id="stats-count">0</span>
                     <span class="stat-label">items</span>
                 </div>
                 <div class="stat">
-                    <span class="stat-value" id="stats-sources">4</span>
+                    <span class="stat-value" id="stats-sources">0</span>
                     <span class="stat-label">sources</span>
                 </div>
                 <div class="stat">
-                    <span class="stat-value" id="stats-time">09:20</span>
+                    <span class="stat-value" id="stats-time">Loading...</span>
                     <span class="stat-label">updated</span>
                 </div>
             </div>
         </div>
 
         <div id="feed" class="feed">
-            <!-- REAL WORKING LINKS ONLY -->
-            <div class="card">
-                <div class="card-header">
-                    <span class="source source-arxiv">arXiv</span>
-                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">9.5</span>
-                </div>
-                <h3 class="card-title">
-                    <a href="https://arxiv.org/abs/2403.04567" target="_blank" rel="noopener">Deep Reinforcement Learning for Optimal Execution with Market Impact</a>
-                </h3>
-                <div class="card-summary">
-                    <p><strong>AI Summary:</strong> New AI technique beats traditional trading algorithms by learning optimal execution strategies.</p>
-                    <p><strong>Why it matters:</strong> Shows AI can reduce trading costs significantly compared to old methods.</p>
-                    <p><strong>For non-experts:</strong> AI is learning to trade stocks in ways that minimize costs better than humans can.</p>
-                </div>
-                <div class="card-footer">
-                    <span>Relevance: 9/10</span>
-                    <div class="card-actions">
-                        <a href="https://arxiv.org/abs/2403.04567" class="read-btn" target="_blank" rel="noopener">Read</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="source source-arxiv">arXiv</span>
-                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">9.2</span>
-                </div>
-                <h3 class="card-title">
-                    <a href="https://arxiv.org/abs/2402.18934" target="_blank" rel="noopener">Neural Stochastic Volatility Models for Option Pricing</a>
-                </h3>
-                <div class="card-summary">
-                    <p><strong>AI Summary:</strong> Neural networks capture complex volatility dynamics better than traditional models.</p>
-                    <p><strong>Why it matters:</strong> Leads to better option pricing and risk management.</p>
-                    <p><strong>For non-experts:</strong> AI understands market volatility patterns that traditional math models miss.</p>
-                </div>
-                <div class="card-footer">
-                    <span>Relevance: 9/10</span>
-                    <div class="card-actions">
-                        <a href="https://arxiv.org/abs/2402.18934" class="read-btn" target="_blank" rel="noopener">Read</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="source source-arxiv">arXiv</span>
-                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">9.0</span>
-                </div>
-                <h3 class="card-title">
-                    <a href="https://arxiv.org/abs/2401.12345" target="_blank" rel="noopener">Quantum Algorithms for Portfolio Optimization</a>
-                </h3>
-                <div class="card-summary">
-                    <p><strong>AI Summary:</strong> Quantum computing solves portfolio optimization 1000x faster for large portfolios.</p>
-                    <p><strong>Why it matters:</strong> Enables optimization of massive portfolios that were previously impossible.</p>
-                    <p><strong>For non-experts:</strong> Quantum computers can solve complex financial problems incredibly fast.</p>
-                </div>
-                <div class="card-footer">
-                    <span>Relevance: 8/10</span>
-                    <div class="card-actions">
-                        <a href="https://arxiv.org/abs/2401.12345" class="read-btn" target="_blank" rel="noopener">Read</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="source source-github">GitHub</span>
-                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.5</span>
-                </div>
-                <h3 class="card-title">
-                    <a href="https://github.com/quantopian/zipline" target="_blank" rel="noopener">Zipline: Pythonic Algorithmic Trading Library</a>
-                </h3>
-                <div class="card-summary">
-                    <p><strong>AI Summary:</strong> Open-source tool that lets anyone build and test trading algorithms.</p>
-                    <p><strong>Why it matters:</strong> Democratizes algorithmic trading - no longer just for big banks.</p>
-                    <p><strong>For non-experts:</strong> Free software that lets you create and test automated trading strategies.</p>
-                </div>
-                <div class="card-footer">
-                    <span>Relevance: 9/10</span>
-                    <div class="card-actions">
-                        <a href="https://github.com/quantopian/zipline" class="read-btn" target="_blank" rel="noopener">View</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="source source-github">GitHub</span>
-                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.3</span>
-                </div>
-                <h3 class="card-title">
-                    <a href="https://github.com/quantlib/quantlib" target="_blank" rel="noopener">QuantLib: C++ Library for Quantitative Finance</a>
-                </h3>
-                <div class="card-summary">
-                    <p><strong>AI Summary:</strong> Professional-grade library used by banks worldwide for pricing complex financial products.</p>
-                    <p><strong>Why it matters:</strong> The foundation of modern quantitative finance - open source and free.</p>
-                    <p><strong>For non-experts:</strong> The "engine" that powers much of Wall Street's complex financial calculations.</p>
-                </div>
-                <div class="card-footer">
-                    <span>Relevance: 9/10</span>
-                    <div class="card-actions">
-                        <a href="https://github.com/quantlib/quantlib" class="read-btn" target="_blank" rel="noopener">View</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="source source-github">GitHub</span>
-                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.0</span>
-                </div>
-                <h3 class="card-title">
-                    <a href="https://github.com/bashtage/arch" target="_blank" rel="noopener">ARCH: Autoregressive Conditional Heteroskedasticity Models</a>
-                </h3>
-                <div class="card-summary">
-                    <p><strong>AI Summary:</strong> Python library for volatility modeling used by quants worldwide.</p>
-                    <p><strong>Why it matters:</strong> Essential tool for modeling time-varying volatility in financial markets.</p>
-                    <p><strong>For non-experts:</strong> Software that helps predict how volatile markets will be.</p>
-                </div>
-                <div class="card-footer">
-                    <span>Relevance: 8/10</span>
-                    <div class="card-actions">
-                        <a href="https://github.com/bashtage/arch" class="read-btn" target="_blank" rel="noopener">View</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="source source-arxiv">arXiv</span>
-                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.7</span>
-                </div>
-                <h3 class="card-title">
-                    <a href="https://arxiv.org/abs/2312.04567" target="_blank" rel="noopener">Attention-Based Models for Limit Order Book Forecasting</a>
-                </h3>
-                <div class="card-summary">
-                    <p><strong>AI Summary:</strong> Transformer models predict price movements from order book data with high accuracy.</p>
-                    <p><strong>Why it matters:</strong> Improves high-frequency trading and market making strategies.</p>
-                    <p><strong>For non-experts:</strong> AI can predict short-term price moves by analyzing trading order data.</p>
-                </div>
-                <div class="card-footer">
-                    <span>Relevance: 8/10</span>
-                    <div class="card-actions">
-                        <a href="https://arxiv.org/abs/2312.04567" class="read-btn" target="_blank" rel="noopener">Read</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <span class="source source-arxiv">arXiv</span>
-                    <span style="font-size:0.875rem; font-weight:600; color:#3b82f6;">8.5</span>
-                </div>
-                <h3 class="card-title">
-                    <a href="https://arxiv.org/abs/2311.12345" target="_blank" rel="noopener">Graph Neural Networks for Corporate Bond Pricing</a>
-                </h3>
-                <div class="card-summary">
-                    <p><strong>AI Summary:</strong> AI models incorporate corporate relationships for better bond pricing.</p>
-                    <p><strong>Why it matters:</strong> Improves accuracy of corporate bond valuation and credit risk assessment.</p>
-                    <p><strong>For non-experts:</strong> AI understands how companies are connected to better price their bonds.</p>
-                </div>
-                <div class="card-footer">
-                    <span>Relevance: 7/10</span>
-                    <div class="card-actions">
-                        <a href="https://arxiv.org/abs/2311.12345" class="read-btn" target="_blank" rel="noopener">Read</a>
-                    </div>
-                </div>
+            <div class="loading" id="loading">
+                <p>Loading quantitative finance research...</p>
+                <p>Fetching from arXiv, GitHub, and financial news sources</p>
             </div>
         </div>
     </div>
@@ -274,6 +109,80 @@
     </div>
 
     <script>
+        // Load data from JSON feed
+        async function loadFeed() {
+            try {
+                const response = await fetch('/data/quant_feed.json');
+                const data = await response.json();
+                
+                // Update last updated time
+                document.getElementById('last-updated').textContent = new Date(data.last_updated).toLocaleString();
+                document.getElementById('stats-time').textContent = new Date(data.last_updated).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+                
+                // Update stats
+                document.getElementById('stats-count').textContent = data.items.length;
+                
+                // Count unique sources
+                const sources = new Set(data.items.map(item => item.source));
+                document.getElementById('stats-sources').textContent = sources.size;
+                
+                // Render items
+                renderItems(data.items);
+                
+                // Hide loading
+                document.getElementById('loading').style.display = 'none';
+            } catch (error) {
+                console.error('Error loading feed:', error);
+                document.getElementById('loading').innerHTML = '<p>Error loading data. Please refresh.</p>';
+            }
+        }
+        
+        // Render items to the page
+        function renderItems(items) {
+            const feed = document.getElementById('feed');
+            feed.innerHTML = '';
+            
+            items.forEach(item => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.dataset.source = item.source;
+                
+                // Determine source class
+                let sourceClass = 'source-arxiv';
+                if (item.source === 'github') sourceClass = 'source-github';
+                if (item.source === 'rss') sourceClass = 'source-rss';
+                if (item.source === 'ssrn') sourceClass = 'source-ssrn';
+                if (item.source === 'risk.net') sourceClass = 'source-risk';
+                
+                // Format relevance score
+                const relevance = item.relevance_score || 7;
+                const relevanceColor = relevance >= 9 ? '#10b981' : relevance >= 8 ? '#3b82f6' : '#f59e0b';
+                
+                card.innerHTML = `
+                    <div class="card-header">
+                        <span class="source ${sourceClass}">${item.source.toUpperCase()}</span>
+                        <span style="font-size:0.875rem; font-weight:600; color:${relevanceColor};">${relevance.toFixed(1)}</span>
+                    </div>
+                    <h3 class="card-title">
+                        <a href="${item.url}" target="_blank" rel="noopener">${item.title}</a>
+                    </h3>
+                    <div class="card-summary">
+                        <p><strong>AI Summary:</strong> ${item.summary || 'No summary available'}</p>
+                        ${item.quant_impact ? `<p><strong>Quant Impact:</strong> ${item.quant_impact}</p>` : ''}
+                    </div>
+                    <div class="card-footer">
+                        <span>Relevance: ${relevance}/10</span>
+                        <div class="card-actions">
+                            <a href="${item.url}" class="read-btn" target="_blank" rel="noopener">Read</a>
+                        </div>
+                    </div>
+                `;
+                
+                feed.appendChild(card);
+            });
+        }
+        
+        // Filter items by source
         function filterItems(filter) {
             // Update active button
             document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
@@ -284,29 +193,29 @@
             cards.forEach(card => card.style.display = 'block');
             
             // Filter based on source
-            if (filter === 'news') {
+            if (filter === 'arxiv') {
                 cards.forEach(card => {
-                    const source = card.querySelector('.source').className;
-                    if (!source.includes('source-wsj') && !source.includes('source-ft') && !source.includes('source-bloomberg') && !source.includes('source-reuters') && !source.includes('source-economist')) {
-                        card.style.display = 'none';
-                    }
-                });
-            } else if (filter === 'research') {
-                cards.forEach(card => {
-                    const source = card.querySelector('.source').className;
-                    if (!source.includes('source-arxiv')) {
+                    if (card.dataset.source !== 'arxiv') {
                         card.style.display = 'none';
                     }
                 });
             } else if (filter === 'github') {
                 cards.forEach(card => {
-                    const source = card.querySelector('.source').className;
-                    if (!source.includes('source-github')) {
+                    if (card.dataset.source !== 'github') {
+                        card.style.display = 'none';
+                    }
+                });
+            } else if (filter === 'rss') {
+                cards.forEach(card => {
+                    if (card.dataset.source !== 'rss') {
                         card.style.display = 'none';
                     }
                 });
             }
         }
+        
+        // Load feed on page load
+        document.addEventListener('DOMContentLoaded', loadFeed);
     </script>
 </body>
 </html>
