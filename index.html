@@ -288,7 +288,7 @@
 
         async function loadFeed() {
             try {
-                const response = await fetch('/data/quant_feed.json');
+                const response = await fetch('/data/quant_feed.json?v=' + Date.now());
                 if (!response.ok) throw new Error('Feed not available');
                 const data = await response.json();
                 
