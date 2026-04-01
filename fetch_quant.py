@@ -27,17 +27,22 @@ except ImportError:
 CONFIG = {
     "arxiv_categories": ["cs.CE", "q-fin.CP", "q-fin.ST", "q-fin.PR", "q-fin.TR"],
     "rss_feeds": [
-        # Quant‑specific (full content often available)
+        # Quant‑specific (reliable, good content)
         "https://www.risk.net/feed/rss",
         "https://papers.ssrn.com/sol3/DisplayAbstractSearch.cfm?feed=rss",
         "https://www.bloomberg.com/quant/feed",
         
-        # Mainstream finance (headlines + snippets)
-        "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",  # WSJ Markets
-        "https://www.ft.com/rss/markets",  # FT Markets
-        "https://www.economist.com/finance-and-economics/rss.xml",  # Economist Finance
-        "https://www.bloomberg.com/markets/rss.xml",  # Bloomberg Markets
+        # Financial news (public RSS, no paywalls)
         "https://www.reutersagency.com/feed/?best-topics=financial-regulatory&post_type=best",  # Reuters Financial
+        "https://www.cnbc.com/id/10000664/device/rss/rss.html",  # CNBC Markets
+        "https://feeds.marketwatch.com/marketwatch/topstories/",  # MarketWatch
+        "https://www.investing.com/rss/news.rss",  # Investing.com
+        "https://www.fxstreet.com/rss",  # FXStreet
+        "https://www.coindesk.com/arc/outboundfeeds/rss/",  # CoinDesk (crypto)
+        
+        # Alternative financial feeds
+        "https://www.zerohedge.com/full-feed",  # ZeroHedge
+        "https://seekingalpha.com/feed.xml",  # Seeking Alpha
     ],
     "github_topics": ["quantitative-finance", "algorithmic-trading", "risk-modeling"],
     "output_dir": "_data",
