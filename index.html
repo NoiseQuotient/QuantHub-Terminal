@@ -27,9 +27,13 @@
         .card-title a:hover { color: #3b82f6; text-decoration: underline; }
         .card-summary { margin-bottom: 1rem; color: #475569; }
         .card-footer { display: flex; justify-content: space-between; align-items: center; padding-top: 1rem; border-top: 1px solid #e2e8f0; }
+        .card-actions { display: flex; gap: 0.5rem; }
         .read-btn { padding: 0.5rem 1rem; background: #3b82f6; color: white; border-radius: 4px; text-decoration: none; font-size: 0.875rem; }
+        .archive-btn { padding: 0.5rem 1rem; background: #10b981; color: white; border-radius: 4px; text-decoration: none; font-size: 0.875rem; }
+        .read-btn:hover { background: #2563eb; }
+        .archive-btn:hover { background: #059669; }
         .footer { background: white; border-top: 1px solid #e2e8f0; padding: 2rem 0; margin-top: 3rem; color: #64748b; }
-        @media (max-width: 768px) { .feed { grid-template-columns: 1fr; } .filters { justify-content: center; } }
+        @media (max-width: 768px) { .feed { grid-template-columns: 1fr; } .filters { justify-content: center; } .card-actions { flex-direction: column; } }
     </style>
 </head>
 <body>
@@ -83,7 +87,10 @@
                 </div>
                 <div class="card-footer">
                     <span>Relevance: 7/10</span>
-                    <a href="https://www.economist.com/finance-and-economics/2026/03/31/the-energy-shock-brings-coal-back-into-fashion" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    <div class="card-actions">
+                        <a href="https://www.economist.com/finance-and-economics/2026/03/31/the-energy-shock-brings-coal-back-into-fashion" class="read-btn" target="_blank" rel="noopener">Read</a>
+                        <a href="https://archive.ph/?run=1&url=https://www.economist.com/finance-and-economics/2026/03/31/the-energy-shock-brings-coal-back-into-fashion" class="archive-btn" target="_blank" rel="noopener">Archive</a>
+                    </div>
                 </div>
             </div>
 
@@ -101,7 +108,10 @@
                 </div>
                 <div class="card-footer">
                     <span>Relevance: 9/10</span>
-                    <a href="https://www.wsj.com/finance/investing" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    <div class="card-actions">
+                        <a href="https://www.wsj.com/finance/investing" class="read-btn" target="_blank" rel="noopener">Read</a>
+                        <a href="https://archive.ph/?run=1&url=https://www.wsj.com/finance/investing" class="archive-btn" target="_blank" rel="noopener">Archive</a>
+                    </div>
                 </div>
             </div>
 
@@ -119,7 +129,10 @@
                 </div>
                 <div class="card-footer">
                     <span>Relevance: 8/10</span>
-                    <a href="https://www.ft.com/markets" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    <div class="card-actions">
+                        <a href="https://www.ft.com/markets" class="read-btn" target="_blank" rel="noopener">Read</a>
+                        <a href="https://archive.ph/?run=1&url=https://www.ft.com/markets" class="archive-btn" target="_blank" rel="noopener">Archive</a>
+                    </div>
                 </div>
             </div>
 
@@ -137,7 +150,10 @@
                 </div>
                 <div class="card-footer">
                     <span>Relevance: 7/10</span>
-                    <a href="https://www.bloomberg.com/markets" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    <div class="card-actions">
+                        <a href="https://www.bloomberg.com/markets" class="read-btn" target="_blank" rel="noopener">Read</a>
+                        <a href="https://archive.ph/?run=1&url=https://www.bloomberg.com/markets" class="archive-btn" target="_blank" rel="noopener">Archive</a>
+                    </div>
                 </div>
             </div>
 
@@ -157,7 +173,9 @@
                 </div>
                 <div class="card-footer">
                     <span>Relevance: 8/10</span>
-                    <a href="https://arxiv.org/abs/2403.12345" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    <div class="card-actions">
+                        <a href="https://arxiv.org/abs/2403.12345" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    </div>
                 </div>
             </div>
 
@@ -176,7 +194,9 @@
                 </div>
                 <div class="card-footer">
                     <span>Relevance: 9/10</span>
-                    <a href="https://arxiv.org/abs/2403.12346" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    <div class="card-actions">
+                        <a href="https://arxiv.org/abs/2403.12346" class="read-btn" target="_blank" rel="noopener">Read</a>
+                    </div>
                 </div>
             </div>
 
@@ -195,7 +215,9 @@
                 </div>
                 <div class="card-footer">
                     <span>Relevance: 9/10</span>
-                    <a href="https://github.com/quantlib/quantlib" class="read-btn" target="_blank" rel="noopener">View</a>
+                    <div class="card-actions">
+                        <a href="https://github.com/quantlib/quantlib" class="read-btn" target="_blank" rel="noopener">View</a>
+                    </div>
                 </div>
             </div>
 
@@ -213,7 +235,9 @@
                 </div>
                 <div class="card-footer">
                     <span>Relevance: 8/10</span>
-                    <a href="https://github.com/quantopian/zipline" class="read-btn" target="_blank" rel="noopener">View</a>
+                    <div class="card-actions">
+                        <a href="https://github.com/quantopian/zipline" class="read-btn" target="_blank" rel="noopener">View</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -244,29 +268,4 @@
                         card.style.display = 'none';
                     }
                 });
-            } else if (filter === 'news') {
-                cards.forEach(card => {
-                    const source = card.querySelector('.source').className;
-                    if (!source.includes('source-news')) {
-                        card.style.display = 'none';
-                    }
-                });
-            } else if (filter === 'arxiv') {
-                cards.forEach(card => {
-                    const source = card.querySelector('.source').className;
-                    if (!source.includes('source-arxiv')) {
-                        card.style.display = 'none';
-                    }
-                });
-            } else if (filter === 'github') {
-                cards.forEach(card => {
-                    const source = card.querySelector('.source').className;
-                    if (!source.includes('source-github')) {
-                        card.style.display = 'none';
-                    }
-                });
-            }
-        }
-    </script>
-</body>
-</html>
+            } else if (filter === '
