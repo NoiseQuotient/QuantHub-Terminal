@@ -38,7 +38,7 @@
     </style>
 </head>
 <body>
-    <div class="copy-notification" id="copyNotification">✅ URL copied! Opening archive.ph...</div>
+    <div class="copy-notification" id="copyNotification">✅ URL copied! Opening archive.today...</div>
 
     <div class="header">
         <div class="container">
@@ -210,14 +210,14 @@
                         notification.style.display = 'none';
                     }, 2000);
                     
-                    // Open archive.ph in a new tab AFTER copying
+                    // Open archive.today in a new tab AFTER copying (archive.ph is blocked)
                     setTimeout(() => {
-                        window.open('https://archive.ph/', '_blank');
+                        window.open('https://archive.today/', '_blank');
                     }, 100);
                 } else {
                     alert('Copy failed. URL: ' + url);
-                    // Still open archive.ph even if copy fails
-                    window.open('https://archive.ph/', '_blank');
+                    // Still open archive.today even if copy fails (archive.ph is blocked)
+                    window.open('https://archive.today/', '_blank');
                 }
             } catch (err) {
                 alert('Copy failed. URL: ' + url);
