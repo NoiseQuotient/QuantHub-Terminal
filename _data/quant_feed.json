@@ -1,8 +1,247 @@
 {
-  "last_updated": "2026-03-31T23:57:34.988060",
+  "last_updated": "2026-04-01T03:36:56.126650",
   "items": [
     {
-      "id": "2603.28707v1",
+      "id": "2603.29994v1",
+      "source": "arxiv",
+      "title": "Bridging Stochastic Control and Deep Hedging: Structural Priors for No-Transaction Band Networks",
+      "authors": [
+        "Jules Arzel",
+        "Noureddine Lehdili"
+      ],
+      "abstract": "This paper studies the problem of hedging and pricing a European call option under proportional transaction costs, from two complementary perspectives. We first derive the optimal hedging strategy under CARA utility, following the stochastic control framework of Davis et al. (1993), characterising the no-transaction band via the Hamilton-Jacobi-Bellman Quasi-Variational Inequality (HJBQVI) and the Whalley-Wilmott asymptotic approximation. We then adopt a deep hedging approach, proposing two architectures that build on the No-Transaction Band Network of Imaki et al. (2023): NTBN-Delta, which makes delta-centring explicit, and WW-NTBN, which incorporates the Whalley-Wilmott formula as a structural prior on the bandwidth and replaces the hard clamp with a differentiable soft clamp. Numerical experiments show that WW-NTBN converges faster, matches the stochastic control no-transaction bands more closely, and generalises well across transaction cost regimes. We further apply both frameworks to the bull call spread, documenting the breakdown of price linearity under transaction costs.",
+      "published": "2026-03-31T16:56:17+00:00",
+      "url": "http://arxiv.org/abs/2603.29994v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.29994v1",
+      "categories": [
+        "q-fin.PR",
+        "q-fin.CP",
+        "q-fin.PM",
+        "q-fin.RM"
+      ],
+      "primary_category": "q-fin.PR",
+      "core_idea": "This paper studies the problem of hedging and pricing a European call option under proportional transaction costs, from two complementary perspectives",
+      "methodology": "We first derive the optimal hedging strategy under CARA utility, following the stochastic control framework of Davis et al",
+      "quant_impact": "(1993), characterising the no-transaction band via the Hamilton-Jacobi-Bellman Quasi-Variational Inequality (HJBQVI) and the Whalley-Wilmott asymptotic approximation",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.29593v1",
+      "source": "arxiv",
+      "title": "Be Water: An Evolutionary Proof for Trend-Following",
+      "authors": [
+        "Yijia Chen"
+      ],
+      "abstract": "The proliferation of diverse, high-leverage trading instruments in modern financial markets presents a complex, \"noisy\" environment, leading to a critical question: which trading strategies are evolutionarily viable? To investigate this, we construct a large-scale agent-based model, \"MAS-Utopia,\" comprising 10,000 agents with five distinct archetypes. This society is immersed in five years of high-frequency data under a counterfactual baseline: zero transaction friction and a robust Unconditional Basic Income (UBI) safety net. The simulation reveals a powerful evolutionary convergence. Strategies that attempt to fight the market's current - namely Mean-Reversion (\"buy-the-dip\") - prove structurally fragile. In contrast, the Trend-Following archetype, which adapts to the market's flow, emerges as the dominant phenotype. Translating this finding, we architect an LLM-driven system that emulates this successful logic. Our findings offer profound implications, echoing the ancient wisdom of \"Be Water\": for investors, it demonstrates that survival is achieved not by rigid opposition, but by disciplined alignment with the prevailing current; for markets, it critiques tools that encourage contrarian gambling; for society, it underscores the stabilizing power of economic safety nets.",
+      "published": "2026-03-31T11:13:07+00:00",
+      "url": "http://arxiv.org/abs/2603.29593v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.29593v1",
+      "categories": [
+        "physics.soc-ph",
+        "q-fin.CP"
+      ],
+      "primary_category": "physics.soc-ph",
+      "core_idea": "The proliferation of diverse, high-leverage trading instruments in modern financial markets presents a complex, \"noisy\" environment, leading to a critical question: which trading strategies are evolutionarily viable? To investigate this, we construct a large-scale agent-based model, \"MAS-Utopia,\" comprising 10,000 agents with five distinct archetypes",
+      "methodology": "This society is immersed in five years of high-frequency data under a counterfactual baseline: zero transaction friction and a robust Unconditional Basic Income (UBI) safety net",
+      "quant_impact": "The simulation reveals a powerful evolutionary convergence",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.29430v1",
+      "source": "arxiv",
+      "title": "Ultra-short-term volatility surfaces",
+      "authors": [
+        "Federico M. Bandi",
+        "Nicola Fusari",
+        "Guido Gazzani",
+        "Roberto Ren\u00f2"
+      ],
+      "abstract": "Options with maturities below one week, hereafter \"ultra-short-term\" options, have seen a sharp increase in trading activity in recent years. Yet, these instruments are difficult to price jointly using classical pricing models due to the pronounced oscillations observed in the at-the-money implied-volatility term structure across ultra-short-term tenors. We propose Edgeworth++, a parsimonious jump-diffusion model featuring a nonparametric stochastic volatility component, which provides flexibility in capturing implied-volatility smiles for each tenor, combined with a deterministic shift extension, which allows the model to fit rich at-the-money implied-volatility shapes across tenors. We derive a local (in tenor) expansion of the process characteristic function suited to value ultra-short-term options. The expansion leads to fast and accurate option pricing in closed form via standard Fourier inversion. We discuss the benefits of the proposed approach relative to benchmarks.",
+      "published": "2026-03-31T08:36:43+00:00",
+      "url": "http://arxiv.org/abs/2603.29430v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.29430v1",
+      "categories": [
+        "q-fin.MF",
+        "q-fin.CP"
+      ],
+      "primary_category": "q-fin.MF",
+      "core_idea": "Options with maturities below one week, hereafter \"ultra-short-term\" options, have seen a sharp increase in trading activity in recent years",
+      "methodology": "Yet, these instruments are difficult to price jointly using classical pricing models due to the pronounced oscillations observed in the at-the-money implied-volatility term structure across ultra-short-term tenors",
+      "quant_impact": "We propose Edgeworth++, a parsimonious jump-diffusion model featuring a nonparametric stochastic volatility component, which provides flexibility in capturing implied-volatility smiles for each tenor, combined with a deterministic shift extension, which allows the model to fit rich at-the-money implied-volatility shapes across tenors",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.29763v1",
+      "source": "arxiv",
+      "title": "Option Pricing on Automated Market Maker Tokens",
+      "authors": [
+        "Philip Z. Maymin"
+      ],
+      "abstract": "We derive the stochastic price process for tokens whose sole price discovery mechanism is a constant-product automated market maker (AMM). When the net flow into the pool follows a diffusion, the token price follows a constant elasticity of variance (CEV) process, nesting Black-Scholes as the limiting case of infinite liquidity. We obtain closed-form European option prices and introduce liquidity-adjusted Greeks. The CEV structure generates a leverage effect -- volatility rises as price falls -- whose normalized implied volatility skew depends only on the pool's weighting parameter, not on pool depth: Black-Scholes underprices 20%-out-of-the-money puts by roughly 6% in implied volatility terms at every pool depth, while the absolute pricing discrepancy vanishes as pools deepen. Empirically, after controlling for pool depth and flow volatility, realized return variance across 90 Bittensor subnets exhibits a strongly negative price elasticity, decisively rejecting geometric Brownian motion and consistent with the CEV prediction. A complementary delta-hedged backtest across 82 subnets confirms near-identical hedging errors at the money, consistent with the prediction that pricing differences are concentrated in the wings.",
+      "published": "2026-03-31T14:03:00+00:00",
+      "url": "http://arxiv.org/abs/2603.29763v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.29763v1",
+      "categories": [
+        "q-fin.PR",
+        "q-fin.ST",
+        "q-fin.TR"
+      ],
+      "primary_category": "q-fin.PR",
+      "core_idea": "We derive the stochastic price process for tokens whose sole price discovery mechanism is a constant-product automated market maker (AMM)",
+      "methodology": "When the net flow into the pool follows a diffusion, the token price follows a constant elasticity of variance (CEV) process, nesting Black-Scholes as the limiting case of infinite liquidity",
+      "quant_impact": "We obtain closed-form European option prices and introduce liquidity-adjusted Greeks",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.29751v1",
+      "source": "arxiv",
+      "title": "Common Risk Factors in Decentralized AI Subnets",
+      "authors": [
+        "Philip Z. Maymin"
+      ],
+      "abstract": "I derive a size premium from the constant-product automated market maker used to price Bittensor subnet tokens and test the prediction using daily data on 128 subnets. A small-minus-big factor earns 1.01% daily (Newey-West t = 3.28). The December 2025 halving of token emissions, which the theory predicts should halve the premium, reduces it from 1.17% to 0.51% (p = 0.044). Exact slippage calculations show the premium is implementable only below \\$10K in assets under management; at \\$100K, transaction costs exceed gross returns.",
+      "published": "2026-03-31T13:52:14+00:00",
+      "url": "http://arxiv.org/abs/2603.29751v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.29751v1",
+      "categories": [
+        "q-fin.PM",
+        "q-fin.PR"
+      ],
+      "primary_category": "q-fin.PM",
+      "core_idea": "I derive a size premium from the constant-product automated market maker used to price Bittensor subnet tokens and test the prediction using daily data on 128 subnets",
+      "methodology": "A small-minus-big factor earns 1.01% daily (Newey-West t = 3.28)",
+      "quant_impact": "The December 2025 halving of token emissions, which the theory predicts should halve the premium, reduces it from 1.17% to 0.51% (p = 0.044)",
+      "relevance_score": 5,
+      "ranking_score": 29.65
+    },
+    {
+      "id": "2603.29176v1",
+      "source": "arxiv",
+      "title": "Predicting Neuromodulation Outcome for Parkinson's Disease with Generative Virtual Brain Model",
+      "authors": [
+        "Siyuan Du",
+        "Siyi Li",
+        "Shuwei Bai",
+        "Ang Li",
+        "Haolin Li",
+        "Mingqing Xiao",
+        "Yang Pan",
+        "Dongsheng Li",
+        "Weidi Xie",
+        "Yanfeng Wang",
+        "Ya Zhang",
+        "Chencheng Zhang",
+        "Jiangchao Yao"
+      ],
+      "abstract": "Parkinson's disease (PD) affects over ten million people worldwide. Although temporal interference (TI) and deep brain stimulation (DBS) are promising therapies, inter-individual variability limits empirical treatment selection, increasing non-negligible surgical risk and cost. Previous explorations either resort to limited statistical biomarkers that are insufficient to characterize variability, or employ AI-driven methods which is prone to overfitting and opacity. We bridge this gap with a pretraining-finetuning framework to predict outcomes directly from resting-state fMRI. Critically, a generative virtual brain foundation model, pretrained on a collective dataset (2707 subjects, 5621 sessions) to capture universal disorder patterns, was finetuned on PD cohorts receiving TI (n=51) or DBS (n=55) to yield individualized virtual brains with high fidelity to empirical functional connectivity (r=0.935). By constructing counterfactual estimations between pathological and healthy neural states within these personalized models, we predicted clinical responses (TI: AUPR=0.853; DBS: AUPR=0.915), substantially outperforming baselines. External and prospective validations (n=14, n=11) highlight the feasibility of clinical translation. Moreover, our framework provides state-dependent regional patterns linked to response, offering hypothesis-generating mechanistic insights.",
+      "published": "2026-03-31T02:36:10+00:00",
+      "url": "http://arxiv.org/abs/2603.29176v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.29176v1",
+      "categories": [
+        "q-bio.NC",
+        "cs.AI",
+        "cs.CE",
+        "cs.CV"
+      ],
+      "primary_category": "q-bio.NC",
+      "core_idea": "Parkinson's disease (PD) affects over ten million people worldwide",
+      "methodology": "Although temporal interference (TI) and deep brain stimulation (DBS) are promising therapies, inter-individual variability limits empirical treatment selection, increasing non-negligible surgical risk and cost",
+      "quant_impact": "Previous explorations either resort to limited statistical biomarkers that are insufficient to characterize variability, or employ AI-driven methods which is prone to overfitting and opacity",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.29086v1",
+      "source": "arxiv",
+      "title": "Realistic Market Impact Modeling for Reinforcement Learning Trading Environments",
+      "authors": [
+        "Lucas Riera Abbade",
+        "Anna Helena Reali Costa"
+      ],
+      "abstract": "Reinforcement learning (RL) has shown promise for trading, yet most open-source backtesting environments assume negligible or fixed transaction costs, causing agents to learn trading behaviors that fail under realistic execution. We introduce three Gymnasium-compatible trading environments -- MACE (Market-Adjusted Cost Execution) stock trading, margin trading, and portfolio optimization -- that integrate nonlinear market impact models grounded in the Almgren-Chriss framework and the empirically validated square-root impact law. Each environment provides pluggable cost models, permanent impact tracking with exponential decay, and comprehensive trade-level logging. We evaluate five DRL algorithms (A2C, PPO, DDPG, SAC, TD3) on the NASDAQ-100, comparing a fixed 10 bps baseline against the AC model with Optuna-tuned hyperparameters. Our results show that (i) the cost model materially changes both absolute performance and the relative ranking of algorithms across all three environments; (ii) the AC model produces dramatically different trading behavior, e.g., daily costs dropping from $200k to $8k with turnover falling from 19% to 1%; (iii) hyperparameter optimization is essential for constraining pathological trading, with costs dropping up to 82%; and (iv) algorithm-cost model interactions are strongly environment-specific, e.g., DDPG's OOS Sharpe jumps from -2.1 to 0.3 under AC in margin trading while SAC's drops from -0.5 to -1.2. We release the full suite as an open-source extension to FinRL-Meta.",
+      "published": "2026-03-30T23:57:11+00:00",
+      "url": "http://arxiv.org/abs/2603.29086v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.29086v1",
+      "categories": [
+        "cs.LG",
+        "cs.CE"
+      ],
+      "primary_category": "cs.LG",
+      "core_idea": "Reinforcement learning (RL) has shown promise for trading, yet most open-source backtesting environments assume negligible or fixed transaction costs, causing agents to learn trading behaviors that fail under realistic execution",
+      "methodology": "We introduce three Gymnasium-compatible trading environments -- MACE (Market-Adjusted Cost Execution) stock trading, margin trading, and portfolio optimization -- that integrate nonlinear market impact models grounded in the Almgren-Chriss framework and the empirically validated square-root impact law",
+      "quant_impact": "Each environment provides pluggable cost models, permanent impact tracking with exponential decay, and comprehensive trade-level logging",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.28987v1",
+      "source": "arxiv",
+      "title": "Multi-fidelity approaches for general constrained Bayesian optimization with application to aircraft design",
+      "authors": [
+        "Oihan Cordelier",
+        "Youssef Diouane",
+        "Nathalie Bartoli",
+        "Eric Laurendeau"
+      ],
+      "abstract": "Aircraft design relies heavily on solving challenging and computationally expensive Multidisciplinary Design Optimization problems. In this context, there has been growing interest in multi-fidelity models for Bayesian optimization to improve the MDO process by balancing computational cost and accuracy through the combination of high- and low-fidelity simulation models, enabling efficient exploration of the design process at a minimal computational effort. In the existing literature, fidelity selection focuses only on the objective function to decide how to integrate multiple fidelity levels, balancing precision and computational cost using variance reduction criteria. In this work, we propose novel multi-fidelity selection strategies. Specifically, we demonstrate how incorporating information from both the objective and the constraints can further reduce computational costs without compromising the optimality of the solution. We validate the proposed multi-fidelity optimization strategy by applying it to four analytical test cases, showcasing its effectiveness. The proposed method is used to efficiently solve a challenging aircraft wing aero-structural design problem. The proposed setting uses a linear vortex lattice method and a finite element method for the aerodynamic and structural analysis respectively. We show that employing our proposed multi-fidelity approach leads to $86\\%$ to $200\\%$ more constraint compliant solutions given a limited budget compared to the state-of-the-art approach.",
+      "published": "2026-03-30T20:36:13+00:00",
+      "url": "http://arxiv.org/abs/2603.28987v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28987v1",
+      "categories": [
+        "math.OC",
+        "cs.CE",
+        "stat.ML"
+      ],
+      "primary_category": "math.OC",
+      "core_idea": "Aircraft design relies heavily on solving challenging and computationally expensive Multidisciplinary Design Optimization problems",
+      "methodology": "In this context, there has been growing interest in multi-fidelity models for Bayesian optimization to improve the MDO process by balancing computational cost and accuracy through the combination of high- and low-fidelity simulation models, enabling efficient exploration of the design process at a minimal computational effort",
+      "quant_impact": "In the existing literature, fidelity selection focuses only on the objective function to decide how to integrate multiple fidelity levels, balancing precision and computational cost using variance reduction criteria",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.28845v1",
+      "source": "arxiv",
+      "title": "OneComp: One-Line Revolution for Generative AI Model Compression",
+      "authors": [
+        "Yuma Ichikawa",
+        "Keiji Kimura",
+        "Akihiro Yoshida",
+        "Yudai Fujimoto",
+        "Hiroki Tokura",
+        "Yamato Arai",
+        "Yoshiyuki Ishii",
+        "Yusei Kawakami",
+        "Genki Shikada",
+        "Achille Jacquemond",
+        "Yoshihiko Fujisawa",
+        "Katsuki Fujisawa",
+        "Takumi Honda",
+        "Akira Sakai"
+      ],
+      "abstract": "Deploying foundation models is increasingly constrained by memory footprint, latency, and hardware costs. Post-training compression can mitigate these bottlenecks by reducing the precision of model parameters without significantly degrading performance; however, its practical implementation remains challenging as practitioners navigate a fragmented landscape of quantization algorithms, precision budgets, data-driven calibration strategies, and hardware-dependent execution regimes. We present OneComp, an open-source compression framework that transforms this expert workflow into a reproducible, resource-adaptive pipeline. Given a model identifier and available hardware, OneComp automatically inspects the model, plans mixed-precision assignments, and executes progressive quantization stages, ranging from layer-wise compression to block-wise refinement and global refinement. A key architectural choice is treating the first quantized checkpoint as a deployable pivot, ensuring that each subsequent stage improves the same model and that quality increases as more compute is invested. By converting state-of-the-art compression research into an extensible, open-source, hardware-aware pipeline, OneComp bridges the gap between algorithmic innovation and production-grade model deployment.",
+      "published": "2026-03-30T17:43:32+00:00",
+      "url": "http://arxiv.org/abs/2603.28845v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28845v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CE",
+        "cs.CL"
+      ],
+      "primary_category": "cs.LG",
+      "core_idea": "Deploying foundation models is increasingly constrained by memory footprint, latency, and hardware costs",
+      "methodology": "Post-training compression can mitigate these bottlenecks by reducing the precision of model parameters without significantly degrading performance; however, its practical implementation remains challenging as practitioners navigate a fragmented landscape of quantization algorithms, precision budgets, data-driven calibration strategies, and hardware-dependent execution regimes",
+      "quant_impact": "We present OneComp, an open-source compression framework that transforms this expert workflow into a reproducible, resource-adaptive pipeline",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
+    },
+    {
+      "id": "2603.28707v2",
       "source": "arxiv",
       "title": "A Convex Route to Thermomechanics: Learning Internal Energy and Dissipation",
       "authors": [
@@ -12,8 +251,8 @@
       ],
       "abstract": "We present a physics-based neural network framework for the discovery of constitutive models in fully coupled thermomechanics. In contrast to classical formulations based on the Helmholtz energy, we adopt the internal energy and a dissipation potential as primary constitutive functions, expressed in terms of deformation and entropy. This choice avoids the need to enforce mixed convexity--concavity conditions and facilitates a consistent incorporation of thermodynamic principles. In this contribution, we focus on materials without preferred directions or internal variables.\n  While the formulation is posed in terms of entropy, the temperature is treated as the independent observable, and the entropy is inferred internally through the constitutive relation, enabling thermodynamically consistent modeling without requiring entropy data.\n  Thermodynamic admissibility of the networks is guaranteed by construction. The internal energy and dissipation potential are represented by input convex neural networks, ensuring convexity and compliance with the second law. Objectivity, material symmetry, and normalization are embedded directly into the architecture through invariant-based representations and zero-anchored formulations.\n  We demonstrate the performance of the proposed framework on synthetic and experimental datasets, including purely thermal problems and fully coupled thermomechanical responses of soft tissues and filled rubbers. The results show that the learned models accurately capture the underlying constitutive behavior. All code, data, and trained models are made publicly available via https://doi.org/10.5281/zenodo.19248596.",
       "published": "2026-03-30T17:26:13+00:00",
-      "url": "http://arxiv.org/abs/2603.28707v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.28707v1",
+      "url": "http://arxiv.org/abs/2603.28707v2",
+      "pdf_url": "https://arxiv.org/pdf/2603.28707v2",
       "categories": [
         "cs.CE",
         "cs.AI"
@@ -118,7 +357,7 @@
       "ranking_score": 29.22142857142857
     },
     {
-      "id": "2603.28325v1",
+      "id": "2603.28325v2",
       "source": "arxiv",
       "title": "Building evidence-based knowledge graphs from full-text literature for disease-specific biomedical reasoning",
       "authors": [
@@ -131,8 +370,8 @@
       ],
       "abstract": "Biomedical knowledge resources often either preserve evidence as unstructured text or compress it into flat triples that omit study design, provenance, and quantitative support. Here we present EvidenceNet, a framework and dataset for building disease-specific knowledge graphs from full-text biomedical literature. EvidenceNet uses a large language model (LLM)-assisted pipeline to extract experimentally grounded findings as structured evidence nodes, normalize biomedical entities, score evidence quality, and connect evidence records through typed semantic relations. We release two resources: EvidenceNet-HCC with 7,872 evidence records, 10,328 graph nodes, and 49,756 edges, and EvidenceNet-CRC with 6,622 records, 8,795 nodes, and 39,361 edges. Technical validation shows high component fidelity, including 98.3% field-level extraction accuracy, 100.0% high-confidence entity-link accuracy, 87.5% fusion integrity, and 90.0% semantic relation-type accuracy. In downstream evaluation, EvidenceNet improves internal and external retrieval-augmented question answering and retains structural signal for future link prediction and target prioritization. These results establish EvidenceNet as a disease-specific resource for evidence-aware biomedical reasoning and hypothesis generation.",
       "published": "2026-03-30T11:53:45+00:00",
-      "url": "http://arxiv.org/abs/2603.28325v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.28325v1",
+      "url": "http://arxiv.org/abs/2603.28325v2",
+      "pdf_url": "https://arxiv.org/pdf/2603.28325v2",
       "categories": [
         "cs.CE",
         "cs.AI"
@@ -239,6 +478,36 @@
       "ranking_score": 29.22142857142857
     },
     {
+      "id": "2603.28898v1",
+      "source": "arxiv",
+      "title": "Model Predictive Control For Trade Execution",
+      "authors": [
+        "Thomas P. McAuliffe",
+        "Samuel Liew",
+        "Yuchao Li",
+        "Andrey Ushenin",
+        "Chihang Wang",
+        "Alexandros Tasos",
+        "Jack Pearce",
+        "Dimitris Tasoulis",
+        "Dimitri P. Bertsekas",
+        "Theodoros Tsagaris"
+      ],
+      "abstract": "We address the problem of executing large client orders in continuous double-auction markets under time and liquidity constraints. We propose a model predictive control (MPC) framework that balances three competing objectives: order completion, market impact, and opportunity cost. Our algorithm is guided by a trading schedule (such as time-weighted average price or volume-weighted average price) but allows for deviations to reduce the expected execution cost, with due regard to risk.\n  Our MPC algorithm executes the order progressively, and at each decision step it solves a fast quadratic program that trades off expected transaction cost against schedule deviation, while incorporating a residual cost term derived from a simple base policy. Approximate schedule adherence is maintained through explicit bounds, while variance constraints on deviation provide direct risk control. The resulting system is modular, data-driven, and suitable for deployment in production trading infrastructure.\n  Using six months of NASDAQ 'level 3' data and simulated orders, we show that our MPC approach reduces schedule shortfall by approximately 40-50% relative to spread-crossing benchmarks and achieves significant reductions in slippage. Moreover, augmenting the base policy with predictive price information further enhances performance, highlighting the framework's flexibility for integration with forecasting components.",
+      "published": "2026-03-30T18:25:52+00:00",
+      "url": "http://arxiv.org/abs/2603.28898v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.28898v1",
+      "categories": [
+        "q-fin.TR"
+      ],
+      "primary_category": "q-fin.TR",
+      "core_idea": "We address the problem of executing large client orders in continuous double-auction markets under time and liquidity constraints",
+      "methodology": "We propose a model predictive control (MPC) framework that balances three competing objectives: order completion, market impact, and opportunity cost",
+      "quant_impact": "Our algorithm is guided by a trading schedule (such as time-weighted average price or volume-weighted average price) but allows for deviations to reduce the expected execution cost, with due regard to risk.\n  Our MPC algorithm executes the order progressively, and at each decision step it solves a fast quadratic program that trades off expected transaction cost against schedule deviation, while incorporating a residual cost term derived from a simple base policy",
+      "relevance_score": 5,
+      "ranking_score": 29.22142857142857
+    },
+    {
       "id": "2603.27856v1",
       "source": "arxiv",
       "title": "Hierarchical Tensor Network Structure Search for High-Dimensional Data",
@@ -336,83 +605,6 @@
       "ranking_score": 28.79285714285714
     },
     {
-      "id": "2603.27448v1",
-      "source": "arxiv",
-      "title": "GIFT: Bootstrapping Image-to-CAD Program Synthesis via Geometric Feedback",
-      "authors": [
-        "Giorgio Giannone",
-        "Anna Clare Doris",
-        "Amin Heyrani Nobari",
-        "Kai Xu",
-        "Akash Srivastava",
-        "Faez Ahmed"
-      ],
-      "abstract": "Generating executable CAD programs from images requires alignment between visual geometry and symbolic program representations, a capability that current methods fail to learn reliably as design complexity increases. Existing fine-tuning approaches rely on either limited supervised datasets or expensive post-training pipelines, resulting in brittle systems that restrict progress in generative CAD design. We argue that the primary bottleneck lies not in model or algorithmic capacity, but in the scarcity of diverse training examples that align visual geometry with program syntax. This limitation is especially acute because the collection of diverse and verified engineering datasets is both expensive and difficult to scale, constraining the development of robust generative CAD models. We introduce Geometric Inference Feedback Tuning (GIFT), a data augmentation framework that leverages geometric feedback to turn test-time compute into a bootstrapped set of high-quality training samples. GIFT combines two mechanisms: Soft-Rejection Sampling (GIFT-REJECT), which retains diverse high-fidelity programs beyond exact ground-truth matches, and Failure-Driven Augmentation (GIFT-FAIL), which converts near-miss predictions into synthetic training examples that improve robustness on challenging geometries. By amortizing inference-time search into the model parameters, GIFT captures the benefits of test-time scaling while reducing inference compute by 80%. It improves mean IoU by 12% over a strong supervised baseline and remains competitive with more complex multimodal systems, without requiring additional human annotation or specialized architectures.",
-      "published": "2026-03-28T23:49:20+00:00",
-      "url": "http://arxiv.org/abs/2603.27448v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.27448v1",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CE"
-      ],
-      "primary_category": "cs.LG",
-      "core_idea": "Generating executable CAD programs from images requires alignment between visual geometry and symbolic program representations, a capability that current methods fail to learn reliably as design complexity increases",
-      "methodology": "Existing fine-tuning approaches rely on either limited supervised datasets or expensive post-training pipelines, resulting in brittle systems that restrict progress in generative CAD design",
-      "quant_impact": "We argue that the primary bottleneck lies not in model or algorithmic capacity, but in the scarcity of diverse training examples that align visual geometry with program syntax",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
-      "id": "2603.27354v1",
-      "source": "arxiv",
-      "title": "A Shell-to-Shell Cohesive Line Element for Efficient Modeling of Interfacial Cracking in Overmolded Stiffened Panels",
-      "authors": [
-        "S\u00e9rgio G. F. Cordeiro",
-        "Boyang Chen",
-        "Frans P. van der Meer"
-      ],
-      "abstract": "The wide adoption of thermoplastic composites to reduce weight in structural parts requires reliable numerical methods to account for debonding between overmolded parts. Although cohesive elements are effective for debonding, the need for very fine meshes in the cohesive zone limits their practical use. In the present work, a novel structural cohesive element is proposed for the efficient modeling of debonding in thermoplastic composite panels with overmolded stiffeners. Three-node triangular Kirchhoff-Love shell elements are employed for the modelling of thin panels and stiffeners. The proposed cohesive element perpendicularly connects the shell elements representing the rib to those representing the plate. The displacement discontinuity is defined from the evaluation of the shell fields at the elements edges, while allowing for transmission of cohesive forces and cohesive couples. The model is verified for mode I, mode II and mixed-mode benchmark problems. A debonding problem is analyzed with both standard 3D cohesive elements and the proposed element. The results show that the element size in the proposed models can be much larger than that in the standard model, with more than 95% reduction in CPU time, while retaining prediction accuracy. The debonding analysis of a complex stiffened panel is also presented to demonstrate the intended use of the proposed element for simulating debonding in structural components.",
-      "published": "2026-03-28T18:00:45+00:00",
-      "url": "http://arxiv.org/abs/2603.27354v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.27354v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "The wide adoption of thermoplastic composites to reduce weight in structural parts requires reliable numerical methods to account for debonding between overmolded parts",
-      "methodology": "Although cohesive elements are effective for debonding, the need for very fine meshes in the cohesive zone limits their practical use",
-      "quant_impact": "In the present work, a novel structural cohesive element is proposed for the efficient modeling of debonding in thermoplastic composite panels with overmolded stiffeners",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
-      "id": "2603.27351v1",
-      "source": "arxiv",
-      "title": "Modeling isotropic polyconvex hyperelasticity by neural networks -- sufficient and necessary criteria for compressible and incompressible materials",
-      "authors": [
-        "Gian-Luca Geuken",
-        "Patrick Kurzeja",
-        "David Wiedemann",
-        "Martin Zlati\u0107",
-        "Marko \u010cana\u0111ija",
-        "J\u00f6rn Mosler"
-      ],
-      "abstract": "This work investigates different sufficient and necessary criteria for hyperelastic, isotropic polyconvex material models, focusing on neural network implementations for incompressible materials. Furthermore, the expressiveness, accuracy, simplicity as well as the efficiency of those models is analyzed. This also enables an assessment of the practical applicability of the models. Convex Signed Singular Value Neural Networks (CSSV-NNs) are applied to compressible materials and tailored to incompressibility (inc-CSSV-NNs), resulting in a universal approximation for frame-indifferent, isotropic polyconvex energies for the compressible as well as incompressible case. While other existing approaches also guarantee frame-indifference, isotropy and polyconvexity, they impose too restrictive constraints and thus limit the expressiveness of the model since they are only based on sufficient but not necessary criteria. This is further substantiated by numerical examples of several, well-established classical models (Neo--Hooke, Mooney--Rivlin, Gent and Arruda--Boyce) and Treloar's experimental data. Moreover, the numerical examples include an explicitly constructed energy function that cannot be approximated by neural networks constrained by Ball's criterion for polyconvexity. This substantiates that Ball's criterion, though sufficient, is not necessary for polyconvexity.",
-      "published": "2026-03-28T17:58:21+00:00",
-      "url": "http://arxiv.org/abs/2603.27351v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.27351v1",
-      "categories": [
-        "cs.CE"
-      ],
-      "primary_category": "cs.CE",
-      "core_idea": "This work investigates different sufficient and necessary criteria for hyperelastic, isotropic polyconvex material models, focusing on neural network implementations for incompressible materials",
-      "methodology": "Furthermore, the expressiveness, accuracy, simplicity as well as the efficiency of those models is analyzed",
-      "quant_impact": "This also enables an assessment of the practical applicability of the models",
-      "relevance_score": 5,
-      "ranking_score": 28.364285714285714
-    },
-    {
       "id": "2603.27274v1",
       "source": "arxiv",
       "title": "Budgeted Robust Intervention Design for Financial Networks with Common Asset Exposures",
@@ -442,9 +634,9 @@
       "title": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 64818,
-      "forks": 6367,
-      "updated": "2026-03-31T23:29:06+00:00",
+      "stars": 64828,
+      "forks": 6370,
+      "updated": "2026-04-01T03:19:40+00:00",
       "language": "Python",
       "topics": [
         "ai",
@@ -473,9 +665,9 @@
       "title": "qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
       "url": "https://github.com/microsoft/qlib",
-      "stars": 39612,
-      "forks": 6191,
-      "updated": "2026-03-31T23:54:15+00:00",
+      "stars": 39624,
+      "forks": 6192,
+      "updated": "2026-04-01T02:43:22+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -509,9 +701,9 @@
       "title": "awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
       "url": "https://github.com/wilsonfreitas/awesome-quant",
-      "stars": 25252,
-      "forks": 3347,
-      "updated": "2026-03-31T23:46:32+00:00",
+      "stars": 25251,
+      "forks": 3348,
+      "updated": "2026-04-01T01:04:24+00:00",
       "language": "HTML",
       "topics": [
         "algorithmic-trading-engine",
@@ -547,9 +739,9 @@
       "title": "Qbot",
       "description": "[\ud83d\udd25updating ...] AI \u81ea\u52a8\u91cf\u5316\u4ea4\u6613\u673a\u5668\u4eba(\u5b8c\u5168\u672c\u5730\u90e8\u7f72) AI-powered Quantitative Investment Research Platform. \ud83d\udcc3 online docs: https://ufund-me.github.io/Qbot   \u2728 :news: qbot-mini: https://github.com/Charmve/iQuant",
       "url": "https://github.com/UFund-Me/Qbot",
-      "stars": 16798,
-      "forks": 2377,
-      "updated": "2026-03-31T14:37:37+00:00",
+      "stars": 16799,
+      "forks": 2378,
+      "updated": "2026-04-01T02:39:17+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "backtest",
@@ -582,9 +774,9 @@
       "title": "stock",
       "description": "stock\u80a1\u7968.\u83b7\u53d6\u80a1\u7968\u6570\u636e,\u8ba1\u7b97\u80a1\u7968\u6307\u6807,\u7b79\u7801\u5206\u5e03,\u8bc6\u522b\u80a1\u7968\u5f62\u6001,\u7efc\u5408\u9009\u80a1,\u9009\u80a1\u7b56\u7565,\u80a1\u7968\u9a8c\u8bc1\u56de\u6d4b,\u80a1\u7968\u81ea\u52a8\u4ea4\u6613,\u652f\u6301PC\u53ca\u79fb\u52a8\u8bbe\u5907\u3002",
       "url": "https://github.com/myhhub/stock",
-      "stars": 12110,
-      "forks": 2511,
-      "updated": "2026-03-31T15:51:42+00:00",
+      "stars": 12112,
+      "forks": 2513,
+      "updated": "2026-04-01T03:27:44+00:00",
       "language": "Python",
       "topics": [
         "backtest",
@@ -612,9 +804,9 @@
       "title": "ta-lib-python",
       "description": "Python wrapper for TA-Lib (http://ta-lib.org/).",
       "url": "https://github.com/TA-Lib/ta-lib-python",
-      "stars": 11820,
+      "stars": 11822,
       "forks": 1967,
-      "updated": "2026-03-31T23:24:08+00:00",
+      "updated": "2026-04-01T02:56:06+00:00",
       "language": "Cython",
       "topics": [
         "finance",
@@ -638,7 +830,7 @@
       "url": "https://github.com/je-suis-tm/quant-trading",
       "stars": 9565,
       "forks": 1755,
-      "updated": "2026-03-31T22:16:14+00:00",
+      "updated": "2026-04-01T02:57:45+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -674,9 +866,9 @@
       "title": "StockSharp",
       "description": "Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "url": "https://github.com/StockSharp/StockSharp",
-      "stars": 9503,
+      "stars": 9506,
       "forks": 2091,
-      "updated": "2026-03-31T20:15:24+00:00",
+      "updated": "2026-04-01T03:17:28+00:00",
       "language": "C#",
       "topics": [
         "algorithmic-trading",
@@ -774,9 +966,9 @@
       "title": "awesome-systematic-trading",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "stars": 7569,
+      "stars": 7570,
       "forks": 1074,
-      "updated": "2026-03-31T19:46:37+00:00",
+      "updated": "2026-04-01T03:09:06+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -811,9 +1003,9 @@
       "title": "vectorbt",
       "description": "\u26a1\ufe0f Lightning-fast backtesting engine to find your trading edge.",
       "url": "https://github.com/polakowo/vectorbt",
-      "stars": 7032,
+      "stars": 7034,
       "forks": 906,
-      "updated": "2026-03-31T20:22:18+00:00",
+      "updated": "2026-04-01T03:35:05+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -862,9 +1054,9 @@
       "title": "quantstats",
       "description": "Portfolio analytics for quants, written in Python",
       "url": "https://github.com/ranaroussi/quantstats",
-      "stars": 6913,
+      "stars": 6914,
       "forks": 1142,
-      "updated": "2026-03-31T20:53:18+00:00",
+      "updated": "2026-04-01T02:39:18+00:00",
       "language": "Python",
       "topics": [
         "algo-trading",
@@ -929,9 +1121,9 @@
       "title": "freqtrade",
       "description": "Free, open source crypto trading bot",
       "url": "https://github.com/freqtrade/freqtrade",
-      "stars": 48213,
-      "forks": 10047,
-      "updated": "2026-03-31T23:38:47+00:00",
+      "stars": 48215,
+      "forks": 10046,
+      "updated": "2026-04-01T03:14:55+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -956,9 +1148,9 @@
       "title": "zipline",
       "description": "Zipline, a Pythonic Algorithmic Trading Library",
       "url": "https://github.com/quantopian/zipline",
-      "stars": 19570,
+      "stars": 19571,
       "forks": 4958,
-      "updated": "2026-03-31T23:51:45+00:00",
+      "updated": "2026-04-01T03:26:56+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -978,9 +1170,9 @@
       "title": "abu",
       "description": "\u963f\u5e03\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf(\u80a1\u7968\uff0c\u671f\u6743\uff0c\u671f\u8d27\uff0c\u6bd4\u7279\u5e01\uff0c\u673a\u5668\u5b66\u4e60) \u57fa\u4e8epython\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\uff0c\u91cf\u5316\u6295\u8d44\u67b6\u6784",
       "url": "https://github.com/bbfamily/abu",
-      "stars": 16677,
-      "forks": 4481,
-      "updated": "2026-03-31T15:25:54+00:00",
+      "stars": 16678,
+      "forks": 4482,
+      "updated": "2026-04-01T02:22:58+00:00",
       "language": "Python",
       "topics": [
         "algorithmic-trading",
@@ -1008,8 +1200,8 @@
       "description": "FinRL\u00ae:  Financial Reinforcement Learning. \ud83d\udd25",
       "url": "https://github.com/AI4Finance-Foundation/FinRL",
       "stars": 14631,
-      "forks": 3250,
-      "updated": "2026-03-31T18:33:37+00:00",
+      "forks": 3249,
+      "updated": "2026-04-01T03:00:31+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1077,9 +1269,9 @@
       "title": "PyPortfolioOpt",
       "description": "Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity",
       "url": "https://github.com/PyPortfolio/PyPortfolioOpt",
-      "stars": 5604,
-      "forks": 1107,
-      "updated": "2026-03-31T14:27:49+00:00",
+      "stars": 5605,
+      "forks": 1106,
+      "updated": "2026-04-01T02:39:38+00:00",
       "language": "Jupyter Notebook",
       "topics": [
         "algorithmic-trading",
@@ -1183,129 +1375,6 @@
       "quant_impact": "No quant impact extracted.",
       "relevance_score": 5,
       "ranking_score": 28.0
-    },
-    {
-      "id": "WP-WSJ-0002355424",
-      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-      "source_type": "quant",
-      "title": "Financial Services Roundup: Market Talk",
-      "summary": "Gain insight on Experian, SoFi Technologies and more in the latest Market Talks covering Financial Services.",
-      "published": "Mon, 27 Jan 2025 12:27:00 -0500",
-      "url": "https://www.wsj.com/articles/financial-services-roundup-market-talk-94f52cba?mod=rss_markets_main",
-      "author": "",
-      "core_idea": "Gain insight on Experian, SoFi Technologies and more in the latest Market Talks covering Financial Services.",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.0
-    },
-    {
-      "id": "WP-WSJ-0002354874",
-      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-      "source_type": "quant",
-      "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
-      "summary": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump\u2019s threats to impose tariffs and economic sanctions on Colombia.",
-      "published": "Mon, 27 Jan 2025 12:20:00 -0500",
-      "url": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
-      "author": "",
-      "core_idea": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump\u2019s threats to impose tariffs and economic sanctions on Colombia.",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.0
-    },
-    {
-      "id": "WP-WSJ-0002354017",
-      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-      "source_type": "quant",
-      "title": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
-      "summary": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek\u2019s new AI model hit U.S. tech stocks.",
-      "published": "Mon, 27 Jan 2025 09:55:00 -0500",
-      "url": "https://www.wsj.com/articles/safe-haven-currencies-strengthen-amid-fears-over-global-tariffs-9964e17a?mod=rss_markets_main",
-      "author": "",
-      "core_idea": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek\u2019s new AI model hit U.S",
-      "methodology": "tech stocks.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.0
-    },
-    {
-      "id": "WP-WSJ-0002355062",
-      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-      "source_type": "quant",
-      "title": "Natural Gas Falls on Shifting Weather Forecasts",
-      "summary": "U.S. natural gas futures fell after weekend updates took some of the chill out of early February weather forecasts.",
-      "published": "Mon, 27 Jan 2025 09:05:00 -0500",
-      "url": "https://www.wsj.com/articles/u-s-natural-gas-futures-fall-on-shifting-weather-forecasts-1ef3e457?mod=rss_markets_main",
-      "author": "",
-      "core_idea": "U.S",
-      "methodology": "natural gas futures fell after weekend updates took some of the chill out of early February weather forecasts.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.0
-    },
-    {
-      "id": "WP-WSJ-0002353768",
-      "source": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-      "source_type": "quant",
-      "title": "Building-Products Distributor QXO Launches Hostile Bid for Beacon",
-      "summary": "QXO is taking its offer directly to shareholders after being rebuffed on several occasions.",
-      "published": "Mon, 27 Jan 2025 08:28:00 -0500",
-      "url": "https://www.wsj.com/articles/building-products-distributor-qxo-launching-hostile-bid-for-beacon-de024410?mod=rss_markets_main",
-      "author": "",
-      "core_idea": "QXO is taking its offer directly to shareholders after being rebuffed on several occasions.",
-      "methodology": "No methodology extracted.",
-      "quant_impact": "No quant impact extracted.",
-      "relevance_score": 5,
-      "ranking_score": 28.0
-    },
-    {
-      "id": "2603.26514v1",
-      "source": "arxiv",
-      "title": "Rough volatility dynamics in commodity markets",
-      "authors": [
-        "Roberto Daluiso",
-        "H\u00e9ctor Folgar-Came\u00e1n",
-        "Andrea Pallavicini",
-        "Carlos V\u00e1zquez"
-      ],
-      "abstract": "In this paper, we develop a general rough volatility model for commodities that provides an automatic calibration of the initial term structure of the futures prices and an appropriate treatment of the Samuelson effect. After the theoretical analysis of this general model, we focus on the rBergomi and rHeston models and their calibration to market data of vanilla futures options on WTI Crude Oil. Finally, numerical results illustrate the performance of the proposed rough volatility models for commodities pricing.",
-      "published": "2026-03-27T15:25:18+00:00",
-      "url": "http://arxiv.org/abs/2603.26514v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26514v1",
-      "categories": [
-        "q-fin.PR",
-        "q-fin.CP"
-      ],
-      "primary_category": "q-fin.PR",
-      "core_idea": "In this paper, we develop a general rough volatility model for commodities that provides an automatic calibration of the initial term structure of the futures prices and an appropriate treatment of the Samuelson effect",
-      "methodology": "After the theoretical analysis of this general model, we focus on the rBergomi and rHeston models and their calibration to market data of vanilla futures options on WTI Crude Oil",
-      "quant_impact": "Finally, numerical results illustrate the performance of the proposed rough volatility models for commodities pricing.",
-      "relevance_score": 5,
-      "ranking_score": 27.935714285714283
-    },
-    {
-      "id": "2603.26291v1",
-      "source": "arxiv",
-      "title": "Monotone 2D Integration Scheme for Mean-CVaR Optimization via Fourier-Trained Transition Kernels",
-      "authors": [
-        "Duy-Minh Dang",
-        "Hao Zhou"
-      ],
-      "abstract": "We present a strictly monotone, provably convergent two-dimensional (2D) integration method for multi-period mean-conditional value-at-risk (mean-CVaR) reward-risk stochastic control in models whose one-step increment law is specified via a closed-form characteristic function (CF). When the transition density is unavailable in closed form, we learn a nonnegative, normalized 2D transition kernel in Fourier space using a simplex-constrained Gaussian-mixture parameterization, and discretize the resulting convolution integrals with composite quadrature rules with nonnegative weights to guarantee monotonicity. The scheme is implemented efficiently using 2D fast Fourier transforms. Under mild Fourier-tail decay assumptions on the CF, we derive Fourier-domain $L_2$ kernel-approximation and truncation error estimates and translate them into real-space bounds that are used to establish $\\ell_\\infty$-stability, consistency, and pointwise convergence as the discretization and kernel-approximation parameters vanish. Numerical experiments for a fully coupled 2D jump--diffusion model in a multi-period portfolio optimization setting illustrate robustness and accuracy.",
-      "published": "2026-03-27T10:59:09+00:00",
-      "url": "http://arxiv.org/abs/2603.26291v1",
-      "pdf_url": "https://arxiv.org/pdf/2603.26291v1",
-      "categories": [
-        "math.OC",
-        "q-fin.CP"
-      ],
-      "primary_category": "math.OC",
-      "core_idea": "We present a strictly monotone, provably convergent two-dimensional (2D) integration method for multi-period mean-conditional value-at-risk (mean-CVaR) reward-risk stochastic control in models whose one-step increment law is specified via a closed-form characteristic function (CF)",
-      "methodology": "When the transition density is unavailable in closed form, we learn a nonnegative, normalized 2D transition kernel in Fourier space using a simplex-constrained Gaussian-mixture parameterization, and discretize the resulting convolution integrals with composite quadrature rules with nonnegative weights to guarantee monotonicity",
-      "quant_impact": "The scheme is implemented efficiently using 2D fast Fourier transforms",
-      "relevance_score": 5,
-      "ranking_score": 27.935714285714283
     }
   ]
 }
