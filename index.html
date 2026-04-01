@@ -38,7 +38,7 @@
     </style>
 </head>
 <body>
-    <div class="copy-notification" id="copyNotification">✅ URL copied to clipboard! Paste into archive.ph</div>
+    <div class="copy-notification" id="copyNotification">✅ URL copied! Go to archive.ph and paste (Ctrl+V)</div>
 
     <div class="header">
         <div class="container">
@@ -210,8 +210,8 @@
                         notification.style.display = 'none';
                     }, 3000);
                     
-                    // Also open archive.ph in a new tab
-                    window.open('https://archive.ph/', '_blank');
+                    // Just copy - user will manually go to archive.ph
+                    // No auto-open to avoid block page
                 } else {
                     alert('Copy failed. URL: ' + url);
                 }
