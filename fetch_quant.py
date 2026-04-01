@@ -16,7 +16,6 @@ import requests
 from github import Github
 import arxiv
 import yaml
-from newspaper import Article
 from bs4 import BeautifulSoup
 import re
 
@@ -165,20 +164,9 @@ class QuantScraper:
 
     def extract_full_text(self, url: str) -> Tuple[Optional[str], Optional[str]]:
         """
-        Extract full article text using newspaper3k, with archive fallback.
-        Returns (text, archive_url) where archive_url is None if direct access worked.
+        Extract full article text using archive services.
+        Returns (text, archive_url) where archive_url is the successful archive URL.
         """
-        # Try direct access first
-        try:
-            article = Article(url)
-            article.download()
-            article.parse()
-            if article.text and len(article.text) > 300:
-                logger.info(f"Direct access succeeded for {url}")
-                return article.text, None
-        except Exception as e:
-            logger.debug(f"Direct access failed for {url}: {e}")
-        
         # Try archive services
         for archive_template in CONFIG["archive_services"]:
             archive_url = archive_template.format(url=url)
@@ -186,10 +174,27 @@ class QuantScraper:
                 html = self.polite_request(archive_url)
                 if html:
                     soup = BeautifulSoup(html, 'html.parser')
-                    # Remove scripts, styles
-                    for script in soup(["script", "style", "nav", "footer", "header"]):
-                        script.decompose()
-                    text = soup.get_text(separator=' ', strip=True)
+                    # Remove scripts, styles, navigation
+                    for element in soup(["script", "style", "nav", "footer", "header", "aside", "form", "iframe"]):
+                        element.decompose()
+                    
+                    # Try to find main content
+                    main_selectors = ["article", "main", ".article-content", ".post-content", ".story-body", ".content"]
+                    text = ""
+                    
+                    for selector in main_selectors:
+                        elements = soup.select(selector)
+                        if elements:
+                            text = " ".join([elem.get_text(separator=' ', strip=True) for elem in elements])
+                            break
+                    
+                    # Fallback to all text
+                    if not text or len(text) < 200:
+                        text = soup.get_text(separator=' ', strip=True)
+                    
+                    # Clean up
+                    text = re.sub(r'\s+', ' ', text).strip()
+                    
                     if len(text) > 300:
                         logger.info(f"Archive access succeeded via {archive_template.split('/')[2]}")
                         return text, archive_url
