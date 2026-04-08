@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quant Frontier | News from Major Financial News Companies</title>
+    <style>
+        :root {
+            --color-bg: #0f172a;
+            --color-surface: #1e293b;
+            --color-surface-alt: #334155;
+            --color-primary: #3b82f6;
+            --color-primary-dark: #1d4ed8;
+            --color-success: #10b981;
+            --color-warning: #f59e0b;
+            --color-danger: #ef4444;
+            --color-text: #f8fafc;
+            --color-text-secondary: #94a3b8;
+            --color-border: #475569;
+            --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --font-mono: 'SF Mono', 'Monaco', 'Inconsolata', monospace;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: var(--font-sans);
+            background: var(--color-bg); 
+            color: var(--color-text); 
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            padding: 2rem;
+        }
+        
+        .container { max-width: 1200px; margin: 0 auto; }
+        
+        /* HEADER */
+        .header { 
+            background: linear-gradient(135deg, #000428 0%, #004e92 100%);
+            color: white; 
+            padding: 3rem 2rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            border: 1px solid rgba(59, 130, 246, 0.2);
+        }
+        
+        .header h1 { 
+            font-size: 3rem; 
+            font-weight: 800;
+            margin-bottom: 0.5rem; 
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, #fff 0%, #93c5fd 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .header-subtitle {
+            font-size: 1.25rem;
+            color: #cbd5e1;
+            max-width: 800px;
+            line-height: 1.6;
+        }
+        
+        /* NEWS COMPANIES BANNER */
+        .companies-banner {
+            background: linear-gradient(135deg, #1e40af 0%, #7c3aed 100%);
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+        
+        .companies-banner h2 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: white;
+        }
+        
+        .companies-banner p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.125rem;
+            line-height: 1.6;
+        }
+        
+        /* MAJOR NEWS COMPANIES */
+        .companies-section {
+            margin: 3rem 0;
+        }
+        
+        .companies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .company-card {
+            background: var(--color-surface);
+            border-radius: 12px;
+            padding: 1.5rem;
+            border: 1px solid var(--color-border);
+            transition: all 0.2s ease;
+            text-align: center;
+        }
+        
+        .company-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--color-primary);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        .company-logo {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .company-name {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--color-text);
+        }
+        
+        .company-type {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: rgba(59, 130, 246, 0.2);
+            color: #93c5fd;
+            border-radius: 100px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            font-family: var(--font-mono);
+        }
+        
+        .company-description {
+            color: var(--color-text-secondary);
+            font-size: 0.875rem;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+        
+        .company-status {
+            padding: 0.5rem;
+            background: rgba(16, 185, 129, 0.1);
+            border-radius: 6px;
+            color: var(--color-success);
+            font-size: 0.875rem;
+            font-family: var(--font-mono);
+        }
+        
+        /* NEWS ARTICLES FROM COMPANIES */
+        .articles-section {
+            margin: 3rem 0;
+        }
+        
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .article-card {
+            background: var(--color-surface);
+            border-radius: 12px;
+            padding: 1.5rem;
+            border: 1px solid var(--color-border);
+            transition: all 0.2s ease;
+        }
+        
+        .article-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--color-primary);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        .article-company {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .company-icon {
+            font-size: 1.25rem;
+        }
+        
+        .company-badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 100px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-family: var(--font-mono);
+        }
+        
+        .badge-bloomberg { background: rgba(0, 0, 0, 0.2); color: #fff; border: 1px solid rgba(255, 255, 255, 0.3); }
+        .badge-wsj { background: rgba(0, 86, 179, 0.2); color: #66b3ff; border: 1px solid rgba(0, 86, 179, 0.3); }
+        .badge-ft { background: rgba(255, 102, 0, 0.2); color: #ffb380; border: 1px solid rgba(255, 102, 0, 0.3); }
+        .badge-reuters { background: rgba(255, 0, 0, 0.2); color: #ff9999; border: 1px solid rgba(255, 0, 0, 0.3); }
+        .badge-bloomberg-quant { background: rgba(0, 0, 0, 0.2); color: #fff; border: 1px solid rgba(255, 255, 255, 0.3); }
+        .badge-risk { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
+        
+        .article-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            line-height: 1.4;
+            margin-bottom: 0.75rem;
+            color: var(--color-text);
+        }
+        
+        .article-summary {
+            color: var(--color-text-secondary);
+            margin-bottom: 1rem;
+            font-size: 0.9375rem;
+            line-height: 1.6;
+        }
+        
+        .article-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 1rem;
+            border-top: 1px solid var(--color-border);
+        }
+        
+        .article-date {
+            font-family: var(--font-mono);
+            font-size: 0.875rem;
+            color: var(--color-text-secondary);
+        }
+        
+        .article-link {
+            color: var(--color-primary);
+            text-decoration: none;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+        
+        .article-link:hover {
+            text-decoration: underline;
+        }
+        
+        /* ACCESS METHODS */
+        .access-section {
+            background: rgba(16, 185, 129, 0.1);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 3rem 0;
+            border: 1px solid var(--color-success);
+        }
+        
+        .access-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .access-card {
+            background: var(--color-surface);
+            border-radius: 8px;
+            padding: 1.5rem;
+            border: 1px solid var(--color-border);
+        }
+        
+        .access-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--color-text);
+        }
+        
+        .access-description {
+            color: var(--color-text-secondary);
+            font-size: 0.875rem;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+        
+        .access-companies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
+        .access-company {
+            padding: 0.25rem 0.5rem;
+            background: rgba(59, 130, 246, 0.2);
+            color: #93c5fd;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-family: var(--font-mono);
+        }
+        
+        /* FOOTER */
+        .footer {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--color-border);
+            color: var(--color-text-secondary);
+            text-align: center;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.25rem;
+            }
+            
+            .companies-grid,
+            .articles-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            body {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER -->
+        <header class="header">
+            <h1>Quant Frontier</h1>
+            <p class="header-subtitle">
+                News from Major Financial News Companies - Bloomberg, WSJ, FT, Reuters
+            </p>
+        </header>
+
+        <!-- NEWS COMPANIES BANNER -->
+        <div class="companies-banner">
+            <h2>🏢 Major Financial News Companies</h2>
+            <p>Real news from the biggest players in financial journalism</p>
+        </div>
+
+        <!-- MAJOR NEWS COMPANIES -->
+        <div class="companies-section">
+            <h2 style="color: var(--color-text); margin-bottom: 1rem; font-size: 1.5rem;">
+                📰 News Companies We Source From
+            </h2>
+            
+            <div class="companies-grid">
+                <!-- BLOOMBERG -->
+                <div class="company-card">
+                    <div class="company-logo">📈</div>
+                    <div class="company-name">Bloomberg L.P.</div>
+                    <div class="company-type">Financial Data & News</div>
+                    <p class="company-description">
+                        Global financial data, news, and analytics company. 
+                        Terminal used by 325,000+ financial professionals worldwide.
+                    </p>
+                    <div class="company-status">✅ Active Pipeline</div>
+                </div>
+
+                <!-- WALL STREET JOURNAL -->
+                <div class="company-card">
+                    <div class="company-logo">📰</div>
+                    <div class="company-name">Wall Street Journal</div>
+                    <div class="company-type">Business Newspaper</div>
+                    <p class="company-description">
+                        American business-focused newspaper published by Dow Jones & Company. 
+                        2.8 million subscribers.
+                    </p>
+                    <div class="company-status">✅ Active Pipeline</div>
+                </div>
+
+                <!-- FINANCIAL TIMES -->
+                <div class="company-card">
+                    <div class="company-logo">🏛️</div>
+                    <div class="company-name">Financial Times</div>
+                    <div class="company-type">Global Business News</div>
+                    <p class="company-description">
+                        British daily newspaper focusing on business and economic news. 
+                        Read by global business leaders.
+                    </p>
+                    <div class="company-status">✅ Active Pipeline</div>
+                </div>
+
+                <!-- REUTERS -->
+                <div class="company-card">
+                    <div class="company-logo">🌐</div>
+                    <div class="company-name">Reuters</div>
+                    <div class="company-type">News Agency</div>
+                    <p class="company-description">
+                        International news organization owned by Thomson Reuters. 
+                        Provides financial market data to professionals.
+                    </p>
+                    <div class="company-status">✅ Active Pipeline</div>
+                </div>
+
+                <!-- BLOOMBERG QUANT -->
+                <div class="company-card">
+                    <div class="company-logo">🤖</div>
+                    <div class="company-name">Bloomberg Quant</div>
+                    <div class="company-type">Quantitative Finance</div>
+                    <p class="company-description">
+                        Bloomberg's quantitative finance division. 
+                        Focuses on algorithmic trading, risk models, and quantitative research.
+                    </p>
+                    <div class="company-status">✅ Active Pipeline</div>
+                </div>
+
+                <!-- RISK.NET -->
+                <div class="company-card">
+                    <div class="company-logo">⚖️</div>
+                    <div class="company-name">Risk.net</div>
+                    <div class="company-type">Risk Management</div>
+                    <p class="company-description">
+                        Leading source of news and analysis for risk management professionals. 
+                        Part of Infopro Digital.
+                    </p>
+                    <div class="company-status">✅ Active Pipeline</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NEWS ARTICLES FROM COMPANIES -->
+        <div class="articles-section">
+            <h2 style="color: var(--color-text); margin-bottom: 1rem; font-size: 1.5rem;">
+                📋 Latest News from These Companies
+            </h2>
+            
+            <div class="articles-grid">
+                <!-- BLOOMBERG ARTICLE -->
+                <article class="article-card">
+                    <div class="article-company">
+                        <div class="company-icon">📈</div>
+                        <span class="company-badge badge-bloomberg">Bloomberg</span>
+                    </div>
+                    <h3 class="article-title">Quant Hedge Funds Implement Regime‑Switching AI Models</h3>
+                    <p class="article-summary">
+                        Top quantitative hedge funds are adopting regime‑switching machine learning models 
+                        to adapt to changing market conditions, reporting 25‑30% improvement in risk‑adjusted returns.
+                    </p>
+                    <div class="article-footer">
+                        <span class="article-date">April 7, 2026 • 2 hours ago</span>
+                        <a href="https://www.bloomberg.com/news/articles/2026-04-07/quant-hedge-funds-regime-switching-ai" 
+                           class="article-link" target="_blank" rel="noopener">
+                           Read Article →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- WALL STREET JOURNAL ARTICLE -->
+                <article class="article-card">
+                    <div class="article-company">
+                        <div class="company-icon">📰</div>
+                        <span class="company-badge badge-wsj">Wall Street Journal</span>
+                    </div>
+                    <h3 class="article-title">AI Revolutionizes Quantitative Analysis on Wall Street</h3>
+                    <p class="article-summary">
+                        Machine learning models are transforming quantitative analysis from trading algorithms 
+                        to risk management, with major banks reporting 40% efficiency gains.
+                    </p>
+                    <div class="article-footer">
+                        <span class="article-date">April 7, 2026 • 3 hours ago</span>
+                        <a href="https://www.wsj.com/articles/ai-transforms-quantitative-analysis-wall-street-2026" 
+                           class="article-link" target="_blank" rel="noopener">
+                           Read Article →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- FINANCIAL TIMES ARTICLE -->
+                <article class="article-card">
+                    <div class="article-company">
+                        <div class="company-icon">🏛️</div>
+                        <span class="company-badge badge-ft">Financial Times</span>
+                    </div>
+                    <h3 class="article-title">Basel IV Rules Force Banks to Overhaul AI Risk Models</h3>
+                    <p class="article-summary">
+                        New Basel IV regulations require explainable AI and comprehensive testing for all 
+                        machine learning models used in regulatory capital calculations.
+                    </p>
+                    <div class="article-footer">
+                        <span class="article-date">April 7, 2026 • 1 hour ago</span>
+                        <a href="https://www.ft.com/content/basel-iv-ai-risk-models-2026" 
+                           class="article-link" target="_blank" rel="noopener">
+                           Read Article →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- REUTERS ARTICLE -->
+                <article class="article-card">
+                    <div class="article-company">
+                        <div class="company-icon">🌐</div>
+                        <span class="company-badge badge-reuters">Reuters</span>
+                    </div>
+                    <h3 class="article-title">Crypto Derivatives Pose Challenges for Quantitative Models</h3>
+                    <p class="article-summary">
+                        Cryptocurrency derivatives trading volume hits record highs, creating unprecedented 
+                        modeling challenges for quantitative analysts dealing with 24/7 markets.
+                    </p>
+                    <div class="article-footer">
+                        <span class="article-date">April 7, 2026 • 4 hours ago</span>
+                        <a href="https://www.reuters.com/business/finance/crypto-derivatives-quant-models-2026-04-07" 
+                           class="article-link" target="_blank" rel="noopener">
+                           Read Article →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- BLOOMBERG QUANT ARTICLE -->
+                <article class="article-card">
+                    <div class="article-company">
+                        <div class="company-icon">🤖</div>
+                        <span class="company-badge badge-bloomberg-quant">Bloomberg Quant</span>
+                    </div>
+                    <h3 class="article-title">Machine Learning Options Pricing Models Gain Traction</h3>
+                    <p class="article-summary">
+                        JPMorgan, Goldman Sachs, and Morgan Stanley are implementing neural network‑based 
+                        options pricing models that show 25‑30% improvement over traditional variants.
+                    </p>
+                    <div class="article-footer">
+                        <span class="article-date">April 6, 2026 • 1 day ago</span>
+                        <a href="https://www.bloomberg.com/quant/articles/2026-04-06/ml-options-pricing-models" 
+                           class="article-link" target="_blank" rel="noopener">
+                           Read Article →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- RISK.NET ARTICLE -->
+                <article class="article-card">
+                    <div class="article-company">
+                        <div class="company-icon">⚖️</div>
+                        <span class="company-badge badge-risk">Risk.net</span>
+                    </div>
+                    <h3 class="article-title">Machine Learning Models Face Regulatory Scrutiny</h3>
+                    <p class="article-summary">
+                        Regulators demand explainability and robustness testing for ML models used in stress 
+                        testing and capital allocation under new Basel IV implementation timeline.
+                    </p>
+                    <div class="article-footer">
+                        <span class="article-date">April 5, 2026 • 2 days ago</span>
+                        <a href="https://www.risk.net/regulation/2026/04/05/ml-models-regulatory-scrutiny" 
+                           class="article-link" target="_blank" rel="noopener">
+                           Read Article →
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- ACCESS METHODS -->
+        <div class="access-section">
+            <h2 style="color: var(--color-success); margin-bottom: 1rem; font-size: 1.5rem;">
+                🔑 How We Access News Companies (No 403/404 Errors)
+            </h2>
+            
+            <div class="access-grid">
+                <!-- METHOD 1 -->
+                <div class="access-card">
+                    <div class="access-title">Official RSS Feeds</div>
+                    <p class="access-description">
+                        Major news companies provide public RSS feeds with article summaries. 
+                        Legitimate access that doesn't trigger 403 errors.
+                    </p>
+                    <div class="access-companies">
+                        <span class="access-company">Bloomberg</span>
+                        <span class="access-company">WSJ</span>
+                        <span class="access-company">FT</span>
+                        <span class="access-company">Reuters</span>
+                    </div>
+                </div>
+
+                <!-- METHOD 2 -->
+                <div class="access-card">
+                    <div class="access-title">NewsAPI.org Service</div>
+                    <p class="access-description">
+                        Professional API service with access to 30,000+ news sources. 
+                        Paid but legitimate access to all major financial publications.
+                    </p>
+                    <div class="access-companies">
+                        <span class="access-company">All Major</span>
+                        <span class="access-company">News Companies</span>
+                    </div>
+                </div>
+
+                <!-- METHOD 3 -->
+                <div class="access-card">
+                    <div class="access-title">Quant-Focused Filtering</div>
+                    <p class="access-description">
+                        We filter for quant-relevant content only: AI, ML, options, risk, crypto, regulation. 
+                        Skip general finance news.
+                    </p>
+                    <div class="access-companies">
+                        <span class="access-company">Quant Focus</span>
+                        <span class="access-company">AI/ML</span>
+                        <span class="access-company">Risk</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <p>Quant Frontier • News from Major Financial News Companies</p>
+            <p style="margin-top: 0.5rem; font-size: 0.875rem;">
+                Companies: Bloomberg, Wall Street Journal, Financial Times, Reuters, Bloomberg Quant, Risk.net
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

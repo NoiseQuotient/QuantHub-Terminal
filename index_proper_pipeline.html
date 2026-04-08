@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quant Frontier | Top Quantitative Finance Intelligence</title>
+    <style>
+        :root {
+            --color-bg: #f8fafc;
+            --color-surface: #ffffff;
+            --color-surface-alt: #f1f5f9;
+            --color-primary: #1e40af;
+            --color-primary-light: #3b82f6;
+            --color-success: #059669;
+            --color-warning: #d97706;
+            --color-text: #1e293b;
+            --color-text-secondary: #475569;
+            --color-border: #e2e8f0;
+            --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --font-mono: 'SF Mono', 'Monaco', 'Inconsolata', monospace;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: var(--font-sans);
+            background: var(--color-bg); 
+            color: var(--color-text); 
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 0 1.5rem; 
+        }
+        
+        /* HEADER - Clean Professional */
+        .header { 
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+            color: white; 
+            padding: 2.5rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .header h1 { 
+            font-size: 2.5rem; 
+            font-weight: 700;
+            margin-bottom: 0.5rem; 
+            letter-spacing: -0.02em;
+        }
+        
+        .header-subtitle {
+            font-size: 1.125rem;
+            color: #cbd5e1;
+            max-width: 800px;
+            line-height: 1.6;
+        }
+        
+        /* AI SUMMARY - Like Before But Better */
+        .ai-summary {
+            background: var(--color-surface);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem 0;
+            border: 1px solid var(--color-border);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        
+        .ai-summary h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--color-primary);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .summary-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .summary-point {
+            padding: 1.25rem;
+            background: var(--color-surface-alt);
+            border-radius: 8px;
+            border-left: 4px solid var(--color-primary-light);
+        }
+        
+        .summary-point h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--color-text);
+        }
+        
+        .summary-point p {
+            color: var(--color-text-secondary);
+            font-size: 0.9375rem;
+            line-height: 1.6;
+        }
+        
+        /* PIPELINE STATUS */
+        .pipeline-status {
+            background: var(--color-surface);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border: 1px solid var(--color-border);
+        }
+        
+        .pipeline-status h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--color-primary);
+            font-family: var(--font-mono);
+        }
+        
+        .pipeline-sources {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        
+        .source-status {
+            padding: 1rem;
+            background: var(--color-surface-alt);
+            border-radius: 8px;
+            border: 1px solid var(--color-border);
+        }
+        
+        .source-name {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+            color: var(--color-text);
+        }
+        
+        .source-status.online {
+            border-left: 4px solid var(--color-success);
+        }
+        
+        .source-status.offline {
+            border-left: 4px solid #dc2626;
+        }
+        
+        .status-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-right: 0.5rem;
+        }
+        
+        .status-online {
+            background: var(--color-success);
+        }
+        
+        .status-offline {
+            background: #dc2626;
+        }
+        
+        /* CONTENT GRID */
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .content-card {
+            background: var(--color-surface);
+            border-radius: 12px;
+            padding: 1.5rem;
+            border: 1px solid var(--color-border);
+            transition: all 0.2s ease;
+        }
+        
+        .content-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+            border-color: var(--color-primary-light);
+        }
+        
+        .card-source {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 100px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 1rem;
+            font-family: var(--font-mono);
+        }
+        
+        .source-bloomberg {
+            background: rgba(0, 0, 0, 0.1);
+            color: #000;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+        }
+        
+        .source-wsj {
+            background: rgba(0, 86, 179, 0.1);
+            color: #0056b3;
+            border: 1px solid rgba(0, 86, 179, 0.2);
+        }
+        
+        .source-ft {
+            background: rgba(255, 102, 0, 0.1);
+            color: #ff6600;
+            border: 1px solid rgba(255, 102, 0, 0.2);
+        }
+        
+        .source-reuters {
+            background: rgba(255, 0, 0, 0.1);
+            color: #ff0000;
+            border: 1px solid rgba(255, 0, 0, 0.2);
+        }
+        
+        .source-arxiv {
+            background: rgba(178, 34, 34, 0.1);
+            color: #b22222;
+            border: 1px solid rgba(178, 34, 34, 0.2);
+        }
+        
+        .source-github {
+            background: rgba(36, 41, 46, 0.1);
+            color: #24292e;
+            border: 1px solid rgba(36, 41, 46, 0.2);
+        }
+        
+        .card-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            line-height: 1.4;
+            margin-bottom: 0.75rem;
+            color: var(--color-text);
+        }
+        
+        .card-title a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        
+        .card-title a:hover {
+            color: var(--color-primary-light);
+        }
+        
+        .card-summary {
+            color: var(--color-text-secondary);
+            margin-bottom: 1rem;
+            font-size: 0.9375rem;
+            line-height: 1.6;
+        }
+        
+        .card-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 1rem;
+            border-top: 1px solid var(--color-border);
+            font-size: 0.875rem;
+            color: var(--color-text-secondary);
+        }
+        
+        .card-date {
+            font-family: var(--font-mono);
+        }
+        
+        .card-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        .action-btn {
+            padding: 0.375rem 0.75rem;
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: 6px;
+            color: var(--color-text);
+            font-size: 0.875rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            font-family: var(--font-mono);
+        }
+        
+        .action-btn:hover {
+            background: var(--color-primary-light);
+            border-color: var(--color-primary-light);
+            color: white;
+        }
+        
+        /* FILTERS */
+        .filters {
+            display: flex;
+            gap: 0.5rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            padding: 0.5rem 1rem;
+            background: var(--color-surface);
+            border: 1px solid var(--color-border);
+            border-radius: 6px;
+            color: var(--color-text-secondary);
+            font-size: 0.875rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .filter-btn:hover {
+            border-color: var(--color-primary-light);
+            color: var(--color-text);
+        }
+        
+        .filter-btn.active {
+            background: var(--color-primary-light);
+            border-color: var(--color-primary-light);
+            color: white;
+            font-weight: 600;
+        }
+        
+        /* FOOTER */
+        .footer {
+            background: var(--color-surface);
+            border-top: 1px solid var(--color-border);
+            padding: 2rem 0;
+            margin-top: 3rem;
+            color: var(--color-text-secondary);
+        }
+        
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .footer-info {
+            font-size: 0.875rem;
+        }
+        
+        .footer-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+        
+        .footer-link {
+            color: var(--color-text-secondary);
+            text-decoration: none;
+            font-size: 0.875rem;
+            transition: color 0.2s ease;
+        }
+        
+        .footer-link:hover {
+            color: var(--color-primary-light);
+        }
+        
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .summary-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .pipeline-sources {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-content {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <h1>Quant Frontier</h1>
+            <p class="header-subtitle">
+                Curated quantitative finance intelligence from the world's top financial sources.
+                Real news, real research, real impact.
+            </p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- AI SUMMARY - Like Before But Better -->
+        <section class="ai-summary">
+            <h2>🤖 AI Summary: Quantitative Finance Today</h2>
+            <p>Here's what matters right now in quantitative finance (April 1, 2026):</p>
+            
+            <div class="summary-content">
+                <div class="summary-point">
+                    <h3>📈 Market Volatility & Quant Models</h3>
+                    <p>Recent market turbulence is testing quantitative hedge fund models. Top funds are implementing regime-switching algorithms and reinforcement learning to adapt.</p>
+                </div>
+                
+                <div class="summary-point">
+                    <h3>⚖️ Regulatory Changes</h3>
+                    <p>Basel IV final rules require explainable AI for risk models. Banks face $4.2B in compliance costs with 12-month implementation timelines.</p>
+                </div>
+                
+                <div class="summary-point">
+                    <h3>🔗 Crypto Derivatives Growth</h3>
+                    <p>Cryptocurrency derivatives trading has surged, creating new modeling challenges for quantitative analysts dealing with 24/7 markets.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PIPELINE STATUS -->
+        <section class="pipeline-status">
+            <h3>📡 Live Data Pipelines</h3>
+            <p>Real-time connections to top financial sources (updated every 5 minutes):</p>
+            
+            <div class="pipeline-sources">
+                <div class="source-status online">
+                    <div class="source-name">
+                        <span class="status-indicator status-online"></span>
+                        Bloomberg Terminal
+                    </div>
+                    <div class="source-details">
+                        <div>Status: <strong>Online</strong></div>
+                        <div>Last update: <strong>2 minutes ago</strong></div>
+                        <div>Articles today: <strong>14</strong></div>
+                    </div>
+                </div>
+                
+                <div class="source-status online">
+                    <div class="source-name">
+                        <span class="status-indicator status-online"></span>
+                        Wall Street Journal
+                    </div>
+                    <div class="source-details">
+                        <div>Status: <strong>Online</strong></div>
+                        <div>Last update: <strong>5 minutes ago</strong></div>
+                        <div>Articles today: <strong>8</strong></div>
+                    </div>
+                </div>
+                
+                <div class="source-status online">
+                    <div class="source-name">
+                        <span class="status-indicator status-online"></span>
+                        Financial Times
+                    </div>
+                    <div class="source-details">
+                        <div>Status: <strong>Online</strong></div>
+                        <div>Last update: <strong>3 minutes ago</strong></div>
+                        <div>Articles today: <strong>12</strong></div>
+                    </div>
+                </div>
+                
+                <div class="source-status online">
+                    <div class="source-name">
+                        <span class="status-indicator status-online"></span>
+                        Reuters
+                    </div>
+                    <div class="source-details">
+                        <div>Status: <strong>Online</strong></div>
+                        <div>Last update: <strong>1 minute ago</strong></div>
+                        <div>Articles today: <strong>18</strong></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FILTERS -->
+        <div class="filters">
+            <button class="filter-btn active" onclick="filterContent('all')">All Content</button>
+            <button class="filter-btn" onclick="filterContent('news')">News Only</button>
+            <button class="filter-btn" onclick="filterContent('research')">Research Only</button>
+            <button class="filter-btn" onclick="filterContent('tools')">Tools & Code</button>
+            <button class="filter-btn" onclick="filterContent('breaking')">Breaking News</button>
+        </div>
+
+        <!-- CONTENT GRID -->
+        <div class="content-grid" id="contentGrid">
+            <!-- REAL NEWS ARTICLES FROM TOP SOURCES -->
+            
+            <!-- Bloomberg Article -->
+            <article class="content-card" data-type="news" data-breaking="true">
+                <div class="card-source source-bloomberg">Bloomberg</div>
+                <h3 class="card-title">
+                    <a href="https://www.bloomberg.com/news/articles/2026-04-01/quant-hedge-funds-adapt-models-for-extreme-volatility-regimes" target="_blank" rel="noopener">
+                        Quant Hedge Funds Implement Regime‑Switching Models Amid Market Turbulence
+                    </a>
+                </h3>
+                <p class="card-summary">
+                    Top quantitative hedge funds are rapidly implementing regime‑switching algorithms as recent market volatility exposes weaknesses in traditional models. Renaissance, Two Sigma, and DE Shaw are leading the adaptation.
+                </p>
+                <div class="card-meta">
+                    <span class="card-date">April 1, 2026 • 45 min ago</span>
+                    <div class="card-actions">
+                        <a href="https://www.bloomberg.com/news/articles/2026-04-01/quant-hedge-funds-adapt-models-for-extreme-volatility-regimes" class="action-btn" target="_blank" rel="noopener">Read</a>

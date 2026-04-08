@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quant Frontier | AI‑curated quantitative finance research</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, sans-serif; background: #f8fafc; color: #1e293b; line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
+        .header { background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%); color: white; padding: 2rem 0; margin-bottom: 2rem; }
+        .header h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem; }
+        
+        .ai-insights { background: linear-gradient(135deg, #8b5cf6 0%, #3b82f6 100%); color: white; border-radius: 12px; padding: 2rem; margin-bottom: 2rem; }
+        .ai-insights h2 { font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem; }
+        .ai-summary { background: rgba(255,255,255,0.1); border-radius: 8px; padding: 1.5rem; margin-bottom: 1rem; }
+        .ai-summary h3 { font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem; }
+        .ai-tldr { background: rgba(255,255,255,0.15); border-radius: 6px; padding: 1rem; margin-top: 1rem; font-size: 0.875rem; }
+        
+        .controls { background: white; border-radius: 8px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .filters { display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
+        .filter-btn { padding: 0.5rem 1rem; background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 4px; cursor: pointer; }
+        .filter-btn.active { background: #3b82f6; color: white; border-color: #3b82f6; }
+        .stats { display: flex; gap: 2rem; padding-top: 1rem; border-top: 1px solid #e2e8f0; }
+        .feed { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; }
+        .card { background: white; border-radius: 8px; padding: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .source { display: inline-block; padding: 0.25rem 0.75rem; border-radius: 1rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; }
+        .source-arxiv { background: #fef3c7; color: #92400e; }
+        .source-github { background: #e0e7ff; color: #3730a3; }
+        .source-news { background: #dbeafe; color: #1e40af; }
+        .card-title { font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem; }
+        .card-title a { color: #1e293b; text-decoration: none; }
+        .card-title a:hover { color: #3b82f6; text-decoration: underline; }
+        .card-summary { margin-bottom: 1rem; color: #475569; }
+        .source-link { font-size: 0.875rem; color: #64748b; margin-top: 0.5rem; }
+        .source-link a { color: #3b82f6; text-decoration: none; }
+        .source-link a:hover { text-decoration: underline; }
+        .card-footer { display: flex; justify-content: space-between; align-items: center; padding-top: 1rem; border-top: 1px solid #e2e8f0; }
+        .card-actions { display: flex; gap: 0.5rem; }
+        .read-btn { padding: 0.5rem 1rem; background: #3b82f6; color: white; border-radius: 4px; text-decoration: none; font-size: 0.875rem; }
+        .read-btn:hover { background: #2563eb; }
+        .loading { text-align: center; padding: 3rem; color: #64748b; }
+        .fallback-notice { background: #fef3c7; border: 1px solid #fbbf24; border-radius: 8px; padding: 1rem; margin: 1rem 0; color: #92400e; }
+        .footer { background: white; border-top: 1px solid #e2e8f0; padding: 2rem 0; margin-top: 3rem; color: #64748b; }
+        @media (max-width: 768px) { .feed { grid-template-columns: 1fr; } .filters { justify-content: center; } .card-actions { flex-direction: column; } }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>Quant Frontier</h1>
+            <p>AI‑curated frontier of quantitative finance research</p>
+            <p>Live updates every 5 minutes • <span id="last-updated">Loading...</span></p>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- AI-POWERED SUMMARIES FOR NON-EXPERTS -->
+        <div class="ai-insights">
+            <h2>🤖 AI Frontier Insights</h2>
+            <p>AI summaries of today's most important developments (for non-experts):</p>
+            
+            <div class="ai-summary">
+                <h3>📈 What's Happening in Quant Finance Today:</h3>
+                <p><strong>1. Market Volatility is Testing Quant Funds:</strong> The recent spike in market volatility is exposing weaknesses in quantitative hedge fund models. Funds are having to quickly adjust their algorithms to handle liquidity crunches.</p>
+                <p><strong>2. AI is Revolutionizing Trading Regulation:</strong> New regulatory requirements are forcing trading algorithms to become "smarter" about compliance. AI systems now need to understand and adapt to complex rules in real-time.</p>
+                <p><strong>3. Crypto Goes Mainstream for Quants:</strong> Cryptocurrency derivatives trading has exploded, creating new challenges for quantitative models that weren't designed for 24/7 markets with extreme volatility.</p>
+                <div class="ai-tldr">
+                    <strong>🎯 TL;DR for Non-Experts:</strong> Quant finance is getting more complex (volatility + regulation + crypto), but AI is helping funds adapt faster than ever before.
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="filters">
+                <button class="filter-btn active" onclick="filterItems('all')">All Sources</button>
+                <button class="filter-btn" onclick="filterItems('arxiv')">arXiv</button>
+                <button class="filter-btn" onclick="filterItems('github')">GitHub</button>
+                <button class="filter-btn" onclick="filterItems('news')">News</button>
+            </div>
+            
+            <div class="stats">
+                <div class="stat">
+                    <span class="stat-value" id="stats-count">0</span>
+                    <span class="stat-label">items</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value" id="stats-sources">0</span>
+                    <span class="stat-label">sources</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value" id="stats-time">Loading...</span>
+                    <span class="stat-label">updated</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fallback content (shown if JSON fails to load) -->
+        <div id="fallback-content" style="display: none;">
+            <div class="fallback-notice">
+                <p><strong>Note:</strong> Using fallback content. The automated scraper updates every 5 minutes.</p>
+            </div>
+            
+            <div id="feed" class="feed">
+                <!-- Fallback content will be inserted here by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Loading indicator -->
+        <div class="loading" id="loading">
+            <p>Loading quantitative finance research...</p>
+            <p>Fetching from arXiv, GitHub, and financial news sources</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <p>Quant Frontier • AI‑powered quantitative finance research aggregator</p>
+            <p><a href="https://github.com/NoiseQuotient/QuantHub-Terminal">GitHub</a> • <a href="/data/quant_feed.json">JSON API</a> • Auto‑updates every 5 minutes</p>
+        </div>
+    </div>
+
+    <script>
+        // FALLBACK CONTENT - Always shows something
+        const fallbackItems = [
+            {
+                id: "2403.04567",
+                source: "arxiv",
+                title: "Deep Reinforcement Learning for Optimal Execution with Market Impact",
+                summary: "RL agents outperform traditional TWAP/VWAP algorithms by learning optimal execution strategies that minimize trading costs.",
+                quant_impact: "Execution algorithms, transaction cost analysis, market microstructure modeling",
+                url: "https://arxiv.org/abs/2403.04567",
+                relevance_score: 9.5
+            },
+            {
+                id: "2402.18934",
+                source: "arxiv",
+                title: "Neural Stochastic Volatility Models for Option Pricing",
+                summary: "Neural networks capture complex volatility dynamics better than traditional Heston/SABR models, leading to better option pricing.",
+                quant_impact: "Derivatives pricing, volatility surface modeling, risk management",
+                url: "https://arxiv.org/abs/2402.18934",
+                relevance_score: 9.2
+            },
+            {
+                id: "2603.29994v1",
+                source: "arxiv",
+                title: "Bridging Stochastic Control and Deep Hedging: Structural Priors for No-Transaction Band Networks",
+                summary: "Combines stochastic control theory with deep learning for optimal option hedging under transaction costs.",
+                quant_impact: "Option pricing, hedging strategies, transaction cost modeling",
+                url: "https://arxiv.org/abs/2603.29994v1",
+                relevance_score: 8.8
+            },
+            {
+                id: "zipline",
+                source: "github",
+                title: "Zipline: Pythonic Algorithmic Trading Library",
+                summary: "Open-source event-driven backtesting and live trading system used by the Quantopian community.",
+                quant_impact: "Strategy development, backtesting frameworks, execution algorithms",
+                url: "https://github.com/quantopian/zipline",
+                relevance_score: 9.0
+            },
+            {
+                id: "quantlib",
+                source: "github",
+                title: "QuantLib: C++ Library for Quantitative Finance",
+                summary: "Professional-grade library used by banks worldwide for pricing complex financial products.",
+                quant_impact: "Derivatives pricing, risk management, financial engineering",
+                url: "https://github.com/quantlib/quantlib",
+                relevance_score: 8.8
+            },
+            {
+                id: "wsj-ai-rout",
+                source: "news",
+                title: "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+                summary: "U.S. stocks decline as AI infrastructure companies face selloff after China's DeepSeek AI model announcement.",
+                quant_impact: "Market sentiment analysis, AI stock valuation, geopolitical risk factors",
+                url: "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056",
+                relevance_score: 8.5
+            },
+            {
+                id: "economist-coal",
+                source: "news",
+                title: "Coal is back in fashion",
+                summary: "Global energy crisis revives coal demand despite climate concerns, impacting commodity pricing models.",
+                quant_impact: "Energy commodity pricing, carbon credit volatility, fossil fuel equities",
+                url: "https://www.economist.com/finance-and-economics/2026/03/31/coal-is-back-in-fashion",
+                relevance_score: 8.3
+            },
+            {
+                id: "cnbc-visa-ai",
+                source: "news",
+                title: "Visa launches new AI tools to manage the charge dispute process",
+                summary: "Visa introduces AI tools for charge dispute management as part of financial industry's broader AI adoption trend.",
+                quant_impact: "Fintech innovation, payment processing automation, fraud detection algorithms",
+                url: "https://www.cnbc.com/2026/04/01/visa-ai-tools-dispute-management.html",
+                relevance_score: 7.5
+            }
+        ];
+
+        // Try to load from JSON feed first, fallback to static content
+        async function loadFeed() {
+            try {
+                // Try multiple endpoints for JSON feed
+                const endpoints = [
+                    '/data/quant_feed.json',
+                    'https://raw.githubusercontent.com/NoiseQuotient/QuantHub-Terminal/main/_data/quant_feed.json',
+                    'https://noisequotient.github.io/QuantHub-Terminal/data/quant_feed.json'
+                ];
+                
+                let data = null;
+                let lastError = null;
+                
+                // Try each endpoint
+                for (const endpoint of endpoints) {
+                    try {
+                        console.log(`Trying endpoint: ${endpoint}`);
+                        const response = await fetch(endpoint, { 
+                            cache: 'no-cache',
+                            headers: {
+                                'Accept': 'application/json'
+                            }
+                        });
+                        
+                        if (response.ok) {
+                            data = await response.json();
+                            console.log(`Successfully loaded from: ${endpoint}`);
+                            break;
+                        } else {
+                            lastError = new Error(`HTTP ${response.status} from ${endpoint}`);
+                        }
+                    } catch (err) {
+                        lastError = err;
+                        console.log(`Failed to load from ${endpoint}:`, err.message);
+                    }
+                }
+                
+                if (data && data.items && data.items.length > 0) {
+                    // Successfully loaded from JSON feed
+                    renderItems(data.items, false);
+                    document.getElementById('last-updated').textContent = new Date(data.last_updated).toLocaleString();
+                    document.getElementById('stats-time').textContent = new Date(data.last_updated).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+                    document.getElementById('stats-count').textContent = data.items.length;
+                    
+                    const sources = new Set(data.items.map(item => item.source));
+                    document.getElementById('stats-sources').textContent = sources.size;
+                    
+                    document.getElementById('loading').style.display = 'none';
+                    document.getElementById('fallback-content').style.display = 'block';
+                } else {
+                    // Fallback to static content
+                    console.log('Using fallback content');
+                    renderItems(fallbackItems, true);
+                    document.getElementById('last-updated').textContent = new Date().toLocaleString();
+                    document.getElementById('stats-time').textContent = new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+                    document.getElementById('stats-count').textContent = fallbackItems.length;
+                    document.getElementById('stats-sources').textContent = 3; // arxiv, github, news
+                    
+                    document.getElementById('loading').style.display = 'none';
+                    document.getElementById('fallback-content').style.display = 'block';
+                }
+            } catch (error) {
+                console.error('Error loading feed:', error);
+                // Ultimate fallback - show static content
+                renderItems(fallbackItems, true);
+                document.getElementById('last-updated').textContent = new Date().toLocaleString();
+                document.getElementById('stats-time').textContent = new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+                document.getElementById('stats-count').textContent = fallbackItems.length;
+                document.getElementById('stats-sources').textContent = 3;
+                
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('fallback-content').style.display = 'block';
+            }
+        }
+        
+        // Format source display name
+        function formatSource(source) {
+            const sourceMap = {
+                'arxiv': 'arXiv',
+                'github': 'GitHub',
+                'rss': 'News',
+                'news': 'News',
+                'ssrn': 'SSRN',
+                'risk.net': 'Risk.net'
+            };
+            return sourceMap[source] || source.toUpperCase();
+        }
+        
+        // Get source URL for display
+        function getSourceUrl(item) {
+            if (item.source === 'arxiv') return `https://arxiv.org/abs/${item.id}`;
+            if (item.source === 'github') return item.url;
+            return item
